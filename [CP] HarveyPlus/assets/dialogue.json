@@ -1,0 +1,167 @@
+﻿{  "Changes":  [ 	 
+	
+{	"LogName": "Main Dialogue Edits",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Harvey",
+	"entries": {
+		
+		//General
+		
+		"Introduction": "{{i18n: HarveyPlus.intro}}",
+		"GreenRain_2": "{{i18n: HarveyPlus.GreenRain2.{{Random:1,2,3}}}}",
+		"FlowerDance_Accept_Spouse": "{{i18n: HarveyPlus.FlowerDanceSpouse.{{Random:1,2,3}}}}",
+		"FlowerDance_Decline": "{{i18n: HarveyPlus.FlowerDanceDecline}}",
+		"AcceptBirthdayGift_Positive": "{{i18n: HarveyPlus.AcceptBirthdayGift.Pos|Nickname={{Nickname}}}}",
+		"AcceptBirthdayGift_Negative": "{{i18n: HarveyPlus.AcceptBirthdayGift.Neg}}",
+		"Resort": "{{i18n: HarveyPlus.Resort}}",
+		"divorced": "{{i18n: HarveyPlus.divorced.{{Random:1,2,3,4,5,6}}}}",
+		"DumpsterDiveComment": "{{i18n: HarveyPlus.DumpsterDiveComment}}",
+		"AcceptBouquet": "{{i18n: HarveyPlus.AcceptBouquet}}",
+		"RejectBouquet_Divorced": "{{i18n: HarveyPlus.RejectBouquet_Divorced}}",
+		"RejectBouquet_NpcAlreadyMarried": "{{i18n: HarveyPlus.RejectBouquet_NpcAlreadyMarried}}",
+		"RejectBouquet": "{{i18n: HarveyPlus.RejectBouquet}}",
+		"RejectGift_Divorced": "{{i18n: HarveyPlus.RejectGift_Divorced}}",
+		"RejectMermaidPendant_Divorced": "{{i18n: HarveyPlus.RejectMermaidPendant_Divorced}}",
+		"RejectMermaidPendant_NeedHouseUpgrade": "{{i18n: HarveyPlus.RejectMermaidPendant_NeedHouseUpgrade}}",
+		"RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n: HarveyPlus.RejectMermaidPendant_NpcWithSomeoneElse}}",
+		"RejectMermaidPendant_Under10Hearts": "{{i18n: HarveyPlus.RejectMermaidPendant_Under10Hearts}}",
+		"RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n: HarveyPlus.RejectMermaidPendant_Under10Hearts_AskedAgain}}",
+		"RejectMermaidPendant": "{{i18n: HarveyPlus.RejectMermaidPendant}}",
+		"RejectMovieTicket_Divorced": "{{i18n: HarveyPlus.RejectMovieTicket_Divorced}}",
+		"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n: HarveyPlus.RejectMovieTicket_DontWantToSeeThatMovie}}",
+		"RejectMovieTicket": "{{i18n: HarveyPlus.RejectMovieTicket}}",
+		"WinterStar_GiveGift_Before_Spouse": "{{i18n: HarveyPlus.WinterStar_GiveGift_Before_Spouse}}",
+		"WinterStar_GiveGift_Before": "{{i18n: HarveyPlus.WinterStar_GiveGift_Before}}",
+		"WinterStar_GiveGift_After": "{{i18n: HarveyPlus.WinterStar_GiveGift_After}}",
+		"WinterStar_ReceiveGift": "{{i18n: HarveyPlus.WinterStar_ReceiveGift|Nickname={{Nickname}}}}",
+		
+		//Events
+		
+		"event_george1": "{{i18n: HarveyPlus.George1}}",
+		"event_george2": "{{i18n: HarveyPlus.George2}}",
+		"eventSeen_56": "{{i18n: HarveyPlus.2Hearts.After}}",
+		"eventSeen_571102_memory": "I've never told anyone about my airplane hobby before... I guess I just feel comfortable talking to you.",
+		"eventSeen_571102_memory_oneweek": "As a doctor, you can only do so much to help your patients...#$e#I've made the mistake of getting too emotionally involved in the past... I won't let that happen again...$s",
+		"HarveyPlus.ZuzuAnswer": "{{i18n: HarveyPlus.ZuzuAnswer}}",
+		"HarveyPlus.DangerAnswer": "{{i18n: HarveyPlus.DangerAnswer}}",
+		
+		//Weekly Dialogue
+		
+		"Mon": "{{i18n: HarveyPlus.Mon.1}}",
+		"Mon2": "{{i18n: HarveyPlus.Mon.{{Random:1,2,3}}}}",
+		"Mon4": "{{i18n: HarveyPlus.Mon.{{Random:2,3,4}}}}",
+		"Mon6": "{{i18n: HarveyPlus.Mon.{{Random:4,5,6,}}}}",
+		"Mon8": "{{i18n: HarveyPlus.Mon.{{Random:6,7,8}}}}",
+		"Mon10": "{{i18n: HarveyPlus.Mon.{{Random:8,9,10}}|Nickname={{Nickname}}}}",
+		
+		"Tue": "{{i18n: HarveyPlus.Tue.1}}",
+		"Tue2": "{{i18n: HarveyPlus.Tue.{{Random:1,2,3}}}}",
+		"Tue4": "{{i18n: HarveyPlus.Tue.{{Random:2,3,4}}}}",
+		"Tue6": "{{i18n: HarveyPlus.Tue.{{Random:4,5,6}}}}",
+		"Tue8": "{{i18n: HarveyPlus.Tue.{{Random:6,7,8}}}}",
+		"Tue10": "{{i18n: HarveyPlus.Tue.{{Random:8,9,10}}}}",
+		
+		"Wed": "{{i18n: HarveyPlus.Wed.1}}",
+		"Wed2": "{{i18n: HarveyPlus.Wed.{{Random:1,2,3}}}}",
+		"Wed4": "{{i18n: HarveyPlus.Wed.{{Random:2,3,4}}}}",
+		"Wed6": "{{i18n: HarveyPlus.Wed.{{Random:4,5,6,}}}}",
+		"Wed8": "{{i18n: HarveyPlus.Wed.{{Random:6,7,8}}}}",
+		"Wed10": "{{i18n: HarveyPlus.Wed.{{Random:8,9,10}}}}",
+		
+		"Thu": "{{i18n: HarveyPlus.Thu.1}}",
+		"Thu2": "{{i18n: HarveyPlus.Thu.{{Random:1,2,3}}}}",
+		"Thu_2_Yes": "{{i18n: HarveyPlus.Thu.2.Yes}}",
+		"Thu_2_Busy": "{{i18n: HarveyPlus.Thu.2.Busy}}",
+		"Thu_2_No": "{{i18n: HarveyPlus.Thu.2.No}}",
+		"Thu_2_None": "{{i18n: HarveyPlus.Thu.2.None}}",
+		"Thu4": "{{i18n: HarveyPlus.Thu.{{Random:2,3,4}}}}",
+		"Thu6": "{{i18n: HarveyPlus.Thu.{{Random:4,5,6,}}}}",
+		"Thu8": "{{i18n: HarveyPlus.Thu.{{Random:6,7,8}}}}",
+		"Thu10": "{{i18n: HarveyPlus.Thu.{{Random:8,9,10}}}}",
+		
+		"Fri": "{{i18n: HarveyPlus.Fri.1}}",
+		"Fri2": "{{i18n: HarveyPlus.Fri.{{Random:1,2,3}}}}",
+		"Fri4": "{{i18n: HarveyPlus.Fri.{{Random:2,3,4}}}}",
+		"Fri6": "{{i18n: HarveyPlus.Fri.{{Random:4,5,6,}}}}",
+		"Fri8": "{{i18n: HarveyPlus.Fri.{{Random:6,7,8}}}}",
+		"Fri10": "{{i18n: HarveyPlus.Fri.{{Random:8,9,10}}|Nickname={{Nickname}}}}",
+		
+		"Sat": "{{i18n: HarveyPlus.Sat.1}}",
+		"Sat2": "{{i18n: HarveyPlus.Sat.{{Random:1,2,3}}}}",
+		"Sat4": "{{i18n: HarveyPlus.Sat.{{Random:2,3,4}}}}",
+		"Sat6": "{{i18n: HarveyPlus.Sat.{{Random:4,5,6,}}}}",
+		"Sat8": "{{i18n: HarveyPlus.Sat.{{Random:6,7,8}}}}",
+		"Sat10": "{{i18n: HarveyPlus.Sat.{{Random:8,9,10}}}}",
+		
+		"Sun": "{{i18n: HarveyPlus.Sun.1}}",
+		"Sun2": "{{i18n: HarveyPlus.Sun.{{Random:1,2,3}}}}",
+		"Sun4": "{{i18n: HarveyPlus.Sun.{{Random:2,3,4}}}}",
+		"Sun6": "{{i18n: HarveyPlus.Sun.{{Random:4,5,6,}}}}",
+		"Sun8": "{{i18n: HarveyPlus.Sun.{{Random:6,7,8}}}}",
+		"Sun10": "{{i18n: HarveyPlus.Sun.{{Random:8,9,10}}|Nickname={{Nickname}}}}",
+		
+		//Date and/or Season Specific Dialogue
+		
+		"spring_23": "{{i18n: HarveyPlus.Spring.FlowerDance}}",
+		"fall_1": "{{i18n: HarveyPlus.Fall.Chilly}}",
+		"fall_Mon": "{{i18n: HarveyPlus.Fall.Mushrooms}}",
+		"winter_13": "{{i18n: HarveyPlus.Winter.AlmostBirthday}}",
+		"winter_Sun": "{{i18n: HarveyPlus.Winter.FluShots}}",
+		
+		//Housekeeping
+		//Deleted or heavily edited these events, so these memories are no longer relevant
+		
+		"eventSeen_56_memory_fourweeks": null,
+		"eventSeen_56_memory_twoweeks": null,
+		"eventSeen_58_memory_oneweek": null,
+		"eventSeen_58_memory_twoweeks": null,
+		"eventSeen_58_memory_fourweeks": null,
+		},
+	},
+
+{	"LogName": "Engagement Dialogue Edits",
+	"Action": "EditData",
+	"Target": "Data/EngagementDialogue",
+	"entries": {
+		"Harvey0": "{{i18n: HarveyPlus.Engaged1}}",
+		"Harvey1": "{{i18n: HarveyPlus.Engaged2}}",
+	},
+},
+
+{	"LogName": "Extra Dialogue Edits",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/rainy",
+	"entries": {
+		"Harvey": "{{i18n: HarveyPlus.Rainy.{{Random:1,2,3,4,5,6}}}}",
+		},
+	},
+	
+{	"LogName": "Valley Fair Dialogue Edits",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall16",
+	"entries": {
+		"Harvey": "{{i18n: HarveyPlus.fall16.1}}",
+		"Harvey_spouse": "{{i18n: HarveyPlus.fall16.1.spouse|Nickname={{Nickname}}}}",
+		"Harvey_spouse_y2": "{{i18n: HarveyPlus.fall16.2.spouse|Nickname={{Nickname}}}}",
+		},
+	},
+	
+{	"LogName": "Flower Dance Dialogue Edits",
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring24",
+	"entries": {
+		"Harvey": "{{i18n: HarveyPlus.spring24.1}}",
+		},
+	},
+
+{	"LogName": "Luau Dialogue Edits",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer 11",
+	"entries": {
+		"Harvey": "{{i18n: HarveyPlus.summer11.1}}",
+		"Harvey_spouse": "{{i18n: HarveyPlus.summer11.1.spouse|Nickname={{Nickname}}}}",
+		"Harvey_y2": "{{i18n: HarveyPlus.summer11.2}}",
+		"Harvey_spouse_y2": "{{i18n: HarveyPlus.2.spouse}}",
+		},
+	},
+]}

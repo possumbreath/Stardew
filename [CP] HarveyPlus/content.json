@@ -1,0 +1,36 @@
+﻿{ 
+"Format": "2.0.0",
+
+"ConfigSchema": {
+	"Nickname": {
+		"Default": "dear",
+	},
+	"Gift Tastes": {
+		"AllowValues": "Fully Modded, Modded Reactions Only, Vanilla",
+		"Default": "Modded Reactions Only",
+	},
+	"Marriage Schedule": {
+		"AllowValues": "Modded, Vanilla",
+		"Default": "Modded",
+	},
+	"Death Type": {
+		"AllowValues": "No Penalty, Mines Penalty, Hospital Penalty, Vanilla",
+		"Default": "No Penalty",
+	},
+},
+
+"Changes": [
+
+{	"Action": "Include",
+	"FromFile": "assets/dialogue.json"},
+	
+{	"Action": "Include",
+	"FromFile": "assets/events.json"},
+
+{	"Action": "Include",
+	"FromFile": "assets/marriagedialogue.json"},
+
+{	"Action": "Include",
+	"FromFile": "assets/othertweaks.json"},
+]
+}
