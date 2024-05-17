@@ -120,6 +120,11 @@
 	"HarveyPlus.Maru4Hearts.14": "Huh. That wasn't so bad.#$b#My dad still treats me like a little kid whenever I mess something up in the lab at home.$u",
 	"HarveyPlus.Maru4Hearts.15": "It's nice to be treated like a colleague instead.",
 	
+	//6 Heart Event
+	
+	"HarveyPlus.6Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...#$b#You're just easy to talk to, I guess.",
+	"HarveyPlus.6Hearts.After2": "pb wants to put something here but isn't sure what yet so this is placeholder text lol lmao",
+	
 	//Weekly Dialogue
 	
 	"HarveyPlus.Mon.1": "We sell a few over-the-counter medications at the clinic... feel free to stop by if you're feeling exhausted.",
@@ -237,6 +242,7 @@
 	//Static Marriage Dialogue
 	
 	"HarveyPlus.Marriage.spring_1": "The explosion of life at the start of a new year is invigorating, don't you think?#$e#Maybe I'll get my paperwork out of the way early today.",
+	"HarveyPlus.Marriage.spring_8": "The birds that left for the Winter have started coming back.#$e#I'm sure there's a science behind how they navigate. I should look it up.",
 	"HarveyPlus.Marriage.spring_12": "Good luck in the egg hunt tomorrow!$h#$e#Of course I'll be there to watch, even if I'm not a big fan of the crowd...",
 	"HarveyPlus.Marriage.spring_23": "Will you... will you dance with me at the festival tomorrow, {{Nickname}}?$7#$e#It's one of my favorite parts of the year.$1",
 	"HarveyPlus.Marriage.summer_1": "Make sure you don't get sunburnt, {{Nickname}}!$8#$b#I've stocked up on sunscreen, so be sure to put some on before you go out.",

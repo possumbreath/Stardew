@@ -5,7 +5,7 @@
 	"Target": "Characters/Dialogue/MarriageDialogueHarvey",
 	"entries": {
 		"spring_1": "{{i18n: HarveyPlus.Marriage.spring_1}}",
-		"spring_8": null,
+		"spring_8": "{{i18n: HarveyPlus.Marriage.spring_8}}",
 		"spring_12": "{{i18n: HarveyPlus.Marriage.spring_12}}",
 		"spring_23": "{{i18n: HarveyPlus.Marriage.spring_23|Nickname={{Nickname}}}}",
 		"summer_1": "{{i18n: HarveyPlus.Marriage.summer_1|Nickname={{Nickname}}}}",

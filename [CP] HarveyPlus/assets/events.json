@@ -18,7 +18,7 @@
 	"entries": {
 		//set to 10 friendship points just to ensure player has met them both. Establish Harvey as not the player's doctor. Yaaaaaay ethics
 		"HarveyPlus.Intro/f Harvey 10/f Maru 10/p Maru": "Hospital_Ambient/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 700/playSound doorClose/warp farmer 10 19/move farmer 0 -2 3/speak Maru \"{{i18n: HarveyPlus.Intro.1}}\"/emote farmer 8/pause 200/move farmer -4 0 0/speak Harvey \"{{i18n: HarveyPlus.Intro.2}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.3}}\"/pause 300/speak Harvey \"{{i18n: HarveyPlus.Intro.4}}\"/fork HarveyPlus.ZuzuDoctor ZuzuDoctor/pause 200/speak Harvey \"{{i18n: HarveyPlus.Intro.5}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.8}}\"/pause 400/end",
-		"ZuzuDoctor": "/pause 200/message \"{{i18n: HarveyPlus.Intro.6}}\"/pause 200/speak Harvey \"{{i18n: HarveyPlus.Intro.7}}\"/emote farmer 32/pause 200/speak Harvey \"{{i18n: HarveyPlus.Intro.5}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.8}}\"/pause 400/end", 
+		"ZuzuDoctor": "/pause 200/message \"{{i18n: HarveyPlus.Intro.6}}\"/pause 200/speak Harvey \"{{i18n: HarveyPlus.Intro.7}}\"/emote farmer 32/pause 200/speak Harvey \"{{i18n: HarveyPlus.Intro.5}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.8}}\"/pause 400/end",
 	},
 },
 
@@ -35,7 +35,7 @@
 	"Action": "EditData",
 	"Target": "Characters/schedules/George",
 	"When": 
-		{"HasSeenEvent": "56",},
+		{"HasSeenEvent": "56"},
 	"entries": {
 		"spring_Wed": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1310 Town 37 77 3/1630 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep",
 		"summer_Wed": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1310 Town 20 61 2/1630 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep",

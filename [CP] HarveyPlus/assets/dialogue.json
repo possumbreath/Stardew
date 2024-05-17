@@ -40,8 +40,8 @@
 		"event_george1": "{{i18n: HarveyPlus.George1}}",
 		"event_george2": "{{i18n: HarveyPlus.George2}}",
 		"eventSeen_56": "{{i18n: HarveyPlus.2Hearts.After}}",
-		"eventSeen_571102_memory": "I've never told anyone about my airplane hobby before... I guess I just feel comfortable talking to you.",
-		"eventSeen_571102_memory_oneweek": "As a doctor, you can only do so much to help your patients...#$e#I've made the mistake of getting too emotionally involved in the past... I won't let that happen again...$s",
+		"eventSeen_571102_memory": "{{i18n: HarveyPlus.6Hearts.After1}}",
+		"eventSeen_571102_memory_oneweek": "{{i18n: HarveyPlus.6Hearts.After2}}",
 		"HarveyPlus.ZuzuAnswer": "{{i18n: HarveyPlus.ZuzuAnswer}}",
 		"HarveyPlus.DangerAnswer": "{{i18n: HarveyPlus.DangerAnswer}}",
 		
