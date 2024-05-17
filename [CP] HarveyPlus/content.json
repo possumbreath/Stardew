@@ -17,20 +17,34 @@
 		"AllowValues": "No Penalty, Mines Penalty, Hospital Penalty, Vanilla",
 		"Default": "No Penalty",
 	},
+	"Maru Edits": {
+		"AllowValues": "true, false",
+		"Default": "true",
+	},
 },
 
 "Changes": [
 
 {	"Action": "Include",
-	"FromFile": "assets/dialogue.json"},
+	"FromFile": "assets/dialogue.json"
+	},
 	
 {	"Action": "Include",
-	"FromFile": "assets/events.json"},
+	"FromFile": "assets/events.json"
+	},
 
 {	"Action": "Include",
-	"FromFile": "assets/marriagedialogue.json"},
+	"FromFile": "assets/marriagedialogue.json"
+	},
 
 {	"Action": "Include",
-	"FromFile": "assets/othertweaks.json"},
+	"FromFile": "assets/othertweaks.json"
+	},
+	
+{	"Action": "Include",
+	"FromFile": "assets/marutweaks.json",
+	"When": {
+		"Maru Edits": "true"}
+	},
 ]
 }

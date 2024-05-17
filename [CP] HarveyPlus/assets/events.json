@@ -17,7 +17,7 @@
 	"Target": "Data/Events/Hospital",
 	"entries": {
 		//set to 10 friendship points just to ensure player has met them both. Establish Harvey as not the player's doctor. Yaaaaaay ethics
-		"HarveyPlus.Intro/f Harvey 10/f Maru 10/p Maru": "Hospital_Ambient/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 700/playSound doorClose/warp farmer 10 19/move farmer 0 -2 3/speak Maru \"{{i18n: HarveyPlus.Intro.1}}\"/emote farmer 8/pause 200/move farmer -4 0 0/speak Harvey \"{{i18n: HarveyPlus.Intro.2}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.3}}\"/pause 300/quickQuestion \"{{i18n: HarveyPlus.Intro.4}}\"(break)\\friendship Harvey 30\\speak Harvey \"{{i18n: HarveyPlus.ZuzuAnswer}}\"\\pause 10\\{{i18n: HarveyPlus.Intro.6}}\"\\pause 10\\speak Harvey \"{{i18n: HarveyPlus.Intro.7}}\"\\emote farmer 32(break)\\friendship Harvey -10\\speak Harvey \"{{i18n: HarveyPlus.DangerAnswer}}\"\\pause 10/speak Harvey \"{{i18n: HarveyPlus.Intro.5}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.8}}\"/pause 400/end",
+		"HarveyPlus.Intro/f Harvey 10/f Maru 10/p Maru": "continue/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/playSound doorClose/warp farmer 10 19/move farmer 0 -2 3/speak Maru \"{{i18n: HarveyPlus.Intro.1}}\"/emote farmer 8/pause 50/move farmer -4 0 0/speak Harvey \"{{i18n: HarveyPlus.Intro.2}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.3}}\"/pause 50/quickQuestion {{i18n: HarveyPlus.Intro.4}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: HarveyPlus.ZuzuAnswer}}\"\\pause 10\\message \"{{i18n: HarveyPlus.Intro.6}}\"\\pause 10\\speak Harvey \"{{i18n: HarveyPlus.Intro.7}}\"\\emote farmer 32(break)friendship Harvey -10\\speak Harvey \"{{i18n: HarveyPlus.DangerAnswer}}\"\\pause 10/speak Harvey \"{{i18n: HarveyPlus.Intro.5}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.8}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
 	},
 },
 
@@ -27,7 +27,7 @@
 	"Action": "EditData",
 	"Target": "Data/Events/JoshHouse",
 	"entries": {
-		"56/f Harvey 500/p George": "jaunty/16 18/farmer 9 24 0 George 16 18 1 Harvey 15 18 1/skippable/move farmer 0 -4 1/move farmer 1 0 1/speak Harvey \"{{i18n: HarveyPlus.2Hearts.1}}\"/pause 700/speak Harvey \"{{i18n: HarveyPlus.2Hearts.2}}\"/emote George 40/pause 300/speak Harvey \"{{i18n: HarveyPlus.2Hearts.3}}\"/pause 300/faceDirection George 2/faceDirection George 3/speak Harvey \"{{i18n: HarveyPlus.2Hearts.4}}\"/speak George \"{{i18n: HarveyPlus.2Hearts.5}}\"/pause 500/speak Harvey \"{{i18n: HarveyPlus.2Hearts.6}}\"/pause 300/speak George \"{{i18n: HarveyPlus.2Hearts.7}}\"/speak Harvey \"{{i18n: HarveyPlus.2Hearts.8}}\"/move farmer 0 -1 1/move farmer 5 0 0/faceDirection George 3/faceDirection Harvey 2 true/speak Harvey \"{{i18n: HarveyPlus.2Hearts.9}}\"/faceDirection farmer 3/move farmer -1 0 3/speak George \"{{i18n: HarveyPlus.2Hearts.10}}\"/faceDirection farmer 1/pause 500/speak Harvey \"{{i18n: HarveyPlus.2Hearts.11}}\"/speak Harvey \"{{i18n: HarveyPlus.2Hearts.12}}\"/pause 300/faceDirection Harvey 1/pause 500/faceDirection George 2/emote George 28/speak George \"{{i18n: HarveyPlus.2Hearts.13}}\"/pause 500/faceDirection Harvey 2/speak Harvey \"{{i18n: HarveyPlus.2Hearts.14}}\"/emote farmer 16/pause 300/facedirection farmer 3/speed farmer 5/move farmer -5 0 3/speed farmer 5/move farmer 0 5 2/playSound doorOpen/warp farmer -100 -100/pause 100/end",
+		"56/f Harvey 500/p George": "jaunty/16 18/farmer 9 24 0 George 16 18 1 Harvey 15 18 1/skippable/pause 1000/move farmer 0 -4 1/move farmer 1 0 1/speak Harvey \"{{i18n: HarveyPlus.2Hearts.1}}\"/pause 700/speak Harvey \"{{i18n: HarveyPlus.2Hearts.2}}\"/emote George 40/pause 300/speak Harvey \"{{i18n: HarveyPlus.2Hearts.3}}\"/pause 300/faceDirection George 2/faceDirection George 3/speak Harvey \"{{i18n: HarveyPlus.2Hearts.4}}\"/speak George \"{{i18n: HarveyPlus.2Hearts.5}}\"/pause 500/speak Harvey \"{{i18n: HarveyPlus.2Hearts.6}}\"/pause 300/speak George \"{{i18n: HarveyPlus.2Hearts.7}}\"/speak Harvey \"{{i18n: HarveyPlus.2Hearts.8}}\"/move farmer 0 -1 1/move farmer 5 0 0/faceDirection George 3/faceDirection Harvey 2 true/speak Harvey \"{{i18n: HarveyPlus.2Hearts.9}}\"/faceDirection farmer 3/move farmer -1 0 3/speak George \"{{i18n: HarveyPlus.2Hearts.10}}\"/faceDirection farmer 1/pause 500/speak Harvey \"{{i18n: HarveyPlus.2Hearts.11}}\"/speak Harvey \"{{i18n: HarveyPlus.2Hearts.12}}\"/pause 300/faceDirection Harvey 1/pause 500/faceDirection George 2/emote George 28/speak George \"{{i18n: HarveyPlus.2Hearts.13}}\"/pause 500/faceDirection Harvey 2/speak Harvey \"{{i18n: HarveyPlus.2Hearts.14}}\"/emote farmer 16/pause 300/facedirection farmer 3/speed farmer 5/move farmer -5 0 3/speed farmer 5/move farmer 0 5 2/playSound doorOpen/warp farmer -100 -100/pause 1000/globalFade/stopMusic/viewport -1000 -1000/end",
 	},
 },
 {	"LogName": "George Schedule Edit Post 2 Heart Event",
@@ -41,26 +41,12 @@
 	},
 },
 
-//4 Hearts (both Maru and Harvey)
+//4 Hearts
 
-{	"LogName": "4 Heart Maru Text Edit",
-	"Action": "EditData",
-	"Target": "Characters/Dialogue/Maru",
-	"entries": {
-		"Event_Hospital_1": "{{i18n: HarveyPlus.Event_Hospital_1}}",
-		"Event_Hospital_2": "{{i18n: HarveyPlus.Event_Hospital_2}}",
-		"Event_Hospital_3": "{{i18n: HarveyPlus.Event_Hospital_3}}",
-	},
-},
-
-{	"LogName": "Maru 4 Heart Event Edit",
+{	"LogName": "4 Heart Event Delete",
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
 	"entries": {
-		//Pulling characterization more in line & go a lil deeper into Maru's character too
-		"7/f Maru 1000/p Maru": "Hospital_Ambient/-1000 -1000/farmer -10000 -10000 0 Maru 9 15 3 Harvey 7 10 0/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/showFrame Maru 18/viewport 10 15/pause 3000/speak Maru \"{{i18n: HarveyPlus.Maru4Hearts.1}}\"/pause 2000/playSound doorClose/warp farmer 10 19/pause 100/playSound throw/showFrame Maru 17/shake Maru 2000/jump Maru/specificTemporarySprite maruBeaker/move farmer 0 -1 0/pause 1250/showFrame Maru 0/faceDirection Maru 2/pause 100/speak Maru \"{{i18n: HarveyPlus.Maru4Hearts.2}}\"/pause 600/showFrame Maru 16/pause 1000/speak Maru \"{{i18n: HarveyPlus.Maru4Hearts.3}}\"/pause 600/showFrame Maru 0/faceDirection Maru 0/pause 1500/faceDirection Maru 2/pause 400/speak Maru \"{{i18n: HarveyPlus.Maru4Hearts.4}}\"/move Harvey 3 0 2/move Harvey 0 2 2/doAction 10 13/move Harvey 0 1 2/faceDirection Maru 1/move Harvey 0 2 2/speak Harvey \"{{i18n: HarveyPlus.Maru4Hearts.5}}\"/pause 500/speak Maru \"{{i18n: HarveyPlus.Maru4Hearts.6}}\"/fork toldTruth/emote Harvey 40/speak Harvey \"{{i18n: HarveyPlus.Maru4Hearts.7}}\"/pause 300/faceDirection Harvey 1/speak Harvey \"{{i18n: HarveyPlus.Maru4Hearts.8}}\"/faceDirection Harvey 2/speak Harvey \"{{i18n: HarveyPlus.Maru4Hearts.9}}\"/pause 600/faceDirection Maru 2/pause 1000/showFrame Maru 16/pause 500/emote farmer 28/end",
-		"toldTruth": "speak Harvey \"{{i18n: HarveyPlus.Maru4Hearts.10}}\"/pause 500/emote Harvey 32/pause 500/speak Maru \"{{i18n: HarveyPlus.Maru4Hearts.11}}\"/pause 500/speak Harvey \"{{i18n: HarveyPlus.Maru4Hearts.12}}\"/pause 500/emote Maru 32/pause 1000/speak Harvey \"{{i18n: HarveyPlus.Maru4Hearts.13}}\"/move Harvey 0 -5 3/move Harvey -5 0 0 true/faceDirection Maru 2/speak Maru \"{{i18n: HarveyPlus.Maru4Hearts.14}}\"/doAction 5 9/move Harvey 0 -5 0/move Harvey -3 0 0 true/speak Maru \"{{i18n: HarveyPlus.Maru4Hearts.15}}\"/pause 300/emote farmer 32/pause 300/end",
-		
 		//COMPLETELY rewrote the Harvey 4 heart event because it sucked and no longer made sense with the setup I have; it's in the Saloon now
 		"57/f Harvey 1000/p Harvey": null,
 	},
@@ -71,7 +57,7 @@
 	"Target": "Data/Events/Saloon",
 	"entries": {
 		//establish another side of his character since so far you've only seen him Doctoring
-		"HarveyPlus.4Hearts/f Harvey 1000/p Harvey": "Saloon1/-1000 -1000/farmer -10000 -10000 0 Shane 21 17 2 Leah 2 20 1 Pam 7 18 1 Willy 17 22 2 Sam 38 18 0 Gus 10 18 2 Emily 16 17 0 Harvey 18 20 0/skippable/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/advancedMove Emily true -3 0 4 5000 3 0 4 3000/viewport 14 16/playSound doorClose/warp farmer 14 23/move Gus 4 0 2/move farmer 0 -2 0/move farmer 3 0 0/move farmer 0 -1 0/pause 5000/end",
+		"HarveyPlus.4Hearts/f Harvey 1000/p Harvey": "Saloon1/-1000 -1000/farmer -10000 -10000 0 Shane 21 17 2 Leah 2 20 1 Pam 7 18 1 Willy 17 22 2 Sam 38 18 0 Gus 10 18 2 Emily 16 17 0 Harvey 18 20 0/skippable/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/advancedMove Emily true -3 0 4 5000 3 0 4 3000/viewport 14 16/pause 1000/playSound doorClose/warp farmer 14 23/move Gus 4 0 2/move farmer 0 -2 0/move farmer 3 0 0/move farmer 0 -1 0/pause 5000/end",
 	},
 },
 

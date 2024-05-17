@@ -18,6 +18,8 @@
 	"config.Death Type.values.Hospital Penalty": "Hospital Penalty",
 	"config.Death Type.values.Vanilla": "Vanilla",
 	"config.Death Type.description": "What will happen upon PlayerKilled when married to Harvey. All feature modded married dialogue except for vanilla.",
+	"config.Maru Edits.name": "Maru Edits",
+	"config.Maru Edits.description": "Enables some extra edits to Maru's events and dialog to better establish her friendship with Harvey. Completely optional, I just also like Maru and am invested in them being buds :)",
 	
 	//General
 	
@@ -71,7 +73,7 @@
 	"HarveyPlus.Intro.1": "Hello, @! You have great timing.#$b#We were just about to send you a letter asking you to come in.",
 	"HarveyPlus.Intro.2": "It's nothing serious, don't worry.#$b#We just wanted to get your patient intake forms filled out sooner rather than later.#$b#This is a small operation but it does help to be organized.",
 	"HarveyPlus.Intro.3": "What he means is it helps me have to file less paperwork.$h",
-	"HarveyPlus.Intro.4": "$q HarveyPlus.ZuzuDoctor/HarveyPlus.Dangerous null#Do you have time to fill out the forms?#$r HarveyPlus.ZuzuDoctor 30 HarveyPlus.ZuzuAnswer#Actually, I already have a doctor in Zuzu City.#$r HarveyPlus.Dangerous -10 HarveyPlus.DangerAnswer#No thanks. I like to live dangerously.",
+	"HarveyPlus.Intro.4": "Do you have time to fill out the forms?#Actually, I already have a doctor in Zuzu City.#No thanks. I like to live dangerously.",
 	"HarveyPlus.ZuzuAnswer": "Oh, I see. You should stick with them, then: continuity of care is important to maintain whenever possible.",
 	"HarveyPlus.DangerAnswer": "Hm. I wouldn't exactly say that's advisable, but it's ultimately up to you.$s",
 	"HarveyPlus.Intro.6": "He looks kind of... relieved?",
@@ -152,7 +154,7 @@
 	"HarveyPlus.Wed.1": "Remember to cover your mouth when you sneeze.#$e#Then make sure to wash your hands.",
 	"HarveyPlus.Wed.2": "It's a great help having Maru working at the clinic.#$e#She invented an entirely new way of organizing our records. It's much more intuitive!$h",
 	"HarveyPlus.Wed.3": "I moved here right after graduating my residency.#$e#That would have been... wow. Longer ago than I thought.$s",
-	"HarveyPlus.Wed.4": "I'd like to get to know you better, @.#$b# We should get coffee at the Stardrop sometime.$h",
+	"HarveyPlus.Wed.4": "$query PLAYER_HAS_SEEN_EVENT current HarveyPlus.4Hearts#I'd like to get to know you better, @.#$b# We should get coffee again sometime.$h|I'd like to get to know you better, @.#$b# We should get coffee at the Stardrop Saloon sometime.$h",
 	"HarveyPlus.Wed.5": "I've found that it's good for my health to try and stay positive.#$e#It's not always easy, but I do think you can find a silver lining on any cloud if you look hard enough.",
 	"HarveyPlus.Wed.6": "It's nice to have another friend in town.$h#$b# I always worried that I was boring Maru when it was just the two of us.",
 	"HarveyPlus.Wed.7": "You know, I had a lot of acquaintances during my time in medical school...#$b#I don't know if I ever had any actual friends.$s",
