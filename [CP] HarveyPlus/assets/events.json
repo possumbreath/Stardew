@@ -17,7 +17,7 @@
 	"Target": "Data/Events/Hospital",
 	"entries": {
 		//set to 10 friendship points just to ensure player has met them both. Establish Harvey as not the player's doctor. Yaaaaaay ethics
-		"HarveyPlus.Intro/f Harvey 10/f Maru 10/p Maru": "continue/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/playSound doorClose/warp farmer 10 19/move farmer 0 -2 3/speak Maru \"{{i18n: HarveyPlus.Intro.1}}\"/emote farmer 8/pause 50/move farmer -4 0 0/speak Harvey \"{{i18n: HarveyPlus.Intro.2}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.3}}\"/pause 50/quickQuestion {{i18n: HarveyPlus.Intro.4}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: HarveyPlus.ZuzuAnswer}}\"\\pause 10\\message \"{{i18n: HarveyPlus.Intro.6}}\"\\pause 10\\speak Harvey \"{{i18n: HarveyPlus.Intro.7}}\"\\emote farmer 32(break)friendship Harvey -10\\speak Harvey \"{{i18n: HarveyPlus.DangerAnswer}}\"\\pause 10/speak Harvey \"{{i18n: HarveyPlus.Intro.5}}\"/speak Maru \"{{i18n: HarveyPlus.Intro.8}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
+		"HarveyPlus.Intro/f Harvey 10/f Maru 10/p Maru": "continue/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/playSound doorClose/warp farmer 10 19/move farmer 0 -2 3/speak Maru \"{{i18n: Intro.1}}\"/emote farmer 8/pause 50/move farmer -4 0 0/speak Harvey \"{{i18n: Intro.2}}\"/speak Maru \"{{i18n: Intro.3}}\"/pause 50/quickQuestion {{i18n: Intro.4}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: ZuzuAnswer}}\"\\pause 10\\message \"{{i18n: Intro.6}}\"\\pause 10\\speak Harvey \"{{i18n: Intro.7}}\"\\emote farmer 32(break)friendship Harvey -10\\speak Harvey \"{{i18n: DangerAnswer}}\"\\pause 10/speak Harvey \"{{i18n: Intro.5}}\"/speak Maru \"{{i18n: Intro.8}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
 	},
 },
 
@@ -27,7 +27,7 @@
 	"Action": "EditData",
 	"Target": "Data/Events/JoshHouse",
 	"entries": {
-		"56/f Harvey 500/p George": "jaunty/16 18/farmer 9 24 0 George 16 18 1 Harvey 15 18 1/skippable/pause 1000/move farmer 0 -4 1/move farmer 1 0 1/speak Harvey \"{{i18n: HarveyPlus.2Hearts.1}}\"/pause 700/speak Harvey \"{{i18n: HarveyPlus.2Hearts.2}}\"/emote George 40/pause 300/speak Harvey \"{{i18n: HarveyPlus.2Hearts.3}}\"/pause 300/faceDirection George 2/faceDirection George 3/speak Harvey \"{{i18n: HarveyPlus.2Hearts.4}}\"/speak George \"{{i18n: HarveyPlus.2Hearts.5}}\"/pause 500/speak Harvey \"{{i18n: HarveyPlus.2Hearts.6}}\"/pause 300/speak George \"{{i18n: HarveyPlus.2Hearts.7}}\"/speak Harvey \"{{i18n: HarveyPlus.2Hearts.8}}\"/move farmer 0 -1 1/move farmer 5 0 0/faceDirection George 3/faceDirection Harvey 2 true/speak Harvey \"{{i18n: HarveyPlus.2Hearts.9}}\"/faceDirection farmer 3/move farmer -1 0 3/speak George \"{{i18n: HarveyPlus.2Hearts.10}}\"/faceDirection farmer 1/pause 500/speak Harvey \"{{i18n: HarveyPlus.2Hearts.11}}\"/speak Harvey \"{{i18n: HarveyPlus.2Hearts.12}}\"/pause 300/faceDirection Harvey 1/pause 500/faceDirection George 2/emote George 28/speak George \"{{i18n: HarveyPlus.2Hearts.13}}\"/pause 500/faceDirection Harvey 2/speak Harvey \"{{i18n: HarveyPlus.2Hearts.14}}\"/emote farmer 16/pause 300/facedirection farmer 3/speed farmer 5/move farmer -5 0 3/speed farmer 5/move farmer 0 5 2/playSound doorOpen/warp farmer -100 -100/pause 1000/globalFade/stopMusic/viewport -1000 -1000/end",
+		"56/f Harvey 500/p George": "jaunty/16 18/farmer 9 24 0 George 16 18 1 Harvey 15 18 1/skippable/pause 1000/move farmer 0 -4 1/move farmer 1 0 1/speak Harvey \"{{i18n: 2Hearts.1}}\"/pause 700/speak Harvey \"{{i18n: 2Hearts.2}}\"/emote George 40/pause 300/speak Harvey \"{{i18n: 2Hearts.3}}\"/pause 300/faceDirection George 2/faceDirection George 3/speak Harvey \"{{i18n: 2Hearts.4}}\"/speak George \"{{i18n: 2Hearts.5}}\"/pause 500/speak Harvey \"{{i18n: 2Hearts.6}}\"/pause 300/speak George \"{{i18n: 2Hearts.7}}\"/speak Harvey \"{{i18n: 2Hearts.8}}\"/move farmer 0 -1 1/move farmer 5 0 0/faceDirection George 3/faceDirection Harvey 2 true/speak Harvey \"{{i18n: 2Hearts.9}}\"/faceDirection farmer 3/move farmer -1 0 3/speak George \"{{i18n: 2Hearts.10}}\"/faceDirection farmer 1/pause 500/speak Harvey \"{{i18n: 2Hearts.11}}\"/speak Harvey \"{{i18n: 2Hearts.12}}\"/pause 300/faceDirection Harvey 1/pause 500/faceDirection George 2/emote George 28/speak George \"{{i18n: 2Hearts.13}}\"/pause 500/faceDirection Harvey 2/speak Harvey \"{{i18n: 2Hearts.14}}\"/emote farmer 16/pause 300/facedirection farmer 3/speed farmer 5/move farmer -5 0 3/speed farmer 5/move farmer 0 5 2/playSound doorOpen/warp farmer -100 -100/pause 1000/globalFade/stopMusic/viewport -1000 -1000/end",
 	},
 },
 {	"LogName": "George Schedule Edit Post 2 Heart Event",
@@ -47,7 +47,7 @@
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
 	"entries": {
-		//COMPLETELY rewrote the Harvey 4 heart event because it sucked and no longer made sense with the setup I have; it's in the Saloon now
+		//COMPLETELY rewrote the Harvey 4 heart event because it no longer made sense with the setup I have; it's in the Saloon now
 		"57/f Harvey 1000/p Harvey": null,
 	},
 },
@@ -121,7 +121,7 @@
 		"Death Type": "No Penalty",
 	},
 	"entries": {
-		"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: HarveyPlus.Killed.1|Nickname={{Nickname}}}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: HarveyPlus.Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: HarveyPlus.Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: HarveyPlus.Killed.4}}\"/pause 300/end"
+		"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1|Nickname={{Nickname}}}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: Killed.4}}\"/pause 300/end"
 	},
 },
 
@@ -133,7 +133,7 @@
 		"Death Type": "Mines Penalty",
 	},
 	"entries": {
-		"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: HarveyPlus.Killed.1|Nickname={{Nickname}}}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: HarveyPlus.Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: HarveyPlus.Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: HarveyPlus.Killed.4}}\"/pause 300/globalFade/viewport -100 -100/minedeath/end"
+		"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1|Nickname={{Nickname}}}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: Killed.4}}\"/pause 300/globalFade/viewport -100 -100/minedeath/end"
 	},
 },
 
@@ -145,7 +145,7 @@
 		"Death Type": "Hospital Penalty",
 	},
 	"entries": {
-		"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: HarveyPlus.Killed.1|Nickname={{Nickname}}}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: HarveyPlus.Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: HarveyPlus.Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: HarveyPlus.Killed.4}}\"/pause 300/globalFade/viewport -100 -100/hospitaldeath/end"
+		"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1|Nickname={{Nickname}}}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: Killed.4}}\"/pause 300/globalFade/viewport -100 -100/hospitaldeath/end"
 	},
 },
 

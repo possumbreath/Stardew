@@ -8,7 +8,7 @@
 		},
 		"entries": {
 			//I'm just making him allergic to shellfish because of the shells in his vanilla hated gifts and also I think it's funny
-			"Harvey": "{{i18n: HarveyPlus.GiftLove.{{Random:1,2}}|Nickname={{Nickname}}}}/348 237 432 395 342/{{i18n: HarveyPlus.GiftLike.{{Random:1,2}}|Nickname={{Nickname}}}}/-81 -79 -7 402 614 418 422 436 438 442 444 422/{{i18n: HarveyPlus.GiftDislike.{{Random:1,2}}}}/-4 424 426 330 233 232 238 234 223 222 221 220 216 211 210 208 206 205/{{i18n: HarveyPlus.GiftHate.{{Random:1,2}}}}/149 151 202 203 218 296 245 372 397 396 394 393 392 715 716 717 718 719 720 721 722 727 723 728 729 730 732 733 798/{{i18n: HarveyPlus.GiftNeutral}}//",
+			"Harvey": "{{i18n: GiftLove.{{Random:1,2}}|Nickname={{Nickname}}}}/348 237 432 395 342/{{i18n: GiftLike.{{Random:1,2}}|Nickname={{Nickname}}}}/-81 -79 -7 402 614 418 422 436 438 442 444 422/{{i18n: GiftDislike.{{Random:1,2}}}}/-4 424 426 330 233 232 238 234 223 222 221 220 216 211 210 208 206 205/{{i18n: GiftHate.{{Random:1,2}}}}/149 151 202 203 218 296 245 372 397 396 394 393 392 715 716 717 718 719 720 721 722 727 723 728 729 730 732 733 798/{{i18n: GiftNeutral}}//",
 		},
 },
 
@@ -19,7 +19,7 @@
 			"Gift Tastes": "Modded Reactions Only",
 		},
 		"entries": {
-			"Harvey": "{{i18n: HarveyPlus.GiftLove.{{Random:1,2}}|Nickname={{Nickname}}}}/348 237 432 395 342/{{i18n: HarveyPlus.GiftLike.{{Random:1,2}}|Nickname={{Nickname}}}}/-81 -79 -7 402 614 418 422 436 438 442 444 422/{{i18n: HarveyPlus.GiftDislike.{{Random:1,2}}}}/-4 424 426 330 233 232 238 234 223 222 221 220 216 211 210 208 206 205/{{i18n: HarveyPlus.GiftHate.{{Random:1,2}}}}/296 245 397 396 394 393 392/{{i18n: HarveyPlus.GiftNeutral}}//",
+			"Harvey": "{{i18n: GiftLove.{{Random:1,2}}|Nickname={{Nickname}}}}/348 237 432 395 342/{{i18n: GiftLike.{{Random:1,2}}|Nickname={{Nickname}}}}/-81 -79 -7 402 614 418 422 436 438 442 444 422/{{i18n: GiftDislike.{{Random:1,2}}}}/-4 424 426 330 233 232 238 234 223 222 221 220 216 211 210 208 206 205/{{i18n: GiftHate.{{Random:1,2}}}}/296 245 397 396 394 393 392/{{i18n: GiftNeutral}}//",
 		},
 },
 
