@@ -4,7 +4,7 @@
 	"Action": "EditData",
 	"Target": "Data/mail",
 	"entries": {
-		"HarveyPlus.8Hearts": "@,^^Sorry I was so frazzled yesterday. I don't get many visitors, so you stopping by was a surprise.^^Anyway, I was reorganizing my desk and found this. Any time you want to chat, you can tune it to frequency 140.^^- Harvey%item furniture RetroRadio%%[#]A Gift From Harvey"
+		"HarveyPlus.8Hearts": "@,^^I'm sorry that I was so frazzled yesterday. I don't get many visitors, so when you stopped by it was a surprise.^^Anyway, I was reorganizing my desk and found this. Any time you want to chat, you can tune it to frequency 140.^^- Harvey%item furniture RetroRadio%%[#]A Gift From Harvey"
 	},
 },
 
@@ -27,7 +27,7 @@
 	"Action": "EditData",
 	"Target": "Data/Events/JoshHouse",
 	"entries": {
-		"56/f Harvey 500/p George": "jaunty/16 18/farmer 9 24 0 George 16 18 1 Harvey 15 18 1/skippable/pause 1000/move farmer 0 -4 1/move farmer 1 0 1/speak Harvey \"{{i18n: 2Hearts.1}}\"/pause 700/speak Harvey \"{{i18n: 2Hearts.2}}\"/emote George 40/pause 300/speak Harvey \"{{i18n: 2Hearts.3}}\"/pause 300/faceDirection George 2/faceDirection George 3/speak Harvey \"{{i18n: 2Hearts.4}}\"/speak George \"{{i18n: 2Hearts.5}}\"/pause 500/speak Harvey \"{{i18n: 2Hearts.6}}\"/pause 300/speak George \"{{i18n: 2Hearts.7}}\"/speak Harvey \"{{i18n: 2Hearts.8}}\"/move farmer 0 -1 1/move farmer 5 0 0/faceDirection George 3/faceDirection Harvey 2 true/speak Harvey \"{{i18n: 2Hearts.9}}\"/faceDirection farmer 3/move farmer -1 0 3/speak George \"{{i18n: 2Hearts.10}}\"/faceDirection farmer 1/pause 500/speak Harvey \"{{i18n: 2Hearts.11}}\"/speak Harvey \"{{i18n: 2Hearts.12}}\"/pause 300/faceDirection Harvey 1/pause 500/faceDirection George 2/emote George 28/speak George \"{{i18n: 2Hearts.13}}\"/pause 500/faceDirection Harvey 2/speak Harvey \"{{i18n: 2Hearts.14}}\"/emote farmer 16/pause 300/facedirection farmer 3/speed farmer 5/move farmer -5 0 3/speed farmer 5/move farmer 0 5 2/playSound doorOpen/warp farmer -100 -100/pause 1000/globalFade/stopMusic/viewport -1000 -1000/end",
+		"56/f Harvey 500/p George": "jaunty/16 18/farmer -100 -100 0 George 16 18 1 Harvey 15 18 1/skippable/pause 1000/speak Harvey \"{{i18n: 2Hearts.1}}\"/pause 700/speak Harvey \"{{i18n: 2Hearts.2}}\"/emote George 40/pause 300/speak Harvey \"{{i18n: 2Hearts.3}}\"/pause 50/faceDirection George 2/faceDirection George 3/speak Harvey \"{{i18n: 2Hearts.4}}\"/speak George \"{{i18n: 2Hearts.5}}\"/pause 10/speak Harvey \"{{i18n: 2Hearts.6}}\"/pause 10/speak George \"{{i18n: 2Hearts.7}}\"/speak Harvey \"{{i18n: 2Hearts.8}}\"/playSound doorClose/warp farmer 9 24/beginSimultaneousCommand/move farmer 0 -4 1 true/faceDirection George 3/faceDirection Harvey 3/jump Harvey 4/emote Harvey 16/endSimultaneousCommand/speak Harvey \"{{i18n: 2Hearts.9}}\"/faceDirection farmer 2/speed farmer 4/move farmer 0 1 2/speak George \"{{i18n: 2Hearts.10}}\"/speak Harvey \"{{i18n: 2Hearts.11}}\"/faceDirection farmer 1/speed farmer 3/move farmer 0 -2 1/move farmer 5 0 1/faceDirection Harvey 2/quickQuestion {{i18n: 2Hearts.12}}(break)friendship Harvey 30\\friendship George -10\\speak Harvey \"{{i18n: GeorgeGood}}\"\\faceDirection Harvey 1\\pause 500\\faceDirection George 2\\emote George 28\\speak George \"{{i18n: 2Hearts.13}}\"\\faceDirection Harvey 2\\speak Harvey \"{{i18n: 2Hearts.15}}\"(break)friendship Harvey -30\\friendship George 40\\speak Harvey \"{{i18n: GeorgeBad}}\"\\pause 50\\faceDirection George 2\\emote George 28\\speak George \"{{i18n: 2Hearts.14}}\"\\speak Harvey \"{{i18n: 2Hearts.16}}\"/jump farmer/pause 10/facedirection farmer 3/speed farmer 5/move farmer -5 0 3/speed farmer 5/move farmer 0 5 2/playSound doorClose/warp farmer -100 -100/pause 1000/globalFade/viewport -1000 -1000/stopMusic/end",
 	},
 },
 {	"LogName": "George Schedule Edit Post 2 Heart Event",
@@ -47,17 +47,8 @@
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
 	"entries": {
-		//COMPLETELY rewrote the Harvey 4 heart event because it no longer made sense with the setup I have; it's in the Saloon now
+		//COMPLETELY rewrote the Harvey 4 heart event because it no longer made sense with the setup I have
 		"57/f Harvey 1000/p Harvey": null,
-	},
-},
-
-{	"LogName": "4 Heart Event New",
-	"Action": "EditData",
-	"Target": "Data/Events/Saloon",
-	"entries": {
-		//establish another side of his character since so far you've only seen him Doctoring
-		"HarveyPlus.4Hearts/f Harvey 1000/p Harvey": "Saloon1/-1000 -1000/farmer -10000 -10000 0 Shane 21 17 2 Leah 2 20 1 Pam 7 18 1 Willy 17 22 2 Sam 38 18 0 Gus 10 18 2 Emily 16 17 0 Harvey 18 20 0/skippable/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/advancedMove Emily true -3 0 4 5000 3 0 4 3000/viewport 14 16/pause 1000/playSound doorClose/warp farmer 14 23/move Gus 4 0 2/move farmer 0 -2 0/move farmer 3 0 0/move farmer 0 -1 0/pause 5000/end",
 	},
 },
 
@@ -69,6 +60,16 @@
 	"entries": {
 		"58/f Harvey 1500/t 1100 1500": null,
 		//The aerobics cutscene never made sense like sir what do you mean 'don't tell anyone' half the town is HERE do you think Marnie has never told Shane about this and laughed
+		//Meanwhile this man goes to TWO places that aren't his house and they are the saloon and the library and you don't have an event in either? bullshit
+	},
+},
+
+{	"LogName": "6 Heart Event New",
+	"Action": "EditData",
+	"Target": "Data/Events/Saloon",
+	"entries": {
+		//establish another side of his character since so far you've only seen him Doctoring
+		"HarveyPlus.4Hearts/f Harvey 1500/p Harvey": "Saloon1/-1000 -1000/farmer -10000 -10000 0 Shane 21 17 2 Leah 2 20 1 Pam 7 18 1 Willy 17 22 2 Sam 38 18 0 Gus 10 18 2 Emily 16 17 0 Harvey 18 20 0/skippable/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/advancedMove Emily true -3 0 4 5000 3 0 4 3000/viewport 14 16/pause 1000/playSound doorClose/warp farmer 14 23/move Gus 4 0 2/move farmer 0 -2 0/move farmer 3 0 0/move farmer 0 -1 0/pause 5000/end",
 	},
 },
 
@@ -82,7 +83,7 @@
 	},
 },
 
-{	"LogName": "8 Heart to 6 Heart Event Fork Delete",
+{	"LogName": "8 Heart Fork Delete",
 	"Action": "EditData",
 	"Target": "Data/Events/HarveyRoom",
 	"entries": {
