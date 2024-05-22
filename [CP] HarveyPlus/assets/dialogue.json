@@ -37,9 +37,7 @@
 		
 		//Events
 		
-		"event_george1": "{{i18n: George1}}",
-		"event_george2": "{{i18n: George2}}",
-		"eventSeen_56": "{{i18n: 2Hearts.After}}",
+		"HarveyPlus.2HeartsCT": "{{i18n: 2Hearts.After}}",
 		"eventSeen_571102_memory": "{{i18n: 6Hearts.After1}}",
 		"eventSeen_571102_memory_oneweek": "{{i18n: 6Hearts.After2}}",
 		
@@ -100,15 +98,31 @@
 		
 		//Date and/or Season Specific Dialogue
 		
+		"summer_Thu10": "{{i18n: Summer.Heat}}",
+		"fall_Fri8": "{{i18n: Fall.Plans}}",
+		"fall_Fri10": "{{i18n: Fall.Plans}}",
 		"spring_23": "{{i18n: Spring.FlowerDance}}",
 		"fall_1": "{{i18n: Fall.Chilly}}",
 		"fall_8": "{{i18n: Fall.Mushrooms}}",
 		"winter_7": "{{i18n: Winter.FluShots}}",
 		"winter_13": "{{i18n: Winter.AlmostBirthday}}",
+		"winter_28": "{{i18n: Winter.End}}",
+		"winter_28_2": "{{i18n: Winter.End}}",
 		
 		//Housekeeping
 		//Deleted or heavily edited these events, so these memories are no longer relevant
+		//Or they are keys used by Canon Dialogue Expansion that conflict with my characterization choices/would be redundant because I moved those lines to other keys
 		
+		"fall_Sat": null,
+		"fall_Sat_10": null,
+		"summer_Wed8": null,
+		"summer_Thu6": null,
+		"summer_Fri4": null,
+		"summer_Fri10": null,
+		"winter_Sat10": null,
+		"winter_Sun4": null,
+		
+		"eventSeen_56": null,
 		"eventSeen_56_memory_fourweeks": null,
 		"eventSeen_56_memory_twoweeks": null,
 		"eventSeen_58_memory_oneweek": null,

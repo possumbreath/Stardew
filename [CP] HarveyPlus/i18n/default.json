@@ -2,7 +2,7 @@
 	//Config
 	
 	"config.Nickname.name": "Nickname",
-	"config.Nickname.description": "The affectionate nickname Harvey will use for you in most cases when dating/married.",
+	"config.Nickname.description": "The affectionate nickname Harvey will use for you in most cases when dating/married. To AVOID a nickname, insert your farmer's name.",
 	"config.Gift Tastes.name": "Gift Tastes",
 	"config.Gift Tastes.values.Fully Modded": "Fully Modded",
 	"config.Gift Tastes.values.Modded Reactions Only": "Modded Reactions Only",
@@ -11,7 +11,7 @@
 	"config.Marriage Schedule.name": "Marriage Schedule",
 	"config.Marriage Schedule.values.Modded": "Modded",
 	"config.Marriage Schedule.values.Vanilla": "Vanilla",
-	"config.Marriage Schedule.description": "Modded has alternating seasonal outings on Mondays: Spring/Fall is shop and then mountains nature walk, Summer/Winter is shop and then library. Vanilla is pure vanilla for compatability with other mods.",
+	"config.Marriage Schedule.description": "Modded has alternating seasonal outings on Mondays: Spring/Fall is shop and then nature walk, Summer/Winter is shop and then library. Vanilla is pure vanilla for compatability with other mods.",
 	"config.Death Type.name": "Death Type",
 	"config.Death Type.values.No Penalty": "No Penalty",
 	"config.Death Type.values.Mines Penalty": "Mines Penalty",
@@ -102,6 +102,8 @@
 	"2Hearts.15": "Thanks for your suggestion, @. I appreciate it.$h#$b#Even if you still really shouldn't be here.",
 	"2Hearts.16": "Thank you for your input, @. Now, I really do insist that you leave.",
 	"2Hearts.After": "George said he's going to try going out at least once a week when the weather's nice.#$b#It's a great start!$h",
+	"2Hearts.After.George": "Hmph. You're lucky you're still young.#$e#You don't have to worry about this kind of thing.",
+	"2Hearts.After.Evelyn": "I don't know what you said to him, but thank you for talking to George.#$b#I think he'll like gardening with me more than he wants to admit.",
 	
 	//Maru Four Heart Event
 	
@@ -187,7 +189,7 @@
 	"Fri.6": "It's kind of you to make time to talk with me, @.#$e#It always brightens my day.$h",
 	"Fri.7": "Living where I work makes some things easier... on the other hand, it makes it difficult to ever stop working.",
 	"Fri.8": "I had a phase as a child where I was convinced I wanted to be a jazz pianist.$#b#At my first recital I threw up before I even got on stage. I never played the piano again.#$e#It was mortifying then but it's kind of funny now.$h",
-	"Fri.9": "I've been thinking about setting up a little herb garden in my window, {{Nickname}}.#$e#If you have any tips for keeping plants alive, I'd love to hear them.$h",
+	"Fri.9": "I've been thinking about setting up a little herb garden in my window.#$e#If you have any tips for keeping plants alive, I'd love to hear them.$h",
 	"Fri.10": "{{Nickname}}, I know I'm not technically your doctor...#$b#But if you ever need a 'confidential checkup' you know where to find me.$1",
 	
 	"Sat.1": "I never really relax, even on weekends.#$e#It's not as though I can say 'sorry, it's my day off' if there's a medical emergency.",
@@ -214,11 +216,14 @@
 	
 	//Date and/or Season-Specific Dialogue
 	
+	"Summer.Heat":"It's been so difficult to focus on my work lately.#$b#You know, because of the heat.$1",
+	"Fall.Plans":"$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.$1#I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
 	"Spring.FlowerDance": "The Flower Dance is tomorrow. I'm not really much of a dancer, but Maru always insists I go.",
 	"Fall.Mushrooms": "Did you know many of the mushrooms that grow locally are edible?$#b#Be careful of the red ones, though.",
 	"Fall.Chilly": "The weather has started to turn.#$b#Add more layers if you start feeling chilly.",
 	"Winter.FluShots": "Don't forget to get your flu shot this year.#$e#An ounce of prevention is worth a pound of cure, as they say.",
 	"Winter.AlmostBirthday.": "%Harvey appears to be quieter than usual. You should probably leave him be.",
+	"Winter.End": "Winter has its charm, but I'm looking forward to seeing the sun more often in Spring.",
 	
 	//Festival Dialogue
 	//I'm not changing all of it but there are some lines that need editing either for platonic Maru reasons or I don't like it reasons
@@ -248,18 +253,25 @@
 	"Marriage.spring_1": "The explosion of life at the start of a new year is invigorating, don't you think?#$e#Maybe I'll get my paperwork out of the way early today.",
 	"Marriage.spring_8": "The birds that left for the Winter have started coming back.#$e#I'm sure there's a science behind how they navigate. I should look it up.",
 	"Marriage.spring_12": "Good luck in the egg hunt tomorrow!$h#$e#Of course I'll be there to watch, even if I'm not a big fan of the crowd...",
-	"Marriage.spring_23": "Will you... will you dance with me at the festival tomorrow?$7#$e#It's one of my favorite parts of the year.$1",
+	"Marriage.spring_23": "Will you dance with me at the festival tomorrow?$7#$e#It's one of my favorite parts of the year.$1",
+	"Marriage.spring_25": "Hm... my \"to read\" list is getting pretty short.#$b#Any recommendations?",
 	"Marriage.summer_1": "Make sure you don't get sunburnt, {{Nickname}}!$8#$b#I've stocked up on sunscreen, so be sure to put some on before you go out.",
 	"Marriage.summer_8": "I didn't sleep so well last night... it's difficult to get comfortable in this heat.$s",
 	"Marriage.summer_10": "I'm always a little leery of the Luau soup.#$b#It can't be healthy to just toss a bunch of random ingredients into a pot, right?",
+	//I'm calling these next four The Ant Saga in tribute to what Summer is like for me every year. someone else has to suffer too
 	"Marriage.summer_15": "I sprinkled a little diatomaceous earth around to keep the ants out.#$e#I'm not going to share the kitchen with them!$a",
+	"Marriage.summer_16": "There seem to be fewer ants in here than there were yesterday... thank goodness.",
+	"Marriage.summer_17": "I think the ant problem is taken care of... for now.#$e#I'm staying vigilant in case they come back.",
+	"Marriage.summer_23": "I spread some fresh diatomaceous earth where the ants were coming in last time.#$b#I saw one this morning and I'm taking no chances.$a",
 	"Marriage.summer_27": "The days are going to start getting shorter soon.#$b#Sorry in advance if I seem a little withdrawn... lack of sunlight can have a negative impact on mood.",
 	"Marriage.fall_1": "Make sure and diversify your harvests this fall, {{Nickname}}.#$e#Or you could just fill every plot with pumpkins.$#b#I'll figure out what to cook with them!$h",
-	"Marriage.fall_8": "We have a lot to do to prepare for winter.#$b#You make sure we're stocked up on firewood and I'll get the extra blankets and winter coats out of storage.",
+	"Marriage.fall_11": "We have a lot to do to prepare for winter.#$b#You make sure we're stocked up on firewood and I'll get the extra blankets and winter coats out of storage.",
 	"Marriage.fall_15": "Tomorrow's the Fair. I'm interested to see what you've been saving for your grange display!$h",
+	"Marriage.fall_18": "This is the time of year when the weather really starts to turn... maybe consider a scarf?",
 	"Marriage.fall_26": "Out of all the festivals, Spirit's Eve is easily my least favorite.#$b#I know it's all props and makeup, but I just don't find being scared any fun.",
 	"Marriage.winter_1": "Be sure to dress warmly in the coming weeks, {{Nickname}}.#$b#I know you and I know you'll be out of the house most days even if there's no farming to do!$h",
 	"Marriage.winter_7": "It might be nice to attend the festival tomorrow.#$b#Or we could stay in and drink cocoa. I'd be happy with either.#h",
+	"Marriage.winter_11": "How are we doing on firewood?#$b#I wouldn't want to run low.",
 	"Marriage.winter_13": "Well... I'll be another year older tomorrow. Before I met you that would have bothered me.#$b#Now it almost feels like an accomplishment!#h",
 	"Marriage.winter_28": "I can't believe how quickly this year went by.#$b#Well! Here's to many more, huh?$h",
 	

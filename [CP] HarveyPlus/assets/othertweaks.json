@@ -1,5 +1,7 @@
 {	"Changes": [
-		
+
+//Gift Edits
+	
 {		"LogName": "Gift Taste Tweaks Fully Modded",
 		"Action": "EditData",
 		"Target": "data/NPCGiftTastes",
@@ -23,6 +25,8 @@
 		},
 },
 
+//Schedule Edits
+
 {		"LogName": "Marriage Schedule Edit",
 		"Action": "EditData",
 		"Target": "Characters/schedules/Harvey",
@@ -44,8 +48,22 @@
 			"Season": "spring, fall",
 		},
 		"entries": {
-			//weather nice n brisk we saying hello to the mountain lake and readin outside
-			"marriage_Mon": "830 SeedShop 2 26 2 \"Strings\\schedules\\Harvey:marriage_Mon.000\"/1200 Mountain 47 30 1/1500 Mountain 23 16 3 harvey_read \"Strings\\schedules\\Harvey:marriage_Mon.002\"/1700 bed",
+			//weather nice n brisk we outside
+			"marriage_Mon": "830 SeedShop 2 26 2 \"Strings\\schedules\\Harvey:marriage_Mon.000\"/1100 Town 91 99 3 harvey_read \"Strings\\schedules\\Harvey:marriage_Mon.002\"/1530 Town 24 97 2/1700 bed",
+		},
+},
+
+{		"LogName": "Marriage Schedule Edit",
+		"Action": "EditData",
+		"Target": "Characters/schedules/Harvey",
+		"When": {
+			"Marriage Schedule": "Modded",
+			"Season": "spring, fall",
+			"HasMod": "FlashShifter.SVECode",
+		},
+		"entries": {
+			//weather nice n brisk we outside but in SVE the fence is one square to the right lmao
+			"marriage_Mon": "830 SeedShop 2 26 2 \"Strings\\schedules\\Harvey:marriage_Mon.000\"/1100 Town 92 99 3 harvey_read \"Strings\\schedules\\Harvey:marriage_Mon.002\"/1530 Town 24 97 2/1700 bed",
 		},
 },
 
