@@ -127,9 +127,31 @@
 	"Maru4Hearts.15": "It's nice to be treated like a colleague instead.",
 	
 	//6 Heart Event
+		
+	//8 Heart Event
 	
-	"6Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...#$b#You're just easy to talk to, I guess.",
-	"6Hearts.After2": "pb wants to put something here but isn't sure what yet so this is placeholder text lol lmao",
+	"8Hearts.1": "This is Pelican Town, broadcasting on local frequency 140, do you read me?$9",
+	"8Hearts.2": "Repeat, do you read me?$9",
+	"8Hearts.3": "Pelican Town, this is Blackbird Five Echo Zuzu. Request standard ground report, over.",
+	"8Hearts.4": "Someone's there!?$10#$b#Er... I mean!... Blackbird Five Echo Zuzu, standard ground report: Wind at 3 Clicks, 36 Degrees North of West. Temperature at 42 Kraggs. Humidity 53%. Over!$10",
+	"8Hearts.5": "Yikes, my pulse is soaring...$7",
+	"8Hearts.6": "#Are you okay? You look like you saw a ghost.#Sorry, I probably should have knocked first.#Come on, I'm not that scary.",
+	"8Hearts.7": "Oh, yes, I'm fine. Just a little rattled.",
+	"8Hearts.8": "Yeah, that would have been polite...$s#$b#It's okay. You're not really interrupting anything.",
+	"8Hearts.9": "What?#$b#Oh, no, it's not you.",
+	"8Hearts.10": "See, I was just fiddling with my radio, flipping through the local frequencies... and I made contact with a real pilot!", 
+	"8Hearts.11": "In fact, we can probably see him passing by overhead right now!",
+	"8Hearts.12": "Quick, come look!",
+	"8Hearts.13": "There!",
+	"8Hearts.14": "You know... as a kid, I always dreamed of being a pilot.",
+	"8Hearts.15": "...But with my bad eyesight and a petrifying fear of heights, that dream was never going to be a reality.",
+	"8Hearts.16": "Oh, don't be sad.#$b#I made peace with it a long time ago. The dreams you have as a child aren't always attainable as an adult... that's just the way the world is.#$b#I'm happy listening to the radio chatter from here. We get a lot of civilian air traffic; Stardew Valley is great for scenic flyovers.$h",
+	"8Hearts.17": "And anyway, if I was a pilot then I wouldn't be a doctor and I wouldn't have moved here to Pelican Town.#$b#And I wouldn't have become friends with you.",
+	"8Hearts.18": "Hey, let me show you my model airplanes.#$b#I have a Blackbird, the same kind that just flew by!$h",
+	"8Hearts.19": "For the first time since you met him, Harvey doesn't seem worried about anything.",
+	"8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...#$b#You're just easy to talk to, I guess.",
+	"8Hearts.After2": "pb wants to put something here but isn't sure what yet so this is placeholder text lol lmao",
+
 	
 	//Weekly Dialogue
 	
@@ -167,11 +189,11 @@
 	"Wed.10": "Usually by the middle of the week I'd be starting to hit a slump.#$b#I think your energy is infectious!$h",
 	
 	"Thu.1": "I live above the clinic. I admit it's convenient, not having a commute.",
-	"Thu.2": "Nutrition is important, so make sure and eat well. Try to increase your vegetable intake.#$e##$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
+	"Thu.2": "Nutrition is important, so make sure and eat well. #$b##$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
 	"Thu.2.Yes": "That's good! You'll have no trouble staying healthy, then.$h",
 	"Thu.2.Busy": "Ah, yes. I know how that is.$s#$b#Still, even the occasional healthy meal is better than none.",
 	"Thu.2.No":  "Ah... right. I'm sure you're very busy with the farm.$s",
-	"Thu.2.None": "$p HarveyPlus.42#You really should try to make the time.|It definitely makes my job easier.",
+	"Thu.2.None": "$p HarveyPlus.42#Maybe take advantage of all that fresh produce.|... Sorry. I should take my doctor's hat off, sometimes.$h",
 	"Thu.3": "I'm what you'd call a family practice physician.#$b#Taking care of someone from birth til death... that's a lot of responsibility. I take it very seriously.",
 	"Thu.4": "I probably drink more coffee than is strictly healthy.$s#$b#But all that paperwork wouldn't get done otherwise!",
 	"Thu.5": "I try and attend every town festival, even if I find crowds overwhelming.#$e#It's good for me to get out of the clinic sometimes.",

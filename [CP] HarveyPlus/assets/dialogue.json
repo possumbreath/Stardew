@@ -38,8 +38,8 @@
 		//Events
 		
 		"HarveyPlus.2HeartsCT": "{{i18n: 2Hearts.After}}",
-		"eventSeen_571102_memory": "{{i18n: 6Hearts.After1}}",
-		"eventSeen_571102_memory_oneweek": "{{i18n: 6Hearts.After2}}",
+		"eventSeen_571102_memory": "{{i18n: 8Hearts.After1}}",
+		"eventSeen_571102_memory_oneweek": "{{i18n: 8Hearts.After2}}",
 		
 		//Weekly Dialogue
 		
