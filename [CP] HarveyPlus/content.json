@@ -13,13 +13,13 @@
 		"AllowValues": "Modded, Vanilla",
 		"Default": "Modded",
 	},
-	"Death Type": {
-		"AllowValues": "No Penalty, Mines Penalty, Hospital Penalty, Vanilla",
-		"Default": "No Penalty",
-	},
-	"Maru Edits": {
+	"Mod Death Dialogue": {
 		"AllowValues": "true, false",
-		"Default": "true",
+		"Default": true,
+	},
+	"Death Type": {
+		"AllowValues": "No Penalty, Mines Penalty, Hospital Penalty",
+		"Default": "No Penalty",
 	},
 },
 
@@ -41,10 +41,5 @@
 	"FromFile": "assets/othertweaks.json"
 	},
 	
-{	"Action": "Include",
-	"FromFile": "assets/marutweaks.json",
-	"When": {
-		"Maru Edits": "true"}
-	},
 ]
 }

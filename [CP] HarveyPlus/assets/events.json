@@ -131,27 +131,13 @@
 
 //All the Deaths
 
-{	"LogName": "Death Event Edit (No Penalty)",
+{	"LogName": "Death Event Edit",
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
 	"When": {
-		"Spouse": "Harvey",
-		"Death Type": "No Penalty",
+		"Mod Death Dialogue": true,
 	},
-	"entries": {
-		"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1|Nickname={{Nickname}}}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: Killed.4}}\"/pause 300/end"
-	},
-},
-
-{	"LogName": "Death Event Edit (Mines Penalty)",
-	"Action": "EditData",
-	"Target": "Data/Events/Hospital",
-	"When": {
-		"Spouse": "Harvey",
-		"Death Type": "Mines Penalty",
-	},
-	"entries": {
-		"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1|Nickname={{Nickname}}}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: Killed.4}}\"/pause 300/globalFade/viewport -100 -100/minedeath/end"
+	"entries": {"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: Killed.4}}\"/pause 300/globalFade/viewport -100 -100"
 	},
 },
 
@@ -159,12 +145,52 @@
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
 	"When": {
+		"Mod Death Dialogue": true,
+	},
+	"TextOperations": [
+		{ 
+			"Operation": "Append",
+            "Target": ["Entries","PlayerKilled"],
+            "Value": "hospitaldeath/end",
+			"Delimiter": "/",
+		},
+	],
+},
+
+{	"LogName": "Death Event Edit (Mines Penalty)",
+	"Action": "EditData",
+	"Target": "Data/Events/Hospital",
+	"When": {
 		"Spouse": "Harvey",
-		"Death Type": "Hospital Penalty",
+		"Mod Death Dialogue": true,
+		"Death Type": "Mines Penalty",
 	},
-	"entries": {
-		"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1|Nickname={{Nickname}}}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: Killed.4}}\"/pause 300/globalFade/viewport -100 -100/hospitaldeath/end"
+	"TextOperations": [
+		{ 
+			"Operation": "Append",
+            "Target": ["Entries","PlayerKilled"],
+            "Value": "minedeath/end",
+			"Delimiter": "/",
+		},
+	],
+},
+		
+{	"LogName": "Death Event Edit (No Penalty)",
+	"Action": "EditData",
+	"Target": "Data/Events/Hospital",
+	"When": {
+		"Spouse": "Harvey",
+		"Mod Death Dialogue": true,
+		"Death Type": "No Penalty",
 	},
+	"TextOperations": [
+		{ 
+			"Operation": "Append",
+            "Target": ["Entries","PlayerKilled"],
+            "Value": "end",
+			"Delimiter": "/",
+		},
+	],
 },
 
 ]}

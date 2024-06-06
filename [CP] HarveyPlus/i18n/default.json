@@ -12,14 +12,13 @@
 	"config.Marriage Schedule.values.Modded": "Modded",
 	"config.Marriage Schedule.values.Vanilla": "Vanilla",
 	"config.Marriage Schedule.description": "Modded has alternating seasonal outings on Mondays: Spring/Fall is shop and then nature walk, Summer/Winter is shop and then library. Vanilla is pure vanilla for compatability with other mods.",
-	"config.Death Type.name": "Death Type",
+	"config.Mod Death Dialogue.name": "Mod Death Dialogue",
+	"config.Mod Death Dialogue.description": "Will edit the PlayerKilled event. Uncheck for vanilla/compatability with other death mods.",
+	"config.Death Type.name": "Married Death Type",
 	"config.Death Type.values.No Penalty": "No Penalty",
 	"config.Death Type.values.Mines Penalty": "Mines Penalty",
 	"config.Death Type.values.Hospital Penalty": "Hospital Penalty",
-	"config.Death Type.values.Vanilla": "Vanilla",
-	"config.Death Type.description": "What will happen upon PlayerKilled when married to Harvey. All feature modded married dialogue except for vanilla.",
-	"config.Maru Edits.name": "Maru Edits",
-	"config.Maru Edits.description": "Enables some extra edits to Maru's events and dialog to better establish her friendship with Harvey. Completely optional, I just also like Maru and am invested in them being buds :)",
+	"config.Death Type.description": "What will happen upon PlayerKilled when married to Harvey. ONLY works when Mod Death Dialogue is true.",
 	
 	//General
 	
@@ -104,27 +103,6 @@
 	"2Hearts.After": "George said he's going to try going out at least once a week when the weather's nice.#$b#It's a great start!$h",
 	"2Hearts.After.George": "Hmph. You're lucky you're still young.#$e#You don't have to worry about this kind of thing.",
 	"2Hearts.After.Evelyn": "I don't know what you said to him, but thank you for talking to George.#$b#I think he'll like gardening with me more than he wants to admit.",
-	
-	//Maru Four Heart Event
-	
-	"Maru4Hearts.1": "*sigh*... I'm so sick of preparing samples...$s#$b#It's just like being at home but with a different coat of paint.$s",
-	"Maru4Hearts.2": "Agh! Oh no!... $4",
-	"Maru4Hearts.3": "The whole sample is ruined... Harvey's going to kill me...$s",
-	"Maru4Hearts.4": "$q 38 null#@, what should I do?#$r 38 -50 Event_Hospital_1#Just scoop it off the floor. He won't know the difference.#$r 39 -20 Event_Hospital_2#Tell Harvey it was my fault.#$r 38 50 Event_Hospital_3#Tell Harvey it was an accident.",
-	"Event_Hospital_1": "Of course he'll know the difference! There's broken glass all over the floor!%fork$s",
-	"Event_Hospital_2": "You think he'll buy that? I guess...$u",
-	"Event_Hospital_3": "You're right. I should just tell him the truth.%fork",
-	"Maru4Hearts.5": "Maru, are you alright? I heard something break.",
-	"Maru4Hearts.6": "$p 38#I accidentally dropped one of the samples... I'm so sorry.$s|@ came in and slammed the door so loud I dropped the sample.$u",
-	"Maru4Hearts.7": "It doesn't really matter whose fault it was. Either way, we can't use it.",
-	"Maru4Hearts.8": "*sigh*... I'll call the patient back in so we can re-collect the sample.$s",
-	"Maru4Hearts.9": "Mistakes happen, but please try and be more focused on your work next time.",
-	"Maru4Hearts.10": "It's alright. We can get another one.#$b#It's not as though it's a big imposition when most of our patients are a five minute walk away.$h", 
-	"Maru4Hearts.11": "Yeah... you're right. It's not such a big deal.#$b#Thanks for being patient with me, Dr. Harvey.",
-	"Maru4Hearts.12": "Of course. Do you know how many things I dropped during my residency? It happens.#$b#You've really been a huge help around here, Maru.",
-	"Maru4Hearts.13": "Alright. I have paperwork to get back to.#$b#Just make sure you get this cleaned up. We don't want anyone stepping on broken glass.",
-	"Maru4Hearts.14": "Huh. That wasn't so bad.#$b#My dad still treats me like a little kid whenever I mess something up in the lab at home.$u",
-	"Maru4Hearts.15": "It's nice to be treated like a colleague instead.",
 	
 	//6 Heart Event
 		
@@ -572,10 +550,10 @@
 	
 	//Misc
 	
-	"Killed.1": "Easy now, {{Nickname}}. Take it slow.",
+	"Killed.1": "Easy now. Take it slow.",
 	"Killed.2": "You were found unconscious and in critical condition; there was no time to transport you to Zuzu City.#$b#I had to perform an emergency surgery to stabilize you.$s",
 	"Killed.3": "You can stay here in the clinic until you get your feet back under you.",
-	"Killed.4": "Just be more careful out there, for my sake?#$b# I know I sometimes worry too much, but when this kind of thing happens it starts to feel justified.$s#$b# I don't know what I'd do if I ever lost you.",
+	"Killed.4": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Just be more careful out there, for my sake?#$b# I know I sometimes worry too much, but when this kind of thing happens it makes it difficult not to.$s#$b# I don't know what I'd do if I ever lost you.|I know it's tempting, but don't head right back out there once you leave. At least get a night's rest first.",
 	
 	"Rainy.1": "Hi @! It's good weather for staying inside and reading.#$e#So... have you read anything good lately?",
 	"Rainy.2": "Have you ever noticed that almost no one in this town uses an umbrella?#$e#I think I saw Sebastian with one, once...$s",

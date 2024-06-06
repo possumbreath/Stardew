@@ -2,6 +2,6 @@
   "Nickname": "dear",
   "Gift Tastes": "Fully Modded",
   "Marriage Schedule": "Modded",
-  "Death Type": "No Penalty",
-  "Maru Edits": "true"
+  "Mod Death Dialogue": "true",
+  "Death Type": "Mines Penalty"
 }
