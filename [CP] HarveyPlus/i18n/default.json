@@ -162,8 +162,8 @@
 	"12Hearts.26": "$query DAY_OF_WEEK Monday Wednesday #Wow, how did it get so late?#$b#I should probably think about going to bed or I'll be falling asleep at my desk tomorrow.|Wow, it got late, didn't it?#$b#At least I don't have to work tomorrow.$h",
 	"12Hearts.27": "Don't worry about the dishes. I'll take care of those.",
 	"12Hearts.28": "Oh, think of it this way: I almost set the kitchen on fire, cleaning it up should be my job.#$b#Besides, I like doing things for you. I cook and keep the house tidy so that when you come home you don't have to worry about it.#$b#It's one of the little ways I try to show you that I love you.$h",
-	"12Hearts.29": "I know it's not nearly as exciting as the things you do every day, but not using a recipe is something I never would have done before I met you.#$b#Marrying you really is the best thing that's ever happened to me.$1",
-	"12Hearts.after": "The saucepan wasn't even too badly charred.$h#$b#Tonight really was wonderful.",
+	"12Hearts.29": "Tonight really was wonderful. Thank you, {{Nickname}}.",
+	"12Hearts.after": "I know it's not nearly as exciting as the things you do every day, but not using a recipe is something I never would have done before I met you.#$b#You really are the best thing that's ever happened to me.$1",
 	
 	
 	//Weekly Dialogue
