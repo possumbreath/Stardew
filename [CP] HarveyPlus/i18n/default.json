@@ -7,11 +7,11 @@
 	"config.Gift Tastes.values.Fully Modded": "Fully Modded",
 	"config.Gift Tastes.values.Modded Reactions Only": "Modded Reactions Only",
 	"config.Gift Tastes.values.Vanilla": "Vanilla",
-	"config.Gift Tastes.description": "Fully Modded makes him allergic to shellfish based on his hated dialogue. Crustaceans, molluscs and shellfish dishes will be hated gifts. Modded Reactions Only includes expanded gift dialogue but no changes to tastes. Vanilla will retain normal gift tastes and reactions for compatability with other mods.",
+	"config.Gift Tastes.description": "Fully Modded makes him allergic to shellfish based on his hated dialogue. Crustaceans, molluscs and shellfish dishes will be hated gifts. Modded Reactions Only includes expanded gift dialogue but no changes to tastes.",
 	"config.Marriage Schedule.name": "Marriage Schedule",
 	"config.Marriage Schedule.values.Modded": "Modded",
 	"config.Marriage Schedule.values.Vanilla": "Vanilla",
-	"config.Marriage Schedule.description": "Modded has alternating seasonal outings on Mondays: Spring/Fall is shop and then nature walk, Summer/Winter is shop and then library. Vanilla is pure vanilla for compatability with other mods.",
+	"config.Marriage Schedule.description": "Modded has alternating seasonal outings on Mondays: Spring/Fall is shop and then nature walk, Summer/Winter is shop and then library.",
 	"config.Mod Death Dialogue.name": "Mod Death Dialogue",
 	"config.Mod Death Dialogue.description": "Will edit the PlayerKilled event. Uncheck for vanilla/compatability with other death mods.",
 	"config.Death Type.name": "Married Death Type",
@@ -80,7 +80,7 @@
 	"Intro.5": "Just remember, we're here if you ever have an emergency.#$b#Have a good day, @.",
 	"Intro.8": "See you later!$h",
 	
-	//Two Heart Event
+	//2 Heart Event
 	
 	"2Hearts.1": "Okay, George. I want you take a deep breath for me.",
 	"2Hearts.2": "Mmhmm... and hold it... now breathe out.",
@@ -103,6 +103,8 @@
 	"2Hearts.After": "George said he's going to try going out at least once a week when the weather's nice.#$b#It's a great start!$h",
 	"2Hearts.After.George": "Hmph. You're lucky you're still young.#$e#You don't have to worry about this kind of thing.",
 	"2Hearts.After.Evelyn": "I don't know what you said to him, but thank you for talking to George.#$b#I think he'll like gardening with me more than he wants to admit.",
+	
+	//4 Heart Event
 	
 	//6 Heart Event
 		
@@ -130,6 +132,39 @@
 	"8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...#$b#You're just easy to talk to, I guess.",
 	"8Hearts.After2": "pb wants to put something here but isn't sure what yet so this is placeholder text lol lmao",
 
+	//12 Heart Event
+	
+	"12Hearts.1": "Hmm... Needs salt...",
+	"12Hearts.2": "It's burning!",
+	"12Hearts.3": "Phew... Haha. Okay.",
+	"12Hearts.4": "If that's the worst that happens...",
+	"12Hearts.5": "Then tonight will be great!",
+	"12Hearts.6": "Presto!",
+	"12Hearts.7": "Ah... You're right on time, @!$h#$b#Let me just set the table...",
+	"12Hearts.8": "You've been working so hard on the farm... I thought it might be nice to surprise you with a romantic dinner.",
+	"12Hearts.9": "It's my very own 'angel hair pasta primavera'...#$b#I decided to take bit of a risk and not follow a recipe.$h#$b#I hope you like it.$1",
+	"12Hearts.10": "#It tastes just heavenly#It tastes fresh and healthy#It tastes a little smoky",
+	"12Hearts.11": "Heavenly, huh? That must be the 'angel hair'!$h",
+	"12Hearts.12": "Oh yes, I forgot to mention... it's 'whole wheat' pasta, and I used plenty of farm-fresh vegetables.#$b#So in a way you helped make it too!$h",
+	"12Hearts.13": "Oh... ha. There was a bit in the middle there where things got dicey.#$b$I tried to give myself most of the burnt bits.",
+	"12Hearts.14": "I think it came out relatively well, for an experiment.",
+	"12Hearts.15": "What about you? Did you do anything interesting today?",
+	"12Hearts.16": "#I did chores around the farm#I went spelunking in the caves#I focused on fishing#I caught up with friends#I was all over the place#I can't remember#Not really, no",
+	"12Hearts.17": "Yes, I can still see the dirt in your hair!#$b#Oh, it doesn't bother me. It's part of your charm.$h",
+	"12Hearts.18": "The, uh... the ones full of monsters?$7#$b#... Well, I'm glad you came home in one piece. It amazes me how much you're capable of.",
+	"12Hearts.19": "A day out by the water, huh? Sounds relaxing...#$b#Unless the fish were being difficult!$h",
+	"12Hearts.20": "Oh, good! That sounds like a great way to spend the day.#$b#How is everyone in town?",
+	"12Hearts.21": "That makes sense. There's lots to do in this valley, and only so many hours in the day!#$b#Hopefully this was a nice break after all that running around.$h",
+	"12Hearts.22": "Ah... I have that problem sometimes, too.$s#$b#That might be a sign you're working yourself too hard. Remember to rest sometimes, alright?",
+	"12Hearts.23": "Took the day off, huh?#$b#Good. Not every day needs to be interesting. Little moments like this are nice, too.$1",
+	"12Hearts.24": "You and Harvey enjoy a nice conversation with your meal...",
+	"12Hearts.25": "... and before you know it you've been talking for hours.",
+	"12Hearts.26": "$query DAY_OF_WEEK Monday Wednesday #Wow, how did it get so late?#$b#I should probably think about going to bed or I'll be falling asleep at my desk tomorrow.|Wow, it got late, didn't it?#$b#At least I don't have to work tomorrow.$h",
+	"12Hearts.27": "Don't worry about the dishes. I'll take care of those.",
+	"12Hearts.28": "Oh, think of it this way: I almost set the kitchen on fire, cleaning it up should be my job.#$b#Besides, I like doing things for you. I cook and keep the house tidy so that when you come home you don't have to worry about it.#$b#It's one of the little ways I try to show you that I love you.$h",
+	"12Hearts.29": "I know it's not nearly as exciting as the things you do every day, but not using a recipe is something I never would have done before I met you.#$b#Marrying you really is the best thing that's ever happened to me.$1",
+	"12Hearts.after": "The saucepan wasn't even too badly charred.$h#$b#Tonight really was wonderful.",
+	
 	
 	//Weekly Dialogue
 	
