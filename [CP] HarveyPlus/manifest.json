@@ -10,9 +10,16 @@
 		"UniqueID": "Pathoschild.ContentPatcher",
 	},
 	"Dependencies": [
+		//These are just here to make sure these mods don't overwrite my event and dialogue edits with their own,
+		//since we all target a lot of the same stuff (and in some cases I need to load after SVE for compatability with their maps)
+		//Feel free to delete them if you prefer content from these mods! 
 		{
-	   "UniqueID": "gizzymo.canonfriendlyexpansion",
-	   "IsRequired": false,
+		"UniqueID": "gizzymo.canonfriendlyexpansion",
+		"IsRequired": false,
+		},
+		{
+		"UniqueID": "FlashShifter.SVECode",
+		"IsRequired": false,
 		},
 	],
 }

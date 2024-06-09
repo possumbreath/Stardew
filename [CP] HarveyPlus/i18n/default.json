@@ -48,8 +48,8 @@
 	"divorced.5": "I think it would be healthier for the both of us if you and I avoided each other.$a",
 	"divorced.6": "...$a",
 	"DumpsterDiveComment": "Oh, that's... you have to know that's not sanitary.$s",
-	"AcceptBouquet": "... what?#$b#I mean, yes! Of course!$8#$b#Sorry, I just wasn't expecting... I've wanted to ask you for weeks but could never find the courage.$1",
-	"Engaged1": "There's so much to set up before the wedding! I have to admit I'm nervous.$1#$e#I'll be relieved after we're all settled in on your farm.$h",
+	"AcceptBouquet": "... what?#$b#I mean, yes! Of course!$8#$b#Sorry, I just wasn't expecting... I've wanted to ask you for weeks but could never find the courage.$l",
+	"Engaged1": "There's so much to set up before the wedding! I have to admit I'm nervous.$l#$e#I'll be relieved after we're all settled in on your farm.$h",
 	"Engaged2": "I'm so happy.$h#$e#This is something I always wanted, deep down.$l",
 	"RejectBouquet_Divorced": "That's not funny, @.$a",
 	"RejectBouquet_NpcAlreadyMarried": "Oh! Uh, that's flattering, but I'm already happily married to {0}... you didn't know?",
@@ -71,7 +71,7 @@
 	
 	"Intro.1": "Hello, @! You have great timing.#$b#We were just about to send you a letter asking you to come in.",
 	"Intro.2": "It's nothing serious, don't worry.#$b#We just wanted to get your patient intake forms filled out sooner rather than later.#$b#This is a small operation but it does help to be organized.",
-	"Intro.3": "What he means is it helps me have to file less paperwork.$h",
+	"Intro.3": "What he means is it helps me have to file less paperwork down the line.$h",
 	"Intro.4": "Do you have time to fill out the forms?#Actually, I already have a doctor in Zuzu City.#No thanks. I like to live dangerously.",
 	"ZuzuAnswer": "Oh, I see. You should stick with them, then: continuity of care is important to maintain whenever possible.",
 	"DangerAnswer": "Hm. I wouldn't exactly say that's advisable, but it's ultimately up to you.$s",
@@ -132,6 +132,36 @@
 	"8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...#$b#You're just easy to talk to, I guess.",
 	"8Hearts.After2": "pb wants to put something here but isn't sure what yet so this is placeholder text lol lmao",
 
+	//10 Heart Event
+	//Most of the event is untouched because it's already basically the best one he has. we love balloon in this house
+	//Basically all I did was minor personal taste phrasing edits, removing the superfluous fork, and changing the stuff that implies this is like a first date because sir we've been dating for two hearts
+	
+	"10Hearts.1": "There you are... just in time!",
+	"10Hearts.2": "Look, here it comes!$8",
+	"10Hearts.3": "Marcello's Balloon Rentals at your service!",
+	"10Hearts.4": "Marcello: It's all yours for two hours.",
+	"10Hearts.5": "Marcello: Now... I was told there's a saloon somewhere around here?",
+	"10Hearts.6": "I saw an ad in the paper for these balloon rides and I knew I had to surprise you with one.",
+	"10Hearts.7": "#This looks fun! Let's go!#...But aren't you afraid of heights?",
+	"10Hearts.8": "Okay... you first.$l",
+	"10Hearts.9": "I am... yeah.$s#$b#But I don't want to let being scared stop me from doing what I want, and experiencing this with you.$l#$b#I'm determined to try.",
+	"10Hearts.10": "We... We're up so high...$8",
+	"10Hearts.11": "I wanted to impress you with this... but look at me. I'm a trembling coward.$7",
+	"10Hearts.12": "#You don't need to try to impress me.#Just open your eyes. It's worth it.#Honestly? I'm also a little afraid of heights.",
+	"10Hearts.13": "I just don't want you to get bored of me. You're so much more adventurous than I am...$7",
+	"10Hearts.14": "... You're right. I don't want to let myself miss this.",
+	"10Hearts.15": "Really?#$b#... And you're up here anyway.$l",
+	"10Hearts.16": "That's part of why I like you, @... you have enough courage for the both of us.$l",
+	"10Hearts.17": "I'm going to open my eyes and look down... don't let go of my hand.",
+	"10Hearts.18": "Okay. Okay, I think I can do it now.$8",
+	"10Hearts.19": "Hey, this is incredible! I think I can see Mayor Lewis standing in the town square!$h",
+	"10Hearts.20": "Haha... if you'd told me last year that I'd be doing this now, I wouldn't have believed you.",
+	"10Hearts.21": "Um... @? I just wanted to say that I... uh...$7",
+	//local man probably had a whole speech planned and completely forgot it the second he went to say it. rip in piss babe
+	"10Hearts.22": "...$l",
+	"10Hearts.23": "Whoops... Our time was up half an hour ago. We'd better touch down.$l",
+	"10Hearts.after": "I haven't had such a wonderful day in as long as I can remember.$l",
+
 	//12 Heart Event
 	
 	"12Hearts.1": "Hmm... Needs salt...",
@@ -142,7 +172,7 @@
 	"12Hearts.6": "Presto!",
 	"12Hearts.7": "Ah... You're right on time, @!$h#$b#Let me just set the table...",
 	"12Hearts.8": "You've been working so hard on the farm... I thought it might be nice to surprise you with a romantic dinner.",
-	"12Hearts.9": "It's my very own 'angel hair pasta primavera'...#$b#I decided to take bit of a risk and not follow a recipe.$h#$b#I hope you like it.$1",
+	"12Hearts.9": "It's my very own 'angel hair pasta primavera'...#$b#I decided to take bit of a risk and not follow a recipe.$h#$b#I hope you like it.$l",
 	"12Hearts.10": "#It tastes just heavenly#It tastes fresh and healthy#It tastes a little smoky",
 	"12Hearts.11": "Heavenly, huh? That must be the 'angel hair'!$h",
 	"12Hearts.12": "Oh yes, I forgot to mention... it's 'whole wheat' pasta, and I used plenty of farm-fresh vegetables.#$b#So in a way you helped make it too!$h",
@@ -156,15 +186,18 @@
 	"12Hearts.20": "Oh, good! That sounds like a great way to spend the day.#$b#How is everyone in town?",
 	"12Hearts.21": "That makes sense. There's lots to do in this valley, and only so many hours in the day!#$b#Hopefully this was a nice break after all that running around.$h",
 	"12Hearts.22": "Ah... I have that problem sometimes, too.$s#$b#That might be a sign you're working yourself too hard. Remember to rest sometimes, alright?",
-	"12Hearts.23": "Took the day off, huh?#$b#Good. Not every day needs to be interesting. Little moments like this are nice, too.$1",
+	"12Hearts.23": "Took the day off, huh?#$b#Good. Not every day needs to be interesting. Little moments like this are nice, too.$l",
 	"12Hearts.24": "You and Harvey enjoy a nice conversation with your meal...",
 	"12Hearts.25": "... and before you know it you've been talking for hours.",
 	"12Hearts.26": "$query DAY_OF_WEEK Monday Wednesday #Wow, how did it get so late?#$b#I should probably think about going to bed or I'll be falling asleep at my desk tomorrow.|Wow, it got late, didn't it?#$b#At least I don't have to work tomorrow.$h",
 	"12Hearts.27": "Don't worry about the dishes. I'll take care of those.",
-	"12Hearts.28": "Oh, think of it this way: I almost set the kitchen on fire, cleaning it up should be my job.#$b#Besides, I like doing things for you. I cook and keep the house tidy so that when you come home you don't have to worry about it.#$b#It's one of the little ways I try to show you that I love you.$h",
+	"12Hearts.28": "Oh, think of it this way: I almost set the kitchen on fire, cleaning it up should be my job.#$b#Besides, I like doing things for you. I cook and keep the house tidy so that when you come home you don't have to worry about it.#$b#It's one of the little ways I try to show you that I love you.$l",
 	"12Hearts.29": "Tonight really was wonderful. Thank you, {{Nickname}}.",
-	"12Hearts.after": "I know it's not nearly as exciting as the things you do every day, but not using a recipe is something I never would have done before I met you.#$b#You really are the best thing that's ever happened to me.$1",
+	"12Hearts.after": "I know it's not nearly as exciting as the things you do every day, but not using a recipe is something I never would have done before I met you.#$b#You really are the best thing that's ever happened to me.$l",
 	
+	//Mail
+	
+	"8HeartsMail": "@,^^I'm sorry that I was so frazzled yesterday. I don't get many visitors, so when you stopped by it was a surprise.^^Not a bad one! Just unexpected.^^Anyway... I was reorganizing my desk and found this. I thought you might like to have it. If you ever want to listen to the planes go by, you can tune it to frequency 140.^^- Harvey%item furniture RetroRadio%%[#]A Gift From Harvey",
 	
 	//Weekly Dialogue
 	
@@ -176,7 +209,7 @@
 	"Mon.6": "Sometimes I feel as though I wake up tired. Do you ever have days like that?",
 	"Mon.7": "I have an entire drawer in my kitchen full of recipes I've clipped out of magazines.#$e#In theory it's a great idea but in practice I don't think I open the drawer unless I'm putting another one in.$h",
 	"Mon.8": "I think I'd like to stay in Stardew Valley permanently. I'm finally starting to feel involved in the community.#$e#It feels good to know that you're liked as well as useful.",
-	"Mon.9": "I've started really making an effort to cook more regularly.#$b#You're welcome to come over for dinner sometime, {{Nickname}}. Having someone else to cook for would be nice.$1",
+	"Mon.9": "I've started really making an effort to cook more regularly.#$b#You're welcome to come over for dinner sometime, {{Nickname}}. Having someone else to cook for would be nice.$l",
 	"Mon.10": "Lately I've been feeling like a weight's been lifted off my shoulders.#$b#It's funny; I got so used to it that I almost didn't notice it was there until it was gone.",
 	
 	"Tue.1": "It's a beautiful day, isn't it?#$e#I wish I had less work to do.$s",
@@ -187,7 +220,7 @@
 	"Tue.6": "Did you know you can develop allergies later in life?#$b#I only recently became allergic to shellfish.#$e#I'm going to miss pasta with clam sauce...$s",
 	"Tue.7": "It's difficult knowing that no matter how much advice I give, it's up to my patients whether or not they take it.#$e#I worry about George and Pam a lot.$s",
 	"Tue.8": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Don't overwork yourself, @.#$e#Your health is important to me.|Don't overwork yourself, @. #$e#If our farmers get sick, where will we get our food? We need you!$h",
-	"Tue.9": "It's good to see you, @.#$e#I admit it's nice to have something to get out of bed for besides work.$1",
+	"Tue.9": "It's good to see you, @.#$e#I admit it's nice to have something to get out of bed for besides work.$l",
 	"Tue.10": "They say that just smiling more can improve your health.#$e#I was always a little dubious about that.#$b#Being with you is starting to convince me, though.$h",
 	
 	"Wed.1": "Remember to cover your mouth when you sneeze.#$e#Then make sure to wash your hands.",
@@ -213,7 +246,7 @@
 	"Thu.6": "%revealtaste:Maru:432 I tried making my own pickles once.#$b#I think I'm the reason Maru won't eat them now.$s",
 	"Thu.7": "Do you ever listen to music while you're working?#$b#I find it helps the time go by much faster.$h",
 	"Thu.8": "I always wanted to work in a smaller, underserved community.#$b#It can vastly improve quality of life to have easier access to medical care.#$e#Imagine how much crankier George would be if he had to go all the way to Zuzu City for his checkups!$h",
-	"Thu.9": "I wrote the wrong date on a report the other day.#$b#I was thinking about you and got distracted.$1",
+	"Thu.9": "I wrote the wrong date on a report the other day.#$b#I was thinking about you and got distracted.$l",
 	"Thu.10": "Maintaining work-life balance has always been something I struggle with.$s#$e#If I didn't live alone I think it would be easier.$l",
 	
 	"Fri.1": "Feel free to stop by my office if you're ever feeling ill.#$e#Though the farming lifestyle is very active. You'll probably stay healthy without trying.$h",
@@ -223,9 +256,9 @@
 	"Fri.5": "I've found that being a doctor is very fulfilling work.#$b#I've always felt happiest when I'm helping other people.",
 	"Fri.6": "It's kind of you to make time to talk with me, @.#$e#It always brightens my day.$h",
 	"Fri.7": "Living where I work makes some things easier... on the other hand, it makes it difficult to ever stop working.",
-	"Fri.8": "I had a phase as a child where I was convinced I wanted to be a jazz pianist.$#b#At my first recital I threw up before I even got on stage. I never played the piano again.#$e#It was mortifying then but it's kind of funny now.$h",
+	"Fri.8": "I had a phase as a child where I was convinced I wanted to be a jazz pianist.#$b#At my first recital I threw up before I even got on stage. I never played the piano again.#$e#It was mortifying then but it's kind of funny now.$h",
 	"Fri.9": "I've been thinking about setting up a little herb garden in my window.#$e#If you have any tips for keeping plants alive, I'd love to hear them.$h",
-	"Fri.10": "{{Nickname}}, I know I'm not technically your doctor...#$b#But if you ever need a 'confidential checkup' you know where to find me.$1",
+	"Fri.10": "{{Nickname}}, I know I'm not technically your doctor...#$b#But if you ever need a 'confidential checkup' you know where to find me.$l",
 	
 	"Sat.1": "I never really relax, even on weekends.#$e#It's not as though I can say 'sorry, it's my day off' if there's a medical emergency.",
 	"Sat.2": "Did you know the museum library has an extensive microfiche collection?#$e# It's fascinating to read news articles from decades ago. Things were very different then.",
@@ -247,12 +280,12 @@
 	"Sun.7": "Medical school was difficult, but I've never regretted the decision to pursue it.#$e#It's more than a career for me; it's a vocation. It gives me purpose.",
 	"Sun.8": "Imagine having a patient's life completely in your hands, and failing to keep them alive... that's something that will haunt you forever.$s#$e#Hypothetically.",
 	"Sun.9": "Some people know what they want to do with their lives from a very young age. I envy that.#$e#It took me a lot of false starts to get to where I am and I've always felt a little behind because of it.",
-	"Sun.10": "Do you ever get lonely living by yourself on the farm, {{Nickname}}?#$e#Just wondering.$1",
+	"Sun.10": "Do you ever get lonely living by yourself on the farm, {{Nickname}}?#$e#Just wondering.$l",
 	
 	//Date and/or Season-Specific Dialogue
 	
-	"Summer.Heat":"It's been so difficult to focus on my work lately.#$b#You know, because of the heat.$1",
-	"Fall.Plans":"$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.$1#I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
+	"Summer.Heat":"It's been so difficult to focus on my work lately.#$b#You know, because of the heat.$l",
+	"Fall.Plans":"$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.$l#I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
 	"Spring.FlowerDance": "The Flower Dance is tomorrow. I'm not really much of a dancer, but Maru always insists I go.",
 	"Fall.Mushrooms": "Did you know many of the mushrooms that grow locally are edible?$#b#Be careful of the red ones, though.",
 	"Fall.Chilly": "The weather has started to turn.#$b#Add more layers if you start feeling chilly.",
@@ -272,7 +305,7 @@
 	"summer11.2": "I hope you added something of high quality to the soup.#$e#We all want to leave a good impression on the Governor.",
 	"summer11.2.spouse": "Hot soup has never made sense to me as the centerpiece for a Summer festival.#$e#One of these years we should try a gazpacho.",
 	
-	"FlowerDanceSpouse.1": "I've been looking forward to it all afternoon! You look radiant in the fresh spring air.$1",
+	"FlowerDanceSpouse.1": "I've been looking forward to it all afternoon! You look radiant in the fresh spring air.$l",
 	"FlowerDanceSpouse.2": "Of course! I was hoping you would ask.$l#$b#Not that I was ever really worried you wouldn't.$h",
 	"FlowerDanceSpouse.3": "I would love to. I don't even find it all that embarassing anymore!$h",
 	"FlowerDanceDecline": "Oh! Ah, no thank you.#$b#It's embarrassing enough without making a fool of myself in front of someone I barely know.$s",
@@ -288,7 +321,7 @@
 	"Marriage.spring_1": "The explosion of life at the start of a new year is invigorating, don't you think?#$e#Maybe I'll get my paperwork out of the way early today.",
 	"Marriage.spring_8": "The birds that left for the Winter have started coming back.#$e#I'm sure there's a science behind how they navigate. I should look it up.",
 	"Marriage.spring_12": "Good luck in the egg hunt tomorrow!$h#$e#Of course I'll be there to watch, even if I'm not a big fan of the crowd...",
-	"Marriage.spring_23": "Will you dance with me at the festival tomorrow?$7#$e#It's one of my favorite parts of the year.$1",
+	"Marriage.spring_23": "Will you dance with me at the festival tomorrow?$7#$e#It's one of my favorite parts of the year.$l",
 	"Marriage.spring_25": "Hm... my \"to read\" list is getting pretty short.#$b#Any recommendations?",
 	"Marriage.summer_1": "Make sure you don't get sunburnt, {{Nickname}}!$8#$b#I've stocked up on sunscreen, so be sure to put some on before you go out.",
 	"Marriage.summer_8": "I didn't sleep so well last night... it's difficult to get comfortable in this heat.$s",
@@ -324,7 +357,7 @@
 	"jobReturn_Harvey.6": "What a long day... I think I'm going to relax for the rest of the night.",
 	
 	"jobVisit.1": "Hi {{Nickname}}. What are you doing at the clinic?#$e#Ah, you just came to see me. That's nice.$h",
-	"jobVisit.2": "Oh, hello! Sorry, I'm a little busy right now.#$b#Not that it's not always good to see you.$1",
+	"jobVisit.2": "Oh, hello! Sorry, I'm a little busy right now.#$b#Not that it's not always good to see you.$l",
 	"jobVisit.3": "%Harvey is counting something under his breath and looks deep in thought. Maybe it's better to leave him be while he's working.",
 	"Marriage.Mon.0.1": "Hi! Did you forget something we needed to put on the grocery list?",
 	"Marriage.Mon.0.2": "Hello, {{Nickname}}. I'm just picking up some essentials.#$e#And maybe a few fancy spices.#$b#I don't know what I'll do with them yet, but that's part of the fun of it.$h",
@@ -354,7 +387,7 @@
 	//A lot of these didn't NEED editing except they are phrased super weird so I tried to make them less uhhhh Strange
 	//I also left out the ones about the NPC spouse being pregnant I'm sorry if you have a trans Harvey mod that I am not aware of
 	//If you do oh my god please tell me I'd be all the way into trans Harvey. we can be t4t. T treated him really good to allow for a mustache that nice & im kinda jealous
-	"NewChild_SecondChild1": "Our little family has really grown.. it's incredible to think how far we've come together.$1",
+	"NewChild_SecondChild1": "Our little family has really grown.. it's incredible to think how far we've come together.$l",
 	"NewChild_SecondChild2": "Being a father to two beautiful children is like a dream come true. We really have come so far, haven't we?",
 	"NewChild_Adoption": "{0} is just perfect... we're so incredibly lucky.",
 	"NewChild_FirstChild": "I'm so glad everything went well. You take it easy while we get {0} settled, okay?",
@@ -365,14 +398,14 @@
 	"NPC.cs.4447": "I've been reading up on parenting to get ready for when our baby arrives. I'm so excited!$h",
 	"NPC.cs.4448": "You have that pregnant glow, {0}. It really suits you.$l",
 	
-	"Good_0": "I still can barely believe we're married, {{Nickname}}. It just doesn't feel real sometimes...$1",
-	"Good_1": "I was so lonely before you came into my life... it was awful.$s#$b#Thank you for saving me from that.$1",
-	"Good_2": "I think I understand now why they call a spouse your \"other half\".#$b#It's like marrying you filled an empty place in me.$1",
-	"Good_3": "Oh, {{Nickname}}... you look so ${handsome^beautiful^amazing}$.$1#$e#I mean! Even more than usual.$7",
-	"Good_4": "The apartment was just somewhere I lived...#$b#Here, with you? This feels like a real home.$1",
-	"Good_5": "I was just admiring my wedding amulet... I never take it off, you know.$1",
+	"Good_0": "I still can barely believe we're married, {{Nickname}}. It just doesn't feel real sometimes...$l",
+	"Good_1": "I was so lonely before you came into my life... it was awful.$s#$b#Thank you for saving me from that.$l",
+	"Good_2": "I think I understand now why they call a spouse your \"other half\".#$b#It's like marrying you filled an empty place in me.$l",
+	"Good_3": "Oh, {{Nickname}}... you look so ${handsome^beautiful^amazing}$.$l#$e#I mean! Even more than usual.$7",
+	"Good_4": "The apartment was just somewhere I lived...#$b#Here, with you? This feels like a real home.$l",
+	"Good_5": "I was just admiring my wedding amulet... I never take it off, you know.$l",
 	"Good_6": "Be careful, for my sake? I know you're very capable, but I still have nightmares about losing you...$7",
-	"Good_7": "I appreciate how hard you work, {{Nickname}}.$h#$b#Though... maybe you could take tonight off? We could stay in and open a bottle of wine.$1",
+	"Good_7": "I appreciate how hard you work, {{Nickname}}.$h#$b#Though... maybe you could take tonight off? We could stay in and open a bottle of wine.$l",
 	"Good_8": "I never thought I'd be able to have this kind of life.#$b#I feel so incredibly lucky.$h",
 	"Good_9": "You keep my life interesting, {{Nickname}}. I don't think I'll ever get bored, living here!$h",
 	
@@ -421,7 +454,7 @@
 	"Spring.Indoor_Night_1": "I took it easy today... spent some time reading, fiddled with my radio, and worked on a model airplane.#$e#I feel like I've become much better at taking breaks since I married you.$h",
 	"Spring.Indoor_Night_2": "I hope you know that I don't mind if you stay out late occasionally.#$e#I know you have a lot to get done every day.",
 	"Spring.Indoor_Night_3": "It's really great to live somewhere as relaxing as %farm Farm.#$e#I feel like my blood pressure's improved significantly since I moved out here.$h",
-	"Spring.Indoor_Night_4": "Oh! Sorry, I was just daydreaming and forgot what I was going to do.#$e#About what? Oh... You know. Planes.$1",
+	"Spring.Indoor_Night_4": "Oh! Sorry, I was just daydreaming and forgot what I was going to do.#$e#About what? Oh... You know. Planes.$l",
 		
 	"Spring.Outdoor_0": "The view from here is lovely. You've really done a great job with the place.$h",
 	"Spring.Outdoor_1": "It's good to stop working and breathe in the fresh %farm Farm air sometimes. Don't you think?",
@@ -440,7 +473,7 @@
 	"Spring.funReturn_Harvey.2": "Did you have a good day, {{Nickname}}?#$e#I'm a little tired, but the good kind of tired.",
 	"Spring.funReturn_Harvey.3": "I saw a rare Southern Valley Mallard on my walk today!$h#$e#I wish I'd had a camera with me to take a picture. I did manage to pick up a feather, though. [444]",
 	
-	"Spring.OneKid_0": "I always dreamed of having a family, you know.#$e#I used to think I'd be a bachelor forever... I love you so much.$1",
+	"Spring.OneKid_0": "I always dreamed of having a family, you know.#$e#I used to think I'd be a bachelor forever... I love you so much.$l",
 	"Spring.OneKid_1": "I'm not actually that worried about %kid1 getting hurt out on the farm.#$b#One of the best things about kids is how sturdy they are. They're built to get into trouble.$h",
 	"Spring.TwoKids_0": "I believe a child should be allowed to play and explore to their heart's content. It's good to encourage their natural curiosity.",
 	"Spring.TwoKids_1": "Keeping track of two children is better exercise than anything else I've ever tried!$h",
@@ -464,15 +497,15 @@
 	"Summer.Indoor_Day_3": "I've been thinking... maybe I'll try iced coffee for a change.#$e#Variety is the spice of life, right?$h",
 	"Summer.Indoor_Day_4": "Days tend to be longest in Summer.#$b#That means more time to fill with whatever you like!",
 	"Summer.Indoor_Night_0": "I find most of the Summer bugs annoying, but I have to admit, the butterflies are nice.",
-	"Summer.Indoor_Night_1": "It's great living out here where there's relatively little light pollution.#$e#You can see almost every star in the sky.$1",
+	"Summer.Indoor_Night_1": "It's great living out here where there's relatively little light pollution.#$e#You can see almost every star in the sky.$l",
 	"Summer.Indoor_Night_2": "This house has surprisingly good acoustics.#$b#It's almost got me thinking about picking up piano again.",
 	"Summer.Indoor_Night_3": "Are there really animate skeletons in the mines?#$e#You know, in retrospect, I shouldn't have asked.$s",
-	"Summer.Indoor_Night_4": "...$1#$b#Oh, sorry. I just got caught up in looking at you.",
+	"Summer.Indoor_Night_4": "...$l#$b#Oh, sorry. I just got caught up in looking at you.",
 		
 	"Summer.Outdoor_0": "Whoof... it's hot out here. I might head inside again soon.",
-	"Summer.Outdoor_1": "I can't tell you how lucky I feel to get to spend my life with you.$1",
+	"Summer.Outdoor_1": "I can't tell you how lucky I feel to get to spend my life with you.$l",
 	"Summer.Outdoor_2": "Have you noticed? There's a bird's nest up under the roof.#$e#%farm Farm is so full of life!",
-	"Summer.Outdoor_3": "This is so much nicer than being cooped up in the clinic all day.$l#$e#I love watching you work on the farm... hehe.$1",
+	"Summer.Outdoor_3": "This is so much nicer than being cooped up in the clinic all day.$l#$e#I love watching you work on the farm... hehe.$l",
 	"Summer.Outdoor_4": "Be sure to drink enough water today, {{Nickname}}. It's easy to get dehydrated in weather like this.",
 	"Summer.patio_Harvey.1": "A bee landed on me earlier.#$b#Oh, don't worry! They don't sting unless you bother them. She went on her way eventually.$h",
 	"Summer.patio_Harvey.2": "I might be overwatering my plants... I'm just worried about this heat drying them out!",
@@ -507,13 +540,13 @@
 	"Fall.Indoor_Day_0": "Good morning, {{Nickname}}. I've been up for a while already.#$e#Sometimes it's nice to enjoy the early morning quiet.",
 	"Fall.Indoor_Day_1": "Here's your breakfast, {{Nickname}}, just how you like it. I think I got the consistency on the eggs just right this time. [201]$h",
 	"Fall.Indoor_Day_2": "If you see any edible mushrooms while you're out today, be sure to pick them up.#$e#There's nothing fresher than straight off the ground!$h", 
-	"Fall.Indoor_Day_3": "Sometimes I wonder what my life would be like if you'd never read that letter from your Grandfather...#$b#I'm glad that you did.$1",
+	"Fall.Indoor_Day_3": "Sometimes I wonder what my life would be like if you'd never read that letter from your Grandfather...#$b#I'm glad that you did.$l",
 	"Fall.Indoor_Day_4": "Did you sleep well last night, {{Nickname}}? I had the strangest dream...#$e#You were growing pumpkins, but they just kept growing until they were taller than I was! Weird, right?",
 	"Fall.Indoor_Night_0": "You know, there are so many good fishing spots in Pelican Town but I've never actually gone fishing.#$e#We should make a day of it sometime. Would you like that?",
 	"Fall.Indoor_Night_1": "I think there's an owl living in the woods around here.#$e#I've heard hooting at night before, but I've never managed to spot it.",
 	"Fall.Indoor_Night_2": "I didn't pick up any radio chatter today, but I did see several flocks of birds heading South.",
 	"Fall.Indoor_Night_3": "I'm due for an eye exam but I've been putting off scheduling one.#$b#They say doctors are the worst patients and I admit there's some truth to that.",
-	"Fall.Indoor_Night_4": "It's funny to think about how I used to be scared of getting old.#$b#I think what I was really scared of was getting old alone. I'd love to grow old with you.$1",
+	"Fall.Indoor_Night_4": "It's funny to think about how I used to be scared of getting old.#$b#I think what I was really scared of was getting old alone. I'd love to grow old with you.$l",
 		
 	"Fall.Outdoor_0": "This is a very safe spot. You go on ahead and take care of business, don't worry about me.",
 	"Fall.Outdoor_1": "Are you thinking of decorating for Spirit's Eve?#$e#I never did when I lived alone, but then, there wasn't much point.",
@@ -550,12 +583,12 @@
 	"Winter.Rainy_Night_2": "You look a little chilled, {{Nickname}}.#$b#Go and warm yourself up by the fire, alright? I'll make you something warm to drink.",
 	"Winter.Rainy_Night_4": "I've been thinking about getting into journaling.#$e#I've heard it's good for a person's mental health, but I think I'd worry too much about making it look nice.",
 		
-	"Winter.Indoor_Day_0": "Don't worry about getting me the perfect gift this year.#$b#I'd treasure anything you gave me.$1",
+	"Winter.Indoor_Day_0": "Don't worry about getting me the perfect gift this year.#$b#I'd treasure anything you gave me.$l",
 	"Winter.Indoor_Day_1": "Don't forget to eat a healthy breakfast, {{Nickname}}. It's the best way to start your day! [201]",
 	"Winter.Indoor_Day_2": "Every year Maru gifts me a coffee mug with a different element from the periodic table on it.#$e#I'm hoping this year I'll get the last of the Halogens.$h",
 	"Winter.Indoor_Day_3": "I mixed hot cocoa powder into my coffee this morning. It's a very lazy way to make a mocha!$h",
 	"Winter.Indoor_Day_4": "I'm going to do laundry today. If you have anything you want washed, this is your last chance to put it in the hamper.",
-	"Winter.Indoor_Night_0": "You're as ${handsome^beautiful^perfect}$ as the day I married you.$1#$e#Too cheesy? Sorry, I get a little sentimental this time of year.",
+	"Winter.Indoor_Night_0": "You're as ${handsome^beautiful^perfect}$ as the day I married you.$l#$e#Too cheesy? Sorry, I get a little sentimental this time of year.",
 	"Winter.Indoor_Night_1": "I decided to go a little bit out of my comfort zone and try reading a mystery book.#$e#Did you know there's an entire genre called \"cozy mystery\"? It sounds contradictory but I'm actually enjoying it a lot!$h",
 	"Winter.Indoor_Night_2": "Maru once tried to explain something called \"Flight Simulator\" to me.#$b#I've never been fantastic with computers, but I might look into it.",
 	"Winter.Indoor_Night_3": "Don't forget to leave the taps running overnight to keep the pipes from freezing.#$e#I made that mistake once. Trust me.$s",
