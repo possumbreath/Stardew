@@ -71,9 +71,9 @@
 		"Bad_8": "{{i18n: Bad_8}}",
 		"Bad_9": "{{i18n: Bad_9}}",
 		
-		"jobLeave_Harvey": "{{i18n: jobLeave_Harvey.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
-		"jobReturn_Harvey": "{{i18n: jobReturn_Harvey.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
-		"spouseRoom_Harvey": "{{i18n: spouseRoom_Harvey.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
+		"jobLeave_Harvey": "{{i18n: jobLeave_Harvey.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
+		"jobReturn_Harvey": "{{i18n: jobReturn_Harvey.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
+		"spouseRoom_Harvey": "{{i18n: spouseRoom_Harvey.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
 	}
 },
 
@@ -111,10 +111,10 @@
 		"Outdoor_2": "{{i18n: {{Season}}.Outdoor_2|Nickname={{Nickname}}}}",
 		"Outdoor_3": "{{i18n: {{Season}}.Outdoor_3|Nickname={{Nickname}}}}",
 		"Outdoor_4": "{{i18n: {{Season}}.Outdoor_4|Nickname={{Nickname}}}}",
-		"patio_Harvey": "{{i18n: {{Season}}.patio_Harvey.{{Random:1,2,3,4}}}}",
+		"patio_Harvey": "{{i18n: {{Season}}.patio_Harvey.{{Random:{{Range: 1, 4}}}}}}",
 		
-		"funLeave_Harvey": "{{i18n: {{Season}}.funLeave_Harvey.{{Random:1,2,3}}|Nickname={{Nickname}}}}",
-		"funReturn_Harvey": "{{i18n: {{Season}}.funReturn_Harvey.{{Random:1,2,3}}|Nickname={{Nickname}}}}",
+		"funLeave_Harvey": "{{i18n: {{Season}}.funLeave_Harvey.{{Random:{{Range: 1, 3}}}}|Nickname={{Nickname}}}}",
+		"funReturn_Harvey": "{{i18n: {{Season}}.funReturn_Harvey.{{Random:{{Range: 1, 3}}}}|Nickname={{Nickname}}}}",
 		
 		"OneKid_0": "{{i18n: {{Season}}.OneKid_0}}",
 		"OneKid_1": "{{i18n: {{Season}}.OneKid_1}}",
@@ -137,9 +137,9 @@
 		"Indoor_Night_Harvey": "{{i18n: {{Season}}.Indoor_Night_0|Nickname={{Nickname}}}}",
 		"Outdoor_Harvey": "{{i18n: {{Season}}.Outdoor_0|Nickname={{Nickname}}}}",
 		
-		"jobLeave_Harvey": "{{i18n: jobLeave_Harvey.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
-		"jobReturn_Harvey": "{{i18n: jobReturn_Harvey.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
-		"spouseRoom_Harvey": "{{i18n: spouseRoom_Harvey.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
+		"jobLeave_Harvey": "{{i18n: jobLeave_Harvey.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
+		"jobReturn_Harvey": "{{i18n: jobReturn_Harvey.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
+		"spouseRoom_Harvey": "{{i18n: spouseRoom_Harvey.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
 	},
 },
 
@@ -177,9 +177,9 @@
 	"Action": "EditData",
 	"Target": "Strings/schedules/Harvey",
 	"entries": {
-		"marriageJob.000": "{{i18n: jobVisit.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
-		"marriage_Mon.000": "{{i18n: Marriage.Mon.0.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
-		"marriage_Mon.002": "{{i18n: Marriage.Mon.2.{{Random:1,2,3,4,5,6}}}}",
+		"marriageJob.000": "{{i18n: jobVisit.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
+		"marriage_Mon.000": "{{i18n: Marriage.Mon.0.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
+		"marriage_Mon.002": "{{i18n: Marriage.Mon.2.{{Random:{{Range: 1, 6}}}}}}",
 	},
 },
 
