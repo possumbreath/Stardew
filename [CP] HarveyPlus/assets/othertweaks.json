@@ -4,7 +4,7 @@
 	
 {		"LogName": "Gift Taste Tweaks Fully Modded",
 		"Action": "EditData",
-		"Target": "data/NPCGiftTastes",
+		"Target": "Data/NPCGiftTastes",
 		"When": {
 			"Gift Tastes": "Fully Modded",
 		},
@@ -20,7 +20,7 @@
 
 {		"LogName": "Gift Taste Tweaks Reactions Only",
 		"Action": "EditData",
-		"Target": "data/NPCGiftTastes",
+		"Target": "Data/NPCGiftTastes",
 		"When": {
 			"Gift Tastes": "Modded Reactions Only, Fully Modded",
 		},
@@ -93,7 +93,7 @@
 			"Season": "summer, winter",
 		},
 		"entries": {
-			//weather too hot and/or cold for nature walks, we readin inside
+			//weather too hot and/or cold for outside walks, we readin inside
 			"marriage_Mon": "830 SeedShop 2 26 2 \"Strings\\schedules\\Harvey:marriage_Mon.000\"/1200 ArchaeologyHouse 16 9 0/1430 ArchaeologyHouse 14 4 3 harvey_read \"Strings\\schedules\\Harvey:marriage_Mon.002\"/1700 bed",
 		},
 },

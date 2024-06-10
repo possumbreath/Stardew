@@ -177,7 +177,7 @@
 	"Action": "EditData",
 	"Target": "Strings/schedules/Harvey",
 	"entries": {
-		"marriageJob.000": "{{i18n: jobVisit.{{Random:1,2,3}}|Nickname={{Nickname}}}}",
+		"marriageJob.000": "{{i18n: jobVisit.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
 		"marriage_Mon.000": "{{i18n: Marriage.Mon.0.{{Random:1,2,3,4,5,6}}|Nickname={{Nickname}}}}",
 		"marriage_Mon.002": "{{i18n: Marriage.Mon.2.{{Random:1,2,3,4,5,6}}}}",
 	},
