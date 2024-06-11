@@ -131,7 +131,16 @@
 		},
 	},
 
-{	"LogName": "Engagement Dialogue Edits",
+{	"Logname": "Marriage StringsFromCSFiles Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Strings/StringsFromCSFiles",
+	"entries": {
+		"Harvey_Engaged": "{{i18n: AcceptPendant}}",
+		"Harvey_AfterWedding": "{{i18n: AfterWedding|Nickname={{Nickname}}}}",
+	},
+},
+
+{	"LogName": "Engagement Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Data/EngagementDialogue",
 	"entries": {
@@ -140,7 +149,7 @@
 	},
 },
 
-{	"LogName": "Rainy Dialogue Edits",
+{	"LogName": "Rainy Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Characters/Dialogue/rainy",
 	"entries": {
@@ -148,7 +157,7 @@
 		},
 	},
 	
-{	"LogName": "Valley Fair Dialogue Edits",
+{	"LogName": "Valley Fair Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Data/Festivals/fall16",
 	"entries": {
@@ -158,7 +167,7 @@
 		},
 	},
 	
-{	"LogName": "Flower Dance Dialogue Edits",
+{	"LogName": "Flower Dance Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Data/Festivals/spring24",
 	"entries": {
@@ -166,7 +175,7 @@
 		},
 	},
 
-{	"LogName": "Luau Dialogue Edits",
+{	"LogName": "Luau Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Data/Festivals/summer 11",
 	"entries": {

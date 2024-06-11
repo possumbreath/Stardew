@@ -131,11 +131,11 @@
 	},
 	"entries": {
 		//These feel redundant but idk I'm making sure because I noticed sometimes my dialogue procs and sometimes the default does unless I have it in both places. Null them if you want I'm not your dad
-		"Rainy_Day_Harvey": "{{i18n: {{Season}}.Rainy_Day_0|Nickname={{Nickname}}}}",
-		"Rainy_Night_Harvey": "{{i18n: {{Season}}.Rainy_Night_0|Nickname={{Nickname}}}}",
-		"Indoor_Day_Harvey": "{{i18n: {{Season}}.Indoor_Day_0|Nickname={{Nickname}}}}",
-		"Indoor_Night_Harvey": "{{i18n: {{Season}}.Indoor_Night_0|Nickname={{Nickname}}}}",
-		"Outdoor_Harvey": "{{i18n: {{Season}}.Outdoor_0|Nickname={{Nickname}}}}",
+		"Rainy_Day_Harvey": "{{i18n: {{Season}}.Rainy_Day_{{Random:{{Range: 0, 4}}}}|Nickname={{Nickname}}}}",
+		"Rainy_Night_Harvey": "{{i18n: {{Season}}.Rainy_Night_{{Random:{{Range: 0, 4}}}}|Nickname={{Nickname}}}}",
+		"Indoor_Day_Harvey": "{{i18n: {{Season}}.Indoor_Day_{{Random:{{Range: 0, 4}}}}|Nickname={{Nickname}}}}",
+		"Indoor_Night_Harvey": "{{i18n: {{Season}}.Indoor_Night_{{Random:{{Range: 0, 4}}}}|Nickname={{Nickname}}}}",
+		"Outdoor_Harvey": "{{i18n: {{Season}}.Outdoor_{{Random:{{Range: 0, 4}}}}|Nickname={{Nickname}}}}",
 		
 		"jobLeave_Harvey": "{{i18n: jobLeave_Harvey.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
 		"jobReturn_Harvey": "{{i18n: jobReturn_Harvey.{{Random:{{Range: 1, 6}}}}|Nickname={{Nickname}}}}",
@@ -157,7 +157,7 @@
 	},
 },
 
-{	"Logname": "More Child Marriage Dialogue Edit",
+{	"Logname": "More Marriage Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Strings/StringsFromCSFiles",
 	"When": {
@@ -165,6 +165,7 @@
 	},
 	"entries": {
 		"Event.cs.1736": "{{i18n: Event.cs.1736|Nickname={{Nickname}}}}",
+		"NPC.cs.4001": "{{i18n: Stardrop|Nickname={{Nickname}}}}",
 		"NPC.cs.4439": "{{i18n: NPC.cs.4439}}",
 		"NPC.cs.4440": "{{i18n: NPC.cs.4440}}",
 		"NPC.cs.4441": "{{i18n: NPC.cs.4441}}",
