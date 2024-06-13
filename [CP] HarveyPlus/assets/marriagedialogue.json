@@ -130,7 +130,7 @@
 		"Season": "{{Season}}",
 	},
 	"entries": {
-		//These feel redundant but idk I'm making sure because I noticed sometimes my dialogue procs and sometimes the default does unless I have it in both places. Null them if you want I'm not your dad
+		//these need to be in both places because. idk man it's just how it works out
 		"Rainy_Day_Harvey": "{{i18n: {{Season}}.Rainy_Day_{{Random:{{Range: 0, 4}}}}|Nickname={{Nickname}}}}",
 		"Rainy_Night_Harvey": "{{i18n: {{Season}}.Rainy_Night_{{Random:{{Range: 0, 4}}}}|Nickname={{Nickname}}}}",
 		"Indoor_Day_Harvey": "{{i18n: {{Season}}.Indoor_Day_{{Random:{{Range: 0, 4}}}}|Nickname={{Nickname}}}}",

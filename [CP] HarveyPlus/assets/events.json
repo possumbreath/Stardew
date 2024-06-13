@@ -4,7 +4,7 @@
 	"Action": "EditData",
 	"Target": "Data/mail",
 	"entries": {
-		"HarveyPlus.8Hearts": "{{i18n: 8heartsMail}}"
+		"HarveyPlus.8Hearts": "{{i18n: 8HeartsMail}}%item furniture RetroRadio%%[#]{{i18n: 8HeartsMailName}}"
 	},
 },
 
@@ -16,7 +16,7 @@
 		"Mail_Harvey_10heart": {
 			"Id": "Mail_Harvey_10heart",
 			"Trigger": "DayEnding",
-			"Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 2502, PLAYER_HAS_SEEN_EVENT Current HarveyPlus.Library",
+			"Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 2502, PLAYER_HAS_SEEN_EVENT Current HarveyPlus.8Date2",
 			"HostOnly": false,
 			"Action": "AddMail Current harveyBalloon",
 			"Actions": null,
@@ -68,8 +68,9 @@
 {	"LogName": "George Schedule Edit Post 2 Heart Event",
 	"Action": "EditData",
 	"Target": "Characters/schedules/George",
-	"When": 
-		{"HasSeenEvent": "56"},
+	"When": {
+		"HasSeenEvent": "56"
+	},
 	"entries": {
 		"spring_Wed": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1310 Town 37 77 3/1630 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep",
 		"summer_Wed": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1310 Town 20 61 2/1630 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep",
@@ -90,12 +91,12 @@
 
 {	"LogName": "4 Heart Event New",
 	"Action": "EditData",
-	"Target": "Data/Events/Saloon",
+	"Target": "Data/Events/ArchaeologyHouse",
 	"entries": {
-		//establish another side of his character since so far you've only seen him Doctoring
-		//WIP
+		//establish another side of his character since so far you've only seen him Doctoring. WIP
 		//This man goes to TWO places that aren't his house and they are the saloon and the library and you don't have an event in either? bullshit
-		"HarveyPlus.4Hearts/f Harvey 1000/p Harvey/w rainy": "Saloon1/-1000 -1000/farmer -10000 -10000 0 Shane 21 17 2 Leah 2 20 1 Pam 7 18 1 Willy 17 22 2 Sam 38 18 0 Gus 10 18 2 Emily 16 17 0 Harvey 18 20 0/skippable/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/advancedMove Emily true -3 0 4 5000 3 0 4 3000 -2 0 4 3000 -2 0 4 1000 4 0 4 4000/viewport 14 16/pause 1000/playSound doorClose/warp farmer 14 23/textAboveHead Gus \"Welcome in!\"/move farmer 0 -3 0/move Gus 3 0 1/textAboveHead Gus \"Just a moment.\"/move Gus 5 0 2/playSound pickUpItem/speak Gus \"Here's your coffee, Dr. Harvey.\"/pause 50/speak Harvey \"Thanks, Gus.\"/pause 100/move Gus -4 0 2/speak Gus \"Alright. What can I get for you, @?\"/quickQuestion #A beer.#Coffee.#Green tea.(break)speak Gus \"You got it! I'll be right back.$h\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey -5\\pause 100\\speak Harvey \"It's been a long day, huh?\"\\faceDirection farmer 1(break)speak Gus \"You got it! I'll be right back.$h\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey 20\\pause 100\\speak Harvey \"I'd say it's a little late in the day for caffeine, but they do say people in glass houses shouldn't throw stones.\"\\faceDirection farmer 1(break)speak Gus \"You got it! I'll be right back.$h\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey 10\\pause 100\\speak Harvey \"It certainly is a \"hot drinks\" kind of day, isn't it?\"\\faceDirection farmer 1/pause 100/speak Harvey \"I don't come here often, but sometimes on days like this it's nice to have coffee I didn't make myself.\"/pause 5000/end",
+		//I think it's silly he hangs out at the library and you never go there. half the people I talk to don't even know he does that. Booooo
+		"HarveyPlus.4Hearts/f Harvey 1000/p Harvey": "libraryTheme/-1000 -1000/farmer -100 -100 Harvey -105 105/pause 1500/globalFade/viewport -1000 -1000/stopMusic/end",
 	},
 },
 
@@ -106,7 +107,8 @@
 	"Target": "Data/Events/SeedShop",
 	"entries": {
 		"58/f Harvey 1500/t 1100 1500": null,
-		//The aerobics cutscene never made sense like sir what do you mean 'don't tell anyone' half the town is HERE do you think Marnie has never told Shane about this and laughed
+		//The aerobics cutscene never made sense like sir what do you mean 'don't tell anyone' half the town is HERE 
+		//do you think Marnie has never told Shane about this and laughed
 	},
 },
 
@@ -117,7 +119,21 @@
 		//AU where Harvey and Maru actually act like they know each other and talk to each other ever
 		//If you want me to buy they like each other enough to dance at the Flower Dance then I'm going to write them as Actual Friends. fight me on it
 		//anyway all I want in life is Maru asking Harvey if he knows what [legally distinct version of Just Dance] is
-		"HarveyPlus.6Hearts/f Harvey 1500/f Maru 500/p Maru": "aerobics/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/end",
+		"HarveyPlus.6Hearts/f Harvey 1500/f Maru 500/p Maru": "continue/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/end",
+		//speak Maru \"I'm just saying, I don't see why you're so stuck on it in the first place.\"
+		//speak Harvey \"Good habits now mean better outcomes later.#$b#At my age you have to start thinking about these things.\"
+		//speak Maru \"This again! Harvey, 'over thirty' is not old. It's not even middle-aged.#$b#You don't get to say 'at my age' until you're at least sixty.\"
+
+		//the farmer shows up here maybe?
+
+		//stuff happens
+		//harvey voice i just think regular exercise would be good for me but also i do not want anyone to perceive me ever and also the weekly aerobics meet is during clinic hours so i conveniently can't go to that
+		//maru voice this is fully a problem you invented for yourself but ok
+		//essentially i just want to establish that harvey is 1. preoccupied with health and aging and possibly 2. worried about being boring, and also mainly just strengthen his relationship with Maru on screen
+
+		//speak Maru \"Oh! I got so distracted, I completely forgot to ask if you came in for something.\"
+		//farmer laugh
+		//end
 	},
 },
 
@@ -127,7 +143,7 @@
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
 	"entries": {
-		"571102/f Harvey 2000/w sunny": "Hospital_Ambient/-1000 -1000/farmer -200 -2000 0 Harvey 4 5 0/skippable/changeLocation HarveyRoom/showFrame Harvey 23/viewport 5 6 true/mail HarveyPlus.8Hearts/addConversationTopic HarveyPlus.8HeartsCT/pause 1000/speak Harvey \"{{i18n: 8Hearts.1}}\"/pause 1000/emote Harvey 40/speak Harvey \"{{i18n: 8Hearts.2}}\"/pause 300/emote Harvey 40/pause 1000/playSound newArtifact/message \"{{i18n: 8Hearts.3}}\"/showFrame Harvey 28/jump Harvey/pause 50/speak Harvey \"{{i18n: 8Hearts.4}}\"/pause 10/faceDirection Harvey 1 true/move Harvey 2 0 1/playMusic kindadumbautumn/speak Harvey \"{{i18n: 8Hearts.5}}\"/pause 400/playSound doorClose/warp farmer 6 12/move farmer 0 -3 0/faceDirection Harvey 2/speak Harvey \"@!$8\"/quickQuestion {{i18n: 8Hearts.6}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: 8Hearts.7}}\"\\pause 10(break)friendship Harvey 30\\speak Harvey \"{{i18n: 8Hearts.8}}\"\\pause 10(break)friendship Harvey -10\\speak Harvey \"{{i18n: 8Hearts.9}}\"\\pause 10/speak Harvey \"{{i18n: 8Hearts.10}}\"/emote Harvey 16/speak Harvey \"{{i18n: 8Hearts.11}}\"/move Harvey 0 1 3/move Harvey -3 0 0/move Harvey 0 -2 0/speak Harvey \"{{i18n: 8Hearts.12}}\"/speed farmer 4/move farmer 0 -3 3/speed farmer 4/move farmer -4 0 0/speed farmer 4/move farmer 0 -2 0/speed farmer 4/speak Harvey \"{{i18n: 8Hearts.13}}\"/globalFade/cutscene plane/viewport -1000 -1000/pause 50/speak Harvey \"{{i18n: 8Hearts.14}}\"/pause 50/speak Harvey \"{{i18n: 8Hearts.15}}\"/faceDirection Harvey 3/faceDirection farmer 1/viewport 5 6 true/pause 1600/emote farmer 28/pause 100/speak Harvey \"{{i18n: 8Hearts.16}}\"/pause 100/speak Harvey \"{{i18n: 8Hearts.17}}\"/pause 1000/emote farmer 32/pause 50/speak Harvey \"{{i18n: 8Hearts.18}}\"/advancedMove Harvey false 0 2 16 0/faceDirection farmer 2/globalFade/viewport -1000 -1000/stopMusic/message \"{{i18n: 8Hearts.19}}\"/pause 300/end",
+		"571102/f Harvey 2000/w sunny": "Hospital_Ambient/-1000 -1000/farmer -200 -2000 0 Harvey 4 5 0/skippable/changeLocation HarveyRoom/showFrame Harvey 23/viewport 5 6 true/mail HarveyPlus.8Hearts/addConversationTopic HarveyPlus.8HeartsCT 6/pause 1000/speak Harvey \"{{i18n: 8Hearts.1}}\"/pause 1000/emote Harvey 40/speak Harvey \"{{i18n: 8Hearts.2}}\"/pause 300/emote Harvey 40/pause 1000/playSound newArtifact/message \"{{i18n: 8Hearts.3}}\"/showFrame Harvey 28/jump Harvey/pause 50/speak Harvey \"{{i18n: 8Hearts.4}}\"/pause 10/faceDirection Harvey 1 true/move Harvey 2 0 1/playMusic kindadumbautumn/speak Harvey \"{{i18n: 8Hearts.5}}\"/pause 400/playSound doorClose/warp farmer 6 12/move farmer 0 -3 0/faceDirection Harvey 2/speak Harvey \"@!$8\"/quickQuestion {{i18n: 8Hearts.6}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: 8Hearts.7}}\"\\pause 10(break)friendship Harvey 30\\speak Harvey \"{{i18n: 8Hearts.8}}\"\\pause 10(break)friendship Harvey -10\\speak Harvey \"{{i18n: 8Hearts.9}}\"\\pause 10/speak Harvey \"{{i18n: 8Hearts.10}}\"/emote Harvey 16/speak Harvey \"{{i18n: 8Hearts.11}}\"/move Harvey 0 1 3/move Harvey -3 0 0/move Harvey 0 -2 0/speak Harvey \"{{i18n: 8Hearts.12}}\"/speed farmer 4/move farmer 0 -3 3/speed farmer 4/move farmer -4 0 0/speed farmer 4/move farmer 0 -2 0/speed farmer 4/speak Harvey \"{{i18n: 8Hearts.13}}\"/globalFade/cutscene plane/viewport -1000 -1000/pause 50/speak Harvey \"{{i18n: 8Hearts.14}}\"/pause 50/speak Harvey \"{{i18n: 8Hearts.15}}\"/faceDirection Harvey 3/faceDirection farmer 1/viewport 5 6 true/pause 1600/emote farmer 28/pause 100/speak Harvey \"{{i18n: 8Hearts.16}}\"/pause 100/speak Harvey \"{{i18n: 8Hearts.17}}\"/pause 1000/emote farmer 32/pause 50/speak Harvey \"{{i18n: 8Hearts.18}}\"/advancedMove Harvey false 0 2 16 0/faceDirection farmer 2/globalFade/viewport -1000 -1000/stopMusic/message \"{{i18n: 8Hearts.19}}\"/pause 300/end",
 	},
 },
 
@@ -142,26 +158,24 @@
 },
 
 //8 Hearts Part 2: You're Dating Now
-
-	//He's gonna ask you on a library date it will be very cute shut up don't look at me
-	//I think it's silly he hangs out at the library and you never go there. half the people I talk to don't even know he does that. Booooo
-	//Both of these are literally just setup and then they end, I will tackle scripting later
 	
 {	"LogName": "8 Hearts Event Part 2: Romantic This Time",
 	"Action": "EditData",
 	"Target": "Data/Events/Farm",
 	"entries": {
-		"HarveyPlus.8Hearts2/D Harvey/A HarveyPlus.8HeartsCT/": "jaunty/64 15/farmer 64 16 2 Harvey 64 18 0/pause 1500/globalFade/viewport -1000 -1000/stopMusic/end",
+		"HarveyPlus.8Date1/D Harvey/A HarveyPlus.8HeartsCT/w rainy": "kindadumbautumn/64 15/farmer 64 16 2 Harvey 64 18 0/pause 1000/speak Harvey \"$query TIME 1200 #Hi, @.|Good morning, @.\"/pause 50/speak Harvey \"Sorry to stop by without warning, but I was wondering if, uh...\"/pause 50/$quickQuestion Would you like to meet me at the Stardrop Saloon later?#Sure!#Not today...(break)friendship Harvey 20\\speak Harvey \"Great!$h#$b#I'll meet you there sometime after 6PM, alright?\"(break)friendship Harvey -2\\speak Harvey \"Ah. Fair enough, I'm sure you're very busy.#$b#I'm there most rainy nights, if you're ever free.\"/pause 50/speak Harvey \"See you later, @.\"/globalFade/viewport -1000 -1000/stopMusic/end",
+		//this way if you go that day it makes sense and if you don't it also makes sense. hee hoo
+		//TODO: Doublecheck when he actually gets to the saloon on rain days
 	},
 },
 
-{	"LogName": "8 Hearts Library Date",
+{	"LogName": "8 Hearts Date",
 	"Action": "EditData",
-	"Target": "Data/Events/ArchaeologyHouse",
+	"Target": "Data/Events/Saloon",
 	"entries": {
-		"HarveyPlus.Library/e HarveyPlus.8Hearts2/D Harvey/DayOfWeek Sat": "libraryTheme/-1000 -1000/farmer -100 -100 Harvey -105 105/pause 1500/globalFade/viewport -1000 -1000/stopMusic/end",
-		//maybe different reactions depending on how much and/or what the player has donated to the museum? that might be fun
-		//maybe also a CT with some characters noticing you're dating? idk i just want people to react to things
+		//this is the old text of the WIP for when it was the 4 hearts event but it made more sense to put it here so i swapped it with the Library event 
+		//I'll cannibalize it into making more sense as an 8 heart date later
+		"HarveyPlus.8Date2/e HarveyPlus.8Date1/p Harvey/w rainy": "Saloon1/-1000 -1000/farmer -10000 -10000 0 Shane 21 17 2 Leah 2 20 1 Pam 7 18 1 Willy 17 22 2 Sam 38 18 0 Gus 10 18 2 Emily 16 17 0 Harvey 18 20 0/skippable/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/advancedMove Emily true -3 0 4 5000 3 0 4 3000 -2 0 4 3000 -2 0 4 1000 4 0 4 4000/viewport 14 16/pause 1000/playSound doorClose/warp farmer 14 23/textAboveHead Gus \"Welcome in!\"/move farmer 0 -3 0/move Gus 3 0 1/textAboveHead Gus \"Just a moment.\"/move Gus 5 0 2/playSound pickUpItem/speak Gus \"Here's your coffee, Dr. Harvey.\"/pause 50/speak Harvey \"Thanks, Gus.\"/pause 100/move Gus -4 0 2/speak Gus \"Alright. What can I get for you, @?\"/quickQuestion #A beer.#Coffee.#Green tea.(break)speak Gus \"You got it! I'll be right back.$h\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey -5\\pause 100\\speak Harvey \"It's been a long day, huh?\"\\faceDirection farmer 1(break)speak Gus \"You got it! I'll be right back.$h\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey 20\\pause 100\\speak Harvey \"I'd say it's a little late in the day for caffeine, but they do say people in glass houses shouldn't throw stones.\"\\faceDirection farmer 1(break)speak Gus \"You got it! I'll be right back.$h\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey 10\\pause 100\\speak Harvey \"It certainly is a \"hot drinks\" kind of day, isn't it?\"\\faceDirection farmer 1/pause 100/speak Harvey \"I don't come here often, but sometimes on days like this it's nice to have coffee I didn't make myself.\"/pause 5000/end",
 	},
 },
 
@@ -171,6 +185,8 @@
 	//alternate option: he asks you a question at some point early on that determines what date you go on, similar to sam's band music
 	//options (these are just ideas I will probably not do all of them): used bookstore, botanical garden, psychic/woo woo shop (could be fun to get readings together), hike/camping, some kinda concert, a farmer's market, museum
 	//I'm committed to making dating motion real but this is low priority for now
+
+	//I think also in here a Maru wingmanning event would be fun. Maru shovel talk. Maru is best friends with the two most sad, anxious nerds in town and now that you're dating one of them she has her taser ready for if you fuck it up
 
 //10 Hearts
 
@@ -214,7 +230,7 @@
 	"Target": "Data/Events/FarmHouse",
 	"entries": {
 		"3917626": null,
-		"HarveyPlus.12Hearts/f Harvey 3000/O Harvey/t 2000 2400/p Harvey/L": "harveys_theme_jazz/-1000 -1000/farmer -100 -100 0 Harvey 22 24 0/skippable/ambientLight 0 0 0/makeInvisible 19 24 6 1/specificTemporarySprite harveyKitchenSetup/viewport 22 24 true/pause 1500/showFrame Harvey 19/playSound clank/shake Harvey 200/pause 800/playSound clank/shake Harvey 200/pause 800/playSound clank/shake Harvey 200/pause 800/showFrame Harvey 53/pause 300/playSound sipTea/pause 1000/textAboveHead Harvey \"{{i18n: 12Hearts.1}}\"/pause 800/move Harvey -1 0 0/pause 300/showFrame Harvey 19/pause 1000/stopAnimation Harvey/move Harvey 1 0 0/pause 800/showFrame Harvey 19/playSound bubbles/pause 1500/playSound clank/shake Harvey 200/pause 800/playSound furnace/specificTemporarySprite harveyKitchenFlame/pause 500/jump Harvey/pause 500/textAboveHead Harvey \"{{i18n: 12Hearts.2}}\"/pause 150/speed Harvey 6/move Harvey -2 0 0/pause 100/speed Harvey 6/move Harvey 2 0 0/playSound fireball/pause 1000/showFrame Harvey 33/shake Harvey 200/pause 1000/showFrame Harvey 32/emote Harvey 60/pause 800/textAboveHead Harvey \"{{i18n: 12Hearts.3}}\"/showframe Harvey 33/shake Harvey 200/pause 1500/stopAnimation Harvey/faceDirection Harvey 1/pause 500/move Harvey 2 0 0/pause 800/showFrame Harvey 19/playSound openChest/textAboveHead Harvey \"{{i18n: 12Hearts.4}}\"/pause 1500/stopAnimation Harvey/move Harvey -2 0 0/pause 300/showFrame Harvey 19/pause 500/playSound dropItemInWater/pause 1000/stopAnimation Harvey/move Harvey -3 0 0/pause 800/showFrame Harvey 19/textAboveHead Harvey \"{{i18n: 12Hearts.5}}\"/playSound coin/pause 800/stopAnimation Harvey/move Harvey 3 0 0/pause 800/showFrame Harvey 19/playSound slosh/pause 1500/showFrame Harvey 53/pause 300/playSound sipTea/pause 1000/showFrame Harvey 4/jump Harvey/textAboveHead Harvey \"{{i18n: 12Hearts.6}}\"/pause 1500/warp farmer 27 30/playSound doorClose/move farmer 0 -1 0/pause 50/stopAnimation Harvey/faceDirection Harvey 2/speak Harvey \"{{i18n: 12Hearts.7}}\"/pause 300/globalFade/viewport -1000 -1000/pause 200/playMusic none/pause 500/makeInvisible 20 24 4 2/ambientLight 180 180 0/playMusic kindadumbautumn/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/speak Harvey \"{{i18n: 12Hearts.8}}\"/emote farmer 20/speak Harvey \"{{i18n: 12Hearts.9}}\"/animate Harvey false true 300 51 52/pause 2500/animate Harvey false true 100 51/quickQuestion {{i18n: 12Hearts.10}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: 12Hearts.11}}\"(break)friendship Harvey 10\\speak Harvey \"{{i18n: 12Hearts.12}}\"(break)speak Harvey \"{{i18n: 12Hearts.13}}\"/pause 200/speak Harvey \"{{i18n: 12Hearts.14}}\"/animate Harvey false true 300 51 52/pause 1500/stopAnimation Harvey/showFrame Harvey 51/speak Harvey \"{{i18n: 12Hearts.15}}\"/quickQuestion {{i18n: 12Hearts.16}}(break)speak Harvey \"{{i18n: 12Hearts.17}}\"(break)speak Harvey \"{{i18n: 12Hearts.18}}\"(break)speak Harvey \"{{i18n: 12Hearts.19}}\"(break)speak Harvey \"{{i18n: 12Hearts.20}}\"(break)speak Harvey \"{{i18n: 12Hearts.21}}\"(break)speak Harvey \"{{i18n: 12Hearts.22}}\"(break)speak Harvey \"{{i18n: 12Hearts.23}}\"/pause 100/globalFade/viewport -1000 -1000/pause 500/message \"{{i18n: 12Hearts.24}}\"/pause 50/makeInvisible 20 24 4 2/ambientLight 180 180 0/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/showFrame Harvey 51/emote Harvey 8/pause 800/emote farmer 32/pause 800/emote Harvey 56/globalFade/viewport -1000 -1000/stopMusic/pause 50/message \"{{i18n: 12Hearts.25}}\"/pause 50/playMusic nightTime/makeInvisible 20 24 4 2/ambientLight 180 180 0/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/showFrame Harvey 51/speak Harvey \"{{i18n: 12Hearts.26}}\"/pause 100/speak Harvey \"{{i18n: 12Hearts.27}}\"/pause 40/emote farmer 60/pause 50/speak Harvey \"{{i18n: 12Hearts.28}}\"/pause 100/speak Harvey \"{{i18n: 12Hearts.29|Nickname={{Nickname}}}}\"/emote farmer 20/pause 100/globalFade/viewport -1000 -1000/end dialogue Harvey \"{{i18n: 12Hearts.after}}\"",
+		"HarveyPlus.12Hearts/f Harvey 3000/O Harvey/t 2000 2400/p Harvey/L": "harveys_theme_jazz/-1000 -1000/farmer -100 -100 0 Harvey 22 24 0/skippable/ambientLight 0 0 0/makeInvisible 19 24 6 1/specificTemporarySprite harveyKitchenSetup/viewport 22 24 true/pause 1500/showFrame Harvey 19/playSound clank/shake Harvey 200/pause 800/playSound clank/shake Harvey 200/pause 800/playSound clank/shake Harvey 200/pause 800/showFrame Harvey 53/pause 300/playSound sipTea/pause 1000/textAboveHead Harvey \"{{i18n: 12Hearts.1}}\"/pause 800/move Harvey -1 0 0/pause 300/showFrame Harvey 19/pause 1000/stopAnimation Harvey/move Harvey 1 0 0/pause 800/showFrame Harvey 19/playSound bubbles/pause 1500/playSound clank/shake Harvey 200/pause 800/playSound furnace/specificTemporarySprite harveyKitchenFlame/pause 500/jump Harvey/pause 500/textAboveHead Harvey \"{{i18n: 12Hearts.2}}\"/pause 150/speed Harvey 6/move Harvey -2 0 0/pause 100/speed Harvey 6/move Harvey 2 0 0/playSound fireball/pause 1000/showFrame Harvey 33/shake Harvey 200/pause 1000/showFrame Harvey 32/emote Harvey 60/pause 800/textAboveHead Harvey \"{{i18n: 12Hearts.3}}\"/showframe Harvey 33/shake Harvey 200/pause 1500/stopAnimation Harvey/faceDirection Harvey 1/pause 500/move Harvey 2 0 0/pause 800/showFrame Harvey 19/playSound openChest/textAboveHead Harvey \"{{i18n: 12Hearts.4}}\"/pause 1500/stopAnimation Harvey/move Harvey -2 0 0/pause 300/showFrame Harvey 19/pause 500/playSound dropItemInWater/pause 1000/stopAnimation Harvey/move Harvey -3 0 0/pause 800/showFrame Harvey 19/textAboveHead Harvey \"{{i18n: 12Hearts.5}}\"/playSound coin/pause 800/stopAnimation Harvey/move Harvey 3 0 0/pause 800/showFrame Harvey 19/playSound slosh/pause 1500/showFrame Harvey 53/pause 300/playSound sipTea/pause 1000/showFrame Harvey 4/jump Harvey/textAboveHead Harvey \"{{i18n: 12Hearts.6}}\"/pause 1500/warp farmer 27 30/playSound doorClose/move farmer 0 -1 0/pause 50/stopAnimation Harvey/faceDirection Harvey 2/speak Harvey \"{{i18n: 12Hearts.7}}\"/pause 300/globalFade/viewport -1000 -1000/pause 200/playMusic none/pause 500/makeInvisible 20 24 4 2/ambientLight 180 180 0/playMusic kindadumbautumn/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/speak Harvey \"{{i18n: 12Hearts.8}}\"/emote farmer 20/speak Harvey \"{{i18n: 12Hearts.9}}\"/animate Harvey false true 300 51 52/pause 2500/animate Harvey false true 100 51/quickQuestion {{i18n: 12Hearts.10}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: 12Hearts.11}}\"(break)friendship Harvey 10\\speak Harvey \"{{i18n: 12Hearts.12}}\"(break)speak Harvey \"{{i18n: 12Hearts.13}}\"/pause 200/speak Harvey \"{{i18n: 12Hearts.14}}\"/animate Harvey false true 300 51 52/pause 1500/stopAnimation Harvey/showFrame Harvey 51/speak Harvey \"{{i18n: 12Hearts.15}}\"/quickQuestion {{i18n: 12Hearts.16}}(break)speak Harvey \"{{i18n: 12Hearts.17}}\"(break)speak Harvey \"{{i18n: 12Hearts.18}}\"(break)speak Harvey \"{{i18n: 12Hearts.19}}\"(break)speak Harvey \"{{i18n: 12Hearts.20}}\"(break)speak Harvey \"{{i18n: 12Hearts.21}}\"(break)speak Harvey \"{{i18n: 12Hearts.22}}\"(break)speak Harvey \"{{i18n: 12Hearts.23}}\"/pause 100/globalFade/viewport -1000 -1000/pause 500/message \"{{i18n: 12Hearts.24}}\"/pause 50/makeInvisible 20 24 4 2/ambientLight 180 180 0/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/showFrame Harvey 51/emote Harvey 8/pause 800/emote farmer 32/pause 800/emote Harvey 56/globalFade/viewport -1000 -1000/stopMusic/pause 50/message \"{{i18n: 12Hearts.25}}\"/pause 50/playMusic nightTime/makeInvisible 20 24 4 2/ambientLight 180 180 0/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/showFrame Harvey 51/speak Harvey \"$query DAY_OF_WEEK Monday Wednesday {{i18n: 12Hearts.26}}\"/pause 100/speak Harvey \"{{i18n: 12Hearts.27}}\"/pause 40/emote farmer 60/pause 50/speak Harvey \"{{i18n: 12Hearts.28}}\"/pause 100/speak Harvey \"{{i18n: 12Hearts.29|Nickname={{Nickname}}}}\"/emote farmer 20/pause 100/globalFade/viewport -1000 -1000/end dialogue Harvey \"{{i18n: 12Hearts.after}}\"",
 	},
 },
 
@@ -233,24 +249,8 @@
 	"When": {
 		"Mod Death Dialogue": true,
 	},
-	"entries": {"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: Killed.4}}\"/pause 300/globalFade/viewport -100 -100"
+	"entries": {"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: Killed.4}}\"/pause 300/globalFade/viewport -100 -100"
 	},
-},
-
-{	"LogName": "Death Event Edit (Hospital Penalty)",
-	"Action": "EditData",
-	"Target": "Data/Events/Hospital",
-	"When": {
-		"Mod Death Dialogue": true,
-	},
-	"TextOperations": [
-		{ 
-			"Operation": "Append",
-			"Target": ["Entries","PlayerKilled"],
-			"Value": "hospitaldeath/end",
-			"Delimiter": "/",
-		},
-	],
 },
 
 {	"LogName": "Death Event Edit (Mines Penalty)",
@@ -284,6 +284,22 @@
 			"Operation": "Append",
 			"Target": ["Entries","PlayerKilled"],
 			"Value": "end",
+			"Delimiter": "/",
+		},
+	],
+},
+
+{	"LogName": "Death Event Edit (Hospital Penalty)",
+	"Action": "EditData",
+	"Target": "Data/Events/Hospital",
+	"When": {
+		"Mod Death Dialogue": true,
+	},
+	"TextOperations": [
+		{ 
+			"Operation": "Append",
+			"Target": ["Entries","PlayerKilled"],
+			"Value": "hospitaldeath/end",
 			"Delimiter": "/",
 		},
 	],

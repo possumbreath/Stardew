@@ -26,17 +26,17 @@
 	"GreenRain2.1": "The first time this happened, we were all worried that the rain might be dangerous.#$b#But what if it's actually healthy for the body? Who knows... The plants seem to respond well to it, at least.",
 	"GreenRain2.2": "Have you noticed whether the rain has any effect on your crops?#$e#Imagine a melon the size of a car...!$8",
 	"GreenRain2.3": "I'm glad that the rain seems to be harmless, at least.#$e#We definitely didn't cover anything like it in medical school.",	
-	"AcceptBirthdayGift.Pos": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Thank you so much, {{Nickname}}. I love it!|Oh! Thank you very much! I didn't expect anyone to know it was my birthday today.$h",
-	"AcceptBirthdayGift.Neg": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Oh... it... well I suppose it's the thought that counts.|Oh! It's a... well, it's something. I didn't expect anyone to know it was my birthday today.",
-	"GiftLove.1": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Oh, for me? Thank you! You know me so well.|It's for me? This is my favorite stuff! It's like you read my mind.",
-	"GiftLove.2": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Are you sure you aren't a mind-reader? I was just thinking about this stuff.|Really? Thank you! How did you know this was my favorite?",
-	"GiftLike.1": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Thank you, {{Nickname}}. That means a lot.|That's such a nice gift. Thank you!",
-	"GiftLike.2": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#What a sweet gift! I'm flattered.|I like this a lot. It was nice of you to think of me.",
+	"AcceptBirthdayGift.Pos": "#Thank you so much, {{Nickname}}. I love it!|Oh! Thank you very much! I didn't expect anyone to know it was my birthday today.$h",
+	"AcceptBirthdayGift.Neg": "#Oh... it... well I suppose it's the thought that counts.|Oh! It's a... well, it's something. I didn't expect anyone to know it was my birthday today.",
+	"GiftLove.1": "#Oh, for me? Thank you! You know me so well.|It's for me? This is my favorite stuff! It's like you read my mind.",
+	"GiftLove.2": "#Are you sure you aren't a mind-reader? I was just thinking about this stuff.|Really? Thank you! How did you know this was my favorite?",
+	"GiftLike.1": "#Thank you, {{Nickname}}. That means a lot.|That's such a nice gift. Thank you!",
+	"GiftLike.2": "#What a sweet gift! I'm flattered.|I like this a lot. It was nice of you to think of me.",
 	"GiftNeutral": "Thanks. That's very kind of you.", //I think it's funniest if the neutral dialogue is completely the same no matter what
-	"GiftDislike.1": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Mmm... good effort, @.|Hmm... Are you sure this is healthy?",
-	"GiftDislike.2": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Oh, this is... I'll figure out something to do with this.|Thank you? I'm not sure what you expect me to do with this.",
-	"GiftHate.1": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#I'm pretty sure I told you I was allergic to this.$a|...I think I'm allergic to this.",
-	"GiftHate.2": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Yikes. Are you trying to tell me something?|That's not very kind of you, @.",
+	"GiftDislike.1": "#Mmm... good effort, @.|Hmm... Are you sure this is healthy?",
+	"GiftDislike.2": "#Oh, this is... I'll figure out something to do with this.|Thank you? I'm not sure what you expect me to do with this.",
+	"GiftHate.1": "#I'm pretty sure I told you I was allergic to this.$a|...I think I'm allergic to this.",
+	"GiftHate.2": "#Yikes. Are you trying to tell me something?|That's not very kind of you, @.",
 	"NewResort": "I'll let you in on a little secret... I never really learned how to swim.$s#$e#Deep water is terrifying.#$b#At least when you're up high you can see what's below you.$s",
 	//you'll notice some of the negative reactions here are a little sharp and that's because uwu wibbly baby softboi harvey is boring he is a full ass adult man let the guy have layers and be angry sometimes
 	//the kind guys are the ones who are most capable of being venemous little shits when they're upset
@@ -133,7 +133,7 @@
 	"8Hearts.18": "Hey, let me show you my model airplanes.#$b#I have a Blackbird, the same kind that just flew by!$h",
 	"8Hearts.19": "For the first time since you met him, Harvey doesn't seem worried about anything.",
 	"8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...#$b#You're just easy to talk to, I guess.",
-	"8Hearts.After2": "pb wants to put something here but isn't sure what yet so this is placeholder text lol lmao",
+	"8Hearts.After2": "Have you used that radio at all?#$b#Let me know if you hear anything interesting!$h",
 
 	//10 Heart Event
 	//Most of the event is untouched because it's already basically the best one he has. we love balloon in this house
@@ -192,7 +192,7 @@
 	"12Hearts.23": "Took the day off, huh?#$b#Good. Not every day needs to be interesting. Little moments like this are nice, too.$l",
 	"12Hearts.24": "You and Harvey enjoy a nice conversation with your meal...",
 	"12Hearts.25": "... and before you know it you've been talking for hours.",
-	"12Hearts.26": "$query DAY_OF_WEEK Monday Wednesday #Wow, how did it get so late?#$b#I should probably think about going to bed or I'll be falling asleep at my desk tomorrow.|Wow, it got late, didn't it?#$b#At least I don't have to work tomorrow.$h",
+	"12Hearts.26": "#Wow, how did it get so late?#$b#I should probably think about going to bed or I'll be falling asleep at my desk tomorrow.|Wow, it got late, didn't it?#$b#At least I don't have to work tomorrow.$h",
 	"12Hearts.27": "Don't worry about the dishes. I'll take care of those.",
 	"12Hearts.28": "Oh, think of it this way: I almost set the kitchen on fire, cleaning it up should be my job.#$b#Besides, I like doing things for you. I cook and keep the house tidy so that when you come home you don't have to worry about it.#$b#It's one of the little ways I try to show you that I love you.$l",
 	"12Hearts.29": "Tonight really was wonderful. We should do this again soon, {{Nickname}}.$h",
@@ -200,10 +200,14 @@
 	
 	//Mail
 	
-	"8HeartsMail": "@,^^I'm sorry that I was so frazzled yesterday. I don't get many visitors, so when you stopped by it was a surprise.^^Not a bad one! Just unexpected.^^Anyway... I was reorganizing my desk and found this. I thought you might like to have it. If you ever want to listen to the planes go by, you can tune it to frequency 140.^^- Harvey%item furniture RetroRadio%%[#]A Gift From Harvey",
+	"8HeartsMail": "@,^^I'm sorry that I was so frazzled yesterday. I don't get many visitors, so when you stopped by it was a surprise.^^Not a bad one! Just unexpected.^^Anyway... I was reorganizing my desk and found this. I thought you might like to have it. If you ever want to listen to the planes go by, you can tune it to frequency 140.^^- Harvey",
+	"8HeartsMailName": "A Gift From Harvey",
 	
 	//Weekly Dialogue
-	
+	//Because of how the randomization is set up, $query, $q, %revealtaste and other commands need to be in these strings directly. 
+	//I have commented above every instance of commands that need to be kept as they are, for your convenience when editing and translating.
+	//IF YOU USE AN AI OR A PROGRAM TO TRANSLATE AND IT MESSES THOSE UP, YOU'RE ON YOUR OWN, BUCKAROO!
+
 	"Mon.1": "We sell a few over-the-counter medications at the clinic... feel free to stop by if you're feeling exhausted.",
 	"Mon.2": "I know that being a farmer is pretty tiring work... don't overdo it!",
 	"Mon.3": "What are your plans for this coming week, @?#$e#Nothing too dangerous, I hope.",
@@ -222,14 +226,16 @@
 	"Tue.5": "I want to form a good rapport with my patients, but getting too close presents a conflict of interest.$s#$b#It's a difficult balance to maintain.#$e#We can be friendly, but we can't entirely be friends.",
 	"Tue.6": "Did you know you can develop allergies later in life?#$b#I only recently became allergic to shellfish.#$e#I'm going to miss pasta with clam sauce...$s",
 	"Tue.7": "It's difficult knowing that no matter how much advice I give, it's up to my patients whether or not they take it.#$e#There are some people in this town I worry about quite a lot.$s",
-	"Tue.8": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Don't overwork yourself, @.#$e#Your health is important to me.|Don't overwork yourself, @. #$e#If our farmers get sick, where will we get our food? We need you!$h",
+	//$query PLAYER_NPC_RELATIONSHIP current Harvey dating married must remain at the front here.
+	"Tue.8": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Don't overwork yourself, @.#$e#Your health is important to me.|Don't overwork yourself, @. #$e#If our farmers get sick, where will we get our food? We need you!$h",
 	"Tue.9": "It's good to see you, @.#$e#I admit it's nice to have something to get out of bed for besides work.$l",
 	"Tue.10": "They say that just smiling more can improve your health.#$e#I was always a little dubious about that.#$b#Being with you is starting to convince me, though.$h",
 	
 	"Wed.1": "Remember to cover your mouth when you sneeze.#$e#Then make sure to wash your hands.",
 	"Wed.2": "It's a great help having Maru working at the clinic.#$e#She invented an entirely new way of organizing our records. It's much more intuitive!$h",
 	"Wed.3": "I moved here right after graduating my residency.#$e#That would have been... wow. Longer ago than I thought.$s",
-	"Wed.4": "$query PLAYER_HAS_SEEN_EVENT current HarveyPlus.4Hearts#I enjoy spending time with you, @.#$b# We should meet up at the Saloon again sometime.$h|I'd like to get to know you better, @.#$b# We should get coffee at the Stardrop Saloon sometime.$h",
+	//$query PLAYER_HAS_SEEN_EVENT current HarveyPlus.4Hearts must remain at the front here.
+	"Wed.4": "$query PLAYER_HAS_SEEN_EVENT current HarveyPlus.4Hearts #I enjoy spending time with you, @.#$b# We should meet up at the Saloon again sometime.$h|I'd like to get to know you better, @.#$b# We should get coffee at the Stardrop Saloon sometime.$h",
 	"Wed.5": "I've found that it's good for my health to try and stay positive.#$e#It's not always easy, but I do think you can find a silver lining on any cloud if you look hard enough.",
 	"Wed.6": "It's nice to have another friend in town.$h#$b# I always worried that I was boring Maru when it was just the two of us.",
 	"Wed.7": "You know, I had a lot of acquaintances during my time in medical school...#$b#I don't know if I ever had any actual friends.$s",
@@ -238,7 +244,8 @@
 	"Wed.10": "Usually by the middle of the week I'd be starting to hit a slump.#$b#I think your energy is infectious!$h",
 	
 	"Thu.1": "I live above the clinic. I admit it's convenient, not having a commute.",
-	"Thu.2": "Nutrition is important, so make sure and eat well. #$b##$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
+	//Take care not to translate the following question keys
+	"Thu.2": "Nutrition is important, so make sure and eat well. #$b#$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
 	"Thu.2.Yes": "That's good! You'll have no trouble staying healthy, then.$h",
 	"Thu.2.Busy": "Ah, yes. I know how that is.$s#$b#Still, even the occasional healthy meal is better than none.",
 	"Thu.2.No":  "Ah... right. I'm sure you're very busy with the farm.$s",
@@ -246,6 +253,7 @@
 	"Thu.3": "I'm what you'd call a family practice physician.#$b#Taking care of someone from birth to death... that's a lot of responsibility. I take it very seriously.",
 	"Thu.4": "I probably drink more coffee than is strictly healthy.$s#$b#But all that paperwork wouldn't get done otherwise!",
 	"Thu.5": "I try and attend every town festival, even if I find crowds overwhelming.#$e#It's good for me to get out of the clinic sometimes.",
+	//%revealtaste:Maru:432 must remain at the front here.
 	"Thu.6": "%revealtaste:Maru:432 I tried making my own pickles once.#$b#I think I'm the reason Maru won't eat them now.$s",
 	"Thu.7": "Do you ever listen to music while you're working?#$b#I find it helps the time go by much more quickly.$h",
 	"Thu.8": "I always wanted to work in a smaller, underserved community.#$b#It can vastly improve quality of life to have easier access to medical care.#$e#Imagine how much crankier George would be if he had to go all the way to Zuzu City for his checkups!$h",
@@ -288,7 +296,7 @@
 	//Date and/or Season-Specific Dialogue
 	
 	"Summer.Heat":"It's been so difficult to focus on my work lately.#$b#You know, because of the heat.$l",
-	"Fall.Plans":"$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.$l#I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
+	"Fall.Plans":"#Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.$l|#I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
 	"Spring.FlowerDance": "The Flower Dance is tomorrow. I'm not really much of a dancer, but Maru always insists that if she has to go, I have to go.",
 	"Fall.Mushrooms": "Did you know many of the mushrooms that grow locally are edible?$#b#Be careful of the red ones, though.",
 	"Fall.Chilly": "The weather has started to turn.#$b#Add more layers if you start feeling chilly.",
@@ -302,7 +310,7 @@
 	"fall16.1": "It's easy to forget how large pigs are until you're looking at them in person...",
 	"fall16.1.spouse": "Let me know when you're ready to go home, {{Nickname}}. I'll just be over here.",
 	"fall16.2.spouse": "Hi, {{Nickname}}. Good luck today in the competition. I just know you're going to shine!$0",
-	"spring24.1": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Oh, @... you look ${great^lovely^wonderful}$.#1|Maru and I usually come to this event as friends.#$b#It's like highschool prom all over again.$s",
+	"spring24.1": "#Oh, @... you look ${great^lovely^wonderful}$.#1|Maru and I usually come to this event as friends.#$b#It's like highschool prom all over again.$s",
 	"summer11.1": "Good thing I came with sunscreen.#$e#I feel as though I'm the only one who ever remembers to bring it.",
 	"summer11.1.spouse": "Here, {{Nickname}}. Let me put some more sunscreen on your shoulders.",
 	"summer11.2": "I hope you added something of high quality to the soup.#$e#We all want to leave a good impression on the Governor.",
@@ -317,7 +325,7 @@
 	"WinterStar_GiveGift_Before_Spouse": "Surprise!$h#$b#You have no idea how hard it's been keeping this a secret.",
 	"WinterStar_GiveGift_Before": "Hi, @. I'm your gift giver this year.",
 	"WinterStar_GiveGift_After": "I hope you like it. I tried to think of something you'd find useful.$h",
-	"WinterStar_ReceiveGift": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married#Oh! Thank you, {{Nickname}}.#$b#You have a great poker face. I had no idea it was you!$h|#Oh! Thank you, @.#$b#You have a great poker face. I had no idea it was you!$h",
+	"WinterStar_ReceiveGift": "#Oh! Thank you, {{Nickname}}.#$b#You have a great poker face. I had no idea it was you!$h|#Oh! Thank you, @.#$b#You have a great poker face. I had no idea it was you!$h",
 	
 	//Marriage Dialogue
 	//Static Marriage Dialogue
@@ -326,7 +334,7 @@
 	"Marriage.spring_8": "The birds that left for the Winter have started coming back.#$e#I'm sure there's a science behind how they navigate. I should look it up.",
 	"Marriage.spring_12": "Good luck in the egg hunt tomorrow!$h#$e#Of course I'll be there to watch, even if I'm not a big fan of the crowd...",
 	"Marriage.spring_23": "Will you dance with me at the festival tomorrow?$7#$e#It's one of my favorite parts of the year.$l",
-	"Marriage.spring_25": "Hm... my \"to read\" list is getting pretty short.#$b#Any recommendations?",
+	"Marriage.spring_25": "Hm... my 'to read' list is getting pretty short.#$b#Any recommendations?",
 	"Marriage.summer_1": "Make sure you don't get sunburnt, {{Nickname}}!$8#$b#I've stocked up on sunscreen, so be sure to put some on before you go out.",
 	"Marriage.summer_8": "I didn't sleep so well last night... it's difficult to get comfortable in this heat.$s",
 	"Marriage.summer_10": "I'm always a little leery of the Luau soup.#$b#It can't be healthy to just toss a bunch of random ingredients into a pot, right?",
@@ -344,7 +352,7 @@
 	"Marriage.winter_1": "Be sure to dress warmly in the coming weeks, {{Nickname}}.#$b#I know you and I know you'll be out of the house most days even if there's no farming to do!$h",
 	"Marriage.winter_7": "It might be nice to attend the festival tomorrow.#$b#Or we could stay in and drink cocoa. I'd be happy with either.#h",
 	"Marriage.winter_11": "How are we doing on firewood?#$b#I wouldn't want to run low.",
-	"Marriage.winter_13": "Well... I'll be another year older tomorrow. Before I met you that would have bothered me.#$b#Now it almost feels like an accomplishment!#h",
+	"Marriage.winter_13": "Well... I'll be another year older tomorrow. Before I met you that would have bothered me.#$b#Now it almost feels like an accomplishment!$h",
 	"Marriage.winter_28": "I can't believe how quickly this year went by.#$b#Well! Here's to many more, huh?$h",
 	
 	"jobLeave_Harvey.1": "I have to go into the clinic today. Have a nice day, okay?",
@@ -375,7 +383,8 @@
 	"Marriage.Mon.2.1": "%Harvey is completely absorbed in his book. The title reads: \"Radio Ettiquette: Don't Be a Knob\".",
 	"Marriage.Mon.2.2": "%Harvey is reading a book called \"Birds of Ferngill\". There's a very colorful parrot on the cover.",
 	"Marriage.Mon.2.3": "%\"Sustainable Farming Under Modern Capitalism\". Huh! Looks like Harvey's taking an interest in your business.",
-	"Marriage.Mon.2.4": "$query PLAYER_HAS_CHILDREN current#%The book's title reads \"101 Easy Experiments to Introduce Your Child to Science\".#%b#%Looks like someone's doing research.|%The book's title reads \"Historic Wineries of Ferngill\". Looks like someone's doing research.",
+	//$query PLAYER_HAS_CHILDREN current must remain at the front here
+	"Marriage.Mon.2.4": "$query PLAYER_HAS_CHILDREN current #%The book's title reads \"101 Easy Experiments to Introduce Your Child to Science\".#%b#%Looks like someone's doing research.|%The book's title reads \"Historic Wineries of Ferngill\". Looks like someone's doing research.",
 	"Marriage.Mon.2.5": "%It looks like Harvey is reading a book called \"A Hip Pocket Guide to Ferngill Mushrooms\".#$b#%On the cover is a man holding a trumpet in one hand and a very large mushroom in the other.",
 	"Marriage.Mon.2.6.": "%Harvey's book is titled \"Oh! The Humanity! A History of Aircraft Disasters\". Sounds... fun?",
 	
@@ -628,7 +637,7 @@
 	"Killed.1": "Easy now. Take it slow.",
 	"Killed.2": "You were found unconscious and in critical condition; there was no time to transport you to Zuzu City.#$b#I had to perform an emergency surgery to stabilize you.$s",
 	"Killed.3": "You can stay here in the clinic until you get your feet back under you.",
-	"Killed.4": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Just be more careful out there, for my sake?#$b# I know I sometimes worry too much, but when this kind of thing happens it makes it difficult not to.$s#$b# I don't know what I'd do if I ever lost you.|I know it's tempting, but don't head right back out there once you leave. At least get a night's rest first.",
+	"Killed.4": "#Just be more careful out there, for my sake?#$b# I know I sometimes worry too much, but when this kind of thing happens it makes it difficult not to.$s#$b# I don't know what I'd do if I ever lost you.|I know it's tempting, but don't head right back out there once you leave. At least get a night's rest first.",
 	
 	"Rainy.1": "Hi @! It's good weather for staying inside and reading.#$e#So... have you read anything good lately?",
 	"Rainy.2": "Have you ever noticed that almost no one in this town uses an umbrella?#$e#I think I saw Sebastian with one, once...$s",

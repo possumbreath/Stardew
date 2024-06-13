@@ -11,8 +11,8 @@
 		"GreenRain_2": "{{i18n: GreenRain2.{{Random:{{Range: 1, 3}}}}}}",
 		"FlowerDance_Accept_Spouse": "{{i18n: FlowerDanceSpouse.{{Random:{{Range: 1, 3}}}}}}",
 		"FlowerDance_Decline": "{{i18n: FlowerDanceDecline}}",
-		"AcceptBirthdayGift_Positive": "{{i18n: AcceptBirthdayGift.Pos|Nickname={{Nickname}}}}",
-		"AcceptBirthdayGift_Negative": "{{i18n: AcceptBirthdayGift.Neg}}",
+		"AcceptBirthdayGift_Positive": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Pos|Nickname={{Nickname}}}}",
+		"AcceptBirthdayGift_Negative": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Neg}}",
 		"Resort": "{{i18n: NewResort}}",
 		"divorced": "{{i18n: divorced.{{Random:{{Range: 1, 6}}}}}}",
 		"DumpsterDiveComment": "{{i18n: DumpsterDiveComment}}",
@@ -33,7 +33,7 @@
 		"WinterStar_GiveGift_Before_Spouse": "{{i18n: WinterStar_GiveGift_Before_Spouse}}",
 		"WinterStar_GiveGift_Before": "{{i18n: WinterStar_GiveGift_Before}}",
 		"WinterStar_GiveGift_After": "{{i18n: WinterStar_GiveGift_After}}",
-		"WinterStar_ReceiveGift": "{{i18n: WinterStar_ReceiveGift|Nickname={{Nickname}}}}",
+		"WinterStar_ReceiveGift": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: WinterStar_ReceiveGift|Nickname={{Nickname}}}}",
 		
 		//Events
 		
@@ -100,7 +100,7 @@
 		
 		"summer_Thu10": "{{i18n: Summer.Heat}}",
 		"fall_Fri8": "{{i18n: Fall.Plans}}",
-		"fall_Fri10": "{{i18n: Fall.Plans}}",
+		"fall_Fri10": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: Fall.Plans}}",
 		"spring_23": "{{i18n: Spring.FlowerDance}}",
 		"fall_1": "{{i18n: Fall.Chilly}}",
 		"fall_8": "{{i18n: Fall.Mushrooms}}",
@@ -171,7 +171,7 @@
 	"Action": "EditData",
 	"Target": "Data/Festivals/spring24",
 	"entries": {
-		"Harvey": "{{i18n: spring24.1}}",
+		"Harvey": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: spring24.1}}",
 		},
 	},
 
