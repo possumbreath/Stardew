@@ -52,7 +52,7 @@
 	"AcceptPendant": "Really, @? I don't know what to say...$l#$b#I mean, yes! Obviously, yes.$h#$b#I'll speak with the Mayor and have everything set up. Just give me three days to get everything ready.",
 	"Engaged1": "There's so much to set up before the wedding! I have to admit I'm nervous.$l#$e#I'll be relieved after we're all settled in on your farm.$h",
 	"Engaged2": "I'm so happy.$h#$e#This is something I always wanted, deep down.$l",
-	"AfterWedding": "The ceremony was beautiful, wasn't it, {{Nickname}}?",
+	"AfterWedding": "The ceremony was beautiful, wasn't it, {{Nickname}}?#$b#It was everything I hoped it would be.$l",
 	"Stardrop": "{{Nickname}}... I wanted to give you that fruit as a symbol of my love.$l",
 	"RejectBouquet_Divorced": "That's not funny, @.$a",
 	"RejectBouquet_NpcAlreadyMarried": "Oh! Uh, that's flattering, but I'm already happily married to {0}... you didn't know?",
@@ -212,32 +212,32 @@
 	"Mon.2": "I know that being a farmer is pretty tiring work... don't overdo it!",
 	"Mon.3": "What are your plans for this coming week, @?#$e#Nothing too dangerous, I hope.",
 	"Mon.4": "I feel responsible for the health of this whole community... it's kind of stressful.#$e#It's a small town, and I'm fortunate to be able to build a good relationship with my patients.#$e#But that comes with its own problems...$s",
-	"Mon.5": "There's only so much we can realistically handle at the clinic.#$b#Part of being a good doctor is knowing when to refer your patient to someone else.",
+	"Mon.5": "There's only so much we can realistically handle at the clinic.#$e#Part of being a good doctor is knowing when to refer your patient to someone else.",
 	"Mon.6": "Sometimes I feel as though I wake up tired. Do you ever have days like that?",
 	"Mon.7": "I have an entire drawer in my kitchen full of recipes I've clipped out of magazines.#$e#In theory it's a great idea but in practice I don't think I open the drawer unless I'm putting another one in.$h",
 	"Mon.8": "I think I'd like to stay in Stardew Valley permanently. I'm finally starting to feel involved in the community.#$e#It feels good to know that you're liked as well as useful.",
-	"Mon.9": "I've started really making an effort to cook more regularly.#$b#You're welcome to come over for dinner sometime, {{Nickname}}. Having someone else to cook for would be nice.$h",
-	"Mon.10": "Lately I've been feeling like a weight's been lifted off my shoulders.#$b#It's funny; I got so used to it that I almost didn't notice it was there until it was gone.",
+	"Mon.9": "I've started really making an effort to cook more regularly.#$e#You're welcome to come over for dinner sometime, {{Nickname}}. Having someone else to cook for would be nice.$h",
+	"Mon.10": "Lately I've been feeling like a weight's been lifted off my shoulders.#$e#It's funny; I got so used to it that I almost didn't notice it was there until it was gone.",
 	
 	"Tue.1": "It's a beautiful day, isn't it?#$e#I wish I had less work to do.$s",
 	"Tue.2": "If you ever have questions and I'm not available, ask Maru.#$e#She's very knowledgeable.",
-	"Tue.3": "There's a documentary about the medical practices of ancient civilizations on TV later tonight.#$b#Hopefully I'll finish my reports in time!",
+	"Tue.3": "There's a documentary about the medical practices of ancient civilizations on TV later tonight.#$e#Hopefully I'll finish my reports in time for it.",
 	"Tue.4": "I have to do a lot of reading to keep up with the best practices for patient care.#$e#At least I like reading!$h",
 	"Tue.5": "I want to form a good rapport with my patients, but getting too close presents a conflict of interest.$s#$b#It's a difficult balance to maintain.#$e#We can be friendly, but we can't entirely be friends.",
-	"Tue.6": "Did you know you can develop allergies later in life?#$b#I only recently became allergic to shellfish.#$e#I'm going to miss pasta with clam sauce...$s",
+	"Tue.6": "Did you know you can develop allergies later in life?#$e#It happens very commonly with shellfish, actually.",
 	"Tue.7": "It's difficult knowing that no matter how much advice I give, it's up to my patients whether or not they take it.#$e#There are some people in this town I worry about quite a lot.$s",
 	//$query PLAYER_NPC_RELATIONSHIP current Harvey dating married must remain at the front here.
 	"Tue.8": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Don't overwork yourself, @.#$e#Your health is important to me.|Don't overwork yourself, @. #$e#If our farmers get sick, where will we get our food? We need you!$h",
 	"Tue.9": "It's good to see you, @.#$e#I admit it's nice to have something to get out of bed for besides work.$l",
 	"Tue.10": "They say that just smiling more can improve your health.#$e#I was always a little dubious about that.#$b#Being with you is starting to convince me, though.$h",
-	
+
 	"Wed.1": "Remember to cover your mouth when you sneeze.#$e#Then make sure to wash your hands.",
 	"Wed.2": "It's a great help having Maru working at the clinic.#$e#She invented an entirely new way of organizing our records. It's much more intuitive!$h",
 	"Wed.3": "I moved here right after graduating my residency.#$e#That would have been... wow. Longer ago than I thought.$s",
 	//$query PLAYER_HAS_SEEN_EVENT current HarveyPlus.4Hearts must remain at the front here.
-	"Wed.4": "$query PLAYER_HAS_SEEN_EVENT current HarveyPlus.4Hearts #I enjoy spending time with you, @.#$b# We should meet up at the Saloon again sometime.$h|I'd like to get to know you better, @.#$b# We should get coffee at the Stardrop Saloon sometime.$h",
+	"Wed.4": "$query PLAYER_HAS_SEEN_EVENT current HarveyPlus.4Hearts #You're good company, @.#$b# We should meet up at the museum again sometime.$h|I'd like to get to know you better, @.#$b#I'm often at the museum on Saturdays, if you're ever on that side of town.$h",
 	"Wed.5": "I've found that it's good for my health to try and stay positive.#$e#It's not always easy, but I do think you can find a silver lining on any cloud if you look hard enough.",
-	"Wed.6": "It's nice to have another friend in town.$h#$b# I always worried that I was boring Maru when it was just the two of us.",
+	"Wed.6": "It's nice to have another friend in town.$h#$e# I always worried that I was boring Maru when it was just the two of us.",
 	"Wed.7": "You know, I had a lot of acquaintances during my time in medical school...#$b#I don't know if I ever had any actual friends.$s",
 	"Wed.8": "It's funny. In an emergency situation I almost forget to be afraid: all that matters is taking care of the patient.#$e$It usually only catches up to me afterwards.$s#$b#That's probably better than the alternative.",
 	"Wed.9": "You have a really healthy glow. That's good.$h",
@@ -250,50 +250,178 @@
 	"Thu.2.Busy": "Ah, yes. I know how that is.$s#$b#Still, even the occasional healthy meal is better than none.",
 	"Thu.2.No":  "Ah... right. I'm sure you're very busy with the farm.$s",
 	"Thu.2.None": "$p HarveyPlus.42#Maybe take advantage of all that fresh produce.|... Sorry. I should take my doctor's hat off, sometimes.$h",
-	"Thu.3": "I'm what you'd call a family practice physician.#$b#Taking care of someone from birth to death... that's a lot of responsibility. I take it very seriously.",
-	"Thu.4": "I probably drink more coffee than is strictly healthy.$s#$b#But all that paperwork wouldn't get done otherwise!",
+	"Thu.3": "I'm what you'd call a family practice physician.#$e#Taking care of someone from birth to death... that's a lot of responsibility. I take it very seriously.",
+	"Thu.4": "I probably drink more coffee than is strictly healthy.$s#$e#But all that paperwork wouldn't get done otherwise!",
 	"Thu.5": "I try and attend every town festival, even if I find crowds overwhelming.#$e#It's good for me to get out of the clinic sometimes.",
 	//%revealtaste:Maru:432 must remain at the front here.
-	"Thu.6": "%revealtaste:Maru:432 I tried making my own pickles once.#$b#I think I'm the reason Maru won't eat them now.$s",
-	"Thu.7": "Do you ever listen to music while you're working?#$b#I find it helps the time go by much more quickly.$h",
+	"Thu.6": "%revealtaste:Maru:432 I tried making my own pickles once.#$e#I think I'm the reason Maru won't eat them now.$s",
+	"Thu.7": "Do you ever listen to music while you're working?#$e#I find it helps the time go by much more quickly.$h",
 	"Thu.8": "I always wanted to work in a smaller, underserved community.#$b#It can vastly improve quality of life to have easier access to medical care.#$e#Imagine how much crankier George would be if he had to go all the way to Zuzu City for his checkups!$h",
-	"Thu.9": "I wrote the wrong date on a report the other day.#$b#I was thinking about you and got distracted.$l",
+	"Thu.9": "I wrote the wrong date on a report the other day.#$e#I was thinking about you and got distracted.$l",
 	"Thu.10": "Maintaining work-life balance has always been something I struggle with.$s#$e#If I didn't live alone I think it would be easier.$l",
-	
+
 	"Fri.1": "Feel free to stop by my office if you're ever feeling ill.#$e#Though the farming lifestyle is very active. You'll probably stay healthy without trying.$h",
 	"Fri.2": "Remember to stay hydrated. You'd be surprised at how many people don't drink enough water.",
 	"Fri.3": "Any exciting plans for the weekend, @?#$e#Remember, everything in moderation!",
 	"Fri.4": "You're welcome to visit me at my apartment any time you like.#$e#I don't often have company. It would be a nice change of pace.",
-	"Fri.5": "I've found that being a doctor is very fulfilling work.#$b#I've always felt happiest when I'm helping other people.",
+	"Fri.5": "I've found that being a doctor is very fulfilling work.#$e#I've always felt happiest when I'm helping other people.",
 	"Fri.6": "It's kind of you to make time to talk with me, @.#$e#It always brightens my day.$h",
 	"Fri.7": "Living where I work makes some things easier... on the other hand, it makes it difficult to ever stop working.",
 	"Fri.8": "I had a phase as a child where I was convinced I wanted to be a jazz pianist.#$b#At my first recital I threw up before I even got on stage. I never played the piano again.#$e#It was mortifying then but it's kind of funny now.$h",
 	"Fri.9": "I've been thinking about setting up a little herb garden in my window.#$e#If you have any tips for keeping plants alive, I'd love to hear them.$h",
 	"Fri.10": "{{Nickname}}, I know I'm not technically your doctor...#$b#But if you ever need a 'confidential checkup' you know where to find me.$l",
-	
+
 	"Sat.1": "I never really relax, even on weekends.#$e#It's not as though I can say 'sorry, it's my day off' if there's a medical emergency.",
 	"Sat.2": "Did you know the museum library has an extensive microfiche collection?#$e# It's fascinating to read news articles from decades ago. Things were very different then.",
 	"Sat.3": "I imagine even on weekends the farm requires a lot of attention.#$e#Ha... you and I both have jobs that it's hard to ever really put down.",
-	"Sat.4": "Are you sleeping enough,@?#$b#At the very least you should be going to bed before midnight.",
+	"Sat.4": "Are you sleeping enough,@?#$e#At the very least you should be going to bed before midnight.",
 	"Sat.5": "I like that Pelican town is small enough that you can walk everywhere.#$e#Driving always made me a little nervous.",
 	"Sat.6": "Another week is almost over... it feels like the older I get, the faster they fly by.$s",
 	"Sat.7": "I came here because I liked the small-town atmosphere and the potential for a truly holistic approach to patient care.#$e#I've grown to really love it.$h",
 	"Sat.8": "Maybe I'll actually take it easy this weekend.#$e#I could finally open that bottle of wine I've been saving.",
 	"Sat.9": "%Harvey is humming an upbeat jazz tune and seems completely distracted.",
 	"Sat.10": "*Sigh*... I'm starting to feel kind of old...#$e#The older you get the more memories you're burdened with. It can be overwhelming.$s#$e#I think I'll stay younger with you around.$l",
-	
+
 	"Sun.1": "It's always difficult to fully enjoy Sundays, knowing that Monday is just around the corner.",
 	"Sun.2": "Hmm... I'm struggling to make ends meet. I don't have enough patients.#$e#I suppose that's the trade-off for working in a rural community.",
 	"Sun.3": "Be careful if you're going to go down into the mines.#$e#Remember to wear closed-toed shoes.",
 	"Sun.4": "As a doctor, I'm well aware of the benefits of home-cooked food. But I'm so busy, I have a hard time bringing myself to cook.",
-	"Sun.5": "I'd strongly recommend against drinking Joja Cola.#$b#I've read the ingredient list and it's... concerning.$s",
-	"Sun.6": "My colleagues in Zuzu City keep telling me I should move there if money's so tight out here.#$b#I tried city life during medical school and I can say with confidence that it's not for me. Far too fast-paced.",
+	"Sun.5": "I'd strongly recommend against drinking Joja Cola.#$e#I've read the ingredient list and it's... concerning.$s",
+	"Sun.6": "My colleagues in Zuzu City keep telling me I should move there if money's so tight out here.#$e#I tried city life during medical school and I can say with confidence that it's not for me. Far too fast-paced.",
 	"Sun.7": "Medical school was difficult, but I've never regretted the decision to pursue it.#$e#It's more than a career for me; it's a vocation. It gives me purpose.",
-	"Sun.8": "Imagine having a patient's life completely in your hands, and failing to keep them alive... that's something that will haunt you forever.$s#$e#Hypothetically.$8",
+	"Sun.8": "Imagine having a patient's life completely in your hands, and failing to keep them alive... that's something that will haunt you forever.$s#$e#Hypothetically.",
 	"Sun.9": "Some people know what they want to do with their lives from a very young age. I envy that.#$e#It took me a lot of false starts to get to where I am and I've always felt a little behind because of it.",
 	"Sun.10": "Do you ever get lonely living by yourself on the farm, {{Nickname}}?#$e#Just wondering.$l",
+
+	"Spring.Weekly.0.1": "It's officially pollen season.#$e#Living in the countryside seems like it would be a little less idyllic for a person with bad allergies.",
+	//revealtaste:Harvey:22 must remain at the front here.
+	"Spring.Weekly.0.2": "%revealtaste:Harvey:22 Did you know that dandelion greens are edible?#$e#Most people consider them weeds, but they're not bad in a salad.",
+	"Spring.Weekly.0.3": "PLACEHOLDER 0.3",
+	"Spring.Weekly.0.4": "PLACEHOLDER 0.4",
+
+	"Spring.Weekly.2.1": "Hi, @. Are you having a productive Spring so far?#$e#Remember not to give yourself more work than you can comfortably handle.",
+	"Spring.Weekly.2.2": "PLACEHOLDER 2.2",
+	"Spring.Weekly.2.3": "PLACEHOLDER 2.3",
+	"Spring.Weekly.2.4": "PLACEHOLDER 2.4",
+
+	//%revealtaste:Harvey:18 must remain at the front here.
+	"Spring.Weekly.4.1": "%revealtaste:Harvey:18 My favorite flower is the daffodil.#$e#They're not particularly exciting, but they're bright and cheerful, and they come back reliably every year.$h",
+	"Spring.Weekly.4.2": "PLACEHOLDER 4.2",
+	"Spring.Weekly.4.3": "PLACEHOLDER 4.3",
+	"Spring.Weekly.4.4": "PLACEHOLDER 4.4",
+
+	"Spring.Weekly.6.1": "PLACEHOLDER 6.1",
+	"Spring.Weekly.6.2": "PLACEHOLDER 6.4",
+	"Spring.Weekly.6.3": "PLACEHOLDER 6.3",
+	"Spring.Weekly.6.4": "PLACEHOLDER 6.4",
+
+	"Spring.Weekly.8.1": "PLACEHOLDER 8.1",
+	"Spring.Weekly.8.2": "PLACEHOLDER 8.2",
+	"Spring.Weekly.8.3": "PLACEHOLDER 8.3",
+	"Spring.Weekly.8.4": "PLACEHOLDER 8.4",
+
+	"Spring.Weekly.10.1": "The flowers look brighter this year, somehow.#$e#Or maybe I'm just noticing them more.$h",
+	"Spring.Weekly.10.2": "There's always an upswing in air-traffic this time of year.#$e#It's not surprising that people enjoy flying more when it's nice out.",
+	"Spring.Weekly.10.3": "PLACEHOLDER 10.3",
+	"Spring.Weekly.10.4": "PLACEHOLDER 10.4",
+
+	"Summer.Weekly.0.1": "Be careful running around in the tall grass! Watch out for bees.",
+	"Summer.Weekly.0.2": "It feels like a shame that I spend so much of Summer indoors...$s#$e#Oh, well. It can't be helped.",
+	"Summer.Weekly.0.3": "If you're planning to stay out in the sun for extended periods of time, I'd recommend a hat.",
+	"Summer.Weekly.0.4": "PLACEHOLDER 0.4",
+
+	"Summer.Weekly.2.1": "Sometimes there's broken glass in the sand at the beach.#$e#Be careful where you step if you walk around near the water without shoes on.",
+	"Summer.Weekly.2.2": "PLACEHOLDER 2.2",
+	"Summer.Weekly.2.3": "PLACEHOLDER 2.3",
+	"Summer.Weekly.2.4": "PLACEHOLDER 2.4",
+
+	"Summer.Weekly.4.1": "You can see a lot of unique wildlife down at the tidepools by the beach.#$e#Be careful of the urchins! Some of them are venomous, and all of them are sharp.",
+	"Summer.Weekly.4.2": "PLACEHOLDER 4.2",
+	"Summer.Weekly.4.3": "PLACEHOLDER 4.3",
+	"Summer.Weekly.4.4": "PLACEHOLDER 4.4",
+
+	"Summer.Weekly.6.1": "PLACEHOLDER 6.1",
+	"Summer.Weekly.6.2": "PLACEHOLDER 6.2",
+	"Summer.Weekly.6.3": "PLACEHOLDER 6.3",
+	"Summer.Weekly.6.4": "PLACEHOLDER 6.4",
+
+	"Summer.Weekly.8.1": "PLACEHOLDER 8.1",
+	"Summer.Weekly.8.2": "PLACEHOLDER 8.2",
+	"Summer.Weekly.8.3": "PLACEHOLDER 8.3",
+	"Summer.Weekly.8.4": "PLACEHOLDER 8.4",
+
+	"Summer.Weekly.10.1": "Watching the sky as much as I do, I've naturally taken an interest in birding.#$e#We often get visited by parrots from the Fern Islands here.$h",
+	"Summer.Weekly.10.2": "I got a call from one of my old colleagues the other day. ${He's^She's^They're}$ getting married.#$e#It feels like everyone my age is starting to settle down.",
+	"Summer.Weekly.10.3": "PLACEHOLDER 10.3",
+	"Summer.Weekly.10.4": "PLACEHOLDER 10.4",
+
+	"Fall.Weekly.0.1": "This is a particularly good season for foraging.#$e#This might be obvious, but make sure to check that what you find is edible before you eat it.",
+	"Fall.Weekly.0.2": "Vinegar is useful in cooking, but it also makes a good natural cleaner.#$e#That is, if you don't mind your kitchen smelling like vinegar.",
+	"Fall.Weekly.0.3": "PLACEHOLDER 0.3",
+	"Fall.Weekly.0.4": "PLACEHOLDER 0.4",
+
+	"Fall.Weekly.2.1": "PLACEHOLDER 2.1",
+	"Fall.Weekly.2.2": "PLACEHOLDER 2.2",
+	"Fall.Weekly.2.3": "PLACEHOLDER 2.3",
+	"Fall.Weekly.2.4": "PLACEHOLDER 2.4",
+
+	"Fall.Weekly.4.1": "PLACEHOLDER 4.1",
+	"Fall.Weekly.4.2": "PLACEHOLDER 4.2",
+	"Fall.Weekly.4.3": "I take patient confidentiality very seriously.#$e#I think that's especially important in a small town, where gossip can spread quickly.",
+	"Fall.Weekly.4.4": "If I had to pick a favorite season, I'd probably say Fall.#$e#It's not too hot, not too cold, and there's always an abundance of mushrooms.",
+
+	//$query MUSEUM_DONATIONS 10 Arch must remain at the front here
+	"Fall.Weekly.6.1": "$query MUSEUM_DONATIONS 10 Arch #From what I understand, Stardew Valley is actually an archeological hotspot.#$e#But you'd know all about that, judging by the donations in the museum.$h|From what I understand, Stardew Valley is actually an archeological hotspot.#$e#It makes sense that Gunther decided to live here.",
+	"Fall.Weekly.6.2": "PLACEHOLDER 6.2",
+	"Fall.Weekly.6.3": "PLACEHOLDER 6.3",
+	"Fall.Weekly.6.4": "PLACEHOLDER 6.4",
+
+	"Fall.Weekly.8.1": "When I was younger I used to stay up late reading by the light of my nightlight.#$e#I think that might be part of the reason my eyesight is so bad now...",
+	"Fall.Weekly.8.2": "My apartment here is small... but it's still quite a bit larger than the one I had as a student.#$e#When I first moved in it felt downright spacious.",
+	"Fall.Weekly.8.3": "PLACEHOLDER 8.3",
+	"Fall.Weekly.8.4": "PLACEHOLDER 8.4",
+
+	"Fall.Weekly.10.1": "PLACEHOLDER 10.1",
+	"Fall.Weekly.10.2": "PLACEHOLDER 10.2",
+	"Fall.Weekly.10.3": "PLACEHOLDER 10.3",
+	"Fall.Weekly.10.4": "PLACEHOLDER 10.4",
+
+	//It's so unlikely anyone will still be at 0/1 hearts with him by Winter but I simply have to be thorough lol
+	//Also idk some people don't care about him that much and they might also download this mod for ????reasons????
+	//idk them idk their life
+	"Winter.Weekly.0.1": "I hope that your farmhouse is properly insulated. It gets very cold here in the valley at night.",
+	"Winter.Weekly.0.2": "If you find yourself with a cough, honey works just as well as cough syrup.#$e#Just because I'm a doctor doesn't mean I think all home remedies are bunk.",
+	"Winter.Weekly.0.3": "PLACEHOLDER 0.3",
+	"Winter.Weekly.0.4": "PLACEHOLDER 0.4",
+
+	"Winter.Weekly.2.1": "PLACEHOLDER 2.1",
+	"Winter.Weekly.2.2": "PLACEHOLDER 2.2",
+	"Winter.Weekly.2.3": "PLACEHOLDER 2.3",
+	"Winter.Weekly.2.4": "PLACEHOLDER 2.4",
+
+	//%revealtaste:Harvey:829  must remain at the front here
+	"Winter.Weekly.4.1": "%revealtaste:Harvey:829 You know, you can actually make a nice tea just by boiling fresh ginger.#$e#You can add cinnamon as well if you'd like a more wintery taste.",
+	"Winter.Weekly.4.2": "PLACEHOLDER 4.2",
+	"Winter.Weekly.4.3": "PLACEHOLDER 4.3",
+	"Winter.Weekly.4.4": "PLACEHOLDER 4.4",
+
+	"Winter.Weekly.6.1": "I once asked Elliot for book recommendations...#$e#I think he and I have slightly different tastes when it comes to literature.",
+	//$query MUSEUM_DONATIONS 40 Arch Minerals must remain at the front here
+	"Winter.Weekly.6.2": "$query MUSEUM_DONATIONS 40 Arch Minerals #The museum has really filled up thanks to you.#$e#I guess it makes sense, considering how much digging a farmer must do.$h|It always feels special when there's a new donation to the museum, considering how long it was empty.",
+	"Winter.Weekly.6.3": "PLACEHOLDER 6.3",
+	"Winter.Weekly.6.4": "PLACEHOLDER 6.4",
+
+	"Winter.Weekly.8.1": "PLACEHOLDER 8.1",
+	"Winter.Weekly.8.2": "PLACEHOLDER 8.2",
+	"Winter.Weekly.8.3": "PLACEHOLDER 8.3",
+	"Winter.Weekly.8.4": "PLACEHOLDER 8.4",
+
+	"Winter.Weekly.10.1": "PLACEHOLDER 10.1",
+	"Winter.Weekly.10.2": "PLACEHOLDER 10.2",
+	"Winter.Weekly.10.3": "PLACEHOLDER 10.3",
+	"Winter.Weekly.10.4": "PLACEHOLDER 10.4",
 	
-	//Date and/or Season-Specific Dialogue
+	//Date Specific Dialogue
 	
 	"Summer.Heat":"It's been so difficult to focus on my work lately.#$b#You know, because of the heat.$l",
 	"Fall.Plans":"#Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.$l|#I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
@@ -510,7 +638,7 @@
 	"Summer.Indoor_Day_1": "Good morning, {{Nickname}}! I got up early to make you breakfast.[201]#$e#I hope me banging around in the kitchen didn't wake you up.",
 	"Summer.Indoor_Day_2": "Hm... what should I do today?#$e#Honestly, this heat makes me want to take a nap.$h",
 	"Summer.Indoor_Day_3": "I've been thinking... maybe I'll try iced coffee for a change.#$e#Variety is the spice of life, right?$h",
-	"Summer.Indoor_Day_4": "Days tend to be longest in Summer.#$b#That means more time to do whatever you like!",
+	"Summer.Indoor_Day_4": "Days tend to be longest in Summer.#$b#That means more time to do whatever you like!#h",
 	"Summer.Indoor_Night_0": "I find most of the Summer bugs annoying, but I have to admit, the butterflies are nice.",
 	"Summer.Indoor_Night_1": "It's great living out here where there's relatively little light pollution.#$e#You can see almost every star in the sky.$l",
 	"Summer.Indoor_Night_2": "This house has surprisingly good acoustics.#$b#It's almost got me thinking about picking up the piano again.",

@@ -1,6 +1,74 @@
 ﻿{  "Changes":  [ 	 
+
+{	"LogName": "Weekly Dialogue Edits w/ Seasonals",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Harvey",
+	"When": {
+		"Season": "{{Season}}",
+	},
+	"entries": {
+
+		//Weekly Dialogue + Seasonals
+		//every day decides first between generic and seasonal dialogue, and then a random option from the appropriate pool for that dialogue
+		//even when ranges only include 2 numbers I've done them as a range so that if i add more dialogue down the line it will be easy to expand
+		//Generic daily lines are day of week specific, seasonal lines are season specific only but vary more by heart level
+		
+		"Mon": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
+		"Mon2": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
+		"Mon4": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
+		"Mon6": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
+		"Mon8": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
+		"Mon10": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 8, 10}}}}|Nickname={{Nickname}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+		
+		"Tue": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
+		"Tue2": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
+		"Tue4": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
+		"Tue6": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
+		"Tue8": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
+		"Tue10": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+		
+		"Wed": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 1, 2}}}}}}|{{i18n:{{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
+		"Wed2": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
+		"Wed4": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
+		"Wed6": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
+		"Wed8": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
+		"Wed10": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+		
+		"Thu": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
+		"Thu2": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
+		"Thu_2_Yes": "{{i18n: Thu.2.Yes}}",
+		"Thu_2_Busy": "{{i18n: Thu.2.Busy}}",
+		"Thu_2_No": "{{i18n: Thu.2.No}}",
+		"Thu_2_None": "{{i18n: Thu.2.None}}",
+		"Thu4": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
+		"Thu6": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
+		"Thu8": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
+		"Thu10": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+		
+		"Fri": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
+		"Fri2": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
+		"Fri4": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
+		"Fri6": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
+		"Fri8": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
+		"Fri10": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 8, 10}}}}|Nickname={{Nickname}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+		
+		"Sat": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
+		"Sat2": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
+		"Sat4": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
+		"Sat6": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
+		"Sat8": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
+		"Sat10": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+		
+		"Sun": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
+		"Sun2": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
+		"Sun4": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
+		"Sun6": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
+		"Sun8": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
+		"Sun10": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 8, 10}}}}|Nickname={{Nickname}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+	},
+},
 	
-{	"LogName": "Main Dialogue Edits",
+{	"LogName": "Static Main Dialogue Edits",
 	"Action": "EditData",
 	"Target": "Characters/Dialogue/Harvey",
 	"entries": {
@@ -41,66 +109,10 @@
 		"eventSeen_571102_memory": "{{i18n: 8Hearts.After1}}",
 		"eventSeen_571102_memory_oneweek": "{{i18n: 8Hearts.After2}}",
 		
-		//Weekly Dialogue
-		
-		"Mon": "{{i18n: Mon.{{Random:{{Range: 1, 2}}}}}}",
-		"Mon2": "{{i18n: Mon.{{Random:{{Range: 2, 3}}}}}}",
-		"Mon4": "{{i18n: Mon.{{Random:{{Range: 3, 4}}}}}}",
-		"Mon6": "{{i18n: Mon.{{Random:{{Range: 4, 6}}}}}}",
-		"Mon8": "{{i18n: Mon.{{Random:{{Range: 6, 8}}}}}}",
-		"Mon10": "{{i18n: Mon.{{Random:{{Range: 8, 10}}}}|Nickname={{Nickname}}}}",
-		
-		"Tue": "{{i18n: Tue.{{Random:{{Range: 1, 2}}}}}}",
-		"Tue2": "{{i18n: Tue.{{Random:{{Range: 2, 3}}}}}}",
-		"Tue4": "{{i18n: Tue.{{Random:{{Range: 3, 4}}}}}}",
-		"Tue6": "{{i18n: Tue.{{Random:{{Range: 4, 6}}}}}}",
-		"Tue8": "{{i18n: Tue.{{Random:{{Range: 6, 8}}}}}}",
-		"Tue10": "{{i18n: Tue.{{Random:{{Range: 8, 10}}}}}}",
-		
-		"Wed": "{{i18n: Wed.{{Random:{{Range: 1, 2}}}}}}",
-		"Wed2": "{{i18n: Wed.{{Random:{{Range: 2, 3}}}}}}",
-		"Wed4": "{{i18n: Wed.{{Random:{{Range: 3, 4}}}}}}",
-		"Wed6": "{{i18n: Wed.{{Random:{{Range: 4, 6}}}}}}",
-		"Wed8": "{{i18n: Wed.{{Random:{{Range: 6, 8}}}}}}",
-		"Wed10": "{{i18n: Wed.{{Random:{{Range: 8, 10}}}}}}",
-		
-		"Thu": "{{i18n: Thu.{{Random:{{Range: 1, 2}}}}}}",
-		"Thu2": "{{i18n: Thu.{{Random:{{Range: 2, 3}}}}}}",
-		"Thu_2_Yes": "{{i18n: Thu.2.Yes}}",
-		"Thu_2_Busy": "{{i18n: Thu.2.Busy}}",
-		"Thu_2_No": "{{i18n: Thu.2.No}}",
-		"Thu_2_None": "{{i18n: Thu.2.None}}",
-		"Thu4": "{{i18n: Thu.{{Random:{{Range: 3, 4}}}}}}",
-		"Thu6": "{{i18n: Thu.{{Random:{{Range: 4, 6}}}}}}",
-		"Thu8": "{{i18n: Thu.{{Random:{{Range: 6, 8}}}}}}",
-		"Thu10": "{{i18n: Thu.{{Random:{{Range: 8, 10}}}}}}",
-		
-		"Fri": "{{i18n: Fri.{{Random:{{Range: 1, 2}}}}}}",
-		"Fri2": "{{i18n: Fri.{{Random:{{Range: 2, 3}}}}}}",
-		"Fri4": "{{i18n: Fri.{{Random:{{Range: 3, 4}}}}}}",
-		"Fri6": "{{i18n: Fri.{{Random:{{Range: 4, 6}}}}}}",
-		"Fri8": "{{i18n: Fri.{{Random:{{Range: 6, 8}}}}}}",
-		"Fri10": "{{i18n: Fri.{{Random:{{Range: 8, 10}}}}|Nickname={{Nickname}}}}",
-		
-		"Sat": "{{i18n: Sat.{{Random:{{Range: 1, 2}}}}}}",
-		"Sat2": "{{i18n: Sat.{{Random:{{Range: 2, 3}}}}}}",
-		"Sat4": "{{i18n: Sat.{{Random:{{Range: 3, 4}}}}}}",
-		"Sat6": "{{i18n: Sat.{{Random:{{Range: 4, 6}}}}}}",
-		"Sat8": "{{i18n: Sat.{{Random:{{Range: 6, 8}}}}}}",
-		"Sat10": "{{i18n: Sat.{{Random:{{Range: 8, 10}}}}}}",
-		
-		"Sun": "{{i18n: Sun.{{Random:{{Range: 1, 2}}}}}}",
-		"Sun2": "{{i18n: Sun.{{Random:{{Range: 2, 3}}}}}}",
-		"Sun4": "{{i18n: Sun.{{Random:{{Range: 3, 4}}}}}}",
-		"Sun6": "{{i18n: Sun.{{Random:{{Range: 4, 6}}}}}}",
-		"Sun8": "{{i18n: Sun.{{Random:{{Range: 6, 8}}}}}}",
-		"Sun10": "{{i18n: Sun.{{Random:{{Range: 8, 10}}}}|Nickname={{Nickname}}}}",
-		
 		//Date and/or Season Specific Dialogue
 		
-		"summer_Thu10": "{{i18n: Summer.Heat}}",
-		"fall_Fri8": "{{i18n: Fall.Plans}}",
-		"fall_Fri10": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: Fall.Plans}}",
+		"summer_11": "{{i18n: Summer.Heat}}",
+		"fall_19": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: Fall.Plans}}",
 		"spring_23": "{{i18n: Spring.FlowerDance}}",
 		"fall_1": "{{i18n: Fall.Chilly}}",
 		"fall_8": "{{i18n: Fall.Mushrooms}}",
@@ -113,10 +125,13 @@
 		//Deleted or heavily edited these events, so these memories are no longer relevant
 		//Or they are keys used by Canon Dialogue Expansion that conflict with my characterization choices/would be redundant because I moved those lines to other keys
 		
+		"fall_Fri8": null,
+		"fall_Fri10": null,
 		"fall_Sat": null,
 		"fall_Sat_10": null,
 		"summer_Wed8": null,
 		"summer_Thu6": null,
+		"summer_Thu10": null,
 		"summer_Fri4": null,
 		"summer_Fri10": null,
 		"winter_Sat10": null,
@@ -128,8 +143,8 @@
 		"eventSeen_58_memory_oneweek": null,
 		"eventSeen_58_memory_twoweeks": null,
 		"eventSeen_58_memory_fourweeks": null,
-		},
 	},
+},
 
 {	"Logname": "Marriage StringsFromCSFiles Dialogue Edit",
 	"Action": "EditData",
