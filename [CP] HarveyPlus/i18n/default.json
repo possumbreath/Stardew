@@ -300,53 +300,54 @@
 	"Spring.Weekly.0.4": "PLACEHOLDER 0.4",
 
 	"Spring.Weekly.2.1": "Hi, @. Are you having a productive Spring so far?#$e#Remember not to give yourself more work than you can comfortably handle.",
-	"Spring.Weekly.2.2": "PLACEHOLDER 2.2",
-	"Spring.Weekly.2.3": "PLACEHOLDER 2.3",
+	"Spring.Weekly.2.2": "It's Spring cleaning season again. It must take a lot of work to keep $farm Farm tidy.",
+	"Spring.Weekly.2.3": "",
 	"Spring.Weekly.2.4": "PLACEHOLDER 2.4",
 
 	//%revealtaste:Harvey:18 must remain at the front here.
 	"Spring.Weekly.4.1": "%revealtaste:Harvey:18 My favorite flower is the daffodil.#$e#They're not particularly exciting, but they're bright and cheerful, and they come back reliably every year.$h",
-	"Spring.Weekly.4.2": "PLACEHOLDER 4.2",
+	"Spring.Weekly.4.2": "%revealtaste:Harvey:[SPRINGONION] Patches of spring onions grow down past Marnie's barn, across the river.#$e#I'd go pick some myself if my schedule wasn't so tight.",
 	"Spring.Weekly.4.3": "PLACEHOLDER 4.3",
 	"Spring.Weekly.4.4": "PLACEHOLDER 4.4",
 
-	"Spring.Weekly.6.1": "PLACEHOLDER 6.1",
+	"Spring.Weekly.6.1": "",
 	"Spring.Weekly.6.2": "PLACEHOLDER 6.4",
 	"Spring.Weekly.6.3": "PLACEHOLDER 6.3",
 	"Spring.Weekly.6.4": "PLACEHOLDER 6.4",
 
-	"Spring.Weekly.8.1": "PLACEHOLDER 8.1",
+	"Spring.Weekly.8.1": "There's a bird's nest in the tree outside my clinic. If you look closely you can see the eggs!#$e#Not too closely, though, or mama bird will get mad.",
 	"Spring.Weekly.8.2": "PLACEHOLDER 8.2",
 	"Spring.Weekly.8.3": "PLACEHOLDER 8.3",
 	"Spring.Weekly.8.4": "PLACEHOLDER 8.4",
 
 	"Spring.Weekly.10.1": "The flowers look brighter this year, somehow.#$e#Or maybe I'm just noticing them more.$h",
 	"Spring.Weekly.10.2": "There's always an upswing in air-traffic this time of year.#$e#It's not surprising that people enjoy flying more when it's nice out.",
-	"Spring.Weekly.10.3": "PLACEHOLDER 10.3",
-	"Spring.Weekly.10.4": "PLACEHOLDER 10.4",
+	"Spring.Weekly.10.3": "It's been so pleasant outside since the season turned... we should plan a picnic!$h",
+	"Spring.Weekly.10.4": "Spending time with you always puts a Spring in my step.#$e#Haha. Too much?$h", 
+		//doublecheck blushing icon
 
 	"Summer.Weekly.0.1": "Be careful running around in the tall grass! Watch out for bees.",
 	"Summer.Weekly.0.2": "It feels like a shame that I spend so much of Summer indoors...$s#$e#Oh, well. It can't be helped.",
 	"Summer.Weekly.0.3": "If you're planning to stay out in the sun for extended periods of time, I'd recommend a hat.",
-	"Summer.Weekly.0.4": "PLACEHOLDER 0.4",
+	"Summer.Weekly.0.4": "When applying sunscreen, don't forget to put some behind your ears.",
 
 	"Summer.Weekly.2.1": "Sometimes there's broken glass in the sand at the beach.#$e#Be careful where you step if you walk around near the water without shoes on.",
 	"Summer.Weekly.2.2": "PLACEHOLDER 2.2",
 	"Summer.Weekly.2.3": "PLACEHOLDER 2.3",
 	"Summer.Weekly.2.4": "PLACEHOLDER 2.4",
 
-	"Summer.Weekly.4.1": "You can see a lot of unique wildlife down at the tidepools by the beach.#$e#Be careful of the urchins! Some of them are venomous, and all of them are sharp.",
-	"Summer.Weekly.4.2": "PLACEHOLDER 4.2",
+	"Summer.Weekly.4.1": "You can see a lot of unique wildlife down at the tidepools by the beach.#$e#Be careful of the urchins! Some of them are venomous, and none of them like to be stepped on.",
+	"Summer.Weekly.4.2": "It probably seems silly to drink hot coffee when the weather is like this but, well. Once I get into a habit I find it hard to get out of it.",
 	"Summer.Weekly.4.3": "PLACEHOLDER 4.3",
 	"Summer.Weekly.4.4": "PLACEHOLDER 4.4",
 
-	"Summer.Weekly.6.1": "PLACEHOLDER 6.1",
+	"Summer.Weekly.6.1": "You know, ",
 	"Summer.Weekly.6.2": "PLACEHOLDER 6.2",
 	"Summer.Weekly.6.3": "PLACEHOLDER 6.3",
 	"Summer.Weekly.6.4": "PLACEHOLDER 6.4",
 
-	"Summer.Weekly.8.1": "PLACEHOLDER 8.1",
-	"Summer.Weekly.8.2": "PLACEHOLDER 8.2",
+	"Summer.Weekly.8.1": "It's always difficult to decide how to spend what little free time I get in the Summer.#$e#Part of me wants to go for a hike in the woods and part of me wants to take a nap!$h",
+	"Summer.Weekly.8.2": "",
 	"Summer.Weekly.8.3": "PLACEHOLDER 8.3",
 	"Summer.Weekly.8.4": "PLACEHOLDER 8.4",
 
