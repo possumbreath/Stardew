@@ -205,7 +205,6 @@
 	
 	//Weekly Dialogue
 	//Because of how the randomization is set up, $query, $q, %revealtaste and other commands need to be in these strings directly. 
-	//I have commented above every instance of commands that need to be kept as they are, for your convenience when editing and translating.
 	//IF YOU USE AN AI OR A PROGRAM TO TRANSLATE AND IT MESSES THOSE UP, YOU'RE ON YOUR OWN, BUCKAROO!
 
 	"Mon.1": "We sell a few over-the-counter medications at the clinic... feel free to stop by if you're feeling exhausted.",
@@ -226,7 +225,6 @@
 	"Tue.5": "I want to form a good rapport with my patients, but getting too close presents a conflict of interest.$s#$b#It's a difficult balance to maintain.#$e#We can be friendly, but we can't entirely be friends.",
 	"Tue.6": "Did you know you can develop allergies later in life?#$b#It happens very commonly with shellfish, actually.",
 	"Tue.7": "It's difficult knowing that no matter how much advice I give, it's up to my patients whether or not they take it.#$e#There are some people in this town I worry about quite a lot.$s",
-	//$query PLAYER_NPC_RELATIONSHIP current Harvey dating married must remain at the front here.
 	"Tue.8": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Don't overwork yourself, @.#$e#Your health is important to me.|Don't overwork yourself, @. #$e#If our farmers get sick, where will we get our food? We need you!$h",
 	"Tue.9": "It's good to see you, @.$h#$e#I admit it's nice to have something to get out of bed for besides work.$l",
 	"Tue.10": "They say that just smiling more can improve your health.#$e#I was always a little dubious about that.#$b#Being with you is starting to convince me, though.$h",
@@ -234,7 +232,6 @@
 	"Wed.1": "Remember to cover your mouth when you sneeze.#$e#Then make sure to wash your hands.",
 	"Wed.2": "It's a great help having Maru working at the clinic.#$e#She invented an entirely new way of organizing our records. It's much more intuitive!$h",
 	"Wed.3": "I moved here right after graduating my residency.#$e#That would have been... wow. Longer ago than I thought.$s",
-	//$query PLAYER_HAS_SEEN_EVENT current HarveyPlus.4Hearts must remain at the front here.
 	"Wed.4": "$query PLAYER_HAS_SEEN_EVENT current HarveyPlus.4Hearts #You're good company, @.#$b# We should meet up at the museum again sometime.$h|I'd like to get to know you better, @.#$b#I'm often at the museum on Saturdays, if you're ever on that side of town.$h",
 	"Wed.5": "I've found that it's good for my health to try and stay positive.#$e#It's not always easy, but I do think you can find a silver lining on any cloud if you look hard enough.",
 	"Wed.6": "It's nice to have another friend in town.$h#$e# I always worried that I was boring Maru when it was just the two of us.",
@@ -244,7 +241,6 @@
 	"Wed.10": "Usually by the middle of the week I'd be starting to hit a slump.#$b#I think your energy is infectious!$h",
 	
 	"Thu.1": "I live above the clinic. I admit it's convenient, not having a commute.",
-	//Take care not to translate the following question keys
 	"Thu.2": "Nutrition is important, so make sure and eat well. #$b#$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
 	"Thu.2.Yes": "That's good! You'll have no trouble staying healthy, then.$h",
 	"Thu.2.Busy": "Ah, yes. I know how that is.$s#$b#Still, even the occasional healthy meal is better than none.",
@@ -253,7 +249,6 @@
 	"Thu.3": "I'm what you'd call a family practice physician.#$e#Taking care of someone from birth to death... that's a lot of responsibility. I take it very seriously.",
 	"Thu.4": "I probably drink more coffee than is strictly healthy.$s#$e#But all that paperwork wouldn't get done otherwise!",
 	"Thu.5": "I try and attend every town festival, even if I find crowds overwhelming.#$e#It's good for me to get out of the clinic sometimes.",
-	//%revealtaste:Maru:432 must remain at the front here.
 	"Thu.6": "%revealtaste:Maru:432 I tried making my own pickles once.#$b#I think I'm the reason Maru won't eat them now.$s",
 	"Thu.7": "Do you ever listen to music while you're working?#$b#I find it helps the time go by much more quickly.$h",
 	"Thu.8": "I always wanted to work in a smaller, underserved community.#$b#It can vastly improve quality of life to have easier access to medical care.#$e#Imagine how much crankier George would be if he had to go all the way to Zuzu City for his checkups!$h",
@@ -294,7 +289,6 @@
 	"Sun.10": "Do you ever get lonely living by yourself on the farm, {{Nickname}}?#$e#Just wondering.$l",
 
 	"Spring.Weekly.0.1": "It's officially pollen season.#$e#Living in the countryside seems like it would be a little less idyllic for a person with bad allergies.",
-	//revealtaste:Harvey:22 must remain at the front here.
 	"Spring.Weekly.0.2": "%revealtaste:Harvey:22 Did you know that dandelion greens are edible?#$b#Most people consider them weeds, but they're not bad in a salad.",
 	"Spring.Weekly.0.3": "If you need anything from the clinic, make sure to stop by before three. That's when we close.",
 	"Spring.Weekly.0.4": "Be sure to cook any fish you catch thoroughly before you eat it.",
@@ -304,7 +298,6 @@
 	"Spring.Weekly.2.3": "Remember to eat a healthy breakfast before you start in on your farm chores.#$e#It's the most important meal of the day, as they say.",
 	"Spring.Weekly.2.4": "I know it's a little annoying that the clinic closes so early in the day.#$e#It just isn't profitable enough to justify staying open longer.$s",
 
-	//%revealtaste:Harvey:18 must remain at the front here.
 	"Spring.Weekly.4.1": "%revealtaste:Harvey:18 My favorite flower is the daffodil.#$e#They're not particularly exciting, but they're bright and cheerful, and they come back reliably every year.$h",
 	"Spring.Weekly.4.2": "%revealtaste:Harvey:399 Patches of spring onions grow down past Marnie's barn, across the river.#$e#I'd go pick some myself if my schedule wasn't so tight.",
 	"Spring.Weekly.4.3": "I really need to put aside time to clear out the magazines in the clinic waiting room...#$e#There are definitely some in there old enough to qualify as historical documents.",
@@ -331,28 +324,28 @@
 	"Summer.Weekly.0.4": "When applying sunscreen, don't forget to put some behind your ears.",
 
 	"Summer.Weekly.2.1": "Sometimes there's broken glass in the sand at the beach.#$e#Be careful where you step if you walk around near the water without shoes on.",
-	"Summer.Weekly.2.2": "PLACEHOLDER 2.2",
-	"Summer.Weekly.2.3": "PLACEHOLDER 2.3",
-	"Summer.Weekly.2.4": "PLACEHOLDER 2.4",
+	"Summer.Weekly.2.2": "Remember to drink plenty of water and give yourself regular breaks.#$e#I know you have a lot to do on the farm, but heat stroke is no joke!",
+	"Summer.Weekly.2.3": "If you're looking for something to do with your time, it's always worth it to check the bulletin board outside of Pierre's shop.",
+	"Summer.Weekly.2.4": "Have you seen any butterflies while out and about?#$b#They're more common this time of year.",
 
 	"Summer.Weekly.4.1": "You can see a lot of unique wildlife down at the tidepools by the beach.#$e#Be careful of the urchins! Some of them are venomous, and none of them like to be stepped on.",
 	"Summer.Weekly.4.2": "It probably seems silly to drink hot coffee when the weather is like this.#$e#Once I get into a habit I find it hard to get out of it.",
 	"Summer.Weekly.4.3": "PLACEHOLDER 4.3",
 	"Summer.Weekly.4.4": "PLACEHOLDER 4.4",
 
-	"Summer.Weekly.6.1": "You know, ",
-	"Summer.Weekly.6.2": "PLACEHOLDER 6.2",
-	"Summer.Weekly.6.3": "PLACEHOLDER 6.3",
+	"Summer.Weekly.6.1": "You know, I've never taken a Summer vacation.#$b#It's always difficult to justify setting aside the time...",
+	"Summer.Weekly.6.2": "Caroline told me once that I'd be less nervous if I replaced my morning coffee with tea.#$e#I don't know if it would really make much of a difference.",
+	"Summer.Weekly.6.3": "Summer is definitely my least favorite season.#$e#There's nothing objectively wrong with it, but I've never done well with heat.",
 	"Summer.Weekly.6.4": "PLACEHOLDER 6.4",
 
 	"Summer.Weekly.8.1": "It's always difficult to decide how to spend what little free time I get in the Summer.#$e#Part of me wants to go for a walk in the sun but the rest of me just wants to take a nap!$h",
-	"Summer.Weekly.8.2": "PLACEHOLDER 8.2",
-	"Summer.Weekly.8.3": "PLACEHOLDER 8.3",
+	"Summer.Weekly.8.2": "Watching the sky as much as I do, I've naturally taken an interest in birding.#$e#We often get visited by parrots from the Fern Islands here.$h",
+	"Summer.Weekly.8.3": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #|#",
 	"Summer.Weekly.8.4": "PLACEHOLDER 8.4",
 
-	"Summer.Weekly.10.1": "Watching the sky as much as I do, I've naturally taken an interest in birding.#$e#We often get visited by parrots from the Fern Islands here.$h",
+	"Summer.Weekly.10.1": "It's so difficult to keep focused in this heat.#$b#And you distracting me isn't helping!$h",
 	"Summer.Weekly.10.2": "I got a call from one of my old colleagues the other day. ${He's^She's^They're}$ getting married.#$e#It feels like everyone my age is starting to settle down.",
-	"Summer.Weekly.10.3": "PLACEHOLDER 10.3",
+	"Summer.Weekly.10.3": "Here, @. I thought you might like this. [421 376 593]$1",
 	"Summer.Weekly.10.4": "PLACEHOLDER 10.4",
 
 	"Fall.Weekly.0.1": "This is a particularly good season for foraging.#$e#This might be obvious, but make sure to check that what you find is edible before you eat it.",
@@ -370,18 +363,17 @@
 	"Fall.Weekly.4.3": "I take patient confidentiality very seriously.#$b#I think that's especially important in a small town, where gossip can spread quickly.",
 	"Fall.Weekly.4.4": "If I had to pick a favorite season, I'd probably say Fall.#$e#It's not too hot, not too cold, and there's always an abundance of mushrooms.",
 
-	//$query MUSEUM_DONATIONS 10 Arch must remain at the front here
 	"Fall.Weekly.6.1": "$query MUSEUM_DONATIONS 10 Arch #From what I understand, Stardew Valley is actually an archeological hotspot.#$e#But you'd know all about that, judging by the donations in the museum.$h|From what I understand, Stardew Valley is actually an archeological hotspot.#$e#It makes sense that Gunther decided to live here.",
 	"Fall.Weekly.6.2": "PLACEHOLDER 6.2",
 	"Fall.Weekly.6.3": "PLACEHOLDER 6.3",
 	"Fall.Weekly.6.4": "PLACEHOLDER 6.4",
 
 	"Fall.Weekly.8.1": "When I was younger I used to stay up late reading by the light of my nightlight.#$e#I think that might be part of the reason my eyesight is so bad now...",
-	"Fall.Weekly.8.2": "My apartment here is small... but it's still quite a bit larger than the one I had as a student.#$e#When I first moved in it felt downright spacious.",
+	"Fall.Weekly.8.2": "My apartment here is small, but it's still quite a bit larger than the one I had as a student.#$e#When I first moved in it felt downright spacious.",
 	"Fall.Weekly.8.3": "PLACEHOLDER 8.3",
 	"Fall.Weekly.8.4": "PLACEHOLDER 8.4",
 
-	"Fall.Weekly.10.1": "PLACEHOLDER 10.1",
+	"Fall.Weekly.10.1": "If you're feeling chilly, @, you're welcome to borrow my coat.$1",
 	"Fall.Weekly.10.2": "PLACEHOLDER 10.2",
 	"Fall.Weekly.10.3": "PLACEHOLDER 10.3",
 	"Fall.Weekly.10.4": "PLACEHOLDER 10.4",
@@ -394,19 +386,17 @@
 	"Winter.Weekly.0.3": "PLACEHOLDER 0.3",
 	"Winter.Weekly.0.4": "PLACEHOLDER 0.4",
 
-	"Winter.Weekly.2.1": "PLACEHOLDER 2.1",
+	"Winter.Weekly.2.1": "I know that holly berries look tempting, but it's definitely a bad idea to eat them.",
 	"Winter.Weekly.2.2": "PLACEHOLDER 2.2",
 	"Winter.Weekly.2.3": "PLACEHOLDER 2.3",
 	"Winter.Weekly.2.4": "PLACEHOLDER 2.4",
 
-	//%revealtaste:Harvey:829  must remain at the front here
 	"Winter.Weekly.4.1": "%revealtaste:Harvey:829 You know, you can actually make a nice tea just by boiling fresh ginger.#$e#You can add cinnamon as well if you'd like a more wintery taste.",
 	"Winter.Weekly.4.2": "PLACEHOLDER 4.2",
 	"Winter.Weekly.4.3": "PLACEHOLDER 4.3",
 	"Winter.Weekly.4.4": "PLACEHOLDER 4.4",
 
 	"Winter.Weekly.6.1": "I once asked Elliot for book recommendations...#$e#I think he and I have slightly different tastes when it comes to literature.",
-	//$query MUSEUM_DONATIONS 40 Arch Minerals must remain at the front here
 	"Winter.Weekly.6.2": "$query MUSEUM_DONATIONS 40 Arch Minerals #The museum has really filled up thanks to you.#$e#I guess it makes sense, considering how much digging a farmer must do.$h|It always feels special when there's a new donation to the museum, considering how long it was empty.",
 	"Winter.Weekly.6.3": "PLACEHOLDER 6.3",
 	"Winter.Weekly.6.4": "PLACEHOLDER 6.4",
@@ -425,7 +415,7 @@
 	
 	"Summer.Heat":"It's been so difficult to focus on my work lately.#$b#You know, because of the heat.$l",
 	"Fall.Plans":"#Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.$l|#I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
-	"Spring.FlowerDance": "The Flower Dance is tomorrow. I'm not really much of a dancer, but Maru always insists that if she has to go, I have to go.",
+	"Spring.FlowerDance": "The Flower Dance is tomorrow...#$b#I'm not really much of a dancer, but Maru always insists that if she has to go, I have to go.",
 	"Fall.Mushrooms": "Did you know many of the mushrooms that grow locally are edible?$#b#Be careful of the red ones, though.",
 	"Fall.Chilly": "The weather has started to turn.#$b#Add more layers if you start feeling chilly.",
 	"Winter.FluShots": "Don't forget to get your flu shot this year.#$e#An ounce of prevention is worth a pound of cure, as they say.",
@@ -433,7 +423,7 @@
 	"Winter.End": "Winter has its charm, but I'm looking forward to seeing the sun more often in Spring.",
 	
 	//Festival Dialogue
-	//I'm not changing all of it but there are some lines that need editing either for platonic Maru reasons or I don't like it reasons
+	//I'm not changing all of it but there are some lines that need editing for personal taste reasons
 	
 	"fall16.1": "It's easy to forget how large pigs are until you're looking at them in person...",
 	"fall16.1.spouse": "Let me know when you're ready to go home, {{Nickname}}. I'll just be over here.",
@@ -486,7 +476,7 @@
 	"jobLeave_Harvey.1": "I have to go into the clinic today. Have a nice day, okay?",
 	"jobLeave_Harvey.2": "I'm going in to work today. Let me know if you need anything from town while I'm there.",
 	"jobLeave_Harvey.3": "Almost time for my morning walk to work! It's such a nice way to get regular exercise.$h",
-	"jobLeave_Harvey.4": "Ah, I won't be able to finish my coffee before I leave for work...$s#$e#I guess I'll just take it with me.",
+	"jobLeave_Harvey.4": "Ah, I won't be able to finish my coffee before I leave for work...$s#$b#I guess I'll just take it with me.",
 	"jobLeave_Harvey.5": "Good morning, {{Nickname}}. I'll be at the clinic today if you need me for anything.",
 	"jobLeave_Harvey.6": "I have work to do at the clinic today. I'll see you tonight, {{Nickname}}.",
 	"jobReturn_Harvey.1": "Hi, {{Nickname}}. Did you have a good day?#$e#My patients are still healthy, so I can't complain.$h",
@@ -511,8 +501,7 @@
 	"Marriage.Mon.2.1": "%Harvey is completely absorbed in his book. The title reads: \"Radio Ettiquette: Don't Be a Knob\".",
 	"Marriage.Mon.2.2": "%Harvey is reading a book called \"Birds of Ferngill\". There's a very colorful parrot on the cover.",
 	"Marriage.Mon.2.3": "%\"Sustainable Farming Under Modern Capitalism\". Huh! Looks like Harvey's taking an interest in your business.",
-	//$query PLAYER_HAS_CHILDREN current must remain at the front here
-	"Marriage.Mon.2.4": "$query PLAYER_HAS_CHILDREN current #%The book's title reads \"101 Easy Experiments to Introduce Your Child to Science\".#%b#%Looks like someone's doing research.|%The book's title reads \"Historic Wineries of Ferngill\". Looks like someone's doing research.",
+	"Marriage.Mon.2.4": "$query PLAYER_HAS_CHILDREN current #%The book's title reads \"101 Easy Experiments to Introduce Your Child to Science\". Looks like someone's doing research.|#%The book's title reads \"Historic Wineries of Ferngill\". Looks like someone's doing research.",
 	"Marriage.Mon.2.5": "%It looks like Harvey is reading a book called \"A Hip Pocket Guide to Ferngill Mushrooms\".#$b#%On the cover is a man holding a trumpet in one hand and a very large mushroom in the other.",
 	"Marriage.Mon.2.6.": "%Harvey's book is titled \"Oh! The Humanity! A History of Aircraft Disasters\". Sounds... fun?",
 	
@@ -647,7 +636,7 @@
 		
 	"Summer.Outdoor_0": "Whoof... it's hot out here. I might head inside again soon.",
 	"Summer.Outdoor_1": "I can't tell you how lucky I feel to get to spend my life with you.$l",
-	"Summer.Outdoor_2": "Have you noticed? There's a bird's nest up under the roof.#$e#%farm Farm is so full of life!",
+	"Summer.Outdoor_2": "Have you noticed? There's a bird's nest up under the roof.#$e#%farm Farm is so full of life!$h",
 	"Summer.Outdoor_3": "This is so much nicer than being cooped up in the clinic all day.$l#$e#I love watching you work on the farm... hehe.$l",
 	"Summer.Outdoor_4": "Be sure to drink enough water today, {{Nickname}}. It's easy to get dehydrated in weather like this.",
 	"Summer.patio_Harvey.1": "A bee landed on me earlier.#$b#Oh, don't worry! They don't sting unless you bother them. She went on her way eventually.$h",
@@ -681,7 +670,7 @@
 	"Fall.Rainy_Night_4": "I decided to finally try out one of those recipes I had saved. I think it came out alright, but you tell me what you think. [230 235 236 237]$h",
 		
 	"Fall.Indoor_Day_0": "Good morning, {{Nickname}}. I've been up for a while already.#$e#Sometimes it's nice to enjoy the early morning quiet.",
-	"Fall.Indoor_Day_1": "Here's your breakfast, {{Nickname}}, just how you like it. I think I got the consistency on the eggs just right this time. [201]$h",
+	"Fall.Indoor_Day_1": "Here's your breakfast, {{Nickname}}, just how you like it. I think I got the consistency on the eggs perfect this time. [201]$h",
 	"Fall.Indoor_Day_2": "If you see any edible mushrooms while you're out today, be sure to pick them up.#$e#There's nothing fresher than straight off the ground!$h", 
 	"Fall.Indoor_Day_3": "Sometimes I wonder what my life would be like if you'd never read that letter from your Grandfather...#$b#I'm glad that you did.$l",
 	"Fall.Indoor_Day_4": "Did you sleep well last night, {{Nickname}}? I had the strangest dream...#$e#You were growing pumpkins, but they just kept growing until they were taller than I was! Weird, right?",
@@ -753,7 +742,7 @@
 	"Winter.funLeave_Harvey.3": "I think it might be nice to get out of the house today.#$b#I feel like I'm starting to get cabin fever.",
 	"Winter.funReturn_Harvey.1": "I tripped over this on my way home... it was hidden under the snow. [412 416 536 709 749]#$e#It looked like something you could use.$h",
 	"Winter.funReturn_Harvey.2": "Phew! It's good to be home. What did you do today?#$e#Did you spend all day in the mines again?#h",
-	"Winter.funReturn_Harvey.3": "Sorry I'm back a little late; I kept getting distracted.#$e#Oh, not by anything important. Mainly watching the birds.",
+	"Winter.funReturn_Harvey.3": "Sorry I'm back a little late; I kept getting distracted.#$b#Oh, not by anything important. Mainly watching the birds.",
 	
 	"Winter.OneKid_0": "It just ocurred to me that having a child means we can officially start establishing family holiday traditions.#$e#I'll have to think of some...",
 	"Winter.OneKid_1": "Did you want to do family postcards this year?#$b#I have some far-off relatives who I'm sure would love an update on how %kid1 is doing.",
@@ -770,8 +759,8 @@
 	"Rainy.1": "Hi @! It's good weather for staying inside and reading.#$e#So... have you read anything good lately?",
 	"Rainy.2": "Have you ever noticed that almost no one in this town uses an umbrella?#$e#I think I saw Sebastian with one, once...$s",
 	"Rainy.3": "I suppose it's nice to have a day off from watering your crops.#$b#Everyone needs a break now and then.$h",
-	"Rainy.4": "I hate going outside on days like this.#$e#My glasses get all fogged up and then I'm as blind with them on as I am without.",
-	"Rainy.5": "Ugh. I stepped in a puddle earlier and my socks are still soaked.",
+	"Rainy.4": "I hate going outside on days like this.#$b#My glasses get all fogged up and then I'm as blind with them on as I am without.",
+	"Rainy.5": "Ugh. I stepped in a puddle earlier and my socks are still soaked.$s",
 	"Rainy.6": "Wearing wet clothing can't actually make you sick, but I'd still recommend changing when you get home.#$b#Basic comfort is also important!",
 	
 }
