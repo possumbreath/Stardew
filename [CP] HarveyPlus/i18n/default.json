@@ -306,7 +306,7 @@
 	"Spring.Weekly.6.1": "Sometimes I feel as though I put so much energy into taking care of my patients that I don't have any left over to take care of myself...$s#$e#...Ah! I'm fine though, really!$8",
 	"Spring.Weekly.6.2": "%revealtaste:Maru:400 Spring is strawberry season.#$b#It's all Maru talks about this time of year. They're her favorite.",
 	"Spring.Weekly.6.3": "I've thought about getting a pet to keep me company.#$e#My apartment barely has enough room in it for me, though, let alone a cat or a dog.#$b#I'd feel bad keeping one cooped up in there.$s",
-	"Spring.Weekly.6.4": "I've been reading a book about historical agricultural practices that is just fascinating.#$b#You're welcome to borrow it when I'm done, if you want.",
+	"Spring.Weekly.6.4": "I've been reading a book about historical agricultural practices. It's just fascinating!$h#$b#You're welcome to borrow it when I'm done, if you want.",
 
 	"Spring.Weekly.8.1": "There's a bird's nest in the tree outside my clinic. If you look closely you can see the eggs!$h#$b#Not too closely, though, or mama bird will get mad.",
 	"Spring.Weekly.8.2": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Would you like to join me on my afternoon walks sometimes, @?#$e#I'd like it if you did.$1|#Would you like to join me on my afternoon walks sometimes, @?#$e#Walking is an easy way to stay active, but it's more fun with company!$h",
@@ -329,7 +329,7 @@
 	"Summer.Weekly.2.4": "Have you seen any butterflies while out and about?#$b#They're more common this time of year.",
 
 	"Summer.Weekly.4.1": "You can see a lot of unique wildlife down at the tidepools by the beach.#$e#Be careful of the urchins! Some of them are venomous, and none of them like to be stepped on.",
-	"Summer.Weekly.4.2": "It probably seems silly to drink hot coffee when the weather is like this.#$e#Once I get into a habit I find it hard to get out of it.",
+	"Summer.Weekly.4.2": "It probably seems silly to drink hot coffee when the weather is like this.#$e#I'm a creature of habit, I suppose.",
 	"Summer.Weekly.4.3": "PLACEHOLDER 4.3",
 	"Summer.Weekly.4.4": "PLACEHOLDER 4.4",
 
@@ -350,8 +350,8 @@
 
 	"Fall.Weekly.0.1": "This is a particularly good season for foraging.#$e#This might be obvious, but make sure to check that what you find is edible before you eat it.",
 	"Fall.Weekly.0.2": "Vinegar is useful in cooking, but it also makes a good natural cleaner.#$b#That is, if you don't mind your kitchen smelling like vinegar.",
-	"Fall.Weekly.0.3": "PLACEHOLDER 0.3",
-	"Fall.Weekly.0.4": "PLACEHOLDER 0.4",
+	"Fall.Weekly.0.3": "If you start to feel under the weather, don't try to just 'push through'.#$e#It will take you twice as long to get better.",
+	"Fall.Weekly.0.4": "",
 
 	"Fall.Weekly.2.1": "PLACEHOLDER 2.1",
 	"Fall.Weekly.2.2": "PLACEHOLDER 2.2",
