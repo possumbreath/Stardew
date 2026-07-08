@@ -166,7 +166,10 @@
 	"10Hearts.after": "I haven't had such a wonderful day in as long as I can remember.$l",
 
 	//12 Heart Event
-	
+
+	//A fun thing I learned: if your house doesn't have a fireplace in it, your dinner table with Harvey will spawn in THE VOID.
+	//So uh.... have a fireplace. Or don't. I'm not your dad.
+
 	"12Hearts.1": "Hmm... Needs salt...",
 	"12Hearts.2": "It's burning!",
 	"12Hearts.3": "Phew... Haha. Okay.",
@@ -241,7 +244,11 @@
 	"Wed.10": "Usually by the middle of the week I'd be starting to hit a slump.#$b#I think your energy is infectious!$h",
 	
 	"Thu.1": "I live above the clinic. I admit it's convenient, not having a commute.",
-	"Thu.2": "Nutrition is important, so make sure and eat well. #$b#$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
+	"Thu.2": "Nutrition is important, so make sure and eat well. #$b#
+		$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?
+		#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!
+		#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...
+		#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
 	"Thu.2.Yes": "That's good! You'll have no trouble staying healthy, then.$h",
 	"Thu.2.Busy": "Ah, yes. I know how that is.$s#$b#Still, even the occasional healthy meal is better than none.",
 	"Thu.2.No":  "Ah... right. I'm sure you're very busy with the farm.$s",
@@ -290,7 +297,7 @@
 
 	"Spring.Weekly.0.1": "It's officially pollen season.#$e#Living in the countryside seems like it would be a little less idyllic for a person with bad allergies.",
 	"Spring.Weekly.0.2": "%revealtaste:Harvey:22 Did you know that dandelion greens are edible?#$b#Most people consider them weeds, but they're not bad in a salad.",
-	"Spring.Weekly.0.3": "If you need anything from the clinic, make sure to stop by before three. That's when we close.",
+	"Spring.Weekly.0.3": "If you need anything from the clinic, make sure to stop by before three. That's when I usually lock up.",
 	"Spring.Weekly.0.4": "Be sure to cook any fish you catch thoroughly before you eat it.",
 
 	"Spring.Weekly.2.1": "Hi, @. Are you having a productive Spring so far?#$e#Remember not to give yourself more work than you can comfortably handle.",
@@ -309,8 +316,8 @@
 	"Spring.Weekly.6.4": "I've been reading a book about historical agricultural practices. It's just fascinating!$h#$b#You're welcome to borrow it when I'm done, if you want.",
 
 	"Spring.Weekly.8.1": "There's a bird's nest in the tree outside my clinic. If you look closely you can see the eggs!$h#$b#Not too closely, though, or mama bird will get mad.",
-	"Spring.Weekly.8.2": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Would you like to join me on my afternoon walks sometimes, @?#$e#I'd like it if you did.$1|#Would you like to join me on my afternoon walks sometimes, @?#$e#Walking is an easy way to stay active, but it's more fun with company!$h",
-	"Spring.Weekly.8.3": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Oh, @, this is for you. I thought you might like it. [591 597 18]$1|#Have you planted any flowers this Spring, @?#$e#I wish I had the space for a flower garden.#$b#I'm a little jealous of you!$h",
+	"Spring.Weekly.8.2": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Would you like to join me on my afternoon walks sometimes, @?#$e#I'd like it if you did.$1|Would you like to join me on my afternoon walks sometimes, @?#$e#Walking is an easy way to stay active, but it's more fun with company!$h",
+	"Spring.Weekly.8.3": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Oh, @, this is for you. I thought you might like it. [591 597 18]$1|Have you planted any flowers this Spring, @?#$e#I wish I had the space for a flower garden.#$b#I'm a little jealous of you!$h",
 	"Spring.Weekly.8.4": "I never have to worry about setting my alarm clock in Spring.#$b#The birds outside my window are always loud enough to wake me up before it goes off.$h",
 
 	"Spring.Weekly.10.1": "The flowers look brighter this year, somehow.#$e#Or maybe I'm just noticing them more.$h",
@@ -326,27 +333,33 @@
 	"Summer.Weekly.2.1": "Sometimes there's broken glass in the sand at the beach.#$e#Be careful where you step if you walk around near the water without shoes on.",
 	"Summer.Weekly.2.2": "Remember to drink plenty of water and give yourself regular breaks.#$e#I know you have a lot to do on the farm, but heat stroke is no joke!",
 	"Summer.Weekly.2.3": "If you're looking for something to do with your time, it's always worth it to check the bulletin board outside of Pierre's shop.",
-	"Summer.Weekly.2.4": "Have you seen any butterflies while out and about?#$b#They're more common this time of year.",
+	"Summer.Weekly.2.4": "If you often find yourself a target for mosquitos, you're more likely to have Type O blood.#$e#At least, anecdotal evidence suggests that's the flavor they like best.",
 
 	"Summer.Weekly.4.1": "You can see a lot of unique wildlife down at the tidepools by the beach.#$e#Be careful of the urchins! Some of them are venomous, and none of them like to be stepped on.",
 	"Summer.Weekly.4.2": "It probably seems silly to drink hot coffee when the weather is like this.#$e#I'm a creature of habit, I suppose.",
-	"Summer.Weekly.4.3": "PLACEHOLDER 4.3",
-	"Summer.Weekly.4.4": "PLACEHOLDER 4.4",
+	"Summer.Weekly.4.3": "If you have a moment, can you help me with something?#$b#Oh, it's nothing serious, don't worry!$h#$b#
+		$q SW43Pollywogs/SW43Tadpoles SW43None#Do you call baby frogs 'pollywogs' or 'tadpoles'? 
+		#$r SW43Pollywogs 10 SW43P#Pollywogs, obviously. 
+		#$r SW43Tadpoles 0 SW43T#Tadpoles, obviously.",
+	"SW43P": "Me too! I know it's not terribly scientific, but I still prefer it.$h#$e#Maru thinks it must be a 'regional' thing.",
+	"SW43T": "Ah... that's what Maru said too.#$e#Am I the only one who says 'pollywogs'?",
+	"SW43None": "$p SW43Pollywogs #Just tell Maru you say 'pollywogs' too. She won't believe me.#$e#Between you and me, I think she's being contrary on purpose.|A lizard got into the clinic somehow and I'm not exactly fast enough to catch it.",
+	"Summer.Weekly.4.4": "It might seem counter-intuitive, but you should actually up your salt intake when it's hot out.#$e#Salt helps your body hang on to all that water you should be drinking.",
 
 	"Summer.Weekly.6.1": "You know, I've never taken a Summer vacation.#$b#It's always difficult to justify setting aside the time...",
 	"Summer.Weekly.6.2": "Caroline told me once that I'd be less nervous if I replaced my morning coffee with tea.#$e#I don't know if it would really make much of a difference.",
-	"Summer.Weekly.6.3": "Summer is definitely my least favorite season.#$e#There's nothing objectively wrong with it, but I've never done well with heat.",
-	"Summer.Weekly.6.4": "PLACEHOLDER 6.4",
+	"Summer.Weekly.6.3": "Summer is definitely my least favorite season.#$e#There's nothing objectively wrong with it, but it's a reminder that the year is half-gone already.",
+	"Summer.Weekly.6.4": "Have you seen any butterflies while out and about?#$b#They're most common this time of year.",
 
-	"Summer.Weekly.8.1": "It's always difficult to decide how to spend what little free time I get in the Summer.#$e#Part of me wants to go for a walk in the sun but the rest of me just wants to take a nap!$h",
+	"Summer.Weekly.8.1": "I don't get a lot of free time, so I never know how to spend it when I have some.#$e#Part of me wants to go for a walk in the sun but the rest of me just wants to take a nap!$h",
 	"Summer.Weekly.8.2": "Watching the sky as much as I do, I've naturally taken an interest in birding.#$e#We often get visited by parrots from the Fern Islands here.$h",
-	"Summer.Weekly.8.3": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #|#",
-	"Summer.Weekly.8.4": "PLACEHOLDER 8.4",
+	"Summer.Weekly.8.3": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Do you ever get freckles from spending so long outside in the sun?#$e#You'd look cute with freckles.$1|You're lucky you can spend so much time outside and never get a sunburn.#$e#I feel like I start turning red the second I leave the clinic.",
+	"Summer.Weekly.8.4": "Have you ever heard owls out by your farm at night?#$e#The whole time I've been living here, I've never managed to spot one.",
 
-	"Summer.Weekly.10.1": "It's so difficult to keep focused in this heat.#$b#And you distracting me isn't helping!$h",
+	"Summer.Weekly.10.1": "It's so nice out that I've been considering playing hooky from work.$#e#@, I think you might be a bad influence!#h",
 	"Summer.Weekly.10.2": "I got a call from one of my old colleagues the other day. ${He's^She's^They're}$ getting married.#$e#It feels like everyone my age is starting to settle down.",
-	"Summer.Weekly.10.3": "Here, @. I thought you might like this. [421 376 593]$1",
-	"Summer.Weekly.10.4": "PLACEHOLDER 10.4",
+	"Summer.Weekly.10.3": "Here, @. I thought you might like this. Remember to put it in water so it doesn't wilt in the heat. [421 376 593]$1",
+	"Summer.Weekly.10.4": "If you have any extra fruit from your latest harvest, I found a frozen smoothie recipe I'd like to try.#$e#I'd share the results with you, obviously.",
 
 	"Fall.Weekly.0.1": "This is a particularly good season for foraging.#$e#This might be obvious, but make sure to check that what you find is edible before you eat it.",
 	"Fall.Weekly.0.2": "Vinegar is useful in cooking, but it also makes a good natural cleaner.#$b#That is, if you don't mind your kitchen smelling like vinegar.",
@@ -363,24 +376,25 @@
 	"Fall.Weekly.4.3": "I take patient confidentiality very seriously.#$b#I think that's especially important in a small town, where gossip can spread quickly.",
 	"Fall.Weekly.4.4": "If I had to pick a favorite season, I'd probably say Fall.#$e#It's not too hot, not too cold, and there's always an abundance of mushrooms.",
 
-	"Fall.Weekly.6.1": "$query MUSEUM_DONATIONS 10 Arch #From what I understand, Stardew Valley is actually an archeological hotspot.#$e#But you'd know all about that, judging by the donations in the museum.$h|From what I understand, Stardew Valley is actually an archeological hotspot.#$e#It makes sense that Gunther decided to live here.",
-	"Fall.Weekly.6.2": "PLACEHOLDER 6.2",
+	"Fall.Weekly.6.1": "$query MUSEUM_DONATIONS 10 Arch #From what I understand, Stardew Valley is actually an archeological hotspot.#$e#But you'd know all about that, judging by the donations in the museum.$h|From what I understand, Stardew Valley is actually an archeological hotspot.#$e#It makes sense that Gunther decided to settle here.",
+	"Fall.Weekly.6.2": "I keep thinking I ought to set up a bird feeder.#$e#I wonder if I could pay Robin to build me one...?",
 	"Fall.Weekly.6.3": "PLACEHOLDER 6.3",
 	"Fall.Weekly.6.4": "PLACEHOLDER 6.4",
 
 	"Fall.Weekly.8.1": "When I was younger I used to stay up late reading by the light of my nightlight.#$e#I think that might be part of the reason my eyesight is so bad now...",
 	"Fall.Weekly.8.2": "My apartment here is small, but it's still quite a bit larger than the one I had as a student.#$e#When I first moved in it felt downright spacious.",
-	"Fall.Weekly.8.3": "PLACEHOLDER 8.3",
-	"Fall.Weekly.8.4": "PLACEHOLDER 8.4",
+	"Fall.Weekly.8.3": "I've never really liked Spirit's Eve, but I do like the excuse to roast a bunch of pumpkin seeds.$h",
+	"Fall.Weekly.8.4": "I've been reading about the historical background of Spirit's Eve.#$e#Did you know that it used to be more about welcoming the end-of-Summer harvest?#$b#It's kind of like a celebration of farmers, that way!$h",
 
 	"Fall.Weekly.10.1": "If you're feeling chilly, @, you're welcome to borrow my coat.$1",
-	"Fall.Weekly.10.2": "PLACEHOLDER 10.2",
+	"Fall.Weekly.10.2": "",
 	"Fall.Weekly.10.3": "PLACEHOLDER 10.3",
 	"Fall.Weekly.10.4": "PLACEHOLDER 10.4",
 
 	//It's so unlikely anyone will still be at 0/1 hearts with him by Winter but I simply have to be thorough lol
 	//Also idk some people don't care about him that much and they might also download this mod for ????reasons????
 	//idk them idk their life
+
 	"Winter.Weekly.0.1": "I hope that your farmhouse is properly insulated. It gets very cold here in the valley at night.",
 	"Winter.Weekly.0.2": "If you find yourself with a cough, honey works just as well as cough syrup.#$e#Just because I'm a doctor doesn't mean I think all home remedies are bunk.",
 	"Winter.Weekly.0.3": "PLACEHOLDER 0.3",
