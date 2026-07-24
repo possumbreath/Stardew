@@ -18,7 +18,7 @@
 		"Mon4": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
 		"Mon6": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
 		"Mon8": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Mon10": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 8, 10}}}}|Nickname={{Nickname}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+		"Mon10": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
 		
 		"Tue": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
 		"Tue2": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
@@ -50,7 +50,7 @@
 		"Fri4": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
 		"Fri6": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
 		"Fri8": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Fri10": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 8, 10}}}}|Nickname={{Nickname}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+		"Fri10": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
 		
 		"Sat": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
 		"Sat2": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
@@ -64,7 +64,7 @@
 		"Sun4": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
 		"Sun6": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
 		"Sun8": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Sun10": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 8, 10}}}}|Nickname={{Nickname}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+		"Sun10": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
 	},
 },
 	
@@ -79,7 +79,7 @@
 		"GreenRain_2": "{{i18n: GreenRain2.{{Random:{{Range: 1, 3}}}}}}",
 		"FlowerDance_Accept_Spouse": "{{i18n: FlowerDanceSpouse.{{Random:{{Range: 1, 3}}}}}}",
 		"FlowerDance_Decline": "{{i18n: FlowerDanceDecline}}",
-		"AcceptBirthdayGift_Positive": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Pos|Nickname={{Nickname}}}}",
+		"AcceptBirthdayGift_Positive": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Pos}}",
 		"AcceptBirthdayGift_Negative": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Neg}}",
 		"Resort": "{{i18n: NewResort}}",
 		"divorced": "{{i18n: divorced.{{Random:{{Range: 1, 6}}}}}}",
@@ -101,7 +101,7 @@
 		"WinterStar_GiveGift_Before_Spouse": "{{i18n: WinterStar_GiveGift_Before_Spouse}}",
 		"WinterStar_GiveGift_Before": "{{i18n: WinterStar_GiveGift_Before}}",
 		"WinterStar_GiveGift_After": "{{i18n: WinterStar_GiveGift_After}}",
-		"WinterStar_ReceiveGift": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: WinterStar_ReceiveGift|Nickname={{Nickname}}}}",
+		"WinterStar_ReceiveGift": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: WinterStar_ReceiveGift}}",
 		
 		//Events
 		
@@ -151,7 +151,7 @@
 	"Target": "Strings/StringsFromCSFiles",
 	"entries": {
 		"Harvey_Engaged": "{{i18n: AcceptPendant}}",
-		"Harvey_AfterWedding": "{{i18n: AfterWedding|Nickname={{Nickname}}}}",
+		"Harvey_AfterWedding": "{{i18n: AfterWedding}}",
 	},
 },
 
@@ -177,8 +177,8 @@
 	"Target": "Data/Festivals/fall16",
 	"entries": {
 		"Harvey": "{{i18n: fall16.1}}",
-		"Harvey_spouse": "{{i18n: fall16.1.spouse|Nickname={{Nickname}}}}",
-		"Harvey_spouse_y2": "{{i18n: fall16.2.spouse|Nickname={{Nickname}}}}",
+		"Harvey_spouse": "{{i18n: fall16.1.spouse}}",
+		"Harvey_spouse_y2": "{{i18n: fall16.2.spouse}}",
 		},
 	},
 	
@@ -195,7 +195,7 @@
 	"Target": "Data/Festivals/summer 11",
 	"entries": {
 		"Harvey": "{{i18n: summer11.1}}",
-		"Harvey_spouse": "{{i18n: summer11.1.spouse|Nickname={{Nickname}}}}",
+		"Harvey_spouse": "{{i18n: summer11.1.spouse}}",
 		"Harvey_y2": "{{i18n: summer11.2}}",
 		"Harvey_spouse_y2": "{{i18n: summer11.2.spouse}}",
 		},
