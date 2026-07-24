@@ -2,13 +2,6 @@
 "Format": "2.0.0",
 
 "ConfigSchema": {
-	"Nickname": {
-		"Default": "dear",
-	},
-	"Gift Tastes": {
-		"AllowValues": "Fully Modded, Modded Reactions Only, Vanilla",
-		"Default": "Modded Reactions Only",
-	},
 	"Marriage Schedule": {
 		"AllowValues": "Modded, Vanilla",
 		"Default": "Modded",
