@@ -67,15 +67,15 @@
 	
 	//Intro event
 	
-	"Intro.1": "Hello, @! You have great timing.#$b#We were just about to send you a letter asking you to come in.",
-	"Intro.2": "It's nothing serious, don't worry.#$b#We just wanted to get your patient intake forms filled out sooner rather than later.#$b#This is a small operation but it does help to be organized.",
-	"Intro.3": "What he means is it helps me have to file less paperwork down the line.$h",
-	"Intro.4": "Do you have time to fill out the forms?#Actually, I already have a doctor in Zuzu City.#No thanks. I like to live dangerously.",
+	"Intro.1": "Hello! Come on in.#$b#You must have got Harvey's letter.",
+	"Intro.2": "I wanted to get your patient intake forms filled out sooner rather than later.#$b#When you're running a two-person operation it helps to try and stay organized.",
+	"Intro.3": "What he means is it helps me file less paperwork down the line.$h",
+	"Intro.4": "Would you like to take a look at the forms?#Actually, I already have a doctor in Zuzu City.#No thanks. I like to live dangerously.",
 	"ZuzuAnswer": "Oh, I see. You should stick with them, then: continuity of care is important to maintain whenever possible.",
 	"DangerAnswer": "Hm. I wouldn't exactly say that's advisable, but it's ultimately up to you.$s",
 	"Intro.6": "He looks kind of... relieved?",
-	"Intro.7": "If you have any prescriptions feel free to have them sent here so you don't have to bus into Zuzu City quite so often.",
-	"Intro.5": "Just remember, we're here if you ever have an emergency.#$b#Have a good day, @.",
+	"Intro.7": "We do also handle prescriptions. Feel free to have yours sent here so you don't have to make the trip into Zuzu City quite so often.",
+	"Intro.5": "Just remember, we're here if you ever have an emergency.#$b#Have a good day, @.$h",
 	"Intro.8": "See you later!$h",
 	
 	//2 Heart Event
@@ -198,7 +198,7 @@
 	
 	//Mail
 	
-	"IntroMail": "Hello, Farmer @.^^Please stop by the clinic at your next available convenience. I would like to discuss your options in terms of your medical care now that you're a part of our community.^^Welcome again, by the way!^^ - Dr. Harvey",
+	"IntroMail": "Hello, Farmer @.^^Please stop by the clinic when you have a moment. I would like to discuss your options in terms of your medical care now that you're a part of our community.^^Welcome again, by the way!^^ - Dr. Harvey",
 	"IntroMailName": "Invitation to the Clinic",
 	"8HeartsMail": "@,^^I'm sorry that I was so frazzled yesterday. I don't get many visitors, so when you stopped by it was a surprise.^^Not a bad one! Just unexpected.^^Anyway... I was reorganizing my desk and found this. I thought you might like to have it. If you ever want to listen to the planes go by, you can tune it to frequency 140.^^- Harvey",
 	"8HeartsMailName": "A Gift From Harvey",
