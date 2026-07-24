@@ -12,6 +12,8 @@
 		//every day decides first between generic and seasonal dialogue, and then a random option from the appropriate pool for that dialogue
 		//even when ranges only include 2 numbers I've done them as a range so that if i add more dialogue down the line it will be easy to expand
 		//Generic daily lines are day of week specific, seasonal lines are season specific only but vary more by heart level
+		//It's very unlikely a person would see every single option on one playthrough; the idea is replayability for people like me who have a lot of files
+		//And for people who play one file for a long time, it's possible they'll still be finding new dialogue several in-game years in, instead of it getting stale
 		
 		"Mon": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
 		"Mon2": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
@@ -63,6 +65,9 @@
 		"Sun2": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
 		"Sun4": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
 		"Sun6": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
+		"SW43P": "{{i18n: SW43P}}",
+		"SW43T": "{{i18n: SW43T}}",
+		"SW43None": "{{i18n: SW43None}}",
 		"Sun8": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
 		"Sun10": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
 	},

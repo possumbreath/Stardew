@@ -4,16 +4,29 @@
 	"Action": "EditData",
 	"Target": "Data/mail",
 	"entries": {
+		"HarveyPlusIntro": "{{i18n: IntroMail}}[#]{{i18n: IntroMailName}}",
 		"HarveyPlus.8Hearts": "{{i18n: 8HeartsMail}}%item furniture RetroRadio%%[#]{{i18n: 8HeartsMailName}}"
 	},
 },
 
-//Making sure you can't get the balloon event until you've seen the other dating events. 
+ 
 {	"LogName": "Trigger Action Edits",
 	"Action": "EditData",
 	"Target": "Data/TriggerActions",
 	"entries": {
+		"Mail_Harvey_Intro": {
+			//Adding introductory mail; will proc once the farmer has introduced themselves
+			"Id": "Mail_Harvey_Intro",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 10",
+			"HostOnly": false,
+			"Action": "AddMail Current HarveyPlusIntro",
+			"Actions": null,
+			"CustomFields": null,
+			"MarkActionApplied": true
+		},
 		"Mail_Harvey_10heart": {
+			//Making sure you can't get the balloon event until you've seen the other dating events.
 			"Id": "Mail_Harvey_10heart",
 			"Trigger": "DayEnding",
 			"Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 2502, PLAYER_HAS_SEEN_EVENT Current HarveyPlus.8Date2",
@@ -34,8 +47,8 @@
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
 	"entries": {
-		//set to 10 friendship points just to ensure player has met them both. Establish Harvey as not the player's doctor. Yaaaaaay ethics
-		"HarveyPlus.Intro/f Harvey 10/f Maru 10/p Maru": "continue/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/playSound doorClose/warp farmer 10 19/move farmer 0 -2 3/speak Maru \"{{i18n: Intro.1}}\"/emote farmer 8/pause 50/move farmer -4 0 0/speak Harvey \"{{i18n: Intro.2}}\"/speak Maru \"{{i18n: Intro.3}}\"/pause 50/quickQuestion {{i18n: Intro.4}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: ZuzuAnswer}}\"\\pause 10\\message \"{{i18n: Intro.6}}\"\\pause 10\\speak Harvey \"{{i18n: Intro.7}}\"\\emote farmer 32(break)friendship Harvey -10\\speak Harvey \"{{i18n: DangerAnswer}}\"\\pause 10/speak Harvey \"{{i18n: Intro.5}}\"/speak Maru \"{{i18n: Intro.8}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
+		//Establish Harvey as not the player's doctor. Yaaaaaay ethics
+		"HarveyPlus.Intro/p Harvey/n HarveyPlusIntro": "continue/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/playSound doorClose/warp farmer 10 19/move farmer 0 -2 3/speak Maru \"{{i18n: Intro.1}}\"/emote farmer 8/pause 50/move farmer -4 0 0/speak Harvey \"{{i18n: Intro.2}}\"/speak Maru \"{{i18n: Intro.3}}\"/pause 50/quickQuestion {{i18n: Intro.4}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: ZuzuAnswer}}\"\\pause 10\\message \"{{i18n: Intro.6}}\"\\pause 10\\speak Harvey \"{{i18n: Intro.7}}\"\\emote farmer 32(break)friendship Harvey -10\\speak Harvey \"{{i18n: DangerAnswer}}\"\\pause 10/speak Harvey \"{{i18n: Intro.5}}\"/speak Maru \"{{i18n: Intro.8}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
 	},
 },
 

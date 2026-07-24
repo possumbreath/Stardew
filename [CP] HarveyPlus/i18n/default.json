@@ -31,9 +31,11 @@
 	"GiftHate.1": "#I'm pretty sure I told you I was allergic to this.$a|...I think I'm allergic to this.",
 	"GiftHate.2": "#Yikes. Are you trying to tell me something?$s|That's not very kind of you, @.",
 	"NewResort": "I'll let you in on a little secret... I never really learned how to swim.$s#$e#Deep water is terrifying.#$b#At least when you're up high you can see what's below you.$s",
+
 	//you'll notice some of the negative reactions here are a little sharp and that's because uwu wibbly baby softboi harvey is boring he is a full ass adult man let the guy have layers and be angry sometimes
 	//the kind guys are the ones who are most capable of being venemous little shits when they're upset
 	//also if you spend a lot of your life very lonely and then think you finally found someone to be close to and then they ditch you that is going to make you a lil bitter maybe
+
 	"divorced.1": "I... I can't look at you.$s",
 	"divorced.2": "Just leave me alone. Please.$s",
 	"divorced.3": "I don't have anything to say to you, @.$a",
@@ -44,7 +46,7 @@
 	"AcceptBouquet": "... what?#$b#I mean, yes! Of course!$8#$b#Sorry, I just wasn't expecting... I've wanted to ask you for weeks but could never find the courage.$l",
 	"AcceptPendant": "Really, @? I don't know what to say...$l#$b#I mean, yes! Obviously, yes.$h#$b#I'll speak with the Mayor and have everything set up. Just give me three days to get everything ready.",
 	"Engaged1": "There's so much to set up before the wedding! I have to admit I'm nervous.$l#$e#I'll be relieved after we're all settled in on your farm.$h",
-	"Engaged2": "I'm so happy.$h#$e#This is something I always wanted, deep down.$l",
+	"Engaged2": "I'm so happy.$h#$e#To share my life with someone is something I always wanted, deep down.$l",
 	"AfterWedding": "The ceremony was beautiful, wasn't it, @?#$b#It was everything I hoped it would be.$l",
 	"Stardrop": "@... I wanted to give you that fruit as a symbol of my love.$l",
 	"RejectBouquet_Divorced": "That's not funny, @.$a",
@@ -196,6 +198,8 @@
 	
 	//Mail
 	
+	"IntroMail": "Hello, Farmer @.^^Please stop by the clinic at your next available convenience. I would like to discuss your options in terms of your medical care now that you're a part of our community.^^Welcome again, by the way!^^ - Dr. Harvey",
+	"IntroMailName": "Invitation to the Clinic",
 	"8HeartsMail": "@,^^I'm sorry that I was so frazzled yesterday. I don't get many visitors, so when you stopped by it was a surprise.^^Not a bad one! Just unexpected.^^Anyway... I was reorganizing my desk and found this. I thought you might like to have it. If you ever want to listen to the planes go by, you can tune it to frequency 140.^^- Harvey",
 	"8HeartsMailName": "A Gift From Harvey",
 	
@@ -237,11 +241,7 @@
 	"Wed.10": "Usually by the middle of the week I'd be starting to hit a slump.#$b#I think your energy is infectious!$h",
 	
 	"Thu.1": "I live above the clinic. I admit it's convenient, not having a commute.",
-	"Thu.2": "Nutrition is important, so make sure and eat well. #$b#
-		$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?
-		#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!
-		#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...
-		#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
+	"Thu.2": "Nutrition is important, so make sure and eat well. #$b#$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
 	"Thu.2.Yes": "That's good! You'll have no trouble staying healthy, then.$h",
 	"Thu.2.Busy": "Ah, yes. I know how that is.$s#$b#Still, even the occasional healthy meal is better than none.",
 	"Thu.2.No":  "Ah... right. I'm sure you're very busy with the farm.$s",
@@ -275,7 +275,7 @@
 	"Sat.7": "I came here because I liked the small-town atmosphere and the potential for a truly holistic approach to patient care.#$e#I've grown to really love it.$h",
 	"Sat.8": "Maybe I'll actually take it easy this weekend.#$e#I could finally open that bottle of wine I've been saving.",
 	"Sat.9": "%Harvey is humming an upbeat jazz tune and seems completely distracted.",
-	"Sat.10": "*Sigh*... I'm starting to feel kind of old...#$e#The older you get the more memories you're burdened with. It can be overwhelming.$s#$e#I think I'll stay younger with you around.$l",
+	"Sat.10": "*Sigh*... I'm starting to feel kind of old...#$e#The older you get the more memories you're burdened with. It can be overwhelming.$s#$e#I think I'll stay younger with you around.$h",
 
 	"Sun.1": "It's always difficult to fully enjoy Sundays, knowing that Monday is just around the corner.",
 	"Sun.2": "Hmm... I'm struggling to make ends meet. I don't have enough patients.#$e#I suppose that's the trade-off for working in a rural community.",
@@ -330,10 +330,7 @@
 
 	"Summer.Weekly.4.1": "You can see a lot of unique wildlife down at the tidepools by the beach.#$e#Be careful of the urchins! Some of them are venomous, and none of them like to be stepped on.",
 	"Summer.Weekly.4.2": "It probably seems silly to drink hot coffee when the weather is like this.#$e#I'm a creature of habit, I suppose.",
-	"Summer.Weekly.4.3": "If you have a moment, can you help me with something?#$b#Oh, it's nothing serious, don't worry!$h#$b#
-		$q SW43Pollywogs/SW43Tadpoles SW43None#Do you call baby frogs 'pollywogs' or 'tadpoles'? 
-		#$r SW43Pollywogs 10 SW43P#Pollywogs, obviously. 
-		#$r SW43Tadpoles 0 SW43T#Tadpoles, obviously.",
+	"Summer.Weekly.4.3": "If you have a moment, can you help me with something?#$b#Oh, it's nothing serious, don't worry!$h#$b#$q SW43Pollywogs/SW43Tadpoles SW43None#Do you call baby frogs 'pollywogs' or 'tadpoles'? #$r SW43Pollywogs 10 SW43P#Pollywogs, obviously. #$r SW43Tadpoles 0 SW43T#Tadpoles, obviously.",
 	"SW43P": "Me too! I know it's not terribly scientific, but I still prefer it.$h#$e#Maru thinks it must be a 'regional' thing.",
 	"SW43T": "Ah... that's what Maru said too.#$e#Am I the only one who says 'pollywogs'?",
 	"SW43None": "$p SW43Pollywogs #Just tell Maru you say 'pollywogs' too. She won't believe me.#$e#Between you and me, I think she's being contrary on purpose.|A lizard got into the clinic somehow and I'm not exactly fast enough to catch it.",
@@ -450,7 +447,7 @@
 	"WinterStar_GiveGift_Before_Spouse": "Surprise!$h#$b#You have no idea how hard it's been keeping this a secret.",
 	"WinterStar_GiveGift_Before": "Hi, @. I'm your gift giver this year.",
 	"WinterStar_GiveGift_After": "I hope you like it. I tried to think of something you'd find useful.$h",
-	"WinterStar_ReceiveGift": "#Oh! Thank you, @.#$b#You have a great poker face. I had no idea it was you!$h|#Oh! Thank you, @.#$b#You have a great poker face. I had no idea it was you!$h",
+	"WinterStar_ReceiveGift": "#Oh! Thank you, @.#$b#It must have been difficult keeping this a secret from me. I appreciate the effort.$h|#Oh! Thank you, @.#$b#You have a great poker face. I had no idea it was you!$h",
 	
 	//Marriage Dialogue
 	//Static Marriage Dialogue
@@ -752,14 +749,14 @@
 	"Winter.funReturn_Harvey.3": "Sorry I'm back a little late; I kept getting distracted.#$b#Oh, not by anything important. Mainly watching the birds.",
 	
 	"Winter.OneKid_0": "It just ocurred to me that having a child means we can officially start establishing family holiday traditions.#$e#I'll have to think of some...",
-	"Winter.OneKid_1": "Did you want to do family postcards this year?#$b#I have some far-off relatives who I'm sure would love an update on how %kid1 is doing.",
+	"Winter.OneKid_1": "Did you want to do family postcards this year?#$e#I have some far-off relatives who I'm sure would love an update on how %kid1 is doing.",
 	"Winter.TwoKids_0": "%kid1 took a drink of my coffee earlier before I could take the cup away.#$b#I think that what's called a 'teaching moment'. There's a reason only grown-ups drink coffee.$h",
-	"Winter.TwoKids_1": "It's interesting how quickly children form distinct personalities.#$b#%kid1 and %kid2 are totally different, wouldn't you say?",
+	"Winter.TwoKids_1": "It's interesting how quickly children form distinct personalities.#$e#%kid1 and %kid2 are totally different, wouldn't you say?",
 	
 	//Misc
 	
 	"Killed.1": "Easy now. Take it slow.",
-	"Killed.2": "You were found unconscious and in critical condition; there was no time to transport you to Zuzu City.#$b#I had to perform an emergency surgery to stabilize you.$s",
+	"Killed.2": "You were found unconscious and in critical condition; there was no time to transport you to Zuzu City.#$b#I had to intervene to stabilize you.$s",
 	"Killed.3": "You can stay here in the clinic until you get your feet back under you.",
 	"Killed.4": "#Just be more careful out there, for my sake?#$b# I know I sometimes worry too much, but when this kind of thing happens it makes it difficult not to.$s#$b# I don't know what I'd do if I ever lost you.|I know it's tempting, but don't head right back out there once you leave. At least get a night's rest first.",
 	
