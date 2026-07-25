@@ -86,7 +86,21 @@
 		"FlowerDance_Decline": "{{i18n: FlowerDanceDecline}}",
 		"AcceptBirthdayGift_Positive": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Pos}}",
 		"AcceptBirthdayGift_Negative": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Neg}}",
+		
+		"AcceptGift_(O)432": "It's for me? Thank you! This will be fantastic drizzled on some pasta.$h",
+		"AcceptGift_(O)348": "For me? What a gift! This looks fantastic!$h#$b#You know, on a physiological level, I wouldn't advise the consumption of alcohol...#$b#But there's no denying the benefit of kicking back and enjoying a glass of fine Stardew Valley wine!$h",
+		"Resort_Entering": "Sunscreen? Check...#$b#Sun hat? Check...",
+  		"Resort_Leaving": "If you get burnt, a little aloe vera cream might help soothe the skin.",
+  		"Resort_Shore": "I combed the whole beach for glass. We wouldn't want anyone to get a cut on their foot!",
+  		"Resort_Chair": "It's nice to have an opportunity to relax now and then.#$b#The trouble is actually letting go of your worries...$s",
+  		"Resort_Bar": "It's important to stay hydrated in this heat. I'm going to ask Gus if he has any coconut water!$h",
+		
 		"Resort": "{{i18n: NewResort}}",
+
+		"breakUp": "...Y...You...?$s#$b#*gulp*... I... I think I'm going to be sick...$s",
+		"dumped_Guys": "I'm busy with my work. I can't speak to you.$s",
+  		"secondChance_Guys": "I want you back in my life, @. I'm willing to forget what happened.$s",
+
 		"divorced": "{{i18n: divorced.{{Random:{{Range: 1, 6}}}}}}",
 		"DumpsterDiveComment": "{{i18n: DumpsterDiveComment}}",
 		"AcceptBouquet": "{{i18n: AcceptBouquet}}",
@@ -116,7 +130,6 @@
 		
 		//Date and/or Season Specific Dialogue
 		
-		"summer_11": "{{i18n: Summer.Heat}}",
 		"fall_19": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: Fall.Plans}}",
 		"spring_23": "{{i18n: Spring.FlowerDance}}",
 		"fall_1": "{{i18n: Fall.Chilly}}",
@@ -130,16 +143,23 @@
 		//Deleted or heavily edited these events, so these memories are no longer relevant
 		//Or they are keys used by Canon Dialogue Expansion that conflict with my characterization choices/would be redundant because I moved those lines to other keys
 		
+		"fall_Fri": null,
 		"fall_Fri8": null,
 		"fall_Fri10": null,
 		"fall_Sat": null,
 		"fall_Sat_10": null,
+		"summer_11": null,
+		"summer_Mon": null,
 		"summer_Wed8": null,
+		"summer_Thu": null,
 		"summer_Thu6": null,
 		"summer_Thu10": null,
+		"summer_Fri": null,
 		"summer_Fri4": null,
 		"summer_Fri10": null,
+		"winter_Wed": null,
 		"winter_Sat10": null,
+		"winter_Sun": null,
 		"winter_Sun4": null,
 		
 		"eventSeen_56": null,
@@ -174,35 +194,92 @@
 	"Target": "Characters/Dialogue/rainy",
 	"entries": {
 		"Harvey": "{{i18n: Rainy.{{Random:{{Range: 1, 6}}}}}}",
-		},
 	},
+},
 	
 {	"LogName": "Valley Fair Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Data/Festivals/fall16",
 	"entries": {
 		"Harvey": "{{i18n: fall16.1}}",
+		"Harvey_y2": "{{i18n: fall16.2}}",
 		"Harvey_spouse": "{{i18n: fall16.1.spouse}}",
 		"Harvey_spouse_y2": "{{i18n: fall16.2.spouse}}",
-		},
 	},
+},
+
+{	"LogName": "Spirit's Eve Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall27",
+	"entries": {
+		"Harvey": "{{i18n: fall27.1}}",
+		"Harvey_y2": "{{i18n: fall27.2}}",
+		"Harvey_spouse": "{{i18n: fall27.1.spouse}}",
+		"Harvey_spouse_y2": "{{i18n: fall27.2.spouse}}",
+	},
+},
+
+{	"LogName": "Egg Festvial Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring13",
+	"entries": {
+		"Harvey": "{{i18n: spring13.1}}",
+		"Harvey_y2": "{{i18n: spring13.2",
+		"Harvey_spouse": "{{i18n: spring13.1.spouse}}",
+	},
+},
 	
 {	"LogName": "Flower Dance Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Data/Festivals/spring24",
 	"entries": {
-		"Harvey": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: spring24.1}}",
-		},
+		"Harvey": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: spring24.1}}", 
+		"Harvey_y2": "{{i18n: spring24.2}}",
+		"Harvey_spouse_y2": "{{i18n: spring24.2.spouse}}",
 	},
+},
 
 {	"LogName": "Luau Dialogue Edit",
 	"Action": "EditData",
-	"Target": "Data/Festivals/summer 11",
+	"Target": "Data/Festivals/summer11",
 	"entries": {
 		"Harvey": "{{i18n: summer11.1}}",
-		"Harvey_spouse": "{{i18n: summer11.1.spouse}}",
 		"Harvey_y2": "{{i18n: summer11.2}}",
+		"Harvey_spouse": "{{i18n: summer11.1.spouse}}",
 		"Harvey_spouse_y2": "{{i18n: summer11.2.spouse}}",
-		},
 	},
+},
+
+{	"LogName": "Moonlight Jellies Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer28",
+	"entries": {
+		"Harvey": "{{i18n: summer28.1}}",
+		"Harvey_y2": "{{i18n: summer28.2}}",
+		"Harvey_spouse_y2": "{{i18n: summer28.2.spouse}}",
+	},
+},
+
+{	"LogName": "Festival of Ice Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter8",
+	"entries": {
+		"Harvey": "{{i18n: winter8.1}}",
+		"Harvey_y2": "{{i18n: winter8.2}}",
+		"Harvey_spouse": "{{i18n: winter8.spouse}}",
+		"Harvey_spouse_y2": "{{i18n: winter8.2.spouse}}",
+	},
+},
+
+{	"LogName": "Winter Star Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter25",
+	"entries": {
+		"Harvey": "{{i18n: winter25.1}}",
+		"Harvey_y2": "{{i18n: winter25.2}}",
+		"Harvey_spouse": "{{i18n: winter25.1.spouse}}",
+		"Harvey_spouse_y2": "{{i18n: winter25.2.spouse}}",
+	},
+},
+
 ]}

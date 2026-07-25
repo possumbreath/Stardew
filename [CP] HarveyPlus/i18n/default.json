@@ -349,7 +349,7 @@
 	"Summer.Weekly.10.1": "It's so nice out that I've been considering playing hooky from work.$#e#@, I think you might be a bad influence!#h",
 	"Summer.Weekly.10.2": "I got a call from one of my old colleagues the other day. ${He's^She's^They're}$ getting married.#$e#It feels like everyone my age is starting to settle down.",
 	"Summer.Weekly.10.3": "Here, @. I thought you might like this. Remember to put it in water so it doesn't wilt in the heat. [421 376 593]$1",
-	"Summer.Weekly.10.4": "If you have any extra fruit from your latest harvest, I found a frozen smoothie recipe I'd like to try.#$e#I'd share the results with you, obviously.",
+	"Summer.Weekly.10.4": "It's been so difficult to focus on my work lately.#$b#You know, because of the heat.$l",
 
 	"Fall.Weekly.0.1": "This is a particularly good season for foraging.#$e#This might be obvious, but make sure to check that what you find is edible before you eat it.",
 	"Fall.Weekly.0.2": "Vinegar is useful in cooking, but it also makes a good natural cleaner.#$b#That is, if you don't mind your kitchen smelling like vinegar.",
@@ -376,7 +376,7 @@
 	"Fall.Weekly.8.3": "I've never really liked Spirit's Eve, but I do like the excuse to roast a bunch of pumpkin seeds.$h",
 	"Fall.Weekly.8.4": "I've been reading about the historical background of Spirit's Eve.#$e#Did you know that it used to be more about welcoming the end-of-Summer harvest?#$b#It's kind of like a celebration of farmers, that way!$h",
 
-	"Fall.Weekly.10.1": "If you're feeling chilly, @, you're welcome to borrow my coat.$1",
+	"Fall.Weekly.10.1": "If you're feeling chilly, @, you're welcome to borrow my coat.$l",
 	"Fall.Weekly.10.2": "",
 	"Fall.Weekly.10.3": "PLACEHOLDER 10.3",
 	"Fall.Weekly.10.4": "PLACEHOLDER 10.4",
@@ -417,8 +417,7 @@
 	
 	//Date Specific Dialogue
 	
-	"Summer.Heat":"It's been so difficult to focus on my work lately.#$b#You know, because of the heat.$l",
-	"Fall.Plans":"#Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.$l|#I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
+	"Fall.Plans":"#Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.$l|I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
 	"Spring.FlowerDance": "The Flower Dance is tomorrow...#$b#I'm not really much of a dancer, but Maru always insists that if she has to go, I have to go.",
 	"Fall.Mushrooms": "Did you know many of the mushrooms that grow locally are edible?$#b#Be careful of the red ones, though.",
 	"Fall.Chilly": "The weather has started to turn.#$b#Add more layers if you start feeling chilly.",
@@ -427,23 +426,48 @@
 	"Winter.End": "Winter has its charm, but I'm looking forward to seeing the sun more often in Spring.",
 	
 	//Festival Dialogue
-	//I'm not changing all of it but there are some lines that need editing for personal taste reasons
 	
 	"fall16.1": "It's easy to forget how large pigs are until you're looking at them in person...",
+	"fall16.2": "I'm astonished by the level of craftsmanship on display here. Some people are so talented!$0",
 	"fall16.1.spouse": "Let me know when you're ready to go home, @. I'll just be over here.",
 	"fall16.2.spouse": "Hi, @. Good luck today in the competition. I just know you're going to shine!$0",
-	"spring24.1": "#Oh, @... you look ${great^lovely^wonderful}$.#1|Maru and I usually come to this event as friends.#$b#It's like highschool prom all over again.$s",
-	"summer11.1": "Good thing I came with sunscreen.#$e#I feel as though I'm the only one who ever remembers to bring it.",
-	"summer11.1.spouse": "Here, @. Let me put some more sunscreen on your shoulders.",
-	"summer11.2": "I hope you added something of high quality to the soup.#$e#We all want to leave a good impression on the Governor.",
-	"summer11.2.spouse": "Hot soup has never made sense to me as the centerpiece for a Summer festival.#$e#One of these years we should try a gazpacho.",
 	
+	"fall27.1": "Oh! You found me...$8#$b#The truth is, I got too scared so I came here to hide. Don't tell anyone.$s",
+	"fall27.2": "I'm afraid to say I'm quite puzzled on this one...$0",
+	"fall27.1.spouse": "Hi... I was hoping you'd find me here...$l",
+	"fall27.2.spouse": "I was wondering when I'd see you.$1#$e#Don't mind me. I'm just taking a quick breather.$0",
+
+	"spring13.1": "Eggs definitely have a place in the well-balanced diet.#$e#Oops... I should take off my Doctor's hat for the time being.$11",
+	"spring13.2": "Eggs are fine, but I'd advise against eating thirty per day!",
+	"spring13.1.spouse": "How is everyone doing? I'm just taking a break for a little while. I'm looking forward to seeing you in the egg hunt!",
+
+	"spring24.1": "#Oh, @... you look ${great^lovely^wonderful}$.#1|Maru and I usually come to this event as friends.#$b#It's like highschool prom all over again.$s",
+	"spring24.2": "If you spend some time pondering the hardships of life, it can put things into perspective.$0#$b#Suddenly, dancing in front of the whole town in an ill-fitting suit doesn't seem so bad!$h",
+	"spring24.2.spouse": "I wore my best tie for the occasion.$4",
 	"Event.cs.1736": "$q -1 null#...Yes, @?#$r -1 0 danceAsk#(Ask {0} to be your dance partner)#$r -1 0 null#Never mind...",
 	"FlowerDanceSpouse.1": "I've been looking forward to it all afternoon! You look radiant in the fresh spring air.$l",
 	"FlowerDanceSpouse.2": "Of course! I was hoping you would ask.$l#$b#Not that I was ever really worried you wouldn't.$h",
 	"FlowerDanceSpouse.3": "I would love to. I don't even find it all that embarassing anymore!$h",
 	"FlowerDanceDecline": "Oh! Ah, no thank you.#$b#It's embarrassing enough without making a fool of myself in front of someone I barely know.$s",
-	
+
+	"summer11.1": "Good thing I came with sunscreen.#$e#I feel as though I'm the only one who ever remembers to bring it.",
+	"summer11.1.spouse": "Here, @. Let me put some more sunscreen on your shoulders.",
+	"summer11.2": "*pant*... *pant*... ahhhh, I can't wait for a bowl of piping hot soup...$h",
+	"summer11.2.spouse": "Hot soup has never made sense to me as the centerpiece for a Summer festival.#$e#One of these years we should try a gazpacho.",
+
+	"summer28.1": "Well, summer's over. To be honest, I'll be happy to say goodbye to these blasted mosquitos!",
+	"summer28.2": "With each passing second, my anticipation grows...$0",
+	"summer28.2.spouse": "Hi, honey. It'll be any moment now when the jellies show up... It never gets old!$0",
+
+	"winter8.1": "Extreme temperatures can put your body under a lot of stress, so make sure to bundle up!#$e#Oh, and enjoy the festival!$h",
+	"winter8.2": "I shouldn't have waxed my moustache this morning, it's frozen solid! Oh dear...$2#$e#Well, if you need an ice pick, you know where to find me...$h",
+	"winter8.1.spouse": "I'm dreaming of our warm fire back home...$l",
+	"winter8.2.spouse": "Hi, honey. Good luck today in the ice fishing contest.$0",
+
+	"winter25.1": "I'm thankful there were no medical emergencies this year!",
+	"winter25.2": "Have you tried the pecan pie? It's my favorite.$0",
+	"winter25.1.spouse": "I'm feeling a little overwhelmed... thank goodness for this crisp air...$l",
+	"winter25.2.spouse": "There's a lot I'm thankful for, like my clinic, the good health of my patients...#$b#But ultimately, I'm most thankful for the life we're building together...$l",
 	"WinterStar_GiveGift_Before_Spouse": "Surprise!$h#$b#You have no idea how hard it's been keeping this a secret.",
 	"WinterStar_GiveGift_Before": "Hi, @. I'm your gift giver this year.",
 	"WinterStar_GiveGift_After": "I hope you like it. I tried to think of something you'd find useful.$h",
@@ -496,6 +520,7 @@
 	"jobVisit.4": "Oh, hello, @. It's good to see you!#$e#It's been a quiet day. That's good, but it does make time go more slowly.#$b#You're always a welcome distraction!$h",
 	"jobVisit.5": "It's strange seeing all my old things upstairs still.#$b#I wonder if that space could be converted into something else...",
 	"jobVisit6": "Between you and me, sometimes I take a lollipop out of the jar meant for the kids.#$e#It's fine, they're sugar-free!$h",
+
 	"Marriage.Mon.0.1": "Hi! Did you forget something we needed to put on the grocery list?",
 	"Marriage.Mon.0.2": "Hello, @. I'm just picking up some essentials.#$e#And maybe a few fancy spices.#$b#I don't know what I'll do with them yet, but that's part of the fun of it.$h",
 	"Marriage.Mon.0.3": "It's nice to come into town and see everyone from time to time.#$e#Somewhere other than the clinic, I mean.",
@@ -524,6 +549,7 @@
 	//A lot of these didn't NEED editing except they are phrased super weird so I tried to make them less uhhhh Strange
 	//I also left out the ones about the NPC spouse being pregnant I'm sorry if you have a trans Harvey mod that I am not aware of
 	//If you do oh my god please tell me I'd be all the way into trans Harvey. we can be t4t. T treated him really good to allow for a mustache that nice & im kinda jealous
+	
 	"NewChild_SecondChild1": "Our little family has really grown.. it's incredible to think how far we've come together.$l",
 	"NewChild_SecondChild2": "Being a father to two beautiful children is like a dream come true. We really have come so far, haven't we?",
 	"NewChild_Adoption": "{0} is just perfect... we're so incredibly lucky.",
