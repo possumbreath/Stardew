@@ -343,12 +343,12 @@
 
 	"Summer.Weekly.8.1": "I don't get a lot of free time, so I never know how to spend it when I have some.#$e#Part of me wants to go for a walk in the sun but the rest of me just wants to take a nap!$h",
 	"Summer.Weekly.8.2": "Watching the sky as much as I do, I've naturally taken an interest in birding.#$e#We often get visited by parrots from the Fern Islands here.$h",
-	"Summer.Weekly.8.3": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Do you ever get freckles from spending so long outside in the sun?#$e#You'd look cute with freckles.$1|You're lucky you can spend so much time outside and never get a sunburn.#$e#I feel like I start turning red the second I leave the clinic.",
+	"Summer.Weekly.8.3": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Do you ever get freckles from spending so long outside in the sun?#$e#You'd look cute with freckles.$l|You're lucky you can spend so much time outside and never get a sunburn.#$e#I feel like I start turning red the second I leave the clinic.",
 	"Summer.Weekly.8.4": "Have you ever heard owls out by your farm at night?#$e#The whole time I've been living here, I've never managed to spot one.",
 
 	"Summer.Weekly.10.1": "It's so nice out that I've been considering playing hooky from work.$#e#@, I think you might be a bad influence!#h",
 	"Summer.Weekly.10.2": "I got a call from one of my old colleagues the other day. ${He's^She's^They're}$ getting married.#$e#It feels like everyone my age is starting to settle down.",
-	"Summer.Weekly.10.3": "Here, @. I thought you might like this. Remember to put it in water so it doesn't wilt in the heat. [421 376 593]$1",
+	"Summer.Weekly.10.3": "Here, @. I thought you might like this. Remember to put it in water so it doesn't wilt in the heat. [421 376 593]$l",
 	"Summer.Weekly.10.4": "It's been so difficult to focus on my work lately.#$b#You know, because of the heat.$l",
 
 	"Fall.Weekly.0.1": "This is a particularly good season for foraging.#$e#This might be obvious, but make sure to check that what you find is edible before you eat it.",
@@ -549,7 +549,7 @@
 	//A lot of these didn't NEED editing except they are phrased super weird so I tried to make them less uhhhh Strange
 	//I also left out the ones about the NPC spouse being pregnant I'm sorry if you have a trans Harvey mod that I am not aware of
 	//If you do oh my god please tell me I'd be all the way into trans Harvey. we can be t4t. T treated him really good to allow for a mustache that nice & im kinda jealous
-	
+
 	"NewChild_SecondChild1": "Our little family has really grown.. it's incredible to think how far we've come together.$l",
 	"NewChild_SecondChild2": "Being a father to two beautiful children is like a dream come true. We really have come so far, haven't we?",
 	"NewChild_Adoption": "{0} is just perfect... we're so incredibly lucky.",
