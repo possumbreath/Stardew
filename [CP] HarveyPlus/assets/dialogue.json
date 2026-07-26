@@ -84,23 +84,25 @@
 		"GreenRain_2": "{{i18n: GreenRain2.{{Random:{{Range: 1, 3}}}}}}",
 		"FlowerDance_Accept_Spouse": "{{i18n: FlowerDanceSpouse.{{Random:{{Range: 1, 3}}}}}}",
 		"FlowerDance_Decline": "{{i18n: FlowerDanceDecline}}",
+		
 		"AcceptBirthdayGift_Positive": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Pos}}",
 		"AcceptBirthdayGift_Negative": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Neg}}",
-		
-		"AcceptGift_(O)432": "It's for me? Thank you! This will be fantastic drizzled on some pasta.$h",
-		"AcceptGift_(O)348": "For me? What a gift! This looks fantastic!$h#$b#You know, on a physiological level, I wouldn't advise the consumption of alcohol...#$b#But there's no denying the benefit of kicking back and enjoying a glass of fine Stardew Valley wine!$h",
-		"Resort_Entering": "Sunscreen? Check...#$b#Sun hat? Check...",
-  		"Resort_Leaving": "If you get burnt, a little aloe vera cream might help soothe the skin.",
-  		"Resort_Shore": "I combed the whole beach for glass. We wouldn't want anyone to get a cut on their foot!",
-  		"Resort_Chair": "It's nice to have an opportunity to relax now and then.#$b#The trouble is actually letting go of your worries...$s",
-  		"Resort_Bar": "It's important to stay hydrated in this heat. I'm going to ask Gus if he has any coconut water!$h",
-		
-		"Resort": "{{i18n: NewResort}}",
+		"AcceptGift_(O)432": "{{i18n: Gift.TruffleOil.{{Random:{{Range: 1, 3}}}}}}",
+		"AcceptGift_(O)348": "{{i18n: Gift.Wine.{{Random:{{Range: 1, 3}}}}}}",
+		"AcceptGift_(O)395": "{{i18n: Gift.Coffee.{{Random:{{Range: 1, 3}}}}}}",
+		"AcceptGift_(O)349": "{{i18n: Gift.TonicRemedy}}",
+		"AcceptGift_(O)351": "{{i18n: Gift.TonicRemedy}}",
+		"AcceptGift_(O)909": "{{i18n: Gift.Radioactive}}",
+		"AcceptGift_(O)910": "{{i18n: Gift.Radioactive}}",
+
+		//"Resort_Entering": "{{i18n: Resort_Entering}}",
+  		//"Resort_Leaving": "{{i18n: Resort_Leaving}}",
+  		//"Resort_Shore": "{{i18n: Resort_Shore}}",
+  		//"Resort_Chair": "{{i18n: Resort_Chair}}",
+  		//"Resort_Bar": "{{i18n: Resort_Bar}}",
+		"Resort": "{{i18n: Resort}}",
 
 		"breakUp": "...Y...You...?$s#$b#*gulp*... I... I think I'm going to be sick...$s",
-		"dumped_Guys": "I'm busy with my work. I can't speak to you.$s",
-  		"secondChance_Guys": "I want you back in my life, @. I'm willing to forget what happened.$s",
-
 		"divorced": "{{i18n: divorced.{{Random:{{Range: 1, 6}}}}}}",
 		"DumpsterDiveComment": "{{i18n: DumpsterDiveComment}}",
 		"AcceptBouquet": "{{i18n: AcceptBouquet}}",
@@ -122,11 +124,18 @@
 		"WinterStar_GiveGift_After": "{{i18n: WinterStar_GiveGift_After}}",
 		"WinterStar_ReceiveGift": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: WinterStar_ReceiveGift}}",
 		
-		//Events
+		//Events & Memories
 		
 		"HarveyPlus.2HeartsCT": "{{i18n: 2Hearts.After}}",
 		"eventSeen_571102_memory": "{{i18n: 8Hearts.After1}}",
 		"eventSeen_571102_memory_oneweek": "{{i18n: 8Hearts.After2}}",
+		"dating_Harvey": "{{i18n: dating_Harvey}}",
+		"dating_Harvey_memory_oneday": "{{i18n: dating_Harvey_memory_oneday}}",
+		"dumped_Guys": "{{i18n: dumped_Guys}}",
+  		"secondChance_Guys": "{{i18n: secondChance_Guys}}",
+  		"dating_Maru_memory_oneday": "{{i18n: dating_Maru_memory_oneday}}",
+  		"married_Maru": "{{i18n: married_Maru}}",
+  		"married_Harvey_oneyear": "{{i18n: married_Harvey_oneyear}}",
 		
 		//Date and/or Season Specific Dialogue
 		
@@ -141,7 +150,8 @@
 		
 		//Housekeeping
 		//Deleted or heavily edited these events, so these memories are no longer relevant
-		//Or they are keys used by Canon Dialogue Expansion that conflict with my characterization choices/would be redundant because I moved those lines to other keys
+		//Or they are keys that would be redundant because I moved those lines to other keys/would rather prioritize the seasonals
+		//Or they conflict with my characterization choices and I'm picky
 		
 		"fall_Fri": null,
 		"fall_Fri8": null,
@@ -168,6 +178,8 @@
 		"eventSeen_58_memory_oneweek": null,
 		"eventSeen_58_memory_twoweeks": null,
 		"eventSeen_58_memory_fourweeks": null,
+
+		"married_Harvey": null,
 	},
 },
 
@@ -224,7 +236,7 @@
 	"Target": "Data/Festivals/spring13",
 	"entries": {
 		"Harvey": "{{i18n: spring13.1}}",
-		"Harvey_y2": "{{i18n: spring13.2",
+		"Harvey_y2": "{{i18n: spring13.2}}",
 		"Harvey_spouse": "{{i18n: spring13.1.spouse}}",
 	},
 },

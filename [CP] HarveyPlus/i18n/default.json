@@ -16,9 +16,12 @@
 	//General
 	
 	"NewIntro": "It's a pleasure to meet you. I'm Harvey, the local doctor.#$e#I attend to the medical needs of all the residents of Pelican Town. It's rewarding work.#$e#I hope you'll find your own work equally rewarding, in time.$h",
+	"DumpsterDiveComment": "Oh, that's... you have to know that's not sanitary.$s",
+	
 	"GreenRain2.1": "The first time this happened, we were all worried that the rain might be dangerous.#$b#But what if it's actually healthy for the body? Who knows... The plants seem to respond well to it, at least.",
 	"GreenRain2.2": "Have you noticed whether the rain has any effect on your crops?#$e#Imagine a melon the size of a car...!$8",
 	"GreenRain2.3": "I'm glad that the rain seems to be harmless, at least.#$e#We definitely didn't cover anything like this in medical school.",	
+	
 	"AcceptBirthdayGift.Pos": "#Thank you so much, @. I love it!|Oh! Thank you very much! I didn't expect anyone to know it was my birthday today.",
 	"AcceptBirthdayGift.Neg": "#Oh... it... well I suppose it's the thought that counts.|Oh! It's a... well, it's something. I didn't expect anyone to know it was my birthday today.",
 	"GiftLove.1": "#Oh, for me? Thank you! You know me so well.|For me? This is my favorite! It's like you read my mind.",
@@ -30,19 +33,42 @@
 	"GiftDislike.2": "#Oh, this is... I'll figure out something to do with this.|Thank you? I'm not sure what you expect me to do with this.",
 	"GiftHate.1": "#I'm pretty sure I told you I was allergic to this.$a|...I think I'm allergic to this.",
 	"GiftHate.2": "#Yikes. Are you trying to tell me something?$s|That's not very kind of you, @.",
-	"NewResort": "I'll let you in on a little secret... I never really learned how to swim.$s#$e#Deep water is terrifying.#$b#At least when you're up high you can see what's below you.$s",
+	"Gift.TruffleOil.1": "For me? Thank you! This will be fantastic drizzled on some pasta.$h",
+	"Gift.TruffleOil.2": "Oh, wow. Really? This almost feels too fancy for me.#$b#Not that I'm complaining!$h",
+	"Gift.TruffleOil.3": "You have incredible timing, @. I was just thinking I needed this for a recipe I want to try.$h",
+	"Gift.Wine.1": "This looks fantastic! What an incredible gift, @.$h#$b#I'll have to save it for a special occasion.",
+	"Gift.Wine.2": "Thank you!$h#$b#You would think as a doctor I would advise against the consumption of alcohol...#$b#But there are certainly benefits to kicking back with a glass of wine, provided one is drinking responsibly.$h",
+	"Gift.Wine.3": "An entire bottle? That's very generous of you.$h",
+	"Gift.Coffee.1": "Oh! Thank you. I was just thinking I could use a pick-me-up.$h",
+	"Gift.Coffee.2": "You're a life-saver, @.#$b#%Harvey takes a sip.#$b#And it's exactly how I like it!$h",
+	"Gift.Coffee.3": "Thank you so much, @.$h#$b#I was too busy this morning to brew my own, so I really appreciate it.",
+	"Gift.TonicRemedy": "Uh... thanks? I already have plenty of these at the clinic.",
+	"Gift.Radioctive": "Don't you know how dangerous this is?!$8",
+
+	"Resort": "I'll let you in on a little secret... I never really learned how to swim.$s#$e#Deep water is terrifying.#$b#At least when you're up high you can see what's below you.$s",
+	//"Resort_Entering": "Sunscreen? Check...#$b#Sun hat? Check...",
+  	//"Resort_Leaving": "If you get burnt, a little aloe vera cream might help soothe the skin.",
+  	//"Resort_Shore": "I combed the whole beach for glass. We wouldn't want anyone to get a cut on their foot!",
+  	//"Resort_Chair": "It's nice to have an opportunity to relax now and then.#$b#The trouble is actually letting go of your worries...$s",
+  	//"Resort_Bar": "It's important to stay hydrated in this heat. I'm going to ask Gus if he has any coconut water!$h",
 
 	//you'll notice some of the negative reactions here are a little sharp and that's because uwu wibbly baby softboi harvey is boring he is a full ass adult man let the guy have layers and be angry sometimes
 	//the kind guys are the ones who are most capable of being venemous little shits when they're upset
 	//also if you spend a lot of your life very lonely and then think you finally found someone to be close to and then they ditch you that is going to make you a lil bitter maybe
-
+	
+	"dating_Harvey": "This still doesn't quite feel real...$l",
+	"dating_Harvey_memory_oneday": "I've been thinking about you so much, I can hardly focus on my work.$l",
+	"dumped_Guys": "...$s",
+  	"secondChance_Guys": "@... I miss you. I'm willing to forget what happened.$s#$b#Don't make me regret that.",
+  	"dating_Maru_memory_oneday": "Maru's been unusually cheerful lately... you wouldn't happen to know anything about that, would you, @?",
+  	"married_Maru": "Congratulations on your marriage, @. I'm so happy for the two of you.$h#$e#Maru's assured me she'll continue to help out at the clinic, but I promise I won't monopolize her time.",
+  	"married_Harvey_oneyear": "You know what I just realized, @? It's been almost a year since the wedding.#$b#It's incredible how quickly the time went by...$l",
 	"divorced.1": "I... I can't look at you.$s",
 	"divorced.2": "Just leave me alone. Please.$s",
 	"divorced.3": "I don't have anything to say to you, @.$a",
 	"divorced.4": "%Harvey is pointedly ignoring you.",
 	"divorced.5": "I think it would be healthier for the both of us if you and I avoided each other.$a",
 	"divorced.6": "...$a",
-	"DumpsterDiveComment": "Oh, that's... you have to know that's not sanitary.$s",
 	"AcceptBouquet": "... what?#$b#I mean, yes! Of course!$8#$b#Sorry, I just wasn't expecting... I've wanted to ask you for weeks but could never find the courage.$l",
 	"AcceptPendant": "Really, @? I don't know what to say...$l#$b#I mean, yes! Obviously, yes.$h#$b#I'll speak with the Mayor and have everything set up. Just give me three days to get everything ready.",
 	"Engaged1": "There's so much to set up before the wedding! I have to admit I'm nervous.$l#$e#I'll be relieved after we're all settled in on your farm.$h",
@@ -198,7 +224,7 @@
 	
 	//Mail
 	
-	"IntroMail": "Hello, Farmer @.^^Please stop by the clinic when you have a moment. I would like to discuss your options in terms of your medical care now that you're a part of our community.^^Welcome again, by the way!^^ - Dr. Harvey",
+	"IntroMail": "Hello, Farmer @.^^Please stop by the clinic when you have a moment. I would like to discuss your medical care now that you're a part of our community.^^Welcome again, by the way!^^ - Dr. Harvey",
 	"IntroMailName": "Invitation to the Clinic",
 	"8HeartsMail": "@,^^I'm sorry that I was so frazzled yesterday. I don't get many visitors, so when you stopped by it was a surprise.^^Not a bad one! Just unexpected.^^Anyway... I was reorganizing my desk and found this. I thought you might like to have it. If you ever want to listen to the planes go by, you can tune it to frequency 140.^^- Harvey",
 	"8HeartsMailName": "A Gift From Harvey",
@@ -288,15 +314,15 @@
 	"Sun.9": "Some people know what they want to do with their lives from a very young age. I envy that.#$e#It took me a lot of false starts to get to where I am and I've always felt a little behind because of it.",
 	"Sun.10": "Do you ever get lonely living by yourself on the farm, @?#$e#Just wondering.$l",
 
-	"Spring.Weekly.0.1": "It's officially pollen season.#$e#Living in the countryside seems like it would be a little less idyllic for a person with bad allergies.",
+	"Spring.Weekly.0.1": "It's officially pollen season.#$b#Living in the countryside seems like it would be a little less idyllic for a person with bad allergies.",
 	"Spring.Weekly.0.2": "%revealtaste:Harvey:22 Did you know that dandelion greens are edible?#$b#Most people consider them weeds, but they're not bad in a salad.",
-	"Spring.Weekly.0.3": "If you need anything from the clinic, make sure to stop by before three. That's when I usually lock up.",
+	"Spring.Weekly.0.3": "If there's something that you need from the clinic, I'd advise stopping by earlier in the day.",
 	"Spring.Weekly.0.4": "Be sure to cook any fish you catch thoroughly before you eat it.",
 
 	"Spring.Weekly.2.1": "Hi, @. Are you having a productive Spring so far?#$e#Remember not to give yourself more work than you can comfortably handle.",
 	"Spring.Weekly.2.2": "It's Spring cleaning season again. It must take a lot of work to keep $farm Farm tidy.",
 	"Spring.Weekly.2.3": "Remember to eat a healthy breakfast before you start in on your farm chores.#$e#It's the most important meal of the day, as they say.",
-	"Spring.Weekly.2.4": "I know it's a little annoying that the clinic closes so early in the day.#$e#It just isn't profitable enough to justify staying open longer.$s",
+	"Spring.Weekly.2.4": "Maru works at the clinic on Tuesdays and Thursdays.#$e#She's been a huge help since she started.",
 
 	"Spring.Weekly.4.1": "%revealtaste:Harvey:18 My favorite flower is the daffodil.#$e#They're not particularly exciting, but they're bright and cheerful, and they come back reliably every year.$h",
 	"Spring.Weekly.4.2": "%revealtaste:Harvey:399 Patches of spring onions grow down past Marnie's barn, across the river.#$e#I'd go pick some myself if my schedule wasn't so tight.",
@@ -309,14 +335,14 @@
 	"Spring.Weekly.6.4": "I've been reading a book about historical agricultural practices. It's just fascinating!$h#$b#You're welcome to borrow it when I'm done, if you want.",
 
 	"Spring.Weekly.8.1": "There's a bird's nest in the tree outside my clinic. If you look closely you can see the eggs!$h#$b#Not too closely, though, or mama bird will get mad.",
-	"Spring.Weekly.8.2": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Would you like to join me on my afternoon walks sometimes, @?#$e#I'd like it if you did.$1|Would you like to join me on my afternoon walks sometimes, @?#$e#Walking is an easy way to stay active, but it's more fun with company!$h",
-	"Spring.Weekly.8.3": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Oh, @, this is for you. I thought you might like it. [591 597 18]$1|Have you planted any flowers this Spring, @?#$e#I wish I had the space for a flower garden.#$b#I'm a little jealous of you!$h",
+	"Spring.Weekly.8.2": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Would you like to join me on my afternoon walks sometimes, @?#$e#I'd like it if you did.$l|Would you like to join me on my afternoon walks sometimes, @?#$e#Walking is an easy way to stay active, but it's more fun with company!$h",
+	"Spring.Weekly.8.3": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married #Oh, @, this is for you. I thought you might like it. [591 597 18]$l|Have you planted any flowers this Spring, @?#$e#I wish I had the space for a flower garden.#$b#I'm a little jealous of you!$h",
 	"Spring.Weekly.8.4": "I never have to worry about setting my alarm clock in Spring.#$b#The birds outside my window are always loud enough to wake me up before it goes off.$h",
 
 	"Spring.Weekly.10.1": "The flowers look brighter this year, somehow.#$e#Or maybe I'm just noticing them more.$h",
 	"Spring.Weekly.10.2": "There's always an upswing in air-traffic this time of year.#$e#It's not surprising that people enjoy flying more when it's nice out.",
 	"Spring.Weekly.10.3": "It's been so pleasant outside since the season turned... we should plan a picnic!$h",
-	"Spring.Weekly.10.4": "Spending time with you always puts a Spring in my step.$1#$e#Haha. Too much?$h", 
+	"Spring.Weekly.10.4": "Spending time with you always puts a Spring in my step.$l#$e#Haha. Too much?$h", 
 
 	"Summer.Weekly.0.1": "Be careful running around in the tall grass! Watch out for bees.",
 	"Summer.Weekly.0.2": "It feels like a shame that I spend so much of Summer indoors...$s#$e#Oh, well. It can't be helped.",
@@ -354,17 +380,17 @@
 	"Fall.Weekly.0.1": "This is a particularly good season for foraging.#$e#This might be obvious, but make sure to check that what you find is edible before you eat it.",
 	"Fall.Weekly.0.2": "Vinegar is useful in cooking, but it also makes a good natural cleaner.#$b#That is, if you don't mind your kitchen smelling like vinegar.",
 	"Fall.Weekly.0.3": "If you start to feel under the weather, don't try to just 'push through'.#$e#It will take you twice as long to get better.",
-	"Fall.Weekly.0.4": "",
+	"Fall.Weekly.0.4": "PLACEHOLDER 0.4",
 
-	"Fall.Weekly.2.1": "PLACEHOLDER 2.1",
+	"Fall.Weekly.2.1": "Have you started preparing %farm Farm for winter?#$e#Remember to stock up on firewood.",
 	"Fall.Weekly.2.2": "PLACEHOLDER 2.2",
 	"Fall.Weekly.2.3": "PLACEHOLDER 2.3",
 	"Fall.Weekly.2.4": "PLACEHOLDER 2.4",
 
-	"Fall.Weekly.4.1": "PLACEHOLDER 4.1",
-	"Fall.Weekly.4.2": "PLACEHOLDER 4.2",
+	"Fall.Weekly.4.1": "It's true that, financially, fall is the best season for the clinic...#$b#Not that I want anyone to get sick!$8",
+	"Fall.Weekly.4.2": "Did you know that you can make oil out of sunflower seeds?#$e#I prefer truffle oil for cooking when I can get it, personally.",
 	"Fall.Weekly.4.3": "I take patient confidentiality very seriously.#$b#I think that's especially important in a small town, where gossip can spread quickly.",
-	"Fall.Weekly.4.4": "If I had to pick a favorite season, I'd probably say Fall.#$e#It's not too hot, not too cold, and there's always an abundance of mushrooms.",
+	"Fall.Weekly.4.4": "If I had to pick a favorite season, I'd probably say Fall.#$e#It's not too hot, not too cold, and there's always an abundance of mushrooms.$h",
 
 	"Fall.Weekly.6.1": "$query MUSEUM_DONATIONS 10 Arch #From what I understand, Stardew Valley is actually an archeological hotspot.#$e#But you'd know all about that, judging by the donations in the museum.$h|From what I understand, Stardew Valley is actually an archeological hotspot.#$e#It makes sense that Gunther decided to settle here.",
 	"Fall.Weekly.6.2": "I keep thinking I ought to set up a bird feeder.#$e#I wonder if I could pay Robin to build me one...?",
@@ -377,7 +403,7 @@
 	"Fall.Weekly.8.4": "I've been reading about the historical background of Spirit's Eve.#$e#Did you know that it used to be more about welcoming the end-of-Summer harvest?#$b#It's kind of like a celebration of farmers, that way!$h",
 
 	"Fall.Weekly.10.1": "If you're feeling chilly, @, you're welcome to borrow my coat.$l",
-	"Fall.Weekly.10.2": "",
+	"Fall.Weekly.10.2": "Here, @. It's a 'hot drinks' kind of day, I think. Stay warm! [395 614]$h",
 	"Fall.Weekly.10.3": "PLACEHOLDER 10.3",
 	"Fall.Weekly.10.4": "PLACEHOLDER 10.4",
 
