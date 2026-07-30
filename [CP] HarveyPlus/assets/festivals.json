@@ -1,0 +1,88 @@
+﻿{  "Changes":  [ 	 
+	
+{	"LogName": "Valley Fair Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall16",
+	"Entries": {
+		"Harvey": "[LocalizedText Strings/{{ModId}}:fall16.1]",
+		"Harvey_y2": "[LocalizedText Strings/{{ModId}}:fall16.2]",
+		"Harvey_spouse": "[LocalizedText Strings/{{ModId}}:fall16.1.spouse]",
+		"Harvey_spouse_y2": "[LocalizedText Strings/{{ModId}}:fall16.2.spouse]",
+	},
+},
+
+{	"LogName": "Spirit's Eve Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall27",
+	"Entries": {
+		"Harvey": "[LocalizedText Strings/{{ModId}}:fall27.1]",
+		"Harvey_y2": "[LocalizedText Strings/{{ModId}}:fall27.2]",
+		"Harvey_spouse": "[LocalizedText Strings/{{ModId}}:fall27.1.spouse]",
+		"Harvey_spouse_y2": "[LocalizedText Strings/{{ModId}}:fall27.2.spouse]",
+	},
+},
+
+{	"LogName": "Egg Festvial Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring13",
+	"Entries": {
+		"Harvey": "[LocalizedText Strings/{{ModId}}:spring13.1]",
+		"Harvey_y2": "[LocalizedText Strings/{{ModId}}:spring13.2]",
+		"Harvey_spouse": "[LocalizedText Strings/{{ModId}}:spring13.1.spouse]",
+	},
+},
+	
+{	"LogName": "Flower Dance Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring24",
+	"Entries": {
+		"Harvey": "[LocalizedText Strings/{{ModId}}:spring24.1]",
+		"Harvey_y2": "[LocalizedText Strings/{{ModId}}:spring24.2]",
+		"Harvey_spouse_y2": "[LocalizedText Strings/{{ModId}}:spring24.2.spouse]",
+	},
+},
+
+{	"LogName": "Luau Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer11",
+	"Entries": {
+		"Harvey": "[LocalizedText Strings/{{ModId}}:summer11.1]",
+		"Harvey_y2": "[LocalizedText Strings/{{ModId}}:summer11.2]",
+		"Harvey_spouse": "[LocalizedText Strings/{{ModId}}:summer11.1.spouse]",
+		"Harvey_spouse_y2": "[LocalizedText Strings/{{ModId}}:summer11.2.spouse]",
+	},
+},
+
+{	"LogName": "Moonlight Jellies Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer28",
+	"Entries": {
+		"Harvey": "[LocalizedText Strings/{{ModId}}:summer28.1]",
+		"Harvey_y2":"[LocalizedText Strings/{{ModId}}:summer28.2]",
+		"Harvey_spouse_y2": "[LocalizedText Strings/{{ModId}}:summer28.2.spouse]",
+	},
+},
+
+{	"LogName": "Festival of Ice Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter8",
+	"Entries": {
+		"Harvey": "[LocalizedText Strings/{{ModId}}:winter8.1]",
+		"Harvey_y2": "[LocalizedText Strings/{{ModId}}:winter8.2]",
+		"Harvey_spouse": "[LocalizedText Strings/{{ModId}}:winter8.spouse]",
+		"Harvey_spouse_y2": "[LocalizedText Strings/{{ModId}}:winter8.2.spouse]",
+	},
+},
+
+{	"LogName": "Winter Star Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter25",
+	"Entries": {
+		"Harvey": "[LocalizedText Strings/{{ModId}}:winter25.1]",
+		"Harvey_y2": "[LocalizedText Strings/{{ModId}}:winter25.2]",
+		"Harvey_spouse": "[LocalizedText Strings/{{ModId}}:winter25.1.spouse]",
+		"Harvey_spouse_y2": "[LocalizedText Strings/{{ModId}}:winter25.2.spouse]",
+	},
+},
+
+]}

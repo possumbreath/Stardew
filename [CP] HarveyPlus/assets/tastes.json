@@ -1,0 +1,67 @@
+{	"Changes": [
+
+//Gift Edits
+
+{		"LogName": "Gift Reaction Tweaks - Friendly",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+		{
+			"Operation": "RemoveDelimited",
+			"Target": ["Fields", "Harvey", "0"],
+			"Search": "It's for me? This is my favorite stuff! It's like you read my mind.",
+			"Delimiter": "/",
+		},
+		{
+			"Operation": "Append",
+            "Target": ["Fields", "Harvey", "0"],
+            "Value": "[LocalizedText Strings/{{ModId}}:GiftLove]",
+		},
+		{
+			"Operation": "RemoveDelimited",
+			"Target": ["Fields", "Harvey", "2"],
+			"Search": "That's such a nice gift. Thank you!",
+			"Delimiter": "/",
+		},
+		{
+			"Operation": "Append",
+            "Target": ["Fields", "Harvey", "2"],
+            "Value": "[LocalizedText Strings/{{ModId}}:GiftLike]",
+		},
+		{
+			"Operation": "RemoveDelimited",
+			"Target": ["Fields", "Harvey", "8"],
+			"Search": "Thanks. That's very kind of you.",
+			"Delimiter": "/",
+		},
+		{
+			"Operation": "Append",
+            "Target": ["Fields", "Harvey", "8"],
+            "Value": "[LocalizedText Strings/{{ModId}}:GiftNeutral]",
+		},
+		{
+			"Operation": "RemoveDelimited",
+			"Target": ["Fields", "Harvey", "4"],
+			"Search": "Hmm... Are you sure this is healthy?",
+			"Delimiter": "/",
+		},
+		{
+			"Operation": "Append",
+            "Target": ["Fields", "Harvey", "4"],
+            "Value": "[LocalizedText Strings/{{ModId}}:GiftDislike]",
+		},
+		{
+			"Operation": "RemoveDelimited",
+			"Target": ["Fields", "Harvey", "6"],
+			"Search": "...I think I'm allergic to this.",
+			"Delimiter": "/",
+		},
+		{
+			"Operation": "Append",
+            "Target": ["Fields", "Harvey", "6"],
+            "Value": "[LocalizedText Strings/{{ModId}}:GiftHate]",
+		},
+		],
+},
+
+]}

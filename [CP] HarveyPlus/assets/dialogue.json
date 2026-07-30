@@ -3,150 +3,144 @@
 {	"LogName": "Weekly Dialogue Edits w/ Seasonals",
 	"Action": "EditData",
 	"Target": "Characters/Dialogue/Harvey",
-	"When": {
-		"Season": "{{Season}}",
-	},
-	"entries": {
+	"Entries": {
 
 		//Weekly Dialogue + Seasonals
 		//every day decides first between generic and seasonal dialogue, and then a random option from the appropriate pool for that dialogue
-		//even when ranges only include 2 numbers I've done them as a range so that if i add more dialogue down the line it will be easy to expand
 		//Generic daily lines are day of week specific, seasonal lines are season specific only but vary more by heart level
 		//It's very unlikely a person would see every single option on one playthrough; the idea is replayability for people like me who have a lot of files
 		//And for people who play one file for a long time, it's possible they'll still be finding new dialogue several in-game years in, instead of it getting stale
-		
-		"Mon": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
-		"Mon2": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
-		"Mon4": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
-		"Mon6": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
-		"Mon8": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Mon10": "$query RANDOM 0.5#{{i18n: Mon.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
-		
-		"Tue": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
-		"Tue2": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
-		"Tue4": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
-		"Tue6": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
-		"Tue8": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Tue10": "$query RANDOM 0.5#{{i18n: Tue.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
-		
-		"Wed": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 1, 2}}}}}}|{{i18n:{{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
-		"Wed2": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
-		"Wed4": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
-		"Wed6": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
-		"Wed8": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Wed10": "$query RANDOM 0.5#{{i18n: Wed.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
-		
-		"Thu": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
-		"Thu2": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
-		"Thu_2_Yes": "{{i18n: Thu.2.Yes}}",
-		"Thu_2_Busy": "{{i18n: Thu.2.Busy}}",
-		"Thu_2_No": "{{i18n: Thu.2.No}}",
-		"Thu_2_None": "{{i18n: Thu.2.None}}",
-		"Thu4": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
-		"Thu6": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
-		"Thu8": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Thu10": "$query RANDOM 0.5#{{i18n: Thu.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
-		
-		"Fri": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
-		"Fri2": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
-		"Fri4": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
-		"Fri6": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
-		"Fri8": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Fri10": "$query RANDOM 0.5#{{i18n: Fri.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
-		
-		"Sat": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
-		"Sat2": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
-		"Sat4": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
-		"Sat6": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
-		"Sat8": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Sat10": "$query RANDOM 0.5#{{i18n: Sat.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
-		
-		"Sun": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 1, 2}}}}}}|{{i18n: {{Season}}.Weekly.0.{{Random:{{Range: 1, 4}}}}}}",
-		"Sun2": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 2, 3}}}}}}|{{i18n: {{Season}}.Weekly.2.{{Random:{{Range: 1, 4}}}}}}",
-		"Sun4": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 3, 4}}}}}}|{{i18n: {{Season}}.Weekly.4.{{Random:{{Range: 1, 4}}}}}}",
-		"Sun6": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 4, 6}}}}}}|{{i18n: {{Season}}.Weekly.6.{{Random:{{Range: 1, 4}}}}}}",
-		"SW43P": "{{i18n: SW43P}}",
-		"SW43T": "{{i18n: SW43T}}",
-		"SW43None": "{{i18n: SW43None}}",
-		"Sun8": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 6, 8}}}}}}|{{i18n: {{Season}}.Weekly.8.{{Random:{{Range: 1, 4}}}}}}",
-		"Sun10": "$query RANDOM 0.5#{{i18n: Sun.{{Random:{{Range: 8, 10}}}}}}|{{i18n: {{Season}}.Weekly.10.{{Random:{{Range: 1, 4}}}}}}",
+
+		"{{TodaysDate}}": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:1}}],[LocalizedText Strings/{{ModId}}:Weekly.0.{{Random:1,2,3,4}}]}}",
+		"{{TodaysDate}}2": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:1,2}}],[LocalizedText Strings/{{ModId}}:Weekly.2.{{Random:1,2,3,4}}]}}",
+		"{{TodaysDate}}4": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:3,4}}],[LocalizedText Strings/{{ModId}}:Weekly.4.{{Random:1,2,3,4}}]}}",
+		"{{TodaysDate}}6": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:5,6}}],[LocalizedText Strings/{{ModId}}:Weekly.6.{{Random:1,2,3,4}}]}}",
+		"{{TodaysDate}}8": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:7,8}}],[LocalizedText Strings/{{ModId}}:Weekly.8.{{Random:1,2,3,4}}]}}",
+		"{{TodaysDate}}10": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:9,10}}],[LocalizedText Strings/{{ModId}}:Weekly.10.{{Random:1,2,3,4}}]}}",
+
+		//Question keys
+
+		"Thu_2_Yes": "[LocalizedText Strings/{{ModId}}:Thu.2.Yes]",
+		"Thu_2_Busy": "[LocalizedText Strings/{{ModId}}:Thu.2.Busy]",
+		"Thu_2_No": "[LocalizedText Strings/{{ModId}}:Thu.2.No]",
+		"Thu_2_None": "[LocalizedText Strings/{{ModId}}:Thu.2.None]",
+		"SW43P": "[LocalizedText Strings/{{ModId}}:SW43P]",
+		"SW43T": "[LocalizedText Strings/{{ModId}}:SW43T]",
+		"SW43None": "[LocalizedText Strings/{{ModId}}:SW43None]",
+
 	},
 },
 	
 {	"LogName": "Static Main Dialogue Edits",
 	"Action": "EditData",
 	"Target": "Characters/Dialogue/Harvey",
-	"entries": {
+	"Entries": {
 		
 		//General
 		
-		"Introduction": "{{i18n: NewIntro}}",
-		"GreenRain_2": "{{i18n: GreenRain2.{{Random:{{Range: 1, 3}}}}}}",
-		"FlowerDance_Accept_Spouse": "{{i18n: FlowerDanceSpouse.{{Random:{{Range: 1, 3}}}}}}",
-		"FlowerDance_Decline": "{{i18n: FlowerDanceDecline}}",
+		"Introduction": "[LocalizedText Strings/{{ModId}}:NewIntro]",
+		"GreenRain_2": "[LocalizedText Strings/{{ModId}}:GreenRain.2]",
+		"DumpsterDiveComment": "[LocalizedText Strings/{{ModId}}:DumpsterDiveComment]",
 		
-		"AcceptBirthdayGift_Positive": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Pos}}",
-		"AcceptBirthdayGift_Negative": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: AcceptBirthdayGift.Neg}}",
-		"AcceptGift_(O)432": "{{i18n: Gift.TruffleOil.{{Random:{{Range: 1, 3}}}}}}",
-		"AcceptGift_(O)348": "{{i18n: Gift.Wine.{{Random:{{Range: 1, 3}}}}}}",
-		"AcceptGift_(O)395": "{{i18n: Gift.Coffee.{{Random:{{Range: 1, 3}}}}}}",
-		"AcceptGift_(O)349": "{{i18n: Gift.TonicRemedy}}",
-		"AcceptGift_(O)351": "{{i18n: Gift.TonicRemedy}}",
-		"AcceptGift_(O)909": "{{i18n: Gift.Radioactive}}",
-		"AcceptGift_(O)910": "{{i18n: Gift.Radioactive}}",
+		"AcceptBirthdayGift_Positive": "[LocalizedText Strings/{{ModId}}:AcceptBirthdayGift_Positive]",
+		"AcceptBirthdayGift_Negative": "[LocalizedText Strings/{{ModId}}:AcceptBirthdayGift_Negative]",
+		"AcceptGift_(O)432": "[LocalizedText Strings/{{ModId}}:Gift.TruffleOil]",
+		"AcceptGift_(O)348": "[LocalizedText Strings/{{ModId}}:Gift.Wine]",
+		"AcceptGift_(O)395": "[LocalizedText Strings/{{ModId}}:Gift.Coffee]",
+		"AcceptGift_(O)349": "[LocalizedText Strings/{{ModId}}:Gift.TonicRemedy]",
+		"AcceptGift_(O)351": "[LocalizedText Strings/{{ModId}}:Gift.TonicRemedy]",
+		"AcceptGift_(O)909": "[LocalizedText Strings/{{ModId}}:Gift.Radioactive]",
+		"AcceptGift_(O)910": "[LocalizedText Strings/{{ModId}}:Gift.Radioactive]",
 
 		//"Resort_Entering": "{{i18n: Resort_Entering}}",
   		//"Resort_Leaving": "{{i18n: Resort_Leaving}}",
   		//"Resort_Shore": "{{i18n: Resort_Shore}}",
   		//"Resort_Chair": "{{i18n: Resort_Chair}}",
   		//"Resort_Bar": "{{i18n: Resort_Bar}}",
-		"Resort": "{{i18n: Resort}}",
+		"Resort": "[LocalizedText Strings/{{ModId}}:Resort]",
 
-		"breakUp": "...Y...You...?$s#$b#*gulp*... I... I think I'm going to be sick...$s",
-		"divorced": "{{i18n: divorced.{{Random:{{Range: 1, 6}}}}}}",
-		"DumpsterDiveComment": "{{i18n: DumpsterDiveComment}}",
-		"AcceptBouquet": "{{i18n: AcceptBouquet}}",
-		"RejectBouquet_Divorced": "{{i18n: RejectBouquet_Divorced}}",
-		"RejectBouquet_NpcAlreadyMarried": "{{i18n: RejectBouquet_NpcAlreadyMarried}}",
-		"RejectBouquet": "{{i18n: RejectBouquet}}",
-		"RejectGift_Divorced": "{{i18n: RejectGift_Divorced}}",
-		"RejectMermaidPendant_Divorced": "{{i18n: RejectMermaidPendant_Divorced}}",
-		"RejectMermaidPendant_NeedHouseUpgrade": "{{i18n: RejectMermaidPendant_NeedHouseUpgrade}}",
-		"RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n: RejectMermaidPendant_NpcWithSomeoneElse}}",
-		"RejectMermaidPendant_Under10Hearts": "{{i18n: RejectMermaidPendant_Under10Hearts}}",
-		"RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n: RejectMermaidPendant_Under10Hearts_AskedAgain}}",
-		"RejectMermaidPendant": "{{i18n: RejectMermaidPendant}}",
-		"RejectMovieTicket_Divorced": "{{i18n: RejectMovieTicket_Divorced}}",
-		"RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n: RejectMovieTicket_DontWantToSeeThatMovie}}",
-		"RejectMovieTicket": "{{i18n: RejectMovieTicket}}",
-		"WinterStar_GiveGift_Before_Spouse": "{{i18n: WinterStar_GiveGift_Before_Spouse}}",
-		"WinterStar_GiveGift_Before": "{{i18n: WinterStar_GiveGift_Before}}",
-		"WinterStar_GiveGift_After": "{{i18n: WinterStar_GiveGift_After}}",
-		"WinterStar_ReceiveGift": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: WinterStar_ReceiveGift}}",
+		"breakUp": "[LocalizedText Strings/{{ModId}}:breakUp]",
+		"divorced": "[LocalizedText Strings/{{ModId}}:divorced]",
+		"FlowerDance_Accept_Spouse": "[LocalizedText Strings/{{ModId}}:FlowerDanceSpouse]",
+		"FlowerDance_Decline": "[LocalizedText Strings/{{ModId}}:FlowerDanceDecline]",
+		"AcceptBouquet": "[LocalizedText Strings/{{ModId}}:AcceptBouquet]",
+		"RejectBouquet_Divorced": "[LocalizedText Strings/{{ModId}}:RejectBouquet_Divorced]",
+		"RejectBouquet_NpcAlreadyMarried": "[LocalizedText Strings/{{ModId}}:RejectBouquet_NpcAlreadyMarried]",
+		"RejectBouquet": "[LocalizedText Strings/{{ModId}}:RejectBouquet]",
+		"RejectGift_Divorced": "[LocalizedText Strings/{{ModId}}:RejectGift_Divorced]",
+		"RejectMermaidPendant_Divorced": "[LocalizedText Strings/{{ModId}}:RejectMermaidPendant_Divorced]",
+		"RejectMermaidPendant_NeedHouseUpgrade": "[LocalizedText Strings/{{ModId}}:RejectMermaidPendant_NeedHouseUpgrade]",
+		"RejectMermaidPendant_NpcWithSomeoneElse": "[LocalizedText Strings/{{ModId}}:RejectMermaidPendant_NpcWithSomeoneElse]",
+		"RejectMermaidPendant_Under10Hearts": "[LocalizedText Strings/{{ModId}}:RejectMermaidPendant_Under10Hearts]",
+		"RejectMermaidPendant_Under10Hearts_AskedAgain": "[LocalizedText Strings/{{ModId}}:RejectMermaidPendant_Under10Hearts_AskedAgain]",
+		"RejectMermaidPendant": "[LocalizedText Strings/{{ModId}}:RejectMermaidPendant]",
+		"RejectMovieTicket_Divorced": "[LocalizedText Strings/{{ModId}}:RejectMovieTicket_Divorced]",
+		"RejectMovieTicket_DontWantToSeeThatMovie": "[LocalizedText Strings/{{ModId}}:RejectMovieTicket_DontWantToSeeThatMovie]",
+		"RejectMovieTicket": "[LocalizedText Strings/{{ModId}}:RejectMovieTicket]",
+		"WinterStar_GiveGift_Before_Spouse": "[LocalizedText Strings/{{ModId}}:WinterStar_GiveGift_Before_Spouse]",
+		"WinterStar_GiveGift_Before": "[LocalizedText Strings/{{ModId}}:WinterStar_GiveGift_Before]",
+		"WinterStar_GiveGift_After": "[LocalizedText Strings/{{ModId}}:WinterStar_GiveGift_After]",
+		"WinterStar_ReceiveGift": "[LocalizedText Strings/{{ModId}}:WinterStar_ReceiveGift]",
 		
 		//Events & Memories
 		
-		"HarveyPlus.2HeartsCT": "{{i18n: 2Hearts.After}}",
-		"eventSeen_571102_memory": "{{i18n: 8Hearts.After1}}",
-		"eventSeen_571102_memory_oneweek": "{{i18n: 8Hearts.After2}}",
-		"dating_Harvey": "{{i18n: dating_Harvey}}",
-		"dating_Harvey_memory_oneday": "{{i18n: dating_Harvey_memory_oneday}}",
-		"dumped_Guys": "{{i18n: dumped_Guys}}",
-  		"secondChance_Guys": "{{i18n: secondChance_Guys}}",
-  		"dating_Maru_memory_oneday": "{{i18n: dating_Maru_memory_oneday}}",
-  		"married_Maru": "{{i18n: married_Maru}}",
-  		"married_Harvey_oneyear": "{{i18n: married_Harvey_oneyear}}",
+		"{{ModId}}.2HeartsCT": "[LocalizedText Strings/{{ModId}}:2Hearts.After]",
+		"{{ModId}}.6HeartsCT": "[LocalizedText Strings/{{ModId}}:6Hearts.After]",
+		"eventSeen_571102_memory": "[LocalizedText Strings/{{ModId}}:8Hearts.After1]",
+		"eventSeen_571102_memory_oneweek": "[LocalizedText Strings/{{ModId}}:8Hearts.After2]",
+		"eventSeen_528052_memory": "[LocalizedText Strings/{{ModId}}:10Hearts.After]",
+
+		"dating_Harvey": "[LocalizedText Strings/{{ModId}}:dating_Harvey]",
+		"dating_Harvey_memory_oneday": "[LocalizedText Strings/{{ModId}}:dating_Harvey_memory_oneday]",
+		"dumped_Guys": "[LocalizedText Strings/{{ModId}}:dumped_Guys]",
+  		"secondChance_Guys": "[LocalizedText Strings/{{ModId}}:secondChance_Guys]",
+  		"dating_Maru_memory_oneday": "[LocalizedText Strings/{{ModId}}:dating_Maru_memory_oneday]",
+  		"married_Maru": "[LocalizedText Strings/{{ModId}}:married_Maru]",
+  		"married_Harvey_oneyear": "[LocalizedText Strings/{{ModId}}:married_Harvey_oneyear]",
 		
 		//Date and/or Season Specific Dialogue
 		
-		"fall_19": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: Fall.Plans}}",
-		"spring_23": "{{i18n: Spring.FlowerDance}}",
-		"fall_1": "{{i18n: Fall.Chilly}}",
-		"fall_8": "{{i18n: Fall.Mushrooms}}",
-		"winter_7": "{{i18n: Winter.FluShots}}",
-		"winter_13": "{{i18n: Winter.AlmostBirthday}}",
-		"winter_28": "{{i18n: Winter.End}}",
-		"winter_28_2": "{{i18n: Winter.End}}",
+		"fall_19": "[LocalizedText Strings/{{ModId}}:Fall.Plans]",
+		"spring_23": "[LocalizedText Strings/{{ModId}}:Spring.FlowerDance]",
+		"fall_1": "[LocalizedText Strings/{{ModId}}:Fall.Chilly]",
+		"fall_8": "[LocalizedText Strings/{{ModId}}:Fall.Mushrooms]",
+		"winter_7": "[LocalizedText Strings/{{ModId}}:Winter.FluShots]",
+		"winter_13": "[LocalizedText Strings/{{ModId}}:Winter.AlmostBirthday]",
+		"winter_28": "[LocalizedText Strings/{{ModId}}:Winter.End]",
+		"winter_28_2": "[LocalizedText Strings/{{ModId}}:Winter.End]",
+	},
+},
+
+{	"LogName": "Rainy Day Dialogue Edits",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/rainy",
+	"Entries": {
+		"Harvey": "[LocalizedText Strings/{{ModId}}:Rainy]",
+	},
+},
+
+{	"LogName": "Marriage StringsFromCSFiles Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Strings/StringsFromCSFiles",
+	"Entries": {
+		"Harvey_Engaged": "[LocalizedText Strings/{{ModId}}:AcceptPendant]",
+		"Harvey_AfterWedding": "[LocalizedText Strings/{{ModId}}:AfterWedding]",
+	},
+},
+
+{	"LogName": "Engagement Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Data/EngagementDialogue",
+	"Entries": {
+		"Harvey0": "[LocalizedText Strings/{{ModId}}:Engaged1]",
+		"Harvey1": "[LocalizedText Strings/{{ModId}}:Engaged2]",
+	},
+},
+
+{	"LogName": "Static Main Dialogue Housekeeping (Key Deletion)",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Harvey",
+	"Entries": {
 		
 		//Housekeeping
 		//Deleted or heavily edited these events, so these memories are no longer relevant
@@ -180,117 +174,6 @@
 		"eventSeen_58_memory_fourweeks": null,
 
 		"married_Harvey": null,
-	},
-},
-
-{	"Logname": "Marriage StringsFromCSFiles Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Strings/StringsFromCSFiles",
-	"entries": {
-		"Harvey_Engaged": "{{i18n: AcceptPendant}}",
-		"Harvey_AfterWedding": "{{i18n: AfterWedding}}",
-	},
-},
-
-{	"LogName": "Engagement Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Data/EngagementDialogue",
-	"entries": {
-		"Harvey0": "{{i18n: Engaged1}}",
-		"Harvey1": "{{i18n: Engaged2}}",
-	},
-},
-
-{	"LogName": "Rainy Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Characters/Dialogue/rainy",
-	"entries": {
-		"Harvey": "{{i18n: Rainy.{{Random:{{Range: 1, 6}}}}}}",
-	},
-},
-	
-{	"LogName": "Valley Fair Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Data/Festivals/fall16",
-	"entries": {
-		"Harvey": "{{i18n: fall16.1}}",
-		"Harvey_y2": "{{i18n: fall16.2}}",
-		"Harvey_spouse": "{{i18n: fall16.1.spouse}}",
-		"Harvey_spouse_y2": "{{i18n: fall16.2.spouse}}",
-	},
-},
-
-{	"LogName": "Spirit's Eve Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Data/Festivals/fall27",
-	"entries": {
-		"Harvey": "{{i18n: fall27.1}}",
-		"Harvey_y2": "{{i18n: fall27.2}}",
-		"Harvey_spouse": "{{i18n: fall27.1.spouse}}",
-		"Harvey_spouse_y2": "{{i18n: fall27.2.spouse}}",
-	},
-},
-
-{	"LogName": "Egg Festvial Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Data/Festivals/spring13",
-	"entries": {
-		"Harvey": "{{i18n: spring13.1}}",
-		"Harvey_y2": "{{i18n: spring13.2}}",
-		"Harvey_spouse": "{{i18n: spring13.1.spouse}}",
-	},
-},
-	
-{	"LogName": "Flower Dance Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Data/Festivals/spring24",
-	"entries": {
-		"Harvey": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: spring24.1}}", 
-		"Harvey_y2": "{{i18n: spring24.2}}",
-		"Harvey_spouse_y2": "{{i18n: spring24.2.spouse}}",
-	},
-},
-
-{	"LogName": "Luau Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Data/Festivals/summer11",
-	"entries": {
-		"Harvey": "{{i18n: summer11.1}}",
-		"Harvey_y2": "{{i18n: summer11.2}}",
-		"Harvey_spouse": "{{i18n: summer11.1.spouse}}",
-		"Harvey_spouse_y2": "{{i18n: summer11.2.spouse}}",
-	},
-},
-
-{	"LogName": "Moonlight Jellies Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Data/Festivals/summer28",
-	"entries": {
-		"Harvey": "{{i18n: summer28.1}}",
-		"Harvey_y2": "{{i18n: summer28.2}}",
-		"Harvey_spouse_y2": "{{i18n: summer28.2.spouse}}",
-	},
-},
-
-{	"LogName": "Festival of Ice Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Data/Festivals/winter8",
-	"entries": {
-		"Harvey": "{{i18n: winter8.1}}",
-		"Harvey_y2": "{{i18n: winter8.2}}",
-		"Harvey_spouse": "{{i18n: winter8.spouse}}",
-		"Harvey_spouse_y2": "{{i18n: winter8.2.spouse}}",
-	},
-},
-
-{	"LogName": "Winter Star Dialogue Edit",
-	"Action": "EditData",
-	"Target": "Data/Festivals/winter25",
-	"entries": {
-		"Harvey": "{{i18n: winter25.1}}",
-		"Harvey_y2": "{{i18n: winter25.2}}",
-		"Harvey_spouse": "{{i18n: winter25.1.spouse}}",
-		"Harvey_spouse_y2": "{{i18n: winter25.2.spouse}}",
 	},
 },
 

@@ -1,5 +1,5 @@
 ﻿{ 
-"Format": "2.0.0",
+"Format": "2.9.0",
 
 "ConfigSchema": {
 	"Marriage Schedule": {
@@ -19,7 +19,15 @@
 "Changes": [
 
 {	"Action": "Include",
+	"FromFile": "assets/strings.json"
+	},
+
+{	"Action": "Include",
 	"FromFile": "assets/dialogue.json"
+	},
+
+{	"Action": "Include",
+	"FromFile": "assets/festivals.json"
 	},
 	
 {	"Action": "Include",
@@ -27,12 +35,84 @@
 	},
 
 {	"Action": "Include",
-	"FromFile": "assets/marriagedialogue.json"
+	"FromFile": "assets/marriage.json"
 	},
 
 {	"Action": "Include",
-	"FromFile": "assets/othertweaks.json"
+	"FromFile": "assets/tastes.json"
 	},
 	
-]
+],
+
+"DynamicTokens": [
+
+//Day of Week token
+
+	{	"Name": "TodaysDate",
+		"Value": "Mon",
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Mon",
+		"When": {
+			"DayOfWeek": "Monday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Tue",
+		"When": {
+			"DayOfWeek": "Tuesday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Wed",
+		"When": {
+			"DayOfWeek": "Wednesday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Thu",
+		"When": {
+			"DayOfWeek": "Thursday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Fri",
+		"When": {
+			"DayOfWeek": "Friday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Sat",
+		"When": {
+			"DayOfWeek": "Saturday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Sun",
+		"When": {
+			"DayOfWeek": "Sunday",
+		},
+	},
+
+//Dating Token
+
+	{	"Name": "Romantic",
+		"Value": "Platonic",
+	},
+
+	{	"Name": "Romantic",
+		"Value": "Romantic",
+		"When": {
+			"Relationship:Harvey": "Dating,Engaged",
+		},
+	},
+],
+
 }

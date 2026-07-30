@@ -3,9 +3,9 @@
 {	"LogName": "Additional Mail",
 	"Action": "EditData",
 	"Target": "Data/mail",
-	"entries": {
-		"HarveyPlusIntro": "{{i18n: IntroMail}}[#]{{i18n: IntroMailName}}",
-		"HarveyPlus.8Hearts": "{{i18n: 8HeartsMail}}%item furniture RetroRadio%%[#]{{i18n: 8HeartsMailName}}"
+	"Entries": {
+		"{{ModId}}.IntroMail": "[LocalizedText Strings/{{ModId}}:IntroMail][#][LocalizedText Strings/{{ModId}}:IntroMailName]",
+		"{{ModId}}.8Hearts": "[LocalizedText Strings/{{ModId}}:8HeartsMail]%item furniture RetroRadio%%[#][LocalizedText Strings/{{ModId}}:8HeartsMailName]"
 	},
 },
 
@@ -13,29 +13,29 @@
 {	"LogName": "Trigger Action Edits",
 	"Action": "EditData",
 	"Target": "Data/TriggerActions",
-	"entries": {
-		"Mail_Harvey_Intro": {
+	"Entries": {
+		"{{ModId}}.Mail_Harvey_Intro": {
 			//Adding introductory mail; will proc once the farmer has introduced themselves
-			"Id": "Mail_Harvey_Intro",
+			"Id": "{{ModId}}.Mail_Harvey_Intro",
 			"Trigger": "DayEnding",
 			"Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 10",
 			"HostOnly": false,
-			"Action": "AddMail Current HarveyPlusIntro",
+			"Action": "AddMail Current {{ModId}}.IntroMail",
 			"Actions": null,
 			"CustomFields": null,
 			"MarkActionApplied": true
 		},
-		"Mail_Harvey_10heart": {
+		//"Mail_Harvey_10heart": {
 			//Making sure you can't get the balloon event until you've seen the other dating events.
-			"Id": "Mail_Harvey_10heart",
-			"Trigger": "DayEnding",
-			"Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 2502, PLAYER_HAS_SEEN_EVENT Current HarveyPlus.8Date2",
-			"HostOnly": false,
-			"Action": "AddMail Current harveyBalloon",
-			"Actions": null,
-			"CustomFields": null,
-			"MarkActionApplied": true
-		},
+			//"Id": "Mail_Harvey_10heart",
+			//"Trigger": "DayEnding",
+			//"Condition": "PLAYER_FRIENDSHIP_POINTS Current Harvey 2502, PLAYER_HAS_SEEN_EVENT Current HarveyPlus.8Date2",
+			//"HostOnly": false,
+			//"Action": "AddMail Current harveyBalloon",
+			//"Actions": null,
+			//"CustomFields": null,
+			//"MarkActionApplied": true
+		//},
 	},
 },
 
@@ -46,9 +46,9 @@
 {	"LogName": "Introductory Event Addition",
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
-	"entries": {
+	"Entries": {
 		//Establish Harvey as not the player's doctor. Yaaaaaay ethics
-		"HarveyPlus.Intro/p Harvey/p Maru/n HarveyPlusIntro": "continue/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/playSound doorClose/warp farmer 10 19/move farmer 0 -2 3/speak Maru \"{{i18n: Intro.1}}\"/emote farmer 8/pause 50/move farmer -4 0 0/speak Harvey \"{{i18n: Intro.2}}\"/speak Maru \"{{i18n: Intro.3}}\"/pause 50/quickQuestion {{i18n: Intro.4}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: ZuzuAnswer}}\"\\pause 10\\message \"{{i18n: Intro.6}}\"\\pause 10\\speak Harvey \"{{i18n: Intro.7}}\"\\emote farmer 32(break)friendship Harvey -10\\speak Harvey \"{{i18n: DangerAnswer}}\"\\pause 10/speak Harvey \"{{i18n: Intro.5}}\"/speak Maru \"{{i18n: Intro.8}}\"/pause 1000/globalFade/viewport -1000 -1000/end",
+		"{{ModId}}.Intro/p Harvey/n {{ModId}}.IntroMail": "distantBanjo/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/playSound doorClose/warp farmer 10 19/move farmer 0 -2 3/speak Maru \"[LocalizedText Strings/{{ModId}}:Intro.1]\"/emote farmer 8/pause 50/move farmer -4 0 0/speak Harvey \"[LocalizedText Strings/{{ModId}}:Intro.2]\"/speak Maru \"[LocalizedText Strings/{{ModId}}:Intro.3]\"/pause 50/quickQuestion [LocalizedText Strings/{{ModId}}:Intro.4](break)friendship Harvey 30\\speak Harvey \"[LocalizedText Strings/{{ModId}}:ZuzuAnswer]\"\\pause 10\\message \"[LocalizedText Strings/{{ModId}}:Intro.6]\"\\pause 10\\speak Harvey \"[LocalizedText Strings/{{ModId}}:Intro.7]\"\\emote farmer 32(break)friendship Harvey -10\\speak Harvey \"[LocalizedText Strings/{{ModId}}:DangerAnswer]\"\\pause 10/speak Harvey \"[LocalizedText Strings/{{ModId}}:Intro.5]\"/speak Maru \"[LocalizedText Strings/{{ModId}}:Intro.8]\"/pause 1000/globalFade/viewport -1000 -1000/end",
 	},
 },
 
@@ -57,24 +57,25 @@
 {	"LogName": "2 Heart Event Edit",
 	"Action": "EditData",
 	"Target": "Data/Events/JoshHouse",
-	"entries": {
-		"56/f Harvey 500/p George": "jaunty/16 18/farmer -100 -100 0 George 16 18 1 Harvey 15 18 1/skippable/pause 1000/speak Harvey \"{{i18n: 2Hearts.1}}\"/pause 700/speak Harvey \"{{i18n: 2Hearts.2}}\"/emote George 40/pause 300/speak Harvey \"{{i18n: 2Hearts.3}}\"/pause 50/faceDirection George 2/faceDirection George 3/speak Harvey \"{{i18n: 2Hearts.4}}\"/speak George \"{{i18n: 2Hearts.5}}\"/pause 10/speak Harvey \"{{i18n: 2Hearts.6}}\"/pause 10/speak George \"{{i18n: 2Hearts.7}}\"/speak Harvey \"{{i18n: 2Hearts.8}}\"/playSound doorClose/warp farmer 9 24/beginSimultaneousCommand/move farmer 0 -4 1 true/faceDirection George 3/faceDirection Harvey 3/jump Harvey 4/emote Harvey 16/endSimultaneousCommand/speak Harvey \"{{i18n: 2Hearts.9}}\"/faceDirection farmer 2/speed farmer 4/move farmer 0 1 2/speak George \"{{i18n: 2Hearts.10}}\"/speak Harvey \"{{i18n: 2Hearts.11}}\"/faceDirection farmer 1/speed farmer 3/move farmer 0 -2 1/move farmer 5 0 1/faceDirection Harvey 2/quickQuestion {{i18n: 2Hearts.12}}(break)friendship Harvey 30\\friendship George -10\\speak Harvey \"{{i18n: GeorgeGood}}\"\\faceDirection Harvey 1\\pause 500\\faceDirection George 2\\emote George 28\\speak George \"{{i18n: 2Hearts.13}}\"\\faceDirection Harvey 2\\speak Harvey \"{{i18n: 2Hearts.15}}\"(break)friendship Harvey -30\\friendship George 40\\speak Harvey \"{{i18n: GeorgeBad}}\"\\pause 50\\faceDirection George 2\\emote George 28\\speak George \"{{i18n: 2Hearts.14}}\"\\speak Harvey \"{{i18n: 2Hearts.16}}\"/addConversationTopic HarveyPlus.2HeartsCT/jump farmer/pause 10/faceDirection farmer 3/speed farmer 5/move farmer -5 0 3/speed farmer 5/move farmer 0 5 2/playSound doorClose/warp farmer -100 -100/pause 1000/globalFade/viewport -1000 -1000/stopMusic/end",
+	"Entries": {
+		"56/f Harvey 500/p George": null,
+		"{{ModId}}.2Hearts/f Harvey 500/p George": "jaunty/16 18/farmer -100 -100 0 George 16 18 1 Harvey 15 18 1/skippable/pause 1000/eventSeen 56 true/speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.1]\"/pause 700/speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.2]\"/emote George 40/pause 300/speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.3]\"/pause 50/faceDirection George 2/faceDirection George 3/speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.4]\"/speak George \"[LocalizedText Strings/{{ModId}}:2Hearts.5]\"/pause 10/speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.6]\"/pause 10/speak George \"[LocalizedText Strings/{{ModId}}:2Hearts.7]\"/speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.8]\"/playSound doorClose/warp farmer 9 24/beginSimultaneousCommand/move farmer 0 -4 1 true/faceDirection George 3/faceDirection Harvey 3/jump Harvey 4/emote Harvey 16/endSimultaneousCommand/speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.9]\"/faceDirection farmer 2/speed farmer 4/move farmer 0 1 2/speak George \"[LocalizedText Strings/{{ModId}}:2Hearts.10]\"/speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.11]\"/faceDirection farmer 1/speed farmer 3/move farmer 0 -2 1/move farmer 5 0 1/faceDirection Harvey 2/quickQuestion [LocalizedText Strings/{{ModId}}:2Hearts.12](break)friendship Harvey 30\\friendship George -10\\speak Harvey \"[LocalizedText Strings/{{ModId}}:GeorgeGood]\"\\faceDirection Harvey 1\\pause 500\\faceDirection George 2\\emote George 28\\speak George \"[LocalizedText Strings/{{ModId}}:2Hearts.13]\"\\faceDirection Harvey 2\\speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.15]\"(break)friendship Harvey -30\\friendship George 40\\speak Harvey \"[LocalizedText Strings/{{ModId}}:GeorgeBad]\"\\pause 50\\faceDirection George 2\\emote George 28\\speak George \"[LocalizedText Strings/{{ModId}}:2Hearts.14]\"\\speak Harvey \"[LocalizedText Strings/{{ModId}}:2Hearts.16]\"/addConversationTopic {{ModId}}.2HeartsCT/jump farmer/pause 10/faceDirection farmer 3/speed farmer 5/move farmer -5 0 3/speed farmer 5/move farmer 0 5 2/playSound doorClose/warp farmer -100 -100/pause 1000/globalFade/viewport -1000 -1000/stopMusic/end",
 	},
 },
 
 {	"LogName": "George 2 Heart CT",
 	"Action": "EditData",
 	"Target": "Characters/Dialogue/George",
-	"entries": {
-		"HarveyPlus.2HeartsCT": "{{i18n: 2Hearts.After.George}}",
+	"Entries": {
+		"{{ModId}}.2HeartsCT": "[LocalizedText Strings/{{ModId}}:2Hearts.After.George]",
 	},
 },
 
 {	"LogName": "Evelyn 2 Heart CT",
 	"Action": "EditData",
 	"Target": "Characters/Dialogue/Evelyn",
-	"entries": {
-		"HarveyPlus.2HeartsCT": "{{i18n: 2Hearts.After.Evelyn}}",
+	"Entries": {
+		"{{ModId}}.2HeartsCT": "[LocalizedText Strings/{{ModId}}:2Hearts.After.Evelyn]",
 	},
 },
 		
@@ -82,9 +83,9 @@
 	"Action": "EditData",
 	"Target": "Characters/schedules/George",
 	"When": {
-		"HasSeenEvent": "56"
+		"HasSeenEvent": "{{ModId}}.2Hearts"
 	},
-	"entries": {
+	"Entries": {
 		"spring_Wed": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1310 Town 37 77 3/1630 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep",
 		"summer_Wed": "630 JoshHouse 16 22 0/1200 JoshHouse 5 21 3/1310 Town 20 61 2/1630 JoshHouse 16 22 0/2000 JoshHouse 3 5 0 george_sleep",
 	},
@@ -95,7 +96,7 @@
 {	"LogName": "4 Heart Event Delete",
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
-	"entries": {
+	"Entries": {
 		//banished from the script it no longer made sense & also frankly added almost nothing narratively
 		//"Doctor does Doctor things what happens next will not shock you even a little bit"
 		"57/f Harvey 1000/p Harvey": null,
@@ -104,12 +105,9 @@
 
 {	"LogName": "4 Heart Event New",
 	"Action": "EditData",
-	"Target": "Data/Events/ArchaeologyHouse",
-	"entries": {
-		//establish another side of his character since so far you've only seen him Doctoring. WIP
-		//This man goes to TWO places that aren't his house and they are the saloon and the library and you don't have an event in either? bullshit
-		//I think it's silly he hangs out at the library and you never go there. half the people I talk to don't even know he does that. Booooo
-		//"HarveyPlus.4Hearts/f Harvey 1000/p Harvey": "libraryTheme/-1000 -1000/farmer -100 -100 Harvey -105 105/pause 1500/globalFade/viewport -1000 -1000/stopMusic/end",
+	"Target": "Data/Events/Saloon",
+	"Entries": {
+		"{{ModId}}.4Hearts/f Harvey 1000/p Harvey/w rainy": "Saloon1/-1000 -1000/farmer -10000 -10000 0 Shane 21 17 2 Leah 2 20 1 Pam 7 18 1 Willy 17 22 2 Sam 38 18 0 Gus 10 18 2 Emily 16 17 0 Harvey 18 20 0/skippable/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/advancedMove Emily true -3 0 4 5000 3 0 4 3000 -2 0 4 3000 -2 0 4 1000 4 0 4 4000/viewport 14 16/pause 1000/playSound doorClose/warp farmer 14 23/textAboveHead Gus \"[LocalizedText Strings/{{ModId}}:4Hearts.1]\"/move farmer 0 -3 0/move Gus 3 0 1/textAboveHead Gus \"[LocalizedText Strings/{{ModId}}:4Hearts.2]\"/move Gus 5 0 2/playSound pickUpItem/speak Gus \"[LocalizedText Strings/{{ModId}}:4Hearts.3]\"/pause 50/speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.4]\"/pause 100/move Gus -4 0 2/speak Gus \"[LocalizedText Strings/{{ModId}}:4Hearts.5]\"/quickQuestion [LocalizedText Strings/{{ModId}}:4Hearts.6](break)speak Gus \"[LocalizedText Strings/{{ModId}}:4Hearts.7]\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey 0\\pause 100\\faceDirection Harvey 3\\speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.beer]\"\\faceDirection farmer 1(break)speak Gus \"[LocalizedText Strings/{{ModId}}:4Hearts.7]\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey 5\\pause 100\\faceDirection Harvey 3\\speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.coffee]\"\\faceDirection farmer 1(break)speak Gus \"[LocalizedText Strings/{{ModId}}:4Hearts.7]\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey -5\\pause 100\\faceDirection Harvey 3\\speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.cola]\"\\faceDirection farmer 1/pause 100/speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.8]\"/emote Harvey 28/pause 100/quickQuestion [LocalizedText Strings/{{ModId}}:4Hearts.9](break)speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.91]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.92]\"/pause 100/speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.10]\"/pause 200/faceDirection Harvey 0/message \"[LocalizedText Strings/{{ModId}}:4Hearts.11]\"/pause 100/move Gus 0 1 2/move Gus 4 0 1/faceDirection Gus 2/faceDirection farmer 0/speak Gus \"[LocalizedText Strings/{{ModId}}:4Hearts.12]\"/emote farmer 56/move Gus -4 0 2/advancedMove Gus true -1 0 3 7000 1 0 2 10000 0 -1 4 8000 0 1 2 8000/move farmer 0 1 2/move farmer 3 0 1/move farmer 0 -1 0/pause 500/emote Harvey 8/pause 200/quickQuestion [LocalizedText Strings/{{ModId}}:4Hearts.13](break)friendship Harvey 20\\speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.14]\"\\pause 100\\speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.15]\"\\globalFade\\viewport -1000 -1000\\message \"[LocalizedText Strings/{{ModId}}:4Hearts.16]\"\\pause 500\\message \"[LocalizedText Strings/{{ModId}}:4Hearts.17]\"\\pause 2000\\stopMusic\\end(break)friendship Harvey -30\\pause 2000\\speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.18]\"\\pause 2000\\emote Harvey 40\\pause 3000\\faceDirection Harvey 2\\pause 500\\speak Harvey \"[LocalizedText Strings/{{ModId}}:4Hearts.19]\"\\globalFade\\viewport -1000 -1000\\stopMusic\\pause 2000\\playSound doorClose\\pause 1000\\end",
 	},
 },
 
@@ -118,7 +116,7 @@
 {	"LogName": "Aerobics Delete",
 	"Action": "EditData",
 	"Target": "Data/Events/SeedShop",
-	"entries": {
+	"Entries": {
 		"58/f Harvey 1500/t 1100 1500": null,
 		//The aerobics cutscene never made sense like sir what do you mean 'don't tell anyone' half the town is HERE 
 		//do you think Marnie has never told Shane about this and laughed
@@ -128,25 +126,20 @@
 {	"LogName": "Aerobics Spiritual Successor Event",
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
-	"entries": {
+	"Entries": {
+		
 		//AU where Harvey and Maru actually act like they know each other and talk to each other ever
 		//If you want me to buy they like each other enough to dance at the Flower Dance then I'm going to write them as Actual Friends. fight me on it
-		//anyway all I want in life is Maru asking Harvey if he knows what [legally distinct version of Just Dance] is
-		//"HarveyPlus.6Hearts/f Harvey 1500/f Maru 500/p Maru": "continue/-1000 -1000/farmer -10000 -10000 0 Maru 6 15 2 Harvey 4 14 2/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/end",
-		//speak Maru \"I'm just saying, I don't see why you're so stuck on it in the first place.\"
-		//speak Harvey \"Good habits now mean better outcomes later.#$b#At my age you have to start thinking about these things.\"
-		//speak Maru \"This again! Harvey, 'over thirty' is not old. It's not even middle-aged.#$b#You don't get to say 'at my age' until you're at least sixty.\"
 
-		//the farmer shows up here maybe?
+		"{{ModId}}.6Hearts/f Harvey 1500/f Maru 500/p Maru": "kindadumbautumn/-1000 -1000/farmer -10000 -10000 0 Maru 6 14 3 Harvey 4 14 1/skippable/changeSprite Maru Hospital/changePortrait Maru Hospital/viewport 10 15/pause 1000/addConversationTopic {{ModId}}.6HeartsCT/speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.1]\"/pause 400/speak Harvey \"[LocalizedText Strings/{{ModId}}:6Hearts.2]\"/pause 400/speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.3]\"/pause 400/speak Harvey \"[LocalizedText Strings/{{ModId}}:6Hearts.4]\"/pause 200/speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.5]\"/pause 500/faceDirection Harvey 2/speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.6]\"/pause 500/speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.7]\"/pause 1000/faceDirection Maru 2/textAboveHead Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.8]\"/pause 3000/faceDirection Maru 3/pause 200/speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.9]\"/pause 500/emote Harvey 28/pause 500/faceDirection Harvey 1/speak Harvey \"[LocalizedText Strings/{{ModId}}:6Hearts.10]\"/pause 500/playSound doorClose/warp farmer 10 19/faceDirection Maru 2/faceDirection Harvey 2/move farmer 0 -2 3/emote farmer 8/pause 500/move Maru 0 1 2/speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.11]\"/QuickQuestion [LocalizedText Strings/{{ModId}}:6Hearts.12](break)friendship Maru 20\\friendship Harvey -5\\speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.no]\"(break)friendship Maru -20\\friendship Harvey -5\\speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.yes]\"(break)friendship Maru 10\\friendship Harvey 10\\speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.badthing]\"/pause 500/speak Harvey \"[LocalizedText Strings/{{ModId}}:6Hearts.13]\"/faceDirection Harvey 3/emote Harvey 12/pause 1000/faceDirection Maru 3/pause 200/speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.14]\"/pause 200/faceDirection Maru 2/speak Maru \"[LocalizedText Strings/{{ModId}}:6Hearts.15]\"/move farmer -4 0 0 true/globalFade/viewport -1000 -1000/stopMusic/pause 2000/end",
+	},
+},
 
-		//stuff happens
-		//harvey voice i just think regular exercise would be good for me but also i do not want anyone to perceive me ever and also the weekly aerobics meet is during clinic hours so i conveniently can't go to that
-		//maru voice this is fully a problem you invented for yourself but ok
-		//essentially i just want to establish that harvey is 1. preoccupied with health and aging and possibly 2. worried about being boring, and also mainly just strengthen his relationship with Maru on screen
-
-		//speak Maru \"Oh! I got so distracted, I completely forgot to ask if you came in for something.\"
-		//farmer laugh
-		//end
+{	"LogName": "Maru 6 Heart CT",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Maru",
+	"Entries": {
+		"{{ModId}}.6HeartsCT": "[LocalizedText Strings/{{ModId}}:6Hearts.After.Maru]",
 	},
 },
 
@@ -155,17 +148,17 @@
 {	"LogName": "8 Heart Event Edits",
 	"Action": "EditData",
 	"Target": "Data/Events/Hospital",
-	"entries": {
+	"Entries": {
 		"571102/f Harvey 2000": null,
-		//Added condition that it has to be sunny because if it's not the flyover doesn't make any sense
-		"571102/f Harvey 2000/w sunny": "Hospital_Ambient/-1000 -1000/farmer -200 -2000 0 Harvey 4 5 0/skippable/changeLocation HarveyRoom/showFrame Harvey 23/viewport 5 6 true/mail HarveyPlus.8Hearts/addConversationTopic HarveyPlus.8HeartsCT 14/pause 1000/speak Harvey \"{{i18n: 8Hearts.1}}\"/pause 1000/emote Harvey 40/speak Harvey \"{{i18n: 8Hearts.2}}\"/pause 300/emote Harvey 40/pause 1000/playSound newArtifact/message \"{{i18n: 8Hearts.3}}\"/showFrame Harvey 28/jump Harvey/pause 50/speak Harvey \"{{i18n: 8Hearts.4}}\"/pause 10/faceDirection Harvey 1 true/move Harvey 2 0 1/playMusic kindadumbautumn/speak Harvey \"{{i18n: 8Hearts.5}}\"/pause 400/playSound doorClose/warp farmer 6 12/move farmer 0 -3 0/faceDirection Harvey 2/speak Harvey \"@!$8\"/quickQuestion {{i18n: 8Hearts.6}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: 8Hearts.7}}\"\\pause 10(break)friendship Harvey 30\\speak Harvey \"{{i18n: 8Hearts.8}}\"\\pause 10(break)friendship Harvey -10\\speak Harvey \"{{i18n: 8Hearts.9}}\"\\pause 10/speak Harvey \"{{i18n: 8Hearts.10}}\"/emote Harvey 16/speak Harvey \"{{i18n: 8Hearts.11}}\"/move Harvey 0 1 3/move Harvey -3 0 0/move Harvey 0 -2 0/speak Harvey \"{{i18n: 8Hearts.12}}\"/speed farmer 4/move farmer 0 -3 3/speed farmer 4/move farmer -4 0 0/speed farmer 4/move farmer 0 -2 0/speed farmer 4/speak Harvey \"{{i18n: 8Hearts.13}}\"/globalFade/cutscene plane/viewport -1000 -1000/pause 50/speak Harvey \"{{i18n: 8Hearts.14}}\"/pause 50/speak Harvey \"{{i18n: 8Hearts.15}}\"/faceDirection Harvey 3/faceDirection farmer 1/viewport 5 6 true/pause 1600/emote farmer 28/pause 100/speak Harvey \"{{i18n: 8Hearts.16}}\"/pause 100/speak Harvey \"{{i18n: 8Hearts.17}}\"/pause 1000/emote farmer 32/pause 50/speak Harvey \"{{i18n: 8Hearts.18}}\"/advancedMove Harvey false 0 2 16 0/faceDirection farmer 2/globalFade/viewport -1000 -1000/stopMusic/message \"{{i18n: 8Hearts.19}}\"/pause 300/end",
+		//Added condition that it has to be sunny because if it's not the flyover doesn't make any sense + labelled with  mod id for clarity
+		"{{ModId}}.8Hearts/f Harvey 2000/w sunny": "Hospital_Ambient/-1000 -1000/farmer -200 -2000 0 Harvey 4 5 0/skippable/eventSeen 571102 true/changeLocation HarveyRoom/showFrame Harvey 23/viewport 5 6 true/mail {{ModId}}.8Hearts/addConversationTopic {{ModId}}.8HeartsCT/pause 1000/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.1]\"/pause 1000/emote Harvey 40/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.2]\"/pause 300/emote Harvey 40/pause 1000/playSound newArtifact/message \"[LocalizedText Strings/{{ModId}}:8Hearts.3]\"/showFrame Harvey 28/jump Harvey/pause 50/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.4]\"/pause 10/faceDirection Harvey 1 true/move Harvey 2 0 1/playMusic kindadumbautumn/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.5]\"/pause 400/playSound doorClose/warp farmer 6 12/move farmer 0 -3 0/faceDirection Harvey 2/speak Harvey \"@!$8\"/quickQuestion [LocalizedText Strings/{{ModId}}:8Hearts.6](break)friendship Harvey 30\\speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.7]\"\\pause 10(break)friendship Harvey 30\\speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.8]\"\\pause 10(break)friendship Harvey -10\\speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.9]\"\\pause 10/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.10]\"/emote Harvey 16/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.11]\"/move Harvey 0 1 3/move Harvey -3 0 0/move Harvey 0 -2 0/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.12]\"/speed farmer 4/move farmer 0 -3 3/speed farmer 4/move farmer -4 0 0/speed farmer 4/move farmer 0 -2 0/speed farmer 4/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.13]\"/globalFade/cutscene plane/viewport -1000 -1000/pause 50/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.14]\"/pause 50/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.15]\"/faceDirection Harvey 3/faceDirection farmer 1/viewport 5 6 true/pause 1600/emote farmer 28/pause 100/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.16]\"/pause 100/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.17]\"/pause 1000/emote farmer 32/pause 50/speak Harvey \"[LocalizedText Strings/{{ModId}}:8Hearts.18]\"/advancedMove Harvey false 0 2 16 0/faceDirection farmer 2/globalFade/viewport -1000 -1000/stopMusic/message \"[LocalizedText Strings/{{ModId}}:8Hearts.19]\"/pause 300/end",
 	},
 },
 
 {	"LogName": "8 Heart Fork Delete",
 	"Action": "EditData",
 	"Target": "Data/Events/HarveyRoom",
-	"entries": {
+	"Entries": {
 		//fuck forks all my homies hate forks
 		//by all my homies I mean just Thylak
 		"normal": null
@@ -174,25 +167,21 @@
 
 //8 Hearts Part 2: You're Dating Now
 	
-{	"LogName": "8 Hearts Event Part 2: Romantic This Time",
-	"Action": "EditData",
-	"Target": "Data/Events/Farm",
-	"entries": {
-		"HarveyPlus.8Date1/D Harvey/A HarveyPlus.8HeartsCT": "kindadumbautumn/64 15/farmer 64 16 2 Harvey 64 18 0/pause 1000/speak Harvey \"$query TIME 1200 #Hi, @.|Good morning, @.\"/pause 50/speak Harvey \"Sorry to stop by without warning, but I was wondering if, uh...\"/pause 50/quickQuestion Would you like to meet me at the Stardrop Saloon later?#Sure!#Not today...(break)friendship Harvey 20\\speak Harvey \"Great!$h#$b#I'll meet you there sometime after 6PM, alright?\"(break)friendship Harvey -10\\speak Harvey \"Ah. Fair enough, I'm sure you're very busy.#$b#I'm there most rainy nights, if you're ever free.\"/pause 50/speak Harvey \"See you later, @.\"/globalFade/viewport -1000 -1000/stopMusic/end",
-		//this way if you go that day it makes sense and if you don't it also makes sense. hee hoo
-		//TODO: Doublecheck when he actually gets to the saloon on rain days
-	},
-},
+//{	"LogName": "8 Hearts Event Part 2: Romantic This Time",
+	//"Action": "EditData",
+	//"Target": "Data/Events/Farm",
+	//"entries": {
+		//"HarveyPlus.8Date1/D Harvey/A {{ModId}}.8HeartsCT/w sunny": "kindadumbautumn/64 15/farmer 64 16 2 Harvey 64 18 0/pause 1000/speak Harvey \"$query TIME 1200 #Hi, @.|Good morning, @.\"/pause 50/speak Harvey \"Sorry to stop by without warning, but I was wondering if, uh...\"/pause 50/quickQuestion Would you like to meet me at the Stardrop Saloon later?#Sure!#Not today...(break)friendship Harvey 20\\speak Harvey \"Great!$h#$b#I'll meet you there sometime after 6PM, alright?\"(break)friendship Harvey -10\\speak Harvey \"Ah. Fair enough, I'm sure you're very busy.#$b#I'm there most rainy nights, if you're ever free.\"/pause 50/speak Harvey \"See you later, @.\"/globalFade/viewport -1000 -1000/stopMusic/end",
+//	},
+//},
 
-{	"LogName": "8 Hearts Date",
-	"Action": "EditData",
-	"Target": "Data/Events/Saloon",
-	"entries": {
-		//this is the old text of the WIP for when it was the 4 hearts event but it made more sense to put it here so i swapped it with the Library event 
-		//I'll cannibalize it into making more sense as an 8 heart date later
-		"HarveyPlus.8Date2/e HarveyPlus.8Date1/t 1800 2300/p Harvey": "Saloon1/-1000 -1000/farmer -10000 -10000 0 Shane 21 17 2 Leah 2 20 1 Pam 7 18 1 Willy 17 22 2 Sam 38 18 0 Gus 10 18 2 Emily 16 17 0 Harvey 18 20 0/skippable/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/advancedMove Emily true -3 0 4 5000 3 0 4 3000 -2 0 4 3000 -2 0 4 1000 4 0 4 4000/viewport 14 16/pause 1000/playSound doorClose/warp farmer 14 23/textAboveHead Gus \"Welcome in!\"/move farmer 0 -3 0/move Gus 3 0 1/textAboveHead Gus \"Just a moment.\"/move Gus 5 0 2/playSound pickUpItem/speak Gus \"Here's your coffee, Dr. Harvey.\"/pause 50/speak Harvey \"Thanks, Gus.\"/pause 100/move Gus -4 0 2/speak Gus \"Alright. What can I get for you, @?\"/quickQuestion #A beer.#Coffee.#Green tea.(break)speak Gus \"You got it! I'll be right back.$h\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey -5\\pause 100\\speak Harvey \"It's been a long day, huh?\"\\faceDirection farmer 1(break)speak Gus \"You got it! I'll be right back.$h\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey 20\\pause 100\\speak Harvey \"I'd say it's a little late in the day for caffeine, but they do say people in glass houses shouldn't throw stones.\"\\faceDirection farmer 1(break)speak Gus \"You got it! I'll be right back.$h\"\\move Gus -4 0 0\\move Gus 0 -1 0\\friendship Harvey 10\\pause 100\\speak Harvey \"It certainly is a \"hot drinks\" kind of day, isn't it?\"\\faceDirection farmer 1/pause 100/speak Harvey \"I don't come here often, but sometimes on days like this it's nice to have coffee I didn't make myself.\"/pause 5000/end",
-	},
-},
+//{	"LogName": "8 Hearts Date",
+	//"Action": "EditData",
+	//"Target": "Data/Events/ArcheologyHouse",
+	//"entries": {
+	//	"HarveyPlus.8Date2/e HarveyPlus.8Date1/t 1200 2200": "libraryTheme/-1000 -1000/farmer -100 -100 Harvey -105 105/pause 1500/globalFade/viewport -1000 -1000/stopMusic/end",
+	//},
+//},
 
 //9 Hearts
 
@@ -203,26 +192,29 @@
 
 	//I think also in here a Maru wingmanning event would be fun. Maru shovel talk. Maru is best friends with the two most sad, anxious nerds in town and now that you're dating one of them she has her taser ready for if you fuck it up
 
+	//Maybe combine 8 and 9 hearts ideas for simplicity?
+
 //10 Hearts
 
 {	"LogName": "10 Heart Heart Event Edits",
 	"Action": "EditData",
 	"Target": "Data/Events/Railroad",
-	"entries": {
-		"528052/f Harvey 2500/t 600 1700/n harveyBalloon": "playful/26 38/Harvey 24 41 0 farmer 24 50 0/skippable/move farmer 0 -8 0/faceDirection Harvey 2/speak Harvey \"{{i18n: 10Hearts.1}}\"/faceDirection Harvey 0/jump Harvey/pause 800/speak Harvey \"{{i18n: 10Hearts.2}}\"/emote farmer 8/move Harvey -1 0 1/move farmer -2 0 0/move farmer 0 -1 1/addTemporaryActor Marcello 16 32 25 19 2 true/positionOffset Marcello 36 558/animate Marcello false true 400 16 17/specificTemporarySprite marcelloLand/null/pause 1000/stopAnimation Marcello/pause 500/message \"{{i18n: 10Hearts.3}}\"/pause 1000/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/jump Marcello 12/move Marcello 0 3 3/move Marcello -2 0 0/faceDirection Harvey 2/faceDirection farmer 2/message \"{{i18n: 10Hearts.4}}\"/faceDirection Marcello 3/faceDirection Marcello 2/message \"{{i18n: 10Hearts.5}}\"/move Marcello 0 9 1/warp Marcello -100 -100/faceDirection farmer 1/faceDirection Harvey 3/pause 500/speak Harvey \"{{i18n: 10Hearts.6}}\"/pause 800/quickQuestion {{i18n: 10Hearts.7}}(break)pause 200\\speak Harvey \"{{i18n: 10Hearts.8}}\"(break)pause 200\\speak Harvey \"{{i18n: 10Hearts.9}}\"\\pause 300\\emote farmer 20/pause 400/move farmer 0 1 1/faceDirection Harvey 1/move farmer 3 0 0/move farmer 0 -1 0/jump farmer 14/move farmer 0 -1 2/move Harvey 0 1 1/move Harvey 3 0 0/move Harvey 0 -1 0/jump Harvey 14/move Harvey 0 -1 2/pause 1000/showFrame Harvey 29/pause 300/playSound openBox/pause 300/showFrame Harvey 0/pause 400/playSound furnace/playMusic none/cutscene balloonDepart/viewport move 0 -1 6000/pause 2000/showFrame Harvey 30/jump Harvey 5/shake Harvey 7000/pause 7000/globalFade/viewport -2000 -2000/playMusic 50s/pause 2000/cutscene clearTempSprites/changeToTemporaryMap HarveyBalloon/cutscene balloonChangeMap/viewport -2000 -2000/warp farmer 22 36/warp Harvey 22 36/positionOffset farmer 24 570/positionOffset Harvey 96 554/positionOffset farmer -8 -8/positionOffset Harvey -24 -8/showFrame Harvey 32/pause 1000/shake Harvey 19000/viewport 23 39 clamp true/viewport move 0 -1 17000/pause 18000/faceDirection farmer 1/showFrame Harvey 33/pause 1000/jump Harvey/showFrame Harvey 30/pause 800/showFrame Harvey 12/animate Harvey false true 100 12 13 14 15/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/stopAnimation Harvey/showFrame Harvey 31/positionOffset Harvey -4 0/playSound fishSlap/eyes 1 -2000/pause 2000/speak Harvey \"{{i18n: 10Hearts.10}}\"/shake Harvey 2000/pause 800/speak Harvey \"{{i18n: 10Hearts.11}}\"/emote Harvey 28/pause 500/quickQuestion {{i18n: 10Hearts.12}}(break)speak Harvey \"{{i18n: 10Hearts.13}}\"(break)speak Harvey \"{{i18n: 10Hearts.14}}\"(break)speak Harvey \"{{i18n: 10Hearts.15}}\"/speak Harvey \"{{i18n: 10Hearts.16}}\"/pause 1000/speak Harvey \"{{i18n: 10Hearts.17}}\"/pause 800/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 0/pause 30/positionOffset Harvey 4 0/pause 30/faceDirection farmer 2/showFrame Harvey 0/pause 500/showFrame Harvey 33/pause 500/shake Harvey 4000/pause 500/showFrame Harvey 30/pause 2000/showFrame Harvey 33/pause 3500/speak Harvey \"{{i18n: 10Hearts.18}}\"/specificTemporarySprite balloonBirds/faceDirection farmer 2/pause 3000/faceDirection Harvey 1/faceDirection farmer 1/emote farmer 16 true/emote Harvey 16/pause 4000/faceDirection farmer 0/faceDirection Harvey 2/emote Harvey 56/pause 7000/speak Harvey \"{{i18n: 10Hearts.19}}\"/faceDirection farmer 2/pause 1000/speak Harvey \"{{i18n: 10Hearts.20}}\"/pause 1000/faceDirection Harvey 3/faceDirection farmer 1/playMusic none/pause 500/speak Harvey \"{{i18n: 10Hearts.21}}\"/playMusic musicboxsong/pause 200/faceDirection Harvey 2/pause 200/faceDirection Harvey 3/speak Harvey \"{{i18n: 10Hearts.22}}\"/specificTemporarySprite balloonBirds 2/pause 1000/showFrame Harvey 31/pause 500/showFrame 101/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/pause 5000/globalFade/viewport -1000 -1000/pause 2000/speak Harvey \"{{i18n: 10Hearts.23}}\"/pause 2000/end dialogue Harvey \"{{i18n: 10Hearts.after}}\"",
+	"Entries": {
+		"528052/f Harvey 2500/t 900 1700/n harveyBalloon": null,
+		"{{ModId}}.10Hearts/f Harvey 2500/t 600 1700/w sunny/n harveyBalloon/": "playful/26 38/Harvey 24 41 0 farmer 24 50 0/skippable/eventSeen 528052 true/move farmer 0 -8 0/faceDirection Harvey 2/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.1]\"/faceDirection Harvey 0/jump Harvey/pause 800/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.2]\"/emote farmer 8/move Harvey -1 0 1/move farmer -2 0 0/move farmer 0 -1 1/addTemporaryActor Marcello 16 32 25 19 2 true/positionOffset Marcello 36 558/animate Marcello false true 400 16 17/specificTemporarySprite marcelloLand/null/pause 1000/stopAnimation Marcello/pause 500/message \"[LocalizedText Strings/{{ModId}}:10Hearts.3]\"/pause 1000/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/jump Marcello 12/move Marcello 0 3 3/move Marcello -2 0 0/faceDirection Harvey 2/faceDirection farmer 2/message \"[LocalizedText Strings/{{ModId}}:10Hearts.4]\"/faceDirection Marcello 3/faceDirection Marcello 2/message \"[LocalizedText Strings/{{ModId}}:10Hearts.5]\"/move Marcello 0 9 1/warp Marcello -100 -100/faceDirection farmer 1/faceDirection Harvey 3/pause 500/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.6]\"/pause 800/quickQuestion [LocalizedText Strings/{{ModId}}:10Hearts.7](break)pause 200\\speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.8]\"(break)pause 200\\speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.9]\"\\pause 300\\emote farmer 20/pause 400/move farmer 0 1 1/faceDirection Harvey 1/move farmer 3 0 0/move farmer 0 -1 0/jump farmer 14/move farmer 0 -1 2/move Harvey 0 1 1/move Harvey 3 0 0/move Harvey 0 -1 0/jump Harvey 14/move Harvey 0 -1 2/pause 1000/showFrame Harvey 29/pause 300/playSound openBox/pause 300/showFrame Harvey 0/pause 400/playSound furnace/playMusic none/cutscene balloonDepart/viewport move 0 -1 6000/pause 2000/showFrame Harvey 30/jump Harvey 5/shake Harvey 7000/pause 7000/globalFade/viewport -2000 -2000/playMusic 50s/pause 2000/cutscene clearTempSprites/changeToTemporaryMap HarveyBalloon/cutscene balloonChangeMap/viewport -2000 -2000/warp farmer 22 36/warp Harvey 22 36/positionOffset farmer 24 570/positionOffset Harvey 96 554/positionOffset farmer -8 -8/positionOffset Harvey -24 -8/showFrame Harvey 32/pause 1000/shake Harvey 19000/viewport 23 39 clamp true/viewport move 0 -1 17000/pause 18000/faceDirection farmer 1/showFrame Harvey 33/pause 1000/jump Harvey/showFrame Harvey 30/pause 800/showFrame Harvey 12/animate Harvey false true 100 12 13 14 15/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/stopAnimation Harvey/showFrame Harvey 31/positionOffset Harvey -4 0/playSound fishSlap/eyes 1 -2000/pause 2000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.10]\"/shake Harvey 2000/pause 800/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.11]\"/emote Harvey 28/pause 500/quickQuestion [LocalizedText Strings/{{ModId}}:10Hearts.12](break)speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.13]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.14]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.15]\"/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.16]\"/pause 1000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.17]\"/pause 800/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 0/pause 30/positionOffset Harvey 4 0/pause 30/faceDirection farmer 2/showFrame Harvey 0/pause 500/showFrame Harvey 33/pause 500/shake Harvey 4000/pause 500/showFrame Harvey 30/pause 2000/showFrame Harvey 33/pause 3500/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.18]\"/specificTemporarySprite balloonBirds/faceDirection farmer 2/pause 3000/faceDirection Harvey 1/faceDirection farmer 1/emote farmer 16 true/emote Harvey 16/pause 4000/faceDirection farmer 0/faceDirection Harvey 2/emote Harvey 56/pause 7000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.19]\"/faceDirection farmer 2/pause 1000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.20]\"/pause 1000/faceDirection Harvey 3/faceDirection farmer 1/playMusic none/pause 500/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.21]\"/playMusic musicboxsong/pause 200/faceDirection Harvey 2/pause 200/faceDirection Harvey 3/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.22]\"/specificTemporarySprite balloonBirds 2/pause 1000/showFrame Harvey 31/pause 500/showFrame 101/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/pause 5000/globalFade/viewport -1000 -1000/pause 2000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.23]\"/pause 2000/end dialogue Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.After]\"",
 	},
 },
 
 //10 Hearts SVE Compat
 
-{	"LogName": "10 Heart Event Edits",
+{	"LogName": "Remove Vanilla 10Heart for SVE Compat",
 	"Action": "EditData",
 	"Target": "Data/Events/Railroad",
 	"When": {
 		"HasMod": "FlashShifter.SVECode",
 	},
-	"entries": {
-		"528052/f Harvey 2500/t 900 1700/n harveyBalloon": null,
+	"Entries": {
+		"{{ModId}}.10Hearts/f Harvey 2500/t 600 1700/n harveyBalloon/": null,
 	},
 },
 
@@ -232,8 +224,9 @@
 	"When": {
 		"HasMod": "FlashShifter.SVECode",
 	},
-	"entries": {
-		"528013/f Harvey 2500/t 600 1700/n harveyBalloon": "continue/-300 -300/Harvey -100 -100 0 farmer 90 72 1/skippable/viewport 90 72 true/viewport move 2 0 6000 true/move farmer 12 0 1 true/pause 3500/globalFade/viewport -1000 -1000/changeLocation Custom_ShearwaterBridge/warp farmer 20 21/viewport 20 21 true/viewport move 2 0 6000 true/move farmer 12 0 1 true/pause 3500/globalFade/viewport -1000 -1000/halt/changeLocation Custom_GrampletonFields_Small/playMusic playful/warp farmer 16 42/faceDirection farmer 1/warp Harvey 24 41/faceDirection Harvey 0/viewport 24 40 true/move farmer 8 0 0/pause 500/faceDirection Harvey 3 true/pause 200/faceDirection Harvey 2/speak Harvey \"{{i18n: 10Hearts.1}}\"/faceDirection Harvey 0/jump Harvey/pause 800/speak Harvey \"{{i18n: 10Hearts.2}}\"/emote farmer 8/move Harvey -1 0 1/move farmer -2 0 0/move farmer 0 -1 1/addTemporaryActor Marcello 16 32 25 19 2 true/positionOffset Marcello 36 558/animate Marcello false true 400 16 17/specificTemporarySprite marcelloLand/null/pause 1000/stopAnimation Marcello/pause 500/message \"{{i18n: 10Hearts.3}}\"/pause 1000/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/jump Marcello 12/move Marcello 0 3 3/move Marcello -2 0 0/faceDirection Harvey 2/faceDirection farmer 2/message \"{{i18n: 10Hearts.4}}\"/faceDirection Marcello 3/faceDirection Marcello 2/message \"{{i18n: 10Hearts.5}}\"/move Marcello 0 9 1/warp Marcello -100 -100/faceDirection farmer 1/faceDirection Harvey 3/pause 500/speak Harvey \"{{i18n: 10Hearts.6}}\"/pause 800/quickQuestion {{i18n: 10Hearts.7}}(break)pause 200\\speak Harvey \"{{i18n: 10Hearts.8}}\"(break)pause 200\\speak Harvey \"{{i18n: 10Hearts.9}}\"\\pause 300\\emote farmer 20/pause 400/move farmer 0 1 1/faceDirection Harvey 1/move farmer 3 0 0/move farmer 0 -1 0/jump farmer 14/move farmer 0 -1 2/move Harvey 0 1 1/move Harvey 3 0 0/move Harvey 0 -1 0/jump Harvey 14/move Harvey 0 -1 2/pause 1000/showFrame Harvey 29/pause 300/playSound openBox/pause 300/showFrame Harvey 0/pause 400/playSound furnace/playMusic none/cutscene balloonDepart/viewport move 0 -1 6000/pause 2000/showFrame Harvey 30/jump Harvey 5/shake Harvey 7000/pause 7000/globalFade/viewport -2000 -2000/playMusic 50s/pause 2000/cutscene clearTempSprites/changeToTemporaryMap HarveyBalloon/cutscene balloonChangeMap/viewport -2000 -2000/warp farmer 22 36/warp Harvey 22 36/positionOffset farmer 24 570/positionOffset Harvey 96 554/positionOffset farmer -8 -8/positionOffset Harvey -24 -8/showFrame Harvey 32/pause 1000/shake Harvey 19000/viewport 23 39 clamp true/viewport move 0 -1 17000/pause 18000/faceDirection farmer 1/showFrame Harvey 33/pause 1000/jump Harvey/showFrame Harvey 30/pause 800/showFrame Harvey 12/animate Harvey false true 100 12 13 14 15/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/stopAnimation Harvey/showFrame Harvey 31/positionOffset Harvey -4 0/playSound fishSlap/eyes 1 -2000/pause 2000/speak Harvey \"{{i18n: 10Hearts.10}}\"/shake Harvey 2000/pause 800/speak Harvey \"{{i18n: 10Hearts.11}}\"/emote Harvey 28/pause 500/quickQuestion {{i18n: 10Hearts.12}}(break)speak Harvey \"{{i18n: 10Hearts.13}}\"(break)speak Harvey \"{{i18n: 10Hearts.14}}\"(break)speak Harvey \"{{i18n: 10Hearts.15}}\"/speak Harvey \"{{i18n: 10Hearts.16}}\"/pause 1000/speak Harvey \"{{i18n: 10Hearts.17}}\"/pause 800/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 0/pause 30/positionOffset Harvey 4 0/pause 30/faceDirection farmer 2/showFrame Harvey 0/pause 500/showFrame Harvey 33/pause 500/shake Harvey 4000/pause 500/showFrame Harvey 30/pause 2000/showFrame Harvey 33/pause 3500/speak Harvey \"{{i18n: 10Hearts.18}}\"/specificTemporarySprite balloonBirds/faceDirection farmer 2/pause 3000/faceDirection Harvey 1/faceDirection farmer 1/emote farmer 16 true/emote Harvey 16/pause 4000/faceDirection farmer 0/faceDirection Harvey 2/pause 10000/speak Harvey \"{{i18n: 10Hearts.19}}\"/faceDirection farmer 2/pause 1000/speak Harvey \"{{i18n: 10Hearts.20}}\"/pause 1000/faceDirection Harvey 3/faceDirection farmer 1/playMusic none/pause 500/speak Harvey \"{{i18n: 10Hearts.21}}\"/playMusic musicboxsong/pause 400/faceDirection Harvey 2/pause 500/faceDirection Harvey 3/speak Harvey \"{{i18n: 10Hearts.22}}\"/specificTemporarySprite balloonBirds 2/pause 1000/showFrame Harvey 31/pause 500/showFrame 101/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/pause 5000/globalFade/viewport -1000 -1000/pause 2000/speak Harvey \"{{i18n: 10Hearts.23}}\"/pause 2000/end dialogue Harvey \"{{i18n: 10Hearts.after}}\"",
+	"Entries": {
+		"528013/f Harvey 2500/t 600 1700/n harveyBalloon": null,
+		"{{ModId}}.10Hearts.SVECompat/f Harvey 2500/t 600 1700/w sunny/n harveyBalloon": "continue/-300 -300/Harvey -100 -100 0 farmer 90 72 1/skippable/viewport 90 72 true/viewport move 2 0 6000 true/move farmer 12 0 1 true/pause 3500/globalFade/viewport -1000 -1000/changeLocation Custom_ShearwaterBridge/warp farmer 20 21/viewport 20 21 true/viewport move 2 0 6000 true/move farmer 12 0 1 true/pause 3500/globalFade/viewport -1000 -1000/halt/changeLocation Custom_GrampletonFields_Small/playMusic playful/warp farmer 16 42/faceDirection farmer 1/warp Harvey 24 41/faceDirection Harvey 0/viewport 24 40 true/move farmer 8 0 0/pause 500/faceDirection Harvey 3 true/pause 200/faceDirection Harvey 2/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.1]\"/faceDirection Harvey 0/jump Harvey/pause 800/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.2]\"/emote farmer 8/move Harvey -1 0 1/move farmer -2 0 0/move farmer 0 -1 1/addTemporaryActor Marcello 16 32 25 19 2 true/positionOffset Marcello 36 558/animate Marcello false true 400 16 17/specificTemporarySprite marcelloLand/null/pause 1000/stopAnimation Marcello/pause 500/message \"[LocalizedText Strings/{{ModId}}:10Hearts.3]\"/pause 1000/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/positionOffset Marcello -4 0/pause 20/jump Marcello 12/move Marcello 0 3 3/move Marcello -2 0 0/faceDirection Harvey 2/faceDirection farmer 2/message \"[LocalizedText Strings/{{ModId}}:10Hearts.4]\"/faceDirection Marcello 3/faceDirection Marcello 2/message \"[LocalizedText Strings/{{ModId}}:10Hearts.5]\"/move Marcello 0 2 3/move Marcello -40 0 3 true/faceDirection farmer 1/faceDirection Harvey 3/pause 500/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.6]\"/pause 800/quickQuestion [LocalizedText Strings/{{ModId}}:10Hearts.7](break)pause 200\\speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.8]\"(break)pause 200\\speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.9]\"\\pause 300\\emote farmer 20/pause 400/move farmer 0 1 1/faceDirection Harvey 1/move farmer 3 0 0/move farmer 0 -1 0/jump farmer 14/move farmer 0 -1 2/move Harvey 0 1 1/move Harvey 3 0 0/move Harvey 0 -1 0/jump Harvey 14/move Harvey 0 -1 2/pause 1000/showFrame Harvey 29/pause 300/playSound openBox/pause 300/showFrame Harvey 0/pause 400/playSound furnace/warp Marcello -100 -100/playMusic none/cutscene balloonDepart/viewport move 0 -1 6000/pause 2000/showFrame Harvey 30/jump Harvey 5/shake Harvey 7000/pause 7000/globalFade/viewport -2000 -2000/playMusic 50s/pause 2000/cutscene clearTempSprites/changeToTemporaryMap HarveyBalloon/cutscene balloonChangeMap/viewport -2000 -2000/warp farmer 22 36/warp Harvey 22 36/positionOffset farmer 24 570/positionOffset Harvey 96 554/positionOffset farmer -8 -8/positionOffset Harvey -24 -8/showFrame Harvey 32/pause 1000/shake Harvey 19000/viewport 23 39 clamp true/viewport move 0 -1 17000/pause 18000/faceDirection farmer 1/showFrame Harvey 33/pause 1000/jump Harvey/showFrame Harvey 30/pause 800/showFrame Harvey 12/animate Harvey false true 100 12 13 14 15/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/positionOffset Harvey -4 2/pause 30/stopAnimation Harvey/showFrame Harvey 31/positionOffset Harvey -4 0/playSound fishSlap/eyes 1 -2000/pause 2000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.10]\"/shake Harvey 2000/pause 800/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.11]\"/emote Harvey 28/pause 500/quickQuestion [LocalizedText Strings/{{ModId}}:10Hearts.12](break)speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.13]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.14]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.15]\"/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.16]\"/pause 1000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.17]\"/pause 800/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 -2/pause 30/positionOffset Harvey 4 0/pause 30/positionOffset Harvey 4 0/pause 30/faceDirection farmer 2/showFrame Harvey 0/pause 500/showFrame Harvey 33/pause 500/shake Harvey 4000/pause 500/showFrame Harvey 30/pause 2000/showFrame Harvey 33/pause 3500/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.18]\"/specificTemporarySprite balloonBirds/faceDirection farmer 2/pause 3000/faceDirection Harvey 1/faceDirection farmer 1/emote farmer 16 true/emote Harvey 16/pause 4000/faceDirection farmer 0/faceDirection Harvey 2/pause 10000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.19]\"/faceDirection farmer 2/pause 1000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.20]\"/pause 1000/faceDirection Harvey 3/faceDirection farmer 1/playMusic none/pause 500/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.21]\"/playMusic musicboxsong/pause 400/faceDirection Harvey 2/pause 500/faceDirection Harvey 3/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.22]\"/specificTemporarySprite balloonBirds 2/pause 1000/showFrame Harvey 31/pause 500/showFrame 101/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 -2/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/positionOffset Harvey -1 0/pause 30/pause 5000/globalFade/viewport -1000 -1000/pause 2000/speak Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.23]\"/pause 2000/end dialogue Harvey \"[LocalizedText Strings/{{ModId}}:10Hearts.after]\"",
 	},
 },
 
@@ -243,8 +236,8 @@
 {	"LogName": "14 Heart to 12 Heart Event Edit",
 	"Action": "EditData",
 	"Target": "Data/Events/FarmHouse",
-	"entries": {
-		"3917626/f Harvey 3000/O Harvey/t 2000 2400/p Harvey/L": "harveys_theme_jazz/-1000 -1000/farmer -100 -100 0 Harvey 22 24 0/skippable/ambientLight 0 0 0/makeInvisible 19 24 6 1/specificTemporarySprite harveyKitchenSetup/viewport 22 24 true/pause 1500/showFrame Harvey 19/playSound clank/shake Harvey 200/pause 800/playSound clank/shake Harvey 200/pause 800/playSound clank/shake Harvey 200/pause 800/showFrame Harvey 53/pause 300/playSound sipTea/pause 1000/textAboveHead Harvey \"{{i18n: 12Hearts.1}}\"/pause 800/move Harvey -1 0 0/pause 300/showFrame Harvey 19/pause 1000/stopAnimation Harvey/move Harvey 1 0 0/pause 800/showFrame Harvey 19/playSound bubbles/pause 1500/playSound clank/shake Harvey 200/pause 800/playSound furnace/specificTemporarySprite harveyKitchenFlame/pause 500/jump Harvey/pause 500/textAboveHead Harvey \"{{i18n: 12Hearts.2}}\"/pause 150/speed Harvey 6/move Harvey -2 0 0/pause 100/speed Harvey 6/move Harvey 2 0 0/playSound fireball/pause 1000/showFrame Harvey 33/shake Harvey 200/pause 1000/showFrame Harvey 32/emote Harvey 60/pause 800/textAboveHead Harvey \"{{i18n: 12Hearts.3}}\"/showframe Harvey 33/shake Harvey 200/pause 1500/stopAnimation Harvey/faceDirection Harvey 1/pause 500/move Harvey 2 0 0/pause 800/showFrame Harvey 19/playSound openChest/textAboveHead Harvey \"{{i18n: 12Hearts.4}}\"/pause 1500/stopAnimation Harvey/move Harvey -2 0 0/pause 300/showFrame Harvey 19/pause 500/playSound dropItemInWater/pause 1000/stopAnimation Harvey/move Harvey -3 0 0/pause 800/showFrame Harvey 19/textAboveHead Harvey \"{{i18n: 12Hearts.5}}\"/playSound coin/pause 800/stopAnimation Harvey/move Harvey 3 0 0/pause 800/showFrame Harvey 19/playSound slosh/pause 1500/showFrame Harvey 53/pause 300/playSound sipTea/pause 1000/showFrame Harvey 4/jump Harvey/textAboveHead Harvey \"{{i18n: 12Hearts.6}}\"/pause 1500/warp farmer 27 30/playSound doorClose/move farmer 0 -1 0/pause 50/stopAnimation Harvey/faceDirection Harvey 2/speak Harvey \"{{i18n: 12Hearts.7}}\"/pause 300/globalFade/viewport -1000 -1000/pause 200/playMusic none/pause 500/makeInvisible 20 24 4 2/ambientLight 180 180 0/playMusic kindadumbautumn/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/speak Harvey \"{{i18n: 12Hearts.8}}\"/emote farmer 20/speak Harvey \"{{i18n: 12Hearts.9}}\"/animate Harvey false true 300 51 52/pause 2500/animate Harvey false true 100 51/quickQuestion {{i18n: 12Hearts.10}}(break)friendship Harvey 30\\speak Harvey \"{{i18n: 12Hearts.11}}\"(break)friendship Harvey 10\\speak Harvey \"{{i18n: 12Hearts.12}}\"(break)speak Harvey \"{{i18n: 12Hearts.13}}\"/pause 200/speak Harvey \"{{i18n: 12Hearts.14}}\"/animate Harvey false true 300 51 52/pause 1500/stopAnimation Harvey/showFrame Harvey 51/speak Harvey \"{{i18n: 12Hearts.15}}\"/quickQuestion {{i18n: 12Hearts.16}}(break)speak Harvey \"{{i18n: 12Hearts.17}}\"(break)speak Harvey \"{{i18n: 12Hearts.18}}\"(break)speak Harvey \"{{i18n: 12Hearts.19}}\"(break)speak Harvey \"{{i18n: 12Hearts.20}}\"(break)speak Harvey \"{{i18n: 12Hearts.21}}\"(break)speak Harvey \"{{i18n: 12Hearts.22}}\"(break)speak Harvey \"{{i18n: 12Hearts.23}}\"/pause 100/globalFade/viewport -1000 -1000/pause 500/message \"{{i18n: 12Hearts.24}}\"/pause 50/makeInvisible 20 24 4 2/ambientLight 180 180 0/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/showFrame Harvey 51/emote Harvey 8/pause 800/emote farmer 32/pause 800/emote Harvey 56/globalFade/viewport -1000 -1000/stopMusic/pause 50/message \"{{i18n: 12Hearts.25}}\"/pause 50/playMusic nightTime/makeInvisible 20 24 4 2/ambientLight 180 180 0/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/showFrame Harvey 51/speak Harvey \"$query DAY_OF_WEEK Monday Wednesday {{i18n: 12Hearts.26}}\"/pause 100/speak Harvey \"{{i18n: 12Hearts.27}}\"/pause 40/emote farmer 60/pause 50/speak Harvey \"{{i18n: 12Hearts.28}}\"/pause 100/speak Harvey \"{{i18n: 12Hearts.29}}\"/emote farmer 20/pause 100/globalFade/viewport -1000 -1000/end dialogue Harvey \"{{i18n: 12Hearts.after}}\"",
+	"Entries": {
+		"{{ModId}}.12Hearts/f Harvey 3000/O Harvey/t 2000 2400/p Harvey/L": "harveys_theme_jazz/-1000 -1000/farmer -100 -100 0 Harvey 22 24 0/skippable/eventSeen 3917626 true/ambientLight 0 0 0/makeInvisible 19 24 6 1/specificTemporarySprite harveyKitchenSetup/viewport 22 24 true/pause 1500/showFrame Harvey 19/playSound clank/shake Harvey 200/pause 800/playSound clank/shake Harvey 200/pause 800/playSound clank/shake Harvey 200/pause 800/showFrame Harvey 53/pause 300/playSound sipTea/pause 1000/textAboveHead Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.1]\"/pause 800/move Harvey -1 0 0/pause 300/showFrame Harvey 19/pause 1000/stopAnimation Harvey/move Harvey 1 0 0/pause 800/showFrame Harvey 19/playSound bubbles/pause 1500/playSound clank/shake Harvey 200/pause 800/playSound furnace/specificTemporarySprite harveyKitchenFlame/pause 500/jump Harvey/pause 500/textAboveHead Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.2]\"/pause 150/speed Harvey 6/move Harvey -2 0 0/pause 100/speed Harvey 6/move Harvey 2 0 0/playSound fireball/pause 1000/showFrame Harvey 33/shake Harvey 200/pause 1000/showFrame Harvey 32/emote Harvey 60/pause 800/textAboveHead Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.3]\"/showframe Harvey 33/shake Harvey 200/pause 1500/stopAnimation Harvey/faceDirection Harvey 1/pause 500/move Harvey 2 0 0/pause 800/showFrame Harvey 19/playSound openChest/textAboveHead Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.4]\"/pause 1500/stopAnimation Harvey/move Harvey -2 0 0/pause 300/showFrame Harvey 19/pause 500/playSound dropItemInWater/pause 1000/stopAnimation Harvey/move Harvey -3 0 0/pause 800/showFrame Harvey 19/textAboveHead Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.5]\"/playSound coin/pause 800/stopAnimation Harvey/move Harvey 3 0 0/pause 800/showFrame Harvey 19/playSound slosh/pause 1500/showFrame Harvey 53/pause 300/playSound sipTea/pause 1000/showFrame Harvey 4/jump Harvey/textAboveHead Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.6]\"/pause 1500/warp farmer 27 30/playSound doorClose/move farmer 0 -1 0/pause 50/stopAnimation Harvey/faceDirection Harvey 2/speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.7]\"/pause 300/globalFade/viewport -1000 -1000/pause 200/playMusic none/pause 500/makeInvisible 20 24 4 2/ambientLight 180 180 0/playMusic kindadumbautumn/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.8]\"/emote farmer 20/speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.9]\"/animate Harvey false true 300 51 52/pause 2500/animate Harvey false true 100 51/quickQuestion [LocalizedText Strings/{{ModId}}:12Hearts.10](break)friendship Harvey 30\\speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.11]\"(break)friendship Harvey 10\\speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.12]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.13]\"/pause 200/speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.14]\"/animate Harvey false true 300 51 52/pause 1500/stopAnimation Harvey/showFrame Harvey 51/speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.15]\"/quickQuestion [LocalizedText Strings/{{ModId}}:12Hearts.16](break)speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.17]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.18]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.19]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.20]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.21]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.22]\"(break)speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.23]\"/pause 100/globalFade/viewport -1000 -1000/pause 500/message \"[LocalizedText Strings/{{ModId}}:12Hearts.24]\"/pause 50/makeInvisible 20 24 4 2/ambientLight 180 180 0/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/showFrame Harvey 51/emote Harvey 8/pause 800/emote farmer 32/pause 800/emote Harvey 56/globalFade/viewport -1000 -1000/stopMusic/pause 50/message \"[LocalizedText Strings/{{ModId}}:12Hearts.25]\"/pause 50/playMusic nightTime/makeInvisible 20 24 4 2/ambientLight 180 180 0/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 3000/showFrame Harvey 51/speak Harvey \"$query DAY_OF_WEEK Monday Wednesday [LocalizedText Strings/{{ModId}}:12Hearts.26]\"/pause 100/speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.27]\"/pause 40/emote farmer 60/pause 50/speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.28]\"/pause 100/speak Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.29]\"/emote farmer 20/pause 100/globalFade/viewport -1000 -1000/end dialogue Harvey \"[LocalizedText Strings/{{ModId}}:12Hearts.after]\"",
 	},
 },
 
@@ -252,8 +245,6 @@
 //Okay so consider: a 14 heart event that is actually some kind of emotional and narrative wrap-up to your relationship instead of just 'man cooks you dinner'
 //like 'man cooks you dinner' gets close in that it hits on the fact that literally all this guy actually wanted was emotional support and someone who he could be the doting malewife to
 //but it's not a closing to the arc you feel me it's just a nice slice of life that shows you he's less depressed than he used to be
-
-
 
 //All the Deaths
 
@@ -263,7 +254,7 @@
 	"When": {
 		"Mod Death Dialogue": true,
 	},
-	"entries": {"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"{{i18n: Killed.1}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n: Killed.2}}\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"{{i18n: Killed.3}}\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: Killed.4}}\"/pause 300/globalFade/viewport -100 -100"
+	"Entries": {"PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3/pause 1500/showFrame 5/message \" ...{0}?\"/pause 1000/message \"[LocalizedText Strings/{{ModId}}:Killed.1]\"/viewport 20 12 true/pause 1000/speak Harvey \"[LocalizedText Strings/{{ModId}}:Killed.2]\"/showFrame 0/pause 1000/emote farmer 28/pause 300/speak Harvey \"[LocalizedText Strings/{{ModId}}:Killed.3]\"/pause 1000/faceDirection Harvey 2/emote Harvey 40/pause 500/faceDirection Harvey 3/speak Harvey \"$query PLAYER_NPC_RELATIONSHIP current Harvey dating married [LocalizedText Strings/{{ModId}}:Killed.4]\"/pause 300/globalFade/viewport -100 -100"
 	},
 },
 

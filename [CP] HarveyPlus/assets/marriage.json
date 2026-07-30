@@ -1,0 +1,177 @@
+{  "Changes":  [ 	 
+	
+{	"LogName": "Static Marriage Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+	"Entries": {
+
+		"spring_1": "[LocalizedText Strings/{{ModId}}:Marriage.spring_1]",
+		"spring_8": "[LocalizedText Strings/{{ModId}}:Marriage.spring_8]",
+		"spring_12": "[LocalizedText Strings/{{ModId}}:Marriage.spring_12]",
+		"spring_23": "[LocalizedText Strings/{{ModId}}:Marriage.spring_23]",
+		"spring_25": "[LocalizedText Strings/{{ModId}}:Marriage.spring_25]",
+		"summer_1": "[LocalizedText Strings/{{ModId}}:Marriage.summer_1]",
+		"summer_8": "[LocalizedText Strings/{{ModId}}:Marriage.summer_8]",
+		"summer_10": "[LocalizedText Strings/{{ModId}}:Marriage.summer_10]",
+		"summer_15": "[LocalizedText Strings/{{ModId}}:Marriage.summer_15]",
+		"summer_23": "[LocalizedText Strings/{{ModId}}:Marriage.summer_23]",
+		"summer_27": "[LocalizedText Strings/{{ModId}}:Marriage.summer_27]",
+		"fall_1": "[LocalizedText Strings/{{ModId}}:Marriage.fall_1]",
+		"fall_11": "[LocalizedText Strings/{{ModId}}:Marriage.fall_11]",
+		"fall_15": "[LocalizedText Strings/{{ModId}}:Marriage.fall_15]",
+		"fall_18": "[LocalizedText Strings/{{ModId}}:Marriage.fall_18]",
+		"fall_26": "[LocalizedText Strings/{{ModId}}:Marriage.fall_26]",
+		"winter_1": "[LocalizedText Strings/{{ModId}}:Marriage.winter_1]",
+		"winter_7": "[LocalizedText Strings/{{ModId}}:Marriage.winter_7]",
+		"winter_11": "[LocalizedText Strings/{{ModId}}:Marriage.winter_11]",
+		"winter_13": "[LocalizedText Strings/{{ModId}}:Marriage.winter_13]",
+		"winter_28": "[LocalizedText Strings/{{ModId}}:Marriage.winter_28]",
+		
+		"OneKid_2": "[LocalizedText Strings/{{ModId}}:OneKid_Gen]",
+		"OneKid_3": "[LocalizedText Strings/{{ModId}}:OneKid_Gen]",
+		"TwoKids_2": "[LocalizedText Strings/{{ModId}}:TwoKids_Gen]",
+		"TwoKids_3": "[LocalizedText Strings/{{ModId}}:TwoKids_Gen]",
+		
+		"Good_{{Range: 0, 9}}": "[LocalizedText Strings/{{ModId}}:Good]",
+		"Neutral_{{Range: 0, 9}}": "[LocalizedText Strings/{{ModId}}:Neutral]",
+		"Bad_{{Range: 0, 9}}": "[LocalizedText Strings/{{ModId}}:Bad]",
+		
+		"jobLeave_Harvey": "[LocalizedText Strings/{{ModId}}:jobLeave]",
+		"jobReturn_Harvey": "[LocalizedText Strings/{{ModId}}:jobReturn]",
+		"spouseRoom_Harvey": "[LocalizedText Strings/{{ModId}}:spouseRoom]",
+
+		//These feel redundant so I'm just nulling them
+		"summer_16": null,
+		"summer_17": null,
+		"spring_Harvey": null,
+		"summer_Harvey": null,
+		"fall_Harvey": null,
+		"winter_Harvey": null,
+	},
+},
+
+{	"LogName": "Seasonal Marriage Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MarriageDialogueHarvey",
+	"When": {
+		"Season": "{{Season}}",
+	},
+	"Entries": {
+
+		"Rainy_Day_{{Random:0,1,2,3,4}}": "[LocalizedText Strings/{{ModId}}:{{Season}}.RainyDay]",
+		"Rainy_Night_{{Random:0,1,2,3,4}}": "[LocalizedText Strings/{{ModId}}:{{Season}}.RainyNight]",
+		"Indoor_Day_{{Random:0,1,2,3,4}}": "[LocalizedText Strings/{{ModId}}:{{Season}}.IndoorDay]",
+		"Indoor_Night_{{Random:0,1,2,3,4}}": "[LocalizedText Strings/{{ModId}}:{{Season}}.IndoorNight]",
+		"Outdoor_{{Random:0,1,2,3,4}}": "[LocalizedText Strings/{{ModId}}:{{Season}}.Outdoor]",
+		"patio_Harvey": "[LocalizedText Strings/{{ModId}}:{{Season}}.Patio]",
+		"funLeave_Harvey": "[LocalizedText Strings/{{ModId}}:{{Season}}.funLeave]",
+		"funReturn_Harvey": "[LocalizedText Strings/{{ModId}}:{{Season}}.funReturn]",
+		
+		"OneKid_0": "[LocalizedText Strings/{{ModId}}:{{Season}}.OneKid]",
+		"OneKid_1": "[LocalizedText Strings/{{ModId}}:{{Season}}.OneKid]",
+		"TwoKids_0": "[LocalizedText Strings/{{ModId}}:{{Season}}.TwoKids]",
+		"TwoKids_1": "[LocalizedText Strings/{{ModId}}:{{Season}}.TwoKids]",
+	},
+},
+
+{ 	"LogName": "Other Marriage Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/MarriageDialogue",
+	"When": {
+		"Season": "{{Season}}",
+	},
+	"Entries": {
+		//these are in both places because. idk man it's just how it works out
+		"Rainy_Day_Harvey": "[LocalizedText Strings/{{ModId}}:{{Season}}.RainyDay]",
+		"Rainy_Night_Harvey": "[LocalizedText Strings/{{ModId}}:{{Season}}.RainyNight]",
+		"Indoor_Day_Harvey": "[LocalizedText Strings/{{ModId}}:{{Season}}.IndoorDay]",
+		"Indoor_Night_Harvey": "[LocalizedText Strings/{{ModId}}:{{Season}}.IndoorNight]",
+		"Outdoor_Harvey": "[LocalizedText Strings/{{ModId}}:{{Season}}.Outdoor]",
+		
+		"jobLeave_Harvey": "[LocalizedText Strings/{{ModId}}:jobLeave]",
+		"jobReturn_Harvey": "[LocalizedText Strings/{{ModId}}:jobReturn]",
+		"spouseRoom_Harvey": "[LocalizedText Strings/{{ModId}}:spouseRoom]",
+	},
+},
+
+{	"LogName": "Child Marriage Dialogue Edit",
+	"Action": "EditData",
+	"Target": "data/ExtraDialogue",
+	"When": {
+		"Spouse": "Harvey",
+	},
+	"Entries": {
+		"NewChild_SecondChild1": "[LocalizedText Strings/{{ModId}}:NewChild_SecondChild1]",
+		"NewChild_SecondChild2": "[LocalizedText Strings/{{ModId}}:NewChild_SecondChild2]",
+		"NewChild_Adoption": "[LocalizedText Strings/{{ModId}}:NewChild_Adoption]",
+		"NewChild_FirstChild": "[LocalizedText Strings/{{ModId}}:NewChild_FirstChild]",
+	},
+},
+
+{	"LogName": "More Marriage Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Strings/StringsFromCSFiles",
+	"When": {
+		"Spouse": "Harvey",
+	},
+	"Entries": {
+		"NPC.cs.4001": "[LocalizedText Strings/{{ModId}}:Stardrop]",
+		"NPC.cs.4439": "[LocalizedText Strings/{{ModId}}:NPC.cs.4439]",
+		"NPC.cs.4440": "[LocalizedText Strings/{{ModId}}:NPC.cs.4440]",
+		"NPC.cs.4441": "[LocalizedText Strings/{{ModId}}:NPC.cs.4441]",
+		"NPC.cs.4447": "[LocalizedText Strings/{{ModId}}:NPC.cs.4447]",
+		"NPC.cs.4448": "[LocalizedText Strings/{{ModId}}:NPC.cs.4448]",
+	},
+},
+
+{	"LogName": "Marriage Schedule Dialogue Edit",
+	"Action": "EditData",
+	"Target": "Strings/schedules/Harvey",
+	"Entries": {
+		"marriageJob.000": "[LocalizedText Strings/{{ModId}}:jobVisit]",
+		"marriage_Mon.000": "[LocalizedText Strings/{{ModId}}:Marriage.Mon.0]",
+		"marriage_Mon.002": "[LocalizedText Strings/{{ModId}}:Marriage.Mon.2]",
+	},
+},
+
+{		"LogName": "Marriage Schedule Edit",
+		"Action": "EditData",
+		"Target": "Characters/schedules/Harvey",
+		"When": {
+			"Marriage Schedule": "Modded",
+			"Season": "summer, winter",
+		},
+		"Entries": {
+			//weather too hot and/or cold for outside walks, we readin inside
+			"marriage_Mon": "830 SeedShop 2 26 2 \"Strings\\schedules\\Harvey:marriage_Mon.000\"/1200 ArchaeologyHouse 16 9 0/1430 ArchaeologyHouse 14 4 3 harvey_read \"Strings\\schedules\\Harvey:marriage_Mon.002\"/1700 bed",
+		},
+},
+
+{		"LogName": "Marriage Schedule Edit",
+		"Action": "EditData",
+		"Target": "Characters/schedules/Harvey",
+		"When": {
+			"Marriage Schedule": "Modded",
+			"Season": "spring, fall",
+		},
+		"Entries": {
+			//weather nice n brisk we outside
+			"marriage_Mon": "830 SeedShop 2 26 2 \"Strings\\schedules\\Harvey:marriage_Mon.000\"/1100 Town 91 99 3 harvey_read \"Strings\\schedules\\Harvey:marriage_Mon.002\"/1530 Town 24 97 2/1700 bed",
+		},
+},
+
+{		"LogName": "Marriage Schedule Edit",
+		"Action": "EditData",
+		"Target": "Characters/schedules/Harvey",
+		"When": {
+			"Marriage Schedule": "Modded",
+			"Season": "spring, fall",
+			"HasMod": "FlashShifter.SVECode",
+		},
+		"Entries": {
+			//weather nice n brisk we outside but in SVE the fence is one square to the right lmao
+			"marriage_Mon": "830 SeedShop 2 26 2 \"Strings\\schedules\\Harvey:marriage_Mon.000\"/1100 Town 92 99 3 harvey_read \"Strings\\schedules\\Harvey:marriage_Mon.002\"/1530 Town 24 97 2/1700 bed",
+		},
+},
+
+]}
