@@ -16,7 +16,7 @@
 		"{{TodaysDate}}4": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:3,4}}],[LocalizedText Strings/{{ModId}}:Weekly.4.{{Random:1,2,3,4}}]}}",
 		"{{TodaysDate}}6": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:5,6}}],[LocalizedText Strings/{{ModId}}:Weekly.6.{{Random:1,2,3,4}}]}}",
 		"{{TodaysDate}}8": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:7,8}}],[LocalizedText Strings/{{ModId}}:Weekly.8.{{Random:1,2,3,4}}]}}",
-		"{{TodaysDate}}10": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:9,10}}],[LocalizedText Strings/{{ModId}}:Weekly.10.{{Random:1,2,3,4}}]}}",
+		"{{TodaysDate}}10": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:8,9,10}}],[LocalizedText Strings/{{ModId}}:Weekly.10.{{Random:1,2,3,4}}]}}",
 
 		//Question keys
 
@@ -62,6 +62,7 @@
 		"breakUp": "[LocalizedText Strings/{{ModId}}:breakUp]",
 		"divorced": "[LocalizedText Strings/{{ModId}}:divorced]",
 		"FlowerDance_Accept_Spouse": "[LocalizedText Strings/{{ModId}}:FlowerDanceSpouse]",
+		"FlowerDance_Accept": "[LocalizedText Strings/{{ModId}}:FlowerDanceAccept]",
 		"FlowerDance_Decline": "[LocalizedText Strings/{{ModId}}:FlowerDanceDecline]",
 		"AcceptBouquet": "[LocalizedText Strings/{{ModId}}:AcceptBouquet]",
 		"RejectBouquet_Divorced": "[LocalizedText Strings/{{ModId}}:RejectBouquet_Divorced]",
@@ -86,9 +87,9 @@
 		
 		"{{ModId}}.2HeartsCT": "[LocalizedText Strings/{{ModId}}:2Hearts.After]",
 		"{{ModId}}.6HeartsCT": "[LocalizedText Strings/{{ModId}}:6Hearts.After]",
-		"eventSeen_571102_memory": "[LocalizedText Strings/{{ModId}}:8Hearts.After1]",
-		"eventSeen_571102_memory_oneweek": "[LocalizedText Strings/{{ModId}}:8Hearts.After2]",
-		"eventSeen_528052_memory": "[LocalizedText Strings/{{ModId}}:10Hearts.After]",
+		"{{ModId}}.8HeartsCT": "[LocalizedText Strings/{{ModId}}:8Hearts.After1]",
+		"{{ModId}}.8HeartsCT_memory_oneweek": "[LocalizedText Strings/{{ModId}}:8Hearts.After2]",
+		"{{ModId}}.10HeartsCT": "[LocalizedText Strings/{{ModId}}:10Hearts.After]",
 
 		"dating_Harvey": "[LocalizedText Strings/{{ModId}}:dating_Harvey]",
 		"dating_Harvey_memory_oneday": "[LocalizedText Strings/{{ModId}}:dating_Harvey_memory_oneday]",

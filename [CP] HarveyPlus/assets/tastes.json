@@ -1,6 +1,7 @@
 {	"Changes": [
 
 //Gift Edits
+//Also couldn't seem to make the LocalizedText work here; I still have the strings in the LocalizedText strings just in case but for now it's just linked from the i18n directly
 
 {		"LogName": "Gift Reaction Tweaks - Friendly",
 		"Action": "EditData",
@@ -15,7 +16,7 @@
 		{
 			"Operation": "Append",
             "Target": ["Fields", "Harvey", "0"],
-            "Value": "[LocalizedText Strings/{{ModId}}:GiftLove]",
+            "Value": "{{i18n: GiftLove.{{Random:1,2}}}}",
 		},
 		{
 			"Operation": "RemoveDelimited",
@@ -26,7 +27,7 @@
 		{
 			"Operation": "Append",
             "Target": ["Fields", "Harvey", "2"],
-            "Value": "[LocalizedText Strings/{{ModId}}:GiftLike]",
+            "Value": "{{i18n: GiftLike.{{Random:1,2}}}}",
 		},
 		{
 			"Operation": "RemoveDelimited",
@@ -37,7 +38,7 @@
 		{
 			"Operation": "Append",
             "Target": ["Fields", "Harvey", "8"],
-            "Value": "[LocalizedText Strings/{{ModId}}:GiftNeutral]",
+            "Value": "{{i18n: GiftNeutral}}",
 		},
 		{
 			"Operation": "RemoveDelimited",
@@ -48,7 +49,7 @@
 		{
 			"Operation": "Append",
             "Target": ["Fields", "Harvey", "4"],
-            "Value": "[LocalizedText Strings/{{ModId}}:GiftDislike]",
+            "Value": "{{i18n: GiftDislike.{{Random:1,2}}}}",
 		},
 		{
 			"Operation": "RemoveDelimited",
@@ -59,9 +60,64 @@
 		{
 			"Operation": "Append",
             "Target": ["Fields", "Harvey", "6"],
-            "Value": "[LocalizedText Strings/{{ModId}}:GiftHate]",
+            "Value": "{{i18n: GiftHate.{{Random:1,2}}}}",
 		},
 		],
 },
+
+{		"LogName": "Gift Reaction Tweaks - Friendly",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"When": {
+			"Romantic": "Romantic",
+		},
+		"TextOperations": [
+		{
+			"Operation": "RemoveDelimited",
+			"Target": ["Fields", "Harvey", "0"],
+			"Search": "{{i18n: GiftLove.{{Random:1,2}}}}",
+			"Delimiter": "/",
+		},
+		{
+			"Operation": "Append",
+            "Target": ["Fields", "Harvey", "0"],
+            "Value": "{{i18n: R.GiftLove.{{Random:1,2}}}}",
+		},
+		{
+			"Operation": "RemoveDelimited",
+			"Target": ["Fields", "Harvey", "2"],
+			"Search": "{{i18n: GiftLike.{{Random:1,2}}}}",
+			"Delimiter": "/",
+		},
+		{
+			"Operation": "Append",
+            "Target": ["Fields", "Harvey", "2"],
+            "Value": "{{i18n: R.GiftLike.{{Random:1,2}}}}",
+		},
+		{
+			"Operation": "RemoveDelimited",
+			"Target": ["Fields", "Harvey", "4"],
+			"Search": "{{i18n: GiftDislike.{{Random:1,2}}}}",
+			"Delimiter": "/",
+		},
+		{
+			"Operation": "Append",
+            "Target": ["Fields", "Harvey", "4"],
+            "Value": "{{i18n: R.GiftDislike.{{Random:1,2}}}}",
+		},
+		{
+			"Operation": "RemoveDelimited",
+			"Target": ["Fields", "Harvey", "6"],
+			"Search": "{{i18n: GiftHate.{{Random:1,2}}}}",
+			"Delimiter": "/",
+		},
+		{
+			"Operation": "Append",
+            "Target": ["Fields", "Harvey", "6"],
+            "Value": "{{i18n: R.GiftHate.{{Random:1,2}}}}",
+		},
+		],
+},
+
 
 ]}

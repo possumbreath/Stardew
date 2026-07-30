@@ -232,8 +232,9 @@
 
 			"spring24.1": "{{i18n: spring24.1}}",
 			"spring24.2": "{{i18n: spring24.2}}",
-			"spring24.2.spouse": "{{i18n: spring24.2.spouse}}",
+			"spring24.2.spouse": "{{i18n: R.spring24}}",
 			"FlowerDanceSpouse": "{{i18n: FlowerDanceSpouse.{{Random:1,2,3}}}}",
+			"FlowerDanceAccept": "{{i18n: FlowerDanceAccept}}",
 			"FlowerDanceDecline": "{{i18n: FlowerDanceDecline}}",
 
 			"summer11.1": "{{i18n: summer11.1}}",
@@ -271,36 +272,6 @@
 			"8HeartsMailName": "{{i18n: 8HeartsMailName}}",
 		},
 },
-
-{		"LogName": "LocalizedText String Edit - Dialogue When Romantic, Not Married",
-		"Action": "EditData",
-		"Target": "Strings/{{ModId}}",
-		"When": {
-			"Romantic": "Romantic",
-			"Season": "{{Season}}",
-		},
-		"Entries": {
-			"AcceptBirthdayGift.Pos": "{{i18n: R.AcceptBirthdayGift.Pos}}",
-			"AcceptBirthdayGift.Neg": "{{i18n: R.AcceptBirthdayGift.Neg}}",
-			"GiftLove": "{{i18n: R.GiftLove.{{Random:1,2}}}}",
-			"GiftLike": "{{i18n: R.GiftLike.{{Random:1,2}}}}",
-			"GiftNeutral": "{{i18n: R.GiftNeutral}}",
-			"GiftDislike": "{{i18n: R.GiftDislike.{{Random:1,2}}}}",
-			"GiftHate": "{{i18n: R.GiftHate.{{Random:1,2}}}}",
-
-			"Tue.8": "{{i18n: R.Tue.8}}",
-
-			"Weekly.8.2": "{{i18n: R.{{Season}}.Weekly.8.2}}",
-			"Weekly.8.3": "{{i18n: R.{{Season}}.Weekly.8.3}}",
-
-			"Fall.Plans": "{{i18n: R.Fall.Plans}}",
-
-			"spring24.1": "{{i18n: R.spring24}}",
-			"spring24.2": "{{i18n: R.spring24}}",
-			"WinterStar_ReceiveGift": "{{i18n: R.WinterStar_ReceiveGift}}",
-		},
-},
-
 
 {		"LogName": "LocalizedText String Edit - General Marriage Dialogue",
 		"Action": "EditData",
@@ -348,9 +319,38 @@
 			"NPC.cs.4447": "{{i18n: NPC.cs.4447}}",
 			"NPC.cs.4448": "{{i18n: NPC.cs.4448}}",
 			
-			"Good": "{{i18n: Good_{{Random:0,1,2,3,4,5,6,7,8,9}}}}",
-			"Neutral": "{{i18n: Neutral_{{Random:0,1,2,3,4,5,6,7,8,9}}}}",
-			"Bad": "{{i18n: Bad_{{Random:0,1,2,3,4,5,6,7,8,9}}}}",
+			"Good_0": "{{i18n: Good_0}}",
+			"Good_1": "{{i18n: Good_1}}",
+			"Good_2": "{{i18n: Good_2}}",
+			"Good_3": "{{i18n: Good_3}}",
+			"Good_4": "{{i18n: Good_4}}",
+			"Good_5": "{{i18n: Good_5}}",
+			"Good_6": "{{i18n: Good_6}}",
+			"Good_7": "{{i18n: Good_7}}",
+			"Good_8": "{{i18n: Good_8}}",
+			"Good_9": "{{i18n: Good_9}}",
+
+			"Neutral_0": "{{i18n: Neutral_0}}",
+			"Neutral_1": "{{i18n: Neutral_1}}",
+			"Neutral_2": "{{i18n: Neutral_2}}",
+			"Neutral_3": "{{i18n: Neutral_3}}",
+			"Neutral_4": "{{i18n: Neutral_4}}",
+			"Neutral_5": "{{i18n: Neutral_5}}",
+			"Neutral_6": "{{i18n: Neutral_6}}",
+			"Neutral_7": "{{i18n: Neutral_7}}",
+			"Neutral_8": "{{i18n: Neutral_8}}",
+			"Neutral_9": "{{i18n: Neutral_9}}",
+			
+			"Bad_0": "{{i18n: Bad_0}}",
+			"Bad_1": "{{i18n: Bad_1}}",
+			"Bad_2": "{{i18n: Bad_2}}",
+			"Bad_3": "{{i18n: Bad_3}}",
+			"Bad_4": "{{i18n: Bad_4}}",
+			"Bad_5": "{{i18n: Bad_5}}",
+			"Bad_6": "{{i18n: Bad_6}}",
+			"Bad_7": "{{i18n: Bad_7}}",
+			"Bad_8": "{{i18n: Bad_8}}",
+			"Bad_9": "{{i18n: Bad_9}}",
 		},
 },
 
@@ -361,11 +361,37 @@
 			"Season": "{{Season}}",
 		},
 		"Entries": {
-			"{{Season}}.RainyDay": "{{i18n: {{Season}}.Rainy_Day_{{Random:0,1,2,3,4}}}}",
-			"{{Season}}.RainyNight": "{{i18n: {{Season}}.Rainy_Night_{{Random:0,1,2,3,4}}}}",		
-			"{{Season}}.IndoorDay": "{{i18n: {{Season}}.Indoor_Day_{{Random:0,1,2,3,4}}}}",
-			"{{Season}}.IndoorNight": "{{i18n: {{Season}}.Indoor_Night_{{Random:0,1,2,3,4}}}}",
-			"{{Season}}.Outdoor": "{{i18n: {{Season}}.Outdoor_{{Random:0,1,2,3,4}}}}",
+			//Trying to condense these down for some reason just did NOT work so... lol. It's like this now
+			"{{Season}}.RainyDay0": "{{i18n: {{Season}}.Rainy_Day_0}}",
+			"{{Season}}.RainyDay1": "{{i18n: {{Season}}.Rainy_Day_1}}",
+			"{{Season}}.RainyDay2": "{{i18n: {{Season}}.Rainy_Day_2}}",
+			"{{Season}}.RainyDay3": "{{i18n: {{Season}}.Rainy_Day_3}}",
+			"{{Season}}.RainyDay4": "{{i18n: {{Season}}.Rainy_Day_4}}",
+
+			"{{Season}}.RainyNight0": "{{i18n: {{Season}}.Rainy_Night_0}}",
+			"{{Season}}.RainyNight1": "{{i18n: {{Season}}.Rainy_Night_1}}",
+			"{{Season}}.RainyNight2": "{{i18n: {{Season}}.Rainy_Night_2}}",
+			"{{Season}}.RainyNight3": "{{i18n: {{Season}}.Rainy_Night_3}}",
+			"{{Season}}.RainyNight4": "{{i18n: {{Season}}.Rainy_Night_4}}",		
+			
+			"{{Season}}.IndoorDay0": "{{i18n: {{Season}}.Indoor_Day_0}}",
+			"{{Season}}.IndoorDay1": "{{i18n: {{Season}}.Indoor_Day_1}}",
+			"{{Season}}.IndoorDay2": "{{i18n: {{Season}}.Indoor_Day_2}}",
+			"{{Season}}.IndoorDay3": "{{i18n: {{Season}}.Indoor_Day_3}}",
+			"{{Season}}.IndoorDay4": "{{i18n: {{Season}}.Indoor_Day_4}}",
+			
+			"{{Season}}.IndoorNight0": "{{i18n: {{Season}}.Indoor_Night_0}}",
+			"{{Season}}.IndoorNight1": "{{i18n: {{Season}}.Indoor_Night_1}}",
+			"{{Season}}.IndoorNight2": "{{i18n: {{Season}}.Indoor_Night_2}}",
+			"{{Season}}.IndoorNight3": "{{i18n: {{Season}}.Indoor_Night_3}}",
+			"{{Season}}.IndoorNight4": "{{i18n: {{Season}}.Indoor_Night_4}}",
+			
+			"{{Season}}.Outdoor0": "{{i18n: {{Season}}.Outdoor_0}}",
+			"{{Season}}.Outdoor1": "{{i18n: {{Season}}.Outdoor_1}}",
+			"{{Season}}.Outdoor2": "{{i18n: {{Season}}.Outdoor_2}}",
+			"{{Season}}.Outdoor3": "{{i18n: {{Season}}.Outdoor_3}}",
+			"{{Season}}.Outdoor4": "{{i18n: {{Season}}.Outdoor_4}}",
+			
 			"{{Season}}.Patio": "{{i18n: {{Season}}.Patio.{{Random:1,2,3,4}}}}",
 			"{{Season}}.funLeave": "{{i18n: {{Season}}.funLeave.{{Random:1,2,3}}}}",
 			"{{Season}}.funReturn": "{{i18n: {{Season}}.funReturn.{{Random:1,2,3}}}}",
@@ -481,7 +507,7 @@
 			"6Hearts.14": "{{i18n: 6Hearts.14}}",
 			"6Hearts.15": "{{i18n: 6Hearts.15}}",
 			"6Hearts.After": "{{i18n: 6Hearts.After}}",
-			"6Hearts.After.Maru": "{{i18n: 6Hearts.Maru}}",
+			"6Hearts.After.Maru": "{{i18n: 6Hearts.After.Maru}}",
 		},
 },
 
@@ -596,6 +622,39 @@
 			"Killed.2": "{{i18n: Killed.2}}",
 			"Killed.3": "{{i18n: Killed.3}}",
 			"Killed.4": "{{i18n: Killed.4}}",
+		},
+},
+
+{		"LogName": "LocalizedText String Edit - Dialogue When Romantic, Not Married",
+		"Action": "EditData",
+		"Target": "Strings/{{ModId}}",
+		"When": {
+			"Romantic": "Romantic",
+			"Season": "{{Season}}",
+		},
+		"Entries": {
+			"AcceptBirthdayGift.Pos": "{{i18n: R.AcceptBirthdayGift.Pos}}",
+			"AcceptBirthdayGift.Neg": "{{i18n: R.AcceptBirthdayGift.Neg}}",
+			"GiftLove": "{{i18n: R.GiftLove.{{Random:1,2}}}}",
+			"GiftLike": "{{i18n: R.GiftLike.{{Random:1,2}}}}",
+			"GiftDislike": "{{i18n: R.GiftDislike.{{Random:1,2}}}}",
+			"GiftHate": "{{i18n: R.GiftHate.{{Random:1,2}}}}",
+
+			"Tue.8": "{{i18n: R.Tue.8}}",
+
+			"Weekly.8.2": "{{i18n: R.{{Season}}.Weekly.8.2}}",
+			"Weekly.8.3": "{{i18n: R.{{Season}}.Weekly.8.3}}",
+
+			"Fall.Plans": "{{i18n: R.Fall.Plans}}",
+			"Winter.AlmostBirthday": "{{i18n: R.Winter.AlmostBirthday}}",
+
+			"spring24.1": "{{i18n: R.spring24}}",
+			"spring24.2": "{{i18n: R.spring24}}",
+			"FlowerDance_Accept": "{{i18n: FlowerDanceSpouse.{{Random:1,2,3}}}}",
+			"WinterStar_ReceiveGift": "{{i18n: R.WinterStar_ReceiveGift}}",
+
+			"8Hearts.17": "{{i18n: R.8Hearts.17}}",
+			"8Hearts.After1": "{{i18n: R.8Hearts.After1}}"
 		},
 },
 

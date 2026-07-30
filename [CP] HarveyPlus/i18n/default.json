@@ -212,12 +212,14 @@
 	"8Hearts.12": "Quick, come look!",
 	"8Hearts.13": "There!",
 	"8Hearts.14": "You know... as a kid, I always dreamed of being a pilot.",
-	"8Hearts.15": "...But with my bad eyesight and a petrifying fear of heights, that dream was never going to be a reality.",
-	"8Hearts.16": "Oh, don't be sad.#$b#I made peace with it a long time ago. The dreams you have as a child aren't always attainable as an adult... that's just the way the world is.#$b#I'm happy listening to the radio chatter from here. We get a lot of civilian air traffic; Stardew Valley is great for scenic flyovers.$h",
-	"8Hearts.17": "And anyway, if I was a pilot then I wouldn't be a doctor and I wouldn't have moved here to Pelican Town.#$b#And I wouldn't have become friends with you.",
+	"8Hearts.15": "...But with my bad eyesight and a petrifying fear of heights, that dream was never going to become a reality.",
+	"8Hearts.16": "Oh, don't be sad for me.#$b#I made peace with it a long time ago. The dreams you have as a child aren't always attainable as an adult... that's just the way the world is.#$b#I'm happy listening to the radio chatter from here. We get a lot of civilian air traffic; Stardew Valley is great for scenic flyovers.$h",
+	"8Hearts.17": "And anyway, if I was a pilot then I wouldn't be a doctor...#$b#And I wouldn't have moved here to Pelican Town...#$b#And I wouldn't have become friends with you.",
+		"R.8Hearts.17": "And anyway, if I was a pilot then I wouldn't be a doctor...#$b#And I wouldn't have moved here to Pelican Town...#$b#And I wouldn't have fallen in love with you.$l",
 	"8Hearts.18": "Hey, let me show you my model airplanes.#$b#I have a Blackbird, the same kind that just flew by!$h",
 	"8Hearts.19": "For the first time since you met him, Harvey doesn't seem worried about anything.",
 	"8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...#$b#You're just easy to talk to, I guess.",
+		"R.8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...#$b#It's nice having someone to share it with, finally.$l",
 	"8Hearts.After2": "Have you used that radio at all?#$b#Let me know if you hear anything interesting!$h",
 
 	//10 Heart Event
@@ -232,7 +234,7 @@
 	"10Hearts.6": "I saw an ad in the paper for these balloon rides and I knew I had to surprise you with one.",
 	"10Hearts.7": "#This looks fun! Let's go!#...But aren't you afraid of heights?",
 	"10Hearts.8": "Okay... you first.$l",
-	"10Hearts.9": "I am... yeah.$s#$b#But I don't want to let being scared stop me from doing what I want, and experiencing this with you.$l#$b#I'm determined to try.",
+	"10Hearts.9": "Yes... I am.$s#$b#But I don't want to let being scared stop me from doing what I want, and experiencing this with you.$l#$b#I'm determined to try.",
 	"10Hearts.10": "We... We're up so high...$8",
 	"10Hearts.11": "I wanted to impress you with this... but look at me. I'm a trembling coward.$7",
 	"10Hearts.12": "#You don't need to try to impress me.#Just open your eyes. It's worth it.#Honestly? I'm also a little afraid of heights.",
@@ -385,7 +387,7 @@
 	"Spring.Weekly.0.4": "Be sure to cook any fish you catch thoroughly before you eat it.",
 
 	"Spring.Weekly.2.1": "Hi, @. Are you having a productive Spring so far?#$e#Remember not to give yourself more work than you can comfortably handle.",
-	"Spring.Weekly.2.2": "It's Spring cleaning season again. It must take a lot of work to keep $farm Farm tidy.",
+	"Spring.Weekly.2.2": "It's Spring cleaning season again. It must take a lot of work to keep %farm Farm tidy.",
 	"Spring.Weekly.2.3": "Remember to eat a healthy breakfast before you start in on your farm chores.#$e#It's the most important meal of the day, as they say.",
 	"Spring.Weekly.2.4": "Maru works at the clinic on Tuesdays and Thursdays.#$e#She's been a huge help since she started.",
 
@@ -432,11 +434,11 @@
 	"Summer.Weekly.6.1": "You know, I've never taken a Summer vacation.#$b#It's always difficult to justify setting aside the time...",
 	"Summer.Weekly.6.2": "Caroline told me once that I'd be less nervous if I replaced my morning coffee with tea.#$e#I don't know if it would really make much of a difference.",
 	"Summer.Weekly.6.3": "Summer is definitely my least favorite season.#$e#There's nothing objectively wrong with it, but it's a reminder that the year is half-gone already.",
-	"Summer.Weekly.6.4": "Have you seen any butterflies while out and about?#$b#They're most common this time of year.",
+	"Summer.Weekly.6.4": "Have you seen any butterflies while out and about?#$b#They're very common this time of year.",
 
-	"Summer.Weekly.8.1": "I don't get a lot of free time, so I never know how to spend it when I have some.#$e#Part of me wants to go for a walk in the sun but the rest of me just wants to take a nap!$h",
-	"Summer.Weekly.8.2": "Watching the sky as much as I do, I've naturally taken an interest in birding.#$e#We often get visited by parrots from the Fern Islands here.$h",
-		"R.Summer.Weekly.8.2": "PLACEHOLDER R 8.2",
+	"Summer.Weekly.8.1": "I don't get a lot of free time, so I never know how to spend it when I have some.#$b#It's kind of a silly problem to have.$h",
+	"Summer.Weekly.8.2": "I've recently taken an interest in birding.#$e#We often get visited by parrots from the Fern Islands here.$h",
+		"R.Summer.Weekly.8.2": "Are you looking forward to seeing the Moonlight Jellies this year?#$b#I'm excited to watch them with you.$l",
 	"Summer.Weekly.8.3": "You're lucky you can spend so much time outside and never get a sunburn.#$e#I feel like I start turning red the second I leave the clinic.",
 		"R.Summer.Weekly.8.3": "Do you ever get freckles from spending so long outside in the sun?#$e#You'd look cute with freckles.$l",
 	"Summer.Weekly.8.4": "Have you ever heard owls out by your farm at night?#$e#The whole time I've been living here, I've never managed to spot one.",
@@ -449,11 +451,11 @@
 	"Fall.Weekly.0.1": "This is a particularly good season for foraging.#$e#This might be obvious, but make sure to check that what you find is edible before you eat it.",
 	"Fall.Weekly.0.2": "Vinegar is useful in cooking, but it also makes a good natural cleaner.#$b#That is, if you don't mind your kitchen smelling like vinegar.",
 	"Fall.Weekly.0.3": "If you start to feel under the weather, don't try to just 'push through'.#$e#It will take you twice as long to get better.",
-	"Fall.Weekly.0.4": "PLACEHOLDER 0.4",
+	"Fall.Weekly.0.4": "Have you started preparing %farm Farm for winter?#$e#Remember to stock up on firewood.",
 
-	"Fall.Weekly.2.1": "Have you started preparing %farm Farm for winter?#$e#Remember to stock up on firewood.",
+	"Fall.Weekly.2.1": "In addition to being festive, pumpkins are actually an excellent source of fiber and Vitamin A.",
 	"Fall.Weekly.2.2": "PLACEHOLDER 2.2",
-	"Fall.Weekly.2.3": "PLACEHOLDER 2.3",
+	"Fall.Weekly.2.3": "The days will start getting shorter soon. Make sure to plan your farm chores accordingly so you don't get overwhelmed.",
 	"Fall.Weekly.2.4": "PLACEHOLDER 2.4",
 
 	"Fall.Weekly.4.1": "It's true that, financially, fall is the best season for the clinic...#$b#Not that I want anyone to get sick!$8",
@@ -462,30 +464,30 @@
 	"Fall.Weekly.4.4": "If I had to pick a favorite season, I'd probably say Fall.#$e#It's not too hot, not too cold, and there's always an abundance of mushrooms.$h",
 
 	"Fall.Weekly.6.1": "$query MUSEUM_DONATIONS 10 Arch #From what I understand, Stardew Valley is actually an archeological hotspot.#$e#But you'd know all about that, judging by the donations in the museum.$h|From what I understand, Stardew Valley is actually an archeological hotspot.#$e#It makes sense that Gunther decided to settle here.",
-	"Fall.Weekly.6.2": "I keep thinking I ought to set up a bird feeder.#$e#I wonder if I could pay Robin to build me one...?",
-	"Fall.Weekly.6.3": "PLACEHOLDER 6.3",
-	"Fall.Weekly.6.4": "PLACEHOLDER 6.4",
+	"Fall.Weekly.6.2": "I keep thinking I ought to set up a bird feeder.#$e#I wonder if Robin would be interested in building me one...?",
+	"Fall.Weekly.6.3": "I've seen several flocks of birds heading South.#$e#Is it weird to feel a little jealous of them?",
+	"Fall.Weekly.6.4": "I imagine decorating for the season is easy for you.#$b#You probably already have a scarecrow up, right?$h",
 
 	"Fall.Weekly.8.1": "When I was younger I used to stay up late reading by the light of my nightlight.#$e#I think that might be part of the reason my eyesight is so bad now...",
 	"Fall.Weekly.8.2": "My apartment here is small, but it's still quite a bit larger than the one I had as a student.#$e#When I first moved in it felt downright spacious.",
-		"R.Fall.Weekly.8.2": "PLACEHOLDER R 8.2",
+		"R.Fall.Weekly.8.2": "@, I just finished a book I think you'd enjoy. Here, check it out and tell me what you think. [(F)PurpleBook (F)BlueBook (F)YellowBook (F)Redbook (F)GreenBook (F)BrownBook PurpleBook]",
 	"Fall.Weekly.8.3": "I've never really liked Spirit's Eve, but I do like the excuse to roast a bunch of pumpkin seeds.$h",
-		"R.Fall.Weekly.8.3": "PLACEHOLDER R 8.3",
+		"R.Fall.Weekly.8.3": "Normally I try to stay away from candy, even around Spirit's Eve season.#$b#Here, you take this off my hands so I'm not tempted. [243 279]$h",
 	"Fall.Weekly.8.4": "I've been reading about the historical background of Spirit's Eve.#$e#Did you know that it used to be more about welcoming the end-of-Summer harvest?#$b#It's kind of like a celebration of farmers, that way!$h",
 
 	"Fall.Weekly.10.1": "If you're feeling chilly, @, you're welcome to borrow my coat.$l",
 	"Fall.Weekly.10.2": "Here, @. It's a 'hot drinks' kind of day, I think. Stay warm! [395 614]$h",
-	"Fall.Weekly.10.3": "PLACEHOLDER 10.3",
-	"Fall.Weekly.10.4": "PLACEHOLDER 10.4",
+	"Fall.Weekly.10.3": "You know what I haven't had in years? A genuine home-made apple cider.#$e#I bet between the two of us we could whip up a blue-ribbon batch.$h",
+	"Fall.Weekly.10.4": "",
 
 	//It's so unlikely anyone will still be at 0/1 hearts with him by Winter but I simply have to be thorough lol
 	//Also idk some people don't care about him that much and they might also download this mod for ????reasons????
 	//idk them idk their life
 
 	"Winter.Weekly.0.1": "I hope that your farmhouse is properly insulated. It gets very cold here in the valley at night.",
-	"Winter.Weekly.0.2": "If you find yourself with a cough, honey works just as well as cough syrup.#$e#Just because I'm a doctor doesn't mean I think all home remedies are bunk.",
-	"Winter.Weekly.0.3": "PLACEHOLDER 0.3",
-	"Winter.Weekly.0.4": "PLACEHOLDER 0.4",
+	"Winter.Weekly.0.2": "If you find yourself with a cough, honey works just as well as cough syrup.#$e#Just because I'm a doctor doesn't mean I think home remedies are bunk. If it works, it works!$h",
+	"Winter.Weekly.0.3": "If you haven't already invested in heavy-duty boots, now would be the time.",
+	"Winter.Weekly.0.4": "",
 
 	"Winter.Weekly.2.1": "I know that holly berries look tempting, but it's definitely a bad idea to eat them.",
 	"Winter.Weekly.2.2": "PLACEHOLDER 2.2",
@@ -499,20 +501,20 @@
 
 	"Winter.Weekly.6.1": "I once asked Elliot for book recommendations...#$e#I think he and I have slightly different tastes when it comes to literature.",
 	"Winter.Weekly.6.2": "$query MUSEUM_DONATIONS 40 Arch Minerals #The museum has really filled up thanks to you.#$e#I guess it makes sense, considering how much digging a farmer must do.$h|It always feels special when there's a new donation to the museum, considering how long it was empty.",
-	"Winter.Weekly.6.3": "PLACEHOLDER 6.3",
-	"Winter.Weekly.6.4": "PLACEHOLDER 6.4",
+	"Winter.Weekly.6.3": "I worry about Linus in this weather.#$b#I know he can take care of himself, of course. But I still worry.#$e#I hope he'd feel comfortable reaching out if he needed help.",
+	"Winter.Weekly.6.4": "I will say, a huge upside to living where I work is that I don't have to walk to work in the snow.",
 
 	"Winter.Weekly.8.1": "PLACEHOLDER 8.1",
 	"Winter.Weekly.8.2": "PLACEHOLDER 8.2",
-		"R.Winter.Weekly.8.2": "PLACEHOLDER R 8.2",
-	"Winter.Weekly.8.3": "PLACEHOLDER 8.3",
+		"R.Winter.Weekly.8.2": "@, I just finished a book I think you'd enjoy. Here, check it out and tell me what you think. [(F)PurpleBook (F)BlueBook (F)YellowBook (F)Redbook (F)GreenBook (F)BrownBook PurpleBook]",
+	"Winter.Weekly.8.3": "Gift-giving season is always a little stressful for me.#$e#I worry about getting someone something that they don't want, or that they already have.",
 		"R.Winter.Weekly.8.3": "PLACEHOLDER R 8.3",
 	"Winter.Weekly.8.4": "PLACEHOLDER 8.4",
 
-	"Winter.Weekly.10.1": "PLACEHOLDER 10.1",
-	"Winter.Weekly.10.2": "PLACEHOLDER 10.2",
-	"Winter.Weekly.10.3": "PLACEHOLDER 10.3",
-	"Winter.Weekly.10.4": "PLACEHOLDER 10.4",
+	"Winter.Weekly.10.1": "Winter always makes me feel a little melancholy...#$b#Less so, this year.$l",
+	"Winter.Weekly.10.2": "Here, @. It's a 'hot drinks' kind of day, I think. Stay warm! [395 614]$h",
+	"Winter.Weekly.10.3": "This time of year always makes me wish I had a fireplace.#$e#The one in your cabin must be so cozy.$l",
+	"Winter.Weekly.10.4": "",
 	
 	//Date Specific Dialogue
 	
@@ -523,6 +525,7 @@
 	"Fall.Chilly": "The weather has started to turn.#$b#Add more layers if you start feeling chilly.",
 	"Winter.FluShots": "Don't forget to get your flu shot this year.#$e#An ounce of prevention is worth a pound of cure, as they say.",
 	"Winter.AlmostBirthday.": "%Harvey appears to be quieter than usual. You should probably leave him be.",
+		"R.Winter.AlmostBirthday.": "Well... tomorrow's my birthday. Every year it gets harder to get excited about it.",
 	"Winter.End": "Winter has its charm, but I'm looking forward to seeing the sun more often in Spring.",
 	
 	//Festival Dialogue
@@ -545,10 +548,10 @@
 	"spring24.1": "Maru and I usually come to this event as friends.#$b#It's like highschool prom all over again.$s",
 	"spring24.2": "I've been thinking lately that a lot of things in life are about perspective.#$b#There are worse things than an ill-fitting suit and a few minutes of awkward dancing.$h",
 		"R.spring24": "#Oh, @... you look ${great^lovely^wonderful}$.$l",
-	"spring24.2.spouse": "I wore my best tie for the occasion.$4",
-	"FlowerDanceSpouse.1": "I've been looking forward to it all afternoon! You look radiant in the fresh spring air.$l",
+	"FlowerDanceSpouse.1": "I've been looking forward to it all afternoon.$l",
 	"FlowerDanceSpouse.2": "Of course! I was hoping you would ask.$l#$b#Not that I was ever really worried you wouldn't.$h",
 	"FlowerDanceSpouse.3": "I would love to. I don't even find it all that embarassing anymore!$h",
+	"FlowerDanceAccept": "You want to dance... with me?#$b#I mean!$8#$b#Yes. Yes, I would like that.$h",
 	"FlowerDanceDecline": "Oh! Ah, no thank you.#$b#It's embarrassing enough without making a fool of myself in front of someone I barely know.$s",
 
 	"summer11.1": "Good thing I came with sunscreen.#$e#I feel as though I'm the only one who ever remembers to bring it.",
@@ -674,22 +677,22 @@
 	"Neutral_1": "How are we doing on groceries?",
 	"Neutral_2": "Maybe I'll start a new book. I have a couple I've been meaning to get to.",
 	"Neutral_3": "Sorry, @, I can't talk for long. I have a lot of paperwork to get to today.",
-	"Neutral_4": "How long has it been since we sat down and talked?",
+	"Neutral_4": "What do you think we should do for dinner tomorrow?",
 	"Neutral_5": "@? Is there anything you'd like me to get done today?",
 	"Neutral_6": "If you go into town later, could you ask Gunther if he has that book I ordered in from Zuzu Library?",
-	"Neutral_7": "I think we might be out of coffee.#$e#I do go through it kind of quickly.",
+	"Neutral_7": "I think we might be out of coffee.#$e#I do go through it kind of quickly.$h",
 	"Neutral_8": "I've certainly settled into a routine here.#$e#It would be nice to shake things up sometime.$s",
-	"Neutral_9": "Do you think you'll ever get bored of me?$s",
+	"Neutral_9": "You know what I haven't done in a while? A jigsaw puzzle. Maybe I'll get one...",
 		
 	"Bad_0": "It feels like we're just not on the same frequency lately.$s",
 	"Bad_1": "*sigh*... I'm starting to like being at the clinic better than being at home.$s",
 	"Bad_2": "Maybe you could cook your own dinner tonight for a change, @.$a",
 	"Bad_3": "I feel like I must have done something wrong. You'd tell me if I had, right?$s",
-	"Bad_4": "Sometimes I feel like I'm just another decoration to you.$a",
+	"Bad_4": "How long has it been since we sat down and talked?",
 	"Bad_5": "Sometimes I worry you're out of the house so much just to avoid being around me.$s",
 	"Bad_6": "I still feel like something's missing in my life...$s#$e#maybe you aren't what I needed after all.$s",
 	"Bad_7": "Lately I feel like all I do is cook and clean.$s",
-	"Bad_8": "We never talk anymore, @. I miss that...$s",
+	"Bad_8": "Are you getting bored of me?$s",
 	"Bad_9": "Do you think we made the right choice, getting married? Sometimes I wonder.$s",
 	
 	//Seasonal Marriage Dialogue - Spring
