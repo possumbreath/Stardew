@@ -26,26 +26,31 @@
 
 	"AcceptBirthdayGift.Pos": "Oh! Thank you very much! I didn't expect anyone to know it was my birthday today.",
 	"AcceptBirthdayGift.Neg": "Oh! It's a... well, it's something. I didn't expect anyone to know it was my birthday today.",
-	"GiftLove.1": "For me? This is my favorite! It's like you read my mind.",
-	"GiftLove.2": "Really? Thank you! How did you know this was my favorite?",
-	"GiftLike.1": "That's such a nice gift. Thank you!",
-	"GiftLike.2": "I really appreciate this. It was nice of you to think of me.",
-	"GiftNeutral": "Thanks. That's very kind of you.", //I think it's funniest if the neutral dialogue is completely the same no matter what
-	"GiftDislike.1": "Hmm... Are you sure this is healthy?",
-	"GiftDislike.2": "Thank you? I'm not sure what you expect me to do with this.",
-	"GiftHate.1": "...I think I'm allergic to this.",
-	"GiftHate.2": "That's not very kind of you, @.",
-
 	"R.AcceptBirthdayGift.Pos": "Thank you so much, @. I love it!",
 	"R.AcceptBirthdayGift.Neg": "Oh... it... well I suppose it's the thought that counts.",
-	"R.GiftLove.1": "Oh, for me? Thank you! You know me so well.",
-	"R.GiftLove.2": "Are you sure you aren't a mind-reader? I was just thinking about this.",
-	"R.GiftLike.1": "Thank you, @. That means a lot.",
-	"R.GiftLike.2": "What a sweet gift! I'm flattered.",
-	"R.GiftDislike.1": "Mmm... good effort, @.",
-	"R.GiftDislike.2": "Oh, this is... I'll figure out something to do with this.",
-	"R.GiftHate.1": "I'm pretty sure I told you I was allergic to this.$a",
-	"R.GiftHate.2": "Yikes. Are you trying to tell me something?$s",
+
+	"GiftLove.1": "#Oh, for me? Thank you! You know me so well.|For me? That's so thoughtful of you, @.",
+	"GiftLove.2": "#Goodness, @, you're spoiling me.|Really? Thank you! How did you know this was my favorite?",
+	"GiftLove.3": "#Wow... I don't know what to say, @.$l|This is a wonderful gift! Thank you so much.",
+	"GiftLike.1": "#Thank you, @. That means a lot.|That's such a nice gift. Thank you!",
+	"GiftLike.2": "#What a sweet gift! I'm flattered.|I really appreciate this. It was nice of you to think of me.",
+	"GiftLike.3": "#You always know how to brighten up my day.$h|Oh! What a nice surprise. Thank you, @.",
+	"GiftNeutral": "#Thanks. That's very kind of you.", //I think it's funniest if the neutral dialogue is completely the same no matter what
+	"GiftDislike.1": "#Mmm... good effort, @.|Hmm... Are you sure this is healthy?",
+	"GiftDislike.2": "#Oh, this is... I'll figure out something to do with this.|Thank you? I'm not sure what you expect me to do with this.",
+	"GiftDislike.3": "#Oh... thank you. That's... nice?|I think you may have meant to give this to someone else.",
+	"GiftHate.1": "#I'm pretty sure I told you I was allergic to this.$a|...I think I'm allergic to this.",
+	"GiftHate.2": "#Yikes. Are you trying to tell me something?$s|That's not very kind of you, @.",
+	"GiftHate.3": "#Did I do something? Are you mad at me?$s|I hope you meant to give this to someone else.$a",
+
+	//"R.GiftLove.1": "Oh, for me? Thank you! You know me so well.",
+	//"R.GiftLove.2": "Are you sure you aren't a mind-reader? I was just thinking about this.",
+	//"R.GiftLike.1": "Thank you, @. That means a lot.",
+	//"R.GiftLike.2": "What a sweet gift! I'm flattered.",
+	//"R.GiftDislike.1": "Mmm... good effort, @.",
+	//"R.GiftDislike.2": "Oh, this is... I'll figure out something to do with this.",
+	//"R.GiftHate.1": "I'm pretty sure I told you I was allergic to this.$a",
+	//"R.GiftHate.2": "Yikes. Are you trying to tell me something?$s",
 	
 	"Gift.TruffleOil.1": "For me? Thank you! This will be fantastic drizzled on some pasta.$h",
 	"Gift.TruffleOil.2": "Oh, wow. Really? This almost feels too fancy for me.#$b#Not that I'm complaining!$h",
@@ -334,11 +339,11 @@
 	"Wed.10": "Usually by the middle of the week I'd be starting to hit a slump.#$b#I think your energy is infectious!$h",
 	
 	"Thu.1": "I live above the clinic. I admit it's convenient, not having a commute.",
-	"Thu.2": "Nutrition is important, so make sure and eat well. #$b#$q HarveyPlus.41/HarveyPlus.42 Thu_2_None#Home-cooked meals are best. Do you cook?#$r HarveyPlus.41 25 Thu_2_Yes#I love to cook!#$r HarveyPlus.41 0 Thu_2_Busy#I'm usually too busy...#$r HarveyPlus.42 -5 Thu_2_No#I have more important things to spend time on.",
-	"Thu.2.Yes": "That's good! You'll have no trouble staying healthy, then.$h",
-	"Thu.2.Busy": "Ah, yes. I know how that is.$s#$b#Still, even the occasional healthy meal is better than none.",
-	"Thu.2.No":  "Ah... right. I'm sure you're very busy with the farm.$s",
-	"Thu.2.None": "$p HarveyPlus.42#Maybe take advantage of all that fresh produce.|... Sorry. I should take my doctor's hat off, sometimes.$h",
+	"Thu.2": "Nutrition is important, so make sure and eat well. #$b#$q TH2Pos/TH2Neg TH2None#Home-cooked meals are best. Do you cook?#$r TH2Pos 25 TH2Yes#I love to cook!#$r TH2Pos 0 TH2Busy#I'm usually too busy...#$r TH2Neg -5 TH2No#I have more important things to spend time on.",
+	"TH2Yes": "That's good! You'll have no trouble staying healthy, then.$h",
+	"TH2Busy": "Ah, yes. I know how that is.$s#$b#Still, even the occasional healthy meal is better than none.",
+	"TH2No":  "Ah... right. I'm sure you're very busy with the farm.$s",
+	"TH2None": "$p TH2Neg#Maybe take advantage of all that fresh produce.|... Sorry. I should take my doctor's hat off, sometimes.$h",
 	"Thu.3": "I'm what you'd call a family practice physician.#$e#Taking care of someone from birth to death... that's a lot of responsibility. I take it very seriously.",
 	"Thu.4": "I probably drink more coffee than is strictly healthy.$s#$e#But all that paperwork wouldn't get done otherwise!",
 	"Thu.5": "I try and attend every town festival, even if I find crowds overwhelming.#$e#It's good for me to get out of the clinic sometimes.",
@@ -478,7 +483,7 @@
 	"Fall.Weekly.10.1": "If you're feeling chilly, @, you're welcome to borrow my coat.$l",
 	"Fall.Weekly.10.2": "Here, @. It's a 'hot drinks' kind of day, I think. Stay warm! [395 614]$h",
 	"Fall.Weekly.10.3": "You know what I haven't had in years? A genuine home-made apple cider.#$e#I bet between the two of us we could whip up a blue-ribbon batch.$h",
-	"Fall.Weekly.10.4": "",
+	"Fall.Weekly.10.4": "PLACEHOLDER 10.4",
 
 	//It's so unlikely anyone will still be at 0/1 hearts with him by Winter but I simply have to be thorough lol
 	//Also idk some people don't care about him that much and they might also download this mod for ????reasons????
@@ -487,10 +492,10 @@
 	"Winter.Weekly.0.1": "I hope that your farmhouse is properly insulated. It gets very cold here in the valley at night.",
 	"Winter.Weekly.0.2": "If you find yourself with a cough, honey works just as well as cough syrup.#$e#Just because I'm a doctor doesn't mean I think home remedies are bunk. If it works, it works!$h",
 	"Winter.Weekly.0.3": "If you haven't already invested in heavy-duty boots, now would be the time.",
-	"Winter.Weekly.0.4": "",
+	"Winter.Weekly.0.4": "PLACEHOLDER 0.4",
 
 	"Winter.Weekly.2.1": "I know that holly berries look tempting, but it's definitely a bad idea to eat them.",
-	"Winter.Weekly.2.2": "PLACEHOLDER 2.2",
+	"Winter.Weekly.2.2": "The valley usually spends all winter covered in snow.#$e#I imagine that might make farming more difficult.",
 	"Winter.Weekly.2.3": "PLACEHOLDER 2.3",
 	"Winter.Weekly.2.4": "PLACEHOLDER 2.4",
 
@@ -508,19 +513,20 @@
 	"Winter.Weekly.8.2": "PLACEHOLDER 8.2",
 		"R.Winter.Weekly.8.2": "@, I just finished a book I think you'd enjoy. Here, check it out and tell me what you think. [(F)PurpleBook (F)BlueBook (F)YellowBook (F)Redbook (F)GreenBook (F)BrownBook PurpleBook]",
 	"Winter.Weekly.8.3": "Gift-giving season is always a little stressful for me.#$e#I worry about getting someone something that they don't want, or that they already have.",
-		"R.Winter.Weekly.8.3": "PLACEHOLDER R 8.3",
+		"R.Winter.Weekly.8.3": "Don't stress about getting me the 'perfect' gift this year.#$b#I think I would like most anything that you gave me.$h",
 	"Winter.Weekly.8.4": "PLACEHOLDER 8.4",
 
 	"Winter.Weekly.10.1": "Winter always makes me feel a little melancholy...#$b#Less so, this year.$l",
 	"Winter.Weekly.10.2": "Here, @. It's a 'hot drinks' kind of day, I think. Stay warm! [395 614]$h",
 	"Winter.Weekly.10.3": "This time of year always makes me wish I had a fireplace.#$e#The one in your cabin must be so cozy.$l",
-	"Winter.Weekly.10.4": "",
+	"Winter.Weekly.10.4": "PLACEHOLDER 10.4",
 	
 	//Date Specific Dialogue
 	
-	"Fall.Plans":"I generally prefer warmer weather, but I can't deny the leaves look prettiest this time of year.",
+	"Fall.Plans":"I enjoy taking walks the most in fall; the air is brisk and the leaves are at their most visually stunning.",
 		"R.Fall.Plans": "Did you have plans for this weekend?#$b#I was thinking maybe we could get coffee.",
 	"Spring.FlowerDance": "The Flower Dance is tomorrow...#$b#I'm not really much of a dancer, but Maru always insists that if she has to go, I have to go.",
+		"R.Spring.FlowerDance": "Will I see you at the Flower Dance tomorrow?$l",
 	"Fall.Mushrooms": "Did you know many of the mushrooms that grow locally are edible?$#b#Be careful of the red ones, though.",
 	"Fall.Chilly": "The weather has started to turn.#$b#Add more layers if you start feeling chilly.",
 	"Winter.FluShots": "Don't forget to get your flu shot this year.#$e#An ounce of prevention is worth a pound of cure, as they say.",

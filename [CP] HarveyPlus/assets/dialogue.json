@@ -20,10 +20,10 @@
 
 		//Question keys
 
-		"Thu_2_Yes": "[LocalizedText Strings/{{ModId}}:Thu.2.Yes]",
-		"Thu_2_Busy": "[LocalizedText Strings/{{ModId}}:Thu.2.Busy]",
-		"Thu_2_No": "[LocalizedText Strings/{{ModId}}:Thu.2.No]",
-		"Thu_2_None": "[LocalizedText Strings/{{ModId}}:Thu.2.None]",
+		"TH2Yes": "[LocalizedText Strings/{{ModId}}:TH2Yes]",
+		"TH2Busy": "[LocalizedText Strings/{{ModId}}:TH2Busy]",
+		"TH2No": "[LocalizedText Strings/{{ModId}}:TH2No]",
+		"TH2None": "[LocalizedText Strings/{{ModId}}:TH2None]",
 		"SW43P": "[LocalizedText Strings/{{ModId}}:SW43P]",
 		"SW43T": "[LocalizedText Strings/{{ModId}}:SW43T]",
 		"SW43None": "[LocalizedText Strings/{{ModId}}:SW43None]",

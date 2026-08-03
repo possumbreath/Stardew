@@ -38,12 +38,9 @@
 	"FromFile": "assets/marriage.json"
 	},
 
-//For some reason the tastes just got REALLY fucky-wucky so 
-//until I can brainstorm how to redo them better I'm just turning them off
-
-//{	"Action": "Include",
-//	"FromFile": "assets/tastes.json"
-//	},
+{	"Action": "Include",
+	"FromFile": "assets/tastes.json"
+	},
 	
 ],
 

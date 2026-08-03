@@ -87,10 +87,10 @@
 			"Sun.9": "{{i18n: Sun.9}}",
 			"Sun.10": "{{i18n: Sun.10}}",
 
-			"Thu.2.Yes": "{{i18n: Thu.2.Yes}}",
-			"Thu.2.Busy": "{{i18n: Thu.2.Busy}}",
-			"Thu.2.No": "{{i18n: Thu.2.No}}",
-			"Thu.2.None": "{{i18n: Thu.2.None}}",
+			"TH2Yes": "{{i18n: TH2Yes}}",
+			"TH2Busy": "{{i18n: TH2Busy}}",
+			"TH2No": "{{i18n: TH2No}}",
+			"TH2None": "{{i18n: TH2None}}",
 			"SW43P": "{{i18n: SW43P}}",
 			"SW43T": "{{i18n: SW43T}}",
 			"SW43None": "{{i18n: SW43None}}",
@@ -646,6 +646,7 @@
 			"Weekly.8.3": "{{i18n: R.{{Season}}.Weekly.8.3}}",
 
 			"Fall.Plans": "{{i18n: R.Fall.Plans}}",
+			"Spring.FlowerDance": "{{i18n: R.Spring.FlowerDance}}",
 			"Winter.AlmostBirthday": "{{i18n: R.Winter.AlmostBirthday}}",
 
 			"spring24.1": "{{i18n: R.spring24}}",
