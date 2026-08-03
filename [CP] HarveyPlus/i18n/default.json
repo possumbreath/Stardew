@@ -116,7 +116,7 @@
 	
 	//Intro event
 	
-	"Intro.1": "Hello! Come on in.#$b#You must have got Harvey's letter.",
+	"Intro.1": "Hello! Come on in.#$b#You must have seen Harvey's letter.",
 	"Intro.2": "I wanted to get your patient intake forms filled out sooner rather than later.#$b#When you're running a two-person operation it helps to try and stay organized.",
 	"Intro.3": "What he means is it helps me file less paperwork down the line.$h",
 	"Intro.4": "Would you like to take a look at the forms?#Actually, I already have a doctor in Zuzu City.#No thanks. I like to live dangerously.",
@@ -124,7 +124,7 @@
 	"DangerAnswer": "Hm. I wouldn't exactly say that's advisable, but it's ultimately up to you.$s",
 	"Intro.6": "He looks kind of... relieved?",
 	"Intro.7": "We do also handle prescriptions. Feel free to have yours sent here so you don't have to make the trip into Zuzu City quite so often.",
-	"Intro.5": "Just remember, we're here if you ever have an emergency.#$b#Have a good day, @.$h",
+	"Intro.5": "Just remember, we're here if you ever have an emergency.#$b#Have a good day, @.",
 	"Intro.8": "See you later!$h",
 	
 	//2 Heart Event
@@ -165,16 +165,16 @@
 	"4Hearts.cola": "You're braver than I am, @.#$b#That stuff gives me heart palpitations.",
 	"4Hearts.8": "Oh! Not that it's really my business what you're drinking.$8#$b#I apologize. The doctor hat is hard to take off.",
 	"4Hearts.9": "#You're not great at conversation starters, huh?#It's fine, I get it.",
-	"4Hearts.91": "Is it that obvious?$s",
+	"4Hearts.91": "Ah... not particularly. Is it that obvious?",
 	"4Hearts.92": "Well. That's a relief. Still, I need to get better about it.",
 	"4Hearts.10": "Anyway, I'm sorry.",
-	"4Hearts.11": "He awkwardly turns back to his own drink.",
+	"4Hearts.11": "Harvey awkwardly turns back to his own drink.",
 	"4Hearts.12": "Here you go! Let me know if you need anything else.",
 	"4Hearts.13": "#You don't get better at conversations by not having them.#(Say nothing, as a power move)",
 	"4Hearts.14": "... I suppose that's true.",
 	"4Hearts.15": "So, @... #$b#What did you do before you moved here?",
 	"4Hearts.16": "You tell Harvey about your past life in Zuzu City. He tells you about the time he spent there while in medical school.",
-	"4Hearts.17": "It looks like you both moved here looking for a life that was a little less overwhelming...",
+	"4Hearts.17": "It looks like you both moved to Stardew Valley in search of a life that was a little less overwhelming...",
 	"4Hearts.18": "... Yes, @?",
 	"4Hearts.19": "Well, uh... my coffee's gone cold. I ought to get going.",
 	
@@ -196,7 +196,7 @@
 	"6Hearts.yes": "Dang it. I shouldn't have asked you to weigh in without context.$s",
 	"6Hearts.badthing": "Not at all! Have you seen Linus? I'm pretty sure he could arm wrestle my mom and win.$h#$b#But you try telling that to Harvey. He talks like he's got one foot in the grave.",
 	"6Hearts.13": "Maru, don't rope ${him^her^them}$ into this!$7",
-	"6Hearts.14": "Okay, okay. Don't get your stethoscope in a twist.#$b#I'm just saying, there's probably a better solution to this problem you've created for yourself.",
+	"6Hearts.14": "Okay, okay. Don't get your stethoscope in a twist.",
 	"6Hearts.15": "Anyway. Was there something you needed, farmer @?",
 	"6Hearts.After": "Please don't tell anyone about that conversation Maru dragged you into.#$b#It's a... sensitive subject.",
 	"6Hearts.After.Maru": "I swear, that man loves to invent problems for himself.#$e#He's lucky his best friend is the town's premier problem solver!$h",
@@ -538,7 +538,7 @@
 	//some of these haven't been edited yet but are here in the i18n in preparation for when I think of a better line OR when/if I commit to randomized dialogue options here too
 	
 	"fall16.1": "It's easy to forget how large pigs are until you're looking at them in person...",
-	"fall16.2": "There's always such an incredible amount of craftsmanship on display here.#$b#It feels like some people get more talented every year.",
+	"fall16.2": "Robin and Leah both have very impressive woodworking skills.#$b#Though I do worry that they aren't wearing gloves...",
 	"fall16.1.spouse": "Let me know when you're ready to go home, @. I'll just be over here.",
 	"fall16.2.spouse": "Good luck today in the competition, @. I have full confidence in you!$h",
 	
