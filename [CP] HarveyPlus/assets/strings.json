@@ -635,10 +635,10 @@
 		"Entries": {
 			"AcceptBirthdayGift.Pos": "{{i18n: R.AcceptBirthdayGift.Pos}}",
 			"AcceptBirthdayGift.Neg": "{{i18n: R.AcceptBirthdayGift.Neg}}",
-			"GiftLove": "{{i18n: R.GiftLove.{{Random:1,2}}}}",
-			"GiftLike": "{{i18n: R.GiftLike.{{Random:1,2}}}}",
-			"GiftDislike": "{{i18n: R.GiftDislike.{{Random:1,2}}}}",
-			"GiftHate": "{{i18n: R.GiftHate.{{Random:1,2}}}}",
+			//"GiftLove": "{{i18n: R.GiftLove.{{Random:1,2}}}}",
+			//"GiftLike": "{{i18n: R.GiftLike.{{Random:1,2}}}}",
+			//"GiftDislike": "{{i18n: R.GiftDislike.{{Random:1,2}}}}",
+			//"GiftHate": "{{i18n: R.GiftHate.{{Random:1,2}}}}",
 
 			"Tue.8": "{{i18n: R.Tue.8}}",
 

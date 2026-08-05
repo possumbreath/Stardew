@@ -1,6 +1,6 @@
 {  "Changes":  [ 	 
 	
-{	"LogName": "Static Marriage Dialogue Edit",
+{	"LogName": "Static MarriageDialogueHarvey Edit",
 	"Action": "EditData",
 	"Target": "Characters/Dialogue/MarriageDialogueHarvey",
 	"Entries": {
@@ -79,7 +79,7 @@
 	},
 },
 
-{	"LogName": "Seasonal Marriage Dialogue Edit",
+{	"LogName": "Seasonal MarriageDialogueHarvey Edit",
 	"Action": "EditData",
 	"Target": "Characters/Dialogue/MarriageDialogueHarvey",
 	"When": {
@@ -150,7 +150,7 @@
 //	},
 //},
 
-{	"LogName": "Child Marriage Dialogue Edit",
+{	"LogName": "Marriage ExtraDialogue Edit",
 	"Action": "EditData",
 	"Target": "data/ExtraDialogue",
 	"When": {
@@ -164,7 +164,7 @@
 	},
 },
 
-{	"LogName": "More Marriage Dialogue Edit",
+{	"LogName": "Marriage StringsFromCSFiles Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Strings/StringsFromCSFiles",
 	"When": {
@@ -180,7 +180,7 @@
 	},
 },
 
-{	"LogName": "Marriage Schedule Dialogue Edit",
+{	"LogName": "Marriage Strings/Schedules Dialogue Edit",
 	"Action": "EditData",
 	"Target": "Strings/schedules/Harvey",
 	"Entries": {
@@ -190,7 +190,7 @@
 	},
 },
 
-{		"LogName": "Marriage Schedule Edit",
+{		"LogName": "Marriage Schedules Edit Summer/Winter",
 		"Action": "EditData",
 		"Target": "Characters/schedules/Harvey",
 		"When": {
@@ -203,7 +203,7 @@
 		},
 },
 
-{		"LogName": "Marriage Schedule Edit",
+{		"LogName": "Marriage Schedules Edit Spring/Fall",
 		"Action": "EditData",
 		"Target": "Characters/schedules/Harvey",
 		"When": {
@@ -216,7 +216,7 @@
 		},
 },
 
-{		"LogName": "Marriage Schedule Edit",
+{		"LogName": "Marriage Schedule Edit SVE Spring/Fall Compat",
 		"Action": "EditData",
 		"Target": "Characters/schedules/Harvey",
 		"When": {
