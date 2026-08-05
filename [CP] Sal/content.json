@@ -1,0 +1,80 @@
+﻿{ 
+"Format": "2.9.0",
+
+"ConfigSchema": {},
+
+"Changes": [
+
+{	"Action": "Include",
+	"FromFile": "assets/core.json"
+	},
+
+{	"Action": "Include",
+	"FromFile": "assets/strings.json"
+	},
+
+{	"Action": "Include",
+	"FromFile": "assets/dialogue.json"
+	},
+
+],
+
+"DynamicTokens": [
+
+//Day of Week token
+
+	{	"Name": "TodaysDate",
+		"Value": "Mon",
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Mon",
+		"When": {
+			"DayOfWeek": "Monday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Tue",
+		"When": {
+			"DayOfWeek": "Tuesday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Wed",
+		"When": {
+			"DayOfWeek": "Wednesday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Thu",
+		"When": {
+			"DayOfWeek": "Thursday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Fri",
+		"When": {
+			"DayOfWeek": "Friday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Sat",
+		"When": {
+			"DayOfWeek": "Saturday",
+		},
+	},
+
+	{	"Name": "TodaysDate",
+		"Value": "Sun",
+		"When": {
+			"DayOfWeek": "Sunday",
+		},
+	},
+],
+
+}
