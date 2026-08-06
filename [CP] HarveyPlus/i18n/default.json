@@ -459,7 +459,7 @@
 	"Fall.Weekly.0.4": "Have you started preparing %farm Farm for winter?#$e#Remember to stock up on firewood.",
 
 	"Fall.Weekly.2.1": "In addition to being festive, pumpkins are actually an excellent source of fiber and Vitamin A.",
-	"Fall.Weekly.2.2": "PLACEHOLDER 2.2",
+	"Fall.Weekly.2.2": ".",
 	"Fall.Weekly.2.3": "The days will start getting shorter soon. Make sure to plan your farm chores accordingly so you don't get overwhelmed.",
 	"Fall.Weekly.2.4": "PLACEHOLDER 2.4",
 
@@ -492,7 +492,7 @@
 	"Winter.Weekly.0.1": "I hope that your farmhouse is properly insulated. It gets very cold here in the valley at night.",
 	"Winter.Weekly.0.2": "If you find yourself with a cough, honey works just as well as cough syrup.#$e#Just because I'm a doctor doesn't mean I think home remedies are bunk. If it works, it works!$h",
 	"Winter.Weekly.0.3": "If you haven't already invested in heavy-duty boots, now would be the time.",
-	"Winter.Weekly.0.4": "PLACEHOLDER 0.4",
+	"Winter.Weekly.0.4": "It's actually very possible to get sunburn in winter, so don't forget your sunscreen!",
 
 	"Winter.Weekly.2.1": "I know that holly berries look tempting, but it's definitely a bad idea to eat them.",
 	"Winter.Weekly.2.2": "The valley usually spends all winter covered in snow.#$e#I imagine that might make farming more difficult.",
@@ -500,26 +500,26 @@
 	"Winter.Weekly.2.4": "PLACEHOLDER 2.4",
 
 	"Winter.Weekly.4.1": "%revealtaste:Harvey:829 You know, you can actually make a nice tea just by boiling fresh ginger.#$e#You can add cinnamon as well if you'd like a more wintery taste.",
-	"Winter.Weekly.4.2": "PLACEHOLDER 4.2",
+	"Winter.Weekly.4.2": "I will say, a huge upside to living where I work is that I don't have to walk to work in the snow.",
 	"Winter.Weekly.4.3": "PLACEHOLDER 4.3",
 	"Winter.Weekly.4.4": "PLACEHOLDER 4.4",
 
 	"Winter.Weekly.6.1": "I once asked Elliot for book recommendations...#$e#I think he and I have slightly different tastes when it comes to literature.",
 	"Winter.Weekly.6.2": "$query MUSEUM_DONATIONS 40 Arch Minerals #The museum has really filled up thanks to you.#$e#I guess it makes sense, considering how much digging a farmer must do.$h|It always feels special when there's a new donation to the museum, considering how long it was empty.",
 	"Winter.Weekly.6.3": "I worry about Linus in this weather.#$b#I know he can take care of himself, of course. But I still worry.#$e#I hope he'd feel comfortable reaching out if he needed help.",
-	"Winter.Weekly.6.4": "I will say, a huge upside to living where I work is that I don't have to walk to work in the snow.",
+	"Winter.Weekly.6.4": ".",
 
 	"Winter.Weekly.8.1": "PLACEHOLDER 8.1",
 	"Winter.Weekly.8.2": "PLACEHOLDER 8.2",
 		"R.Winter.Weekly.8.2": "@, I just finished a book I think you'd enjoy. Here, check it out and tell me what you think. [(F)PurpleBook (F)BlueBook (F)YellowBook (F)Redbook (F)GreenBook (F)BrownBook PurpleBook]",
 	"Winter.Weekly.8.3": "Gift-giving season is always a little stressful for me.#$e#I worry about getting someone something that they don't want, or that they already have.",
 		"R.Winter.Weekly.8.3": "Don't stress about getting me the 'perfect' gift this year.#$b#I think I would like most anything that you gave me.$h",
-	"Winter.Weekly.8.4": "PLACEHOLDER 8.4",
+	"Winter.Weekly.8.4": "Hm... I still have to write and send this year's holiday cards.#$e#Do you keep in contact with friends or family outside of the valley, @?",
 
 	"Winter.Weekly.10.1": "Winter always makes me feel a little melancholy...#$b#Less so, this year.$l",
 	"Winter.Weekly.10.2": "Here, @. It's a 'hot drinks' kind of day, I think. Stay warm! [395 614]$h",
 	"Winter.Weekly.10.3": "This time of year always makes me wish I had a fireplace.#$e#The one in your cabin must be so cozy.$l",
-	"Winter.Weekly.10.4": "PLACEHOLDER 10.4",
+	"Winter.Weekly.10.4": "I finished a new model this week. You're welcome to come by any time if you'd like to see it.",
 	
 	//Date Specific Dialogue
 	
