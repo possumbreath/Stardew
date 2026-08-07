@@ -173,10 +173,14 @@
 	"4Hearts.13": "#You don't get better at conversations by not having them.#(Say nothing, as a power move)",
 	"4Hearts.14": "... I suppose that's true.",
 	"4Hearts.15": "So, @... #$b#What did you do before you moved here?",
-	"4Hearts.16": "You tell Harvey about your past life in Zuzu City. He tells you about the time he spent there while in medical school.",
-	"4Hearts.17": "It looks like you both moved to Stardew Valley in search of a life that was a little less overwhelming...",
-	"4Hearts.18": "... Yes, @?",
-	"4Hearts.19": "Well, uh... my coffee's gone cold. I ought to get going.",
+	"4Hearts.16": "You tell Harvey about your past life in Zuzu City. He seems genuinely engaged.",
+	"4Hearts.161": "In return he tells you about the time he spent there while in medical school.",
+	"4Hearts.162": "You get the sense that you both may have moved to Stardew Valley in pursuit of a quieter life...",
+	"4Hearts.17": "... So really, the early morning chemistry class is what got me hooked on coffee.#$b#I don't think I would have passed it otherwise!$h",
+	"4Hearts.18": "This has been nice, @. Thank you for keeping me company.#$b#I do need to get going, though. I have some reports to review.",
+	"4Hearts.19": "I'm here most rainy nights, so maybe I'll see you again sometime.",
+	"4Hearts.20": "... Yes, @?",
+	"4Hearts.21": "Well, uh... my coffee's gone cold. I ought to get going.",
 	
 	//6 Heart Event
 
@@ -194,7 +198,7 @@
 	"6Hearts.12": "Is 'over thirty' old? #No?#Yes?#Is 'old' a bad thing?",
 	"6Hearts.no": "See? I'm not the only one who thinks you're being ridiculous.",
 	"6Hearts.yes": "Dang it. I shouldn't have asked you to weigh in without context.$s",
-	"6Hearts.badthing": "Not at all! Have you seen Linus? I'm pretty sure he could arm wrestle my mom and win.$h#$b#But you try telling that to Harvey. He talks like he's got one foot in the grave.",
+	"6Hearts.badthing": "Not at all! Have you seen Linus? I'm pretty sure he could arm wrestle my mom and win.$h#$b#But you try telling that to Harvey.",
 	"6Hearts.13": "Maru, don't rope ${him^her^them}$ into this!$7",
 	"6Hearts.14": "Okay, okay. Don't get your stethoscope in a twist.",
 	"6Hearts.15": "Anyway. Was there something you needed, farmer @?",
@@ -459,9 +463,9 @@
 	"Fall.Weekly.0.4": "Have you started preparing %farm Farm for winter?#$e#Remember to stock up on firewood.",
 
 	"Fall.Weekly.2.1": "In addition to being festive, pumpkins are actually an excellent source of fiber and Vitamin A.",
-	"Fall.Weekly.2.2": ".",
+	"Fall.Weekly.2.2": "If you want to forage for hazelnuts, you might have competition from the squirrels.#$b#They're stocking up for winter.",
 	"Fall.Weekly.2.3": "The days will start getting shorter soon. Make sure to plan your farm chores accordingly so you don't get overwhelmed.",
-	"Fall.Weekly.2.4": "PLACEHOLDER 2.4",
+	"Fall.Weekly.2.4": "Given how popular apple is as a seasonal flavor, it's a good thing the adage about doctors and apples isn't true!$h",
 
 	"Fall.Weekly.4.1": "It's true that, financially, fall is the best season for the clinic...#$b#Not that I want anyone to get sick!$8",
 	"Fall.Weekly.4.2": "Did you know that you can make oil out of sunflower seeds?#$e#I prefer truffle oil for cooking when I can get it, personally.",
@@ -483,7 +487,7 @@
 	"Fall.Weekly.10.1": "If you're feeling chilly, @, you're welcome to borrow my coat.$l",
 	"Fall.Weekly.10.2": "Here, @. It's a 'hot drinks' kind of day, I think. Stay warm! [395 614]$h",
 	"Fall.Weekly.10.3": "You know what I haven't had in years? A genuine home-made apple cider.#$e#I bet between the two of us we could whip up a blue-ribbon batch.$h",
-	"Fall.Weekly.10.4": "PLACEHOLDER 10.4",
+	"Fall.Weekly.10.4": "Did you know the world's smallest functional airplane had a wingspan of only five and a half feet?#$e#It was called the Bumble Bee II, and it crashed on its third flight and was completely destroyed.#$b#The pilot made a full recovery, which is the important part.",
 
 	//It's so unlikely anyone will still be at 0/1 hearts with him by Winter but I simply have to be thorough lol
 	//Also idk some people don't care about him that much and they might also download this mod for ????reasons????
@@ -496,21 +500,21 @@
 
 	"Winter.Weekly.2.1": "I know that holly berries look tempting, but it's definitely a bad idea to eat them.",
 	"Winter.Weekly.2.2": "The valley usually spends all winter covered in snow.#$e#I imagine that might make farming more difficult.",
-	"Winter.Weekly.2.3": "PLACEHOLDER 2.3",
-	"Winter.Weekly.2.4": "PLACEHOLDER 2.4",
+	"Winter.Weekly.2.3": "The relative lack of sunlight in winter can lead to lower mood.#$b#A sun lamp is a great investment if that's something you're worried about.",
+	"Winter.Weekly.2.4": "One of the downsides to living in such a close-knit town is that when one person gets sick, it's very likely several people will get sick.",
 
 	"Winter.Weekly.4.1": "%revealtaste:Harvey:829 You know, you can actually make a nice tea just by boiling fresh ginger.#$e#You can add cinnamon as well if you'd like a more wintery taste.",
-	"Winter.Weekly.4.2": "I will say, a huge upside to living where I work is that I don't have to walk to work in the snow.",
-	"Winter.Weekly.4.3": "PLACEHOLDER 4.3",
-	"Winter.Weekly.4.4": "PLACEHOLDER 4.4",
+	"Winter.Weekly.4.2": "I will say, a huge upside to living above the clinic is that I don't have to walk to work in the snow.",
+	"Winter.Weekly.4.3": "Over the years I've collected several historial medical texts.#$b#It's important to know how our understanding of the human body has evolved, even if best practices have changed.",
+	"Winter.Weekly.4.4": "I do wish we had a town dentist...#$b#Oral healthcare is obviously very important, but dentistry and medicine traditionally have completely different educational tracks and professional standards.#$b#It's the one thing I'm really not qualified to give advice on.",
 
 	"Winter.Weekly.6.1": "I once asked Elliot for book recommendations...#$e#I think he and I have slightly different tastes when it comes to literature.",
 	"Winter.Weekly.6.2": "$query MUSEUM_DONATIONS 40 Arch Minerals #The museum has really filled up thanks to you.#$e#I guess it makes sense, considering how much digging a farmer must do.$h|It always feels special when there's a new donation to the museum, considering how long it was empty.",
 	"Winter.Weekly.6.3": "I worry about Linus in this weather.#$b#I know he can take care of himself, of course. But I still worry.#$e#I hope he'd feel comfortable reaching out if he needed help.",
-	"Winter.Weekly.6.4": ".",
+	"Winter.Weekly.6.4": "I keep getting busy and forgetting about my coffee until it's gone cold.#$b# I should get one of those desk top mug warmers...",
 
-	"Winter.Weekly.8.1": "PLACEHOLDER 8.1",
-	"Winter.Weekly.8.2": "PLACEHOLDER 8.2",
+	"Winter.Weekly.8.1": "Sometimes I consider growing out a beard for a bit of extra warmth in winter, but I don't know if I could pull it off.",
+	"Winter.Weekly.8.2": "Do you think a peppermint-striped tie would be too much?#$b#I think it would be charmingly festive.",
 		"R.Winter.Weekly.8.2": "@, I just finished a book I think you'd enjoy. Here, check it out and tell me what you think. [(F)PurpleBook (F)BlueBook (F)YellowBook (F)Redbook (F)GreenBook (F)BrownBook PurpleBook]",
 	"Winter.Weekly.8.3": "Gift-giving season is always a little stressful for me.#$e#I worry about getting someone something that they don't want, or that they already have.",
 		"R.Winter.Weekly.8.3": "Don't stress about getting me the 'perfect' gift this year.#$b#I think I would like most anything that you gave me.$h",
@@ -519,7 +523,7 @@
 	"Winter.Weekly.10.1": "Winter always makes me feel a little melancholy...#$b#Less so, this year.$l",
 	"Winter.Weekly.10.2": "Here, @. It's a 'hot drinks' kind of day, I think. Stay warm! [395 614]$h",
 	"Winter.Weekly.10.3": "This time of year always makes me wish I had a fireplace.#$e#The one in your cabin must be so cozy.$l",
-	"Winter.Weekly.10.4": "I finished a new model this week. You're welcome to come by any time if you'd like to see it.",
+	"Winter.Weekly.10.4": "It's technically illegal for civilians to transmit on aviation frequencies... so, uh. Don't tell anyone I did that.",
 	
 	//Date Specific Dialogue
 	
