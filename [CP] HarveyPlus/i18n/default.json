@@ -32,46 +32,50 @@
 	"GiftLove.1": "#Oh, for me? Thank you! You know me so well.|For me? That's so thoughtful of you, @.",
 	"GiftLove.2": "#Goodness, @, you're spoiling me.|Really? Thank you! How did you know this was my favorite?",
 	"GiftLove.3": "#Wow... I don't know what to say, @.$l|This is a wonderful gift! Thank you so much.",
+	
 	"GiftLike.1": "#Thank you, @. That means a lot.|That's such a nice gift. Thank you!",
 	"GiftLike.2": "#What a sweet gift! I'm flattered.|I really appreciate this. It was nice of you to think of me.",
 	"GiftLike.3": "#You always know how to brighten up my day.$h|Oh! What a nice surprise. Thank you, @.",
+	
 	"GiftNeutral": "#Thanks. That's very kind of you.", //I think it's funniest if the neutral dialogue is completely the same no matter what
+	
 	"GiftDislike.1": "#Mmm... good effort, @.|Hmm... Are you sure this is healthy?",
 	"GiftDislike.2": "#Oh, this is... I'll figure out something to do with this.|Thank you? I'm not sure what you expect me to do with this.",
 	"GiftDislike.3": "#Oh... thank you. That's... nice?|I think you may have meant to give this to someone else.",
+	
 	"GiftHate.1": "#I'm pretty sure I told you I was allergic to this.$a|...I think I'm allergic to this.",
 	"GiftHate.2": "#Yikes. Are you trying to tell me something?$s|That's not very kind of you, @.",
 	"GiftHate.3": "#Did I do something? Are you mad at me?$s|I hope you meant to give this to someone else.$a",
-
-	//"R.GiftLove.1": "Oh, for me? Thank you! You know me so well.",
-	//"R.GiftLove.2": "Are you sure you aren't a mind-reader? I was just thinking about this.",
-	//"R.GiftLike.1": "Thank you, @. That means a lot.",
-	//"R.GiftLike.2": "What a sweet gift! I'm flattered.",
-	//"R.GiftDislike.1": "Mmm... good effort, @.",
-	//"R.GiftDislike.2": "Oh, this is... I'll figure out something to do with this.",
-	//"R.GiftHate.1": "I'm pretty sure I told you I was allergic to this.$a",
-	//"R.GiftHate.2": "Yikes. Are you trying to tell me something?$s",
 	
 	"Gift.TruffleOil.1": "For me? Thank you! This will be fantastic drizzled on some pasta.$h",
 	"Gift.TruffleOil.2": "Oh, wow. Really? This almost feels too fancy for me.#$b#Not that I'm complaining!$h",
 	"Gift.TruffleOil.3": "You have incredible timing, @. I was just thinking I needed this for a recipe I want to try.$h",
+
 	"Gift.Wine.1": "This looks fantastic! What an incredible gift, @.$h#$b#I'll have to save it for a special occasion.",
 	"Gift.Wine.2": "Thank you!$h#$b#You would think as a doctor I would advise against the consumption of alcohol...#$b#But there are certainly benefits to kicking back with a glass of wine, provided one is drinking responsibly.$h",
 	"Gift.Wine.3": "An entire bottle? That's very generous of you.$h",
+	
 	"Gift.Coffee.1": "Oh! Thank you. I was just thinking I could use a pick-me-up.$h",
 	"Gift.Coffee.2": "You're a life-saver, @.#$b#I was too busy this morning to brew my own, so I really appreciate it.",
 	"Gift.Coffee.3": "Thank you so much, @.#$b#And it's exactly how I like it!$h",
+	
 	"Gift.TonicRemedy": "Uh... thanks? I already have plenty of these at the clinic.",
 	"Gift.Radioctive": "Don't you know how dangerous this is?!$8",
 
 	//Resort Lines
 
-	"Resort": "I'll let you in on a little secret... I never really learned how to swim.$s#$e#Deep water is terrifying.#$b#At least when you're up high you can see what's below you.$s",
-	//"Resort_Entering": "Sunscreen? Check...#$b#Sun hat? Check...",
-  	//"Resort_Leaving": "If you get burnt, a little aloe vera cream might help soothe the skin.",
-  	//"Resort_Shore": "I combed the whole beach for glass. We wouldn't want anyone to get a cut on their foot!",
-  	//"Resort_Chair": "It's nice to have an opportunity to relax now and then.#$b#The trouble is actually letting go of your worries...$s",
-  	//"Resort_Bar": "It's important to stay hydrated in this heat. I'm going to ask Gus if he has any coconut water!$h",
+	"Res.Gen.1": "I'll let you in on a little secret... I never really learned how to swim.$s#$e#Deep water is terrifying.#$b#At least when you're up high you can see what's below you.$s",
+	
+	"Res.Entering.1": "Sunscreen? Check...#$b#Sun hat? Check...",
+
+	"Res.Leaving.1": "If you get burnt, I recommend aloe vera to help with the pain.",
+	"Res.Leaving.2": "Aside from a seagull trying to steal my sunhat, I had a great time!$h"
+  	
+	"Res.Shore.1": "I combed the whole beach for glass. We wouldn't want anyone to get a cut on their foot!",
+  	
+	"Res.Chair.1": "It's nice to have an opportunity to relax now and then.#$b#The trouble is actually letting go of your worries...$s",
+  	
+	"Res.Bar.1": "It's important to stay hydrated in this heat. I'm going to ask Gus if he has any coconut water!$h",
 	
   	//Romantic/Relationship Change Lines
 	//you'll notice some of the negative reactions here are a little sharp and that's because uwu wibbly baby softboi harvey is boring he is a full ass adult man let the guy have layers and be angry sometimes
@@ -187,8 +191,8 @@
 	"6Hearts.1": "I'm just saying, I don't see why you're so stuck on it in the first place.",
 	"6Hearts.2": "Good habits now mean better outcomes later.#$b#At my age you have to start thinking about these things.",
 	"6Hearts.3": "This again! Harvey, 'over thirty' is not old. It's not even middle-aged.$3#$b#You don't get to say 'at my age' until you're at least sixty.",
-	"6Hearts.4": "I just think I could benefit from more regular, structured exercise. That's all.",
-	"6Hearts.5": "So your big plan is to join the aerobics class?$3",
+	"6Hearts.4": "I just think I could benefit from regular, structured exercise. That's all.#$b#That's technically true of anyone at any age.",
+	"6Hearts.5": "Sure. So your big plan is to join the aerobics class?$3",
 	"6Hearts.6": "The aerobics class that takes place during clinic hours?$3",
 	"6Hearts.7": "The aerobics class where basically half the town would be watching you?$3",
 	"6Hearts.8": "*Sigh...*",
@@ -225,15 +229,15 @@
 	"8Hearts.152": "Then I wanted to be a pianist, but the idea of being watched by an audience made me sick, so I gave up on that dream as well.",
 	"8Hearts.153": "Being a doctor was never a dream that I had, exactly.",
 	"8Hearts.154": "I didn't think I would make it through medical school. If I couldn't handle a piano recital, how was I going to handle a cadaver lab?",
-	"8Hearts.155": "It turns out that when I'm helping someone else, all the other things that frighten me stops feeling relevant. I forget to feel scared, because the patient matters more.",
+	"8Hearts.155": "It turns out that when I'm helping someone else, all the other things that frighten me stop feeling relevant. I forget to feel scared, because the patient matters more.",
 	"8Hearts.16": "Oh. I'm sorry. That was maybe more information than you needed.$s",
 	"8Hearts.161": "#No, it's okay. I'm glad that you feel like you can talk to me.#Do you think that's why it's hard for you to stop working? It's how you handle your anxieties?",
 	"8Hearts.161.talk": "It's funny. You're one of the few people I've ever been comfortable enough to tell the whole story.",
 	"8Hearts.161.anxiety": "It could be. Not the healthiest way to handle that, probably.",
-	"8Hearts.162": "The point is that it took me what feels like a very long time to find my place in the world, and I've always felt behind because of it.#$b#And then you showed up out of nowhere and restarted your life from almost nothing, like it was the most normal thing in the world to do!$h#$b#You helped me realize those early years weren't wasted time that I need to make up for, they were just part of the path it took to get to where I am now.",
+	"8Hearts.162": "The point is that it took me what feels like a very long time to find my place in the world, and I've always felt behind because of it.#$b#And then you showed up out of nowhere and restarted your life from almost nothing, like it was easy!$h#$b#You helped me realize those early years weren't wasted time that I need to make up for, they were just part of the path it took to get to where I am now.",
 	"8Hearts.17": "And anyway, if I was a pilot or a pianist then I wouldn't be a doctor...#$b#And I wouldn't have moved here to Pelican Town...#$b#And I wouldn't have become friends with you.",
 		"R.8Hearts.17": "And anyway, if I was a pilot or a pianist then I wouldn't be a doctor...#$b#And I wouldn't have moved here to Pelican Town...#$b#And I wouldn't have fallen in love with you.$l",
-	"8Hearts.18": "Anyway, I'm happy listening to the radio chatter from here. We get a lot of civilian air traffic; Stardew Valley is great for scenic flyovers.#$b#Hey, let me show you my model airplanes.#$b#I have a Blackbird, the same kind that just flew by!$h",
+	"8Hearts.18": "I'm happy listening to the radio chatter from here. We get a lot of civilian air traffic; Stardew Valley is great for scenic flyovers.#$b#Hey, let me show you my model airplanes.#$b#I have a Blackbird, the same kind that just flew by!$h",
 	"8Hearts.19": "For the first time since you met him, Harvey genuinely doesn't seem worried about anything.",
 	"8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...or any of the rest of it.#$b#You're just incredibly easy to talk to.",
 		"R.8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...or any of the rest of it.#$b#It's nice having someone to share it with, finally.$l",
@@ -368,7 +372,7 @@
 	"Fri.1": "Feel free to stop by my office if you're ever feeling ill.#$e#Though the farming lifestyle is very active. You'll probably stay healthy without trying.$h",
 	"Fri.2": "Remember to stay hydrated. You'd be surprised at how many people don't drink enough water.",
 	"Fri.3": "Any exciting plans for the weekend, @?#$e#Remember, everything in moderation!",
-	"Fri.4": "You're welcome to visit me at my apartment any time you like.#$e#I don't often have company. It would be a nice change of pace.",
+	"Fri.4": "I don't often have company. Having to go through the clinic to even get to my door is probably a deterrant for most people.",
 	"Fri.5": "I've found that being a doctor is very fulfilling work.#$e#I've always felt happiest when I'm helping other people.",
 	"Fri.6": "It's kind of you to make time to talk with me, @.#$b#It always brightens my day.$h",
 	"Fri.7": "Living where I work makes some things easier... on the other hand, it makes it difficult to ever stop working.",
@@ -385,10 +389,10 @@
 	"Sat.7": "I came here because I liked the small-town atmosphere and the potential for a truly holistic approach to patient care.#$e#I've grown to really love it.$h",
 	"Sat.8": "Maybe I'll actually take it easy this weekend.#$e#I could finally open that bottle of wine I've been saving.",
 	"Sat.9": "%Harvey is humming an upbeat jazz tune and seems completely distracted.",
-	"Sat.10": "*Sigh*... I'm starting to feel kind of old...#$e#The older you get the more memories you're burdened with. It can be overwhelming.$s#$e#I think I'll stay younger with you around.$h",
+	"Sat.10": "Sometimes I feel like my head is too full of memories. It can get overwhelming.$s#$b#Having you around helps keep me grounded.",
 
 	"Sun.1": "It's always difficult to fully enjoy Sundays, knowing that Monday is just around the corner.",
-	"Sun.2": "Hmm... I'm struggling to make ends meet. I don't have enough patients.#$e#I suppose that's the trade-off for working in a rural community.",
+	"Sun.2": "Hmm... I'm struggling to make ends meet. I don't have enough patients.#$e#I suppose that's the trade-off for working in a rural community. I'll have to make it work.",
 	"Sun.3": "Be careful if you're going to go down into the mines.#$e#Remember to wear closed-toed shoes!",
 	"Sun.4": "As a doctor, I'm well aware of the benefits of home-cooked food. But I'm so busy, I have a hard time bringing myself to cook.",
 	"Sun.5": "I'd strongly recommend against drinking Joja Cola.#$e#I've read the ingredient list and it's... concerning.$s",
@@ -543,7 +547,7 @@
 	"Fall.Chilly": "The weather has started to turn.#$b#Add more layers if you start feeling chilly.",
 	"Winter.FluShots": "Don't forget to get your flu shot this year.#$e#An ounce of prevention is worth a pound of cure, as they say.",
 	"Winter.AlmostBirthday.": "%Harvey appears to be quieter than usual. You should probably leave him be.",
-		"R.Winter.AlmostBirthday.": "Well... tomorrow's my birthday. Every year it gets harder to get excited about it.",
+		"R.Winter.AlmostBirthday.": "Well... tomorrow's my birthday. Funny, I'm not dreading it as much as I usually do.",
 	"Winter.End": "Winter has its charm, but I'm looking forward to seeing the sun more often in Spring.",
 	
 	//Festival Dialogue
