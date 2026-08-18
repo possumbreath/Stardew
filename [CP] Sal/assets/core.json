@@ -52,6 +52,41 @@
 				//"ShakePortraits": [3,7],
 		},
 	},
+	//The following gift taste code was taken from the template by 7thaxis because I like it way better than the other options
+	//Source: https://www.nexusmods.com/stardewvalley/mods/49041
+	{	"LogName": "Patch Empty Gift Tastes",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Entries": 
+			{	"{{ModId}}_Sal": "//////////" }
+	},
+	{	"LogName": "Patch Gift Taste Data",
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"Fields": {
+			"{{ModId}}_Sal": {
+				//TODO: check 'defaults' for all categoriesm, slim down lists
+				//Love
+				//Items they can use for making stuff primarily
+				"0": "I love this",
+				"1": "geode bone_item SmokedFish 110 116 118 586 169 873 296 330 428 681 709",
+				//Like
+				//More items for making stuff
+				"2": "I like this",
+				"3": "category_minerals 903 88 170 171 (BC)20 (BC)46 392 393 725",
+				//Dislike
+				"4": "I don't like this",
+				"5": "Raisins DriedFruit",
+				//Hate
+				//Pescatarian - todo add in all non-fish meat items
+				"6": "I hate this",
+				"7": "slime_item slime_egg_item 766 796 800 909 910",
+				//Neutral
+				"8": "This is fine",
+				"9": "category_bait category_tackle",
+			},
+		},
+	},
 ]}
 
 
