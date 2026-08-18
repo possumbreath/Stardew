@@ -9,12 +9,5 @@
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",
 	},
-	"Dependencies": [
-		//These are just here to make sure these mods don't overwrite my event and dialogue edits with their own,
-		//Feel free to delete them if you prefer content from these mods! 
-		{
-		"UniqueID": "gizzymo.canonfriendlyexpansion",
-		"IsRequired": false,
-		},
-	],
+	//"Dependencies": [],
 }
