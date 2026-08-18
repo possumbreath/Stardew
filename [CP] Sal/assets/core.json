@@ -1,70 +1,59 @@
 {	"Changes": [
-
-//Gift Edits
-//Also couldn't seem to make the LocalizedText work here, and ran into trouble using something other than $query to distinguish between romantic and not
-//So for now this will just link directly to the i18n until I can overhaul
-
-{		"LogName": "Gift Taste Tweaks Reactions",
+	{	"LogName": "Load NPC into Data/Characters",
 		"Action": "EditData",
-		"Target": "Data/NPCGiftTastes",
-		"TextOperations": [
-		{
-			"Operation": "RemoveDelimited",
-			"Target": ["Fields", "Harvey", "0"],
-			"Search": "It's for me? This is my favorite stuff! It's like you read my mind.",
-			"Delimiter": "/",
+		"Target": "Data/Characters",
+		"Entries": {
+			"{{ModId}}_Sal": {
+				"DisplayName": "Sal", //put into i18n/strings later
+				"BirthSeason": "Spring",
+				"Birthday": "9",
+				"HomeRegion": "Town",
+				"Gender": "Undefined",
+				"Age": "Adult",
+				"Manner": "Neutral",
+				"SocialAnxiety": "Outgoing",
+				"Optimism": "Positive",
+				"IsDarkSkinned": false,
+
+				"CanSocialize": true,
+				"CanBeRomanced": false,
+				"CanReceiveGifts": true,
+				"CanCommentOnPurchasedShopItems": false,
+				"CanGreetNearbyCharacters": true,
+				"CanVisitIsland": false,
+				"Calendar": "HiddenUntilMet",
+				"SocialTab": "HiddenUntilMet",
+				"IntroductionsQuest": false,
+				"ItemDeliveryQuests": false,
+				"PerfectionScore": false,
+				"EndSlideShow": "TrailingGroup",
+
+				"DumpsterDiveEmote": 56,
+				"DumpsterDiveFriendshipEffect": 10,
+
+				"FlowerDanceCanDance": false,
+				"WinterStarParticipant": false,
+
+				//"UnlockConditions": [unlocks on their birthday y2],
+				"SpawnIfMissing": true,
+				"Home": [
+					{ 	"ID": "Default",
+						"Location": "",
+						"Tile": {"X": 1, "Y": 1},
+						"Direction": "left",
+						"Condition": null
+					},
+				],
+
+				"Appearance": "Abigail",
+				//"Appearance": 
+				"Size": {"X": 16, "Y": 32},
+				"Breather": true,
+				//"ShakePortraits": [3,7],
 		},
-		{
-			"Operation": "Append",
-            "Target": ["Fields", "Harvey", "0"],
-            "Value": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: GiftLove.{{Random:1,2,3}}}}",
-		},
-		{
-			"Operation": "RemoveDelimited",
-			"Target": ["Fields", "Harvey", "2"],
-			"Search": "That's such a nice gift. Thank you!",
-			"Delimiter": "/",
-		},
-		{
-			"Operation": "Append",
-            "Target": ["Fields", "Harvey", "2"],
-            "Value": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: GiftLike.{{Random:1,2,3}}}}",
-		},
-		{
-			"Operation": "RemoveDelimited",
-			"Target": ["Fields", "Harvey", "8"],
-			"Search": "Thanks. That's very kind of you.",
-			"Delimiter": "/",
-		},
-		{
-			"Operation": "Append",
-            "Target": ["Fields", "Harvey", "8"],
-            "Value": "{{i18n: GiftNeutral}}",
-		},
-		{
-			"Operation": "RemoveDelimited",
-			"Target": ["Fields", "Harvey", "4"],
-			"Search": "Hmm... Are you sure this is healthy?",
-			"Delimiter": "/",
-		},
-		{
-			"Operation": "Append",
-            "Target": ["Fields", "Harvey", "4"],
-            "Value": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: GiftDislike.{{Random:1,2,3}}}}",
-		},
-		{
-			"Operation": "RemoveDelimited",
-			"Target": ["Fields", "Harvey", "6"],
-			"Search": "...I think I'm allergic to this.",
-			"Delimiter": "/",
-		},
-		{
-			"Operation": "Append",
-            "Target": ["Fields", "Harvey", "6"],
-            "Value": "$query PLAYER_NPC_RELATIONSHIP current Harvey dating married {{i18n: GiftHate.{{Random:1,2,3}}}}",
-		},
-		],
-},
+	},
+]}
+
 
 
 ]}
