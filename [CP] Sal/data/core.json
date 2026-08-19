@@ -34,31 +34,38 @@
 				"FlowerDanceCanDance": false,
 				"WinterStarParticipant": false,
 
-				//"UnlockConditions": [unlocks on their birthday y2],
+				//"UnlockConditions": [unlocks last week of spring y2],
 				"SpawnIfMissing": true,
 				"Home": [
 					{ 	"ID": "Default",
-						"Location": "",
-						"Tile": {"X": 1, "Y": 1},
-						"Direction": "left",
+						"Location": "Beach",
+						"Tile": {"X": 11, "Y": 6},
+						"Direction": "down",
 						"Condition": null
 					},
 				],
 
-				"Appearance": "Abigail",
-				//"Appearance": 
+				"Appearance": [
+					{	"ID": "Default",
+						"Portrait": "portraits/{{ModId}}_Sal",
+						"Sprite": "characters/{{ModId}}_Sal",
+					}, 
+				],
 				"Size": {"X": 16, "Y": 32},
 				"Breather": true,
 				//"ShakePortraits": [3,7],
+			},
 		},
 	},
+
 	//The following gift taste code was taken from the template by 7thaxis because I like it way better than the other options
 	//Source: https://www.nexusmods.com/stardewvalley/mods/49041
+
 	{	"LogName": "Patch Empty Gift Tastes",
 		"Action": "EditData",
 		"Target": "Data/NPCGiftTastes",
 		"Entries": 
-			{	"{{ModId}}_Sal": "//////////" }
+			{	"{{ModId}}_Sal": "//////////" },
 	},
 	{	"LogName": "Patch Gift Taste Data",
 		"Action": "EditData",
@@ -87,8 +94,5 @@
 			},
 		},
 	},
-]}
-
-
 
 ]}

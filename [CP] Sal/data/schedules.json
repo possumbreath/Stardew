@@ -1,0 +1,28 @@
+{  "Changes":  [ 	 
+
+{	"LogName": "Load Blank Characters/Schedules",
+	"Action": "Load",
+	"Target": "Characters/Schedules/{{ModId}}_Sal",
+	"FromFile": "data/blank.json",
+},
+
+{	"LogName": "Edit Sal into Characters/Schedules",
+	"Action": "EditData",
+	"Target": "Characters/Schedules/{{ModId}}_Sal",
+	"Entries": {
+		"spring": "610 Beach 11 6 2/1200 Beach 16 24 2/1800 Beach 33 5 1/2330 Beach 11 6 2",
+	}
+},
+
+//{	"LogName": "Add Sal Schedule Animations",
+//	"Action": "EditData",
+//	"Target": "Data/animationdescriptions",
+//	"Entries": {
+		//singing animation
+		//dancing animation
+		//crafting animation?
+		//beachcombing animation
+//	}
+//},
+
+]}

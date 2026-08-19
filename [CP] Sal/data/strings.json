@@ -3,7 +3,7 @@
 {		"LogName": "LocalizedText Strings Creation",
 		"Action": "Load",
 		"Target": "Strings/{{ModId}}",
-		"FromFile": "assets/blank.json",
+		"FromFile": "data/blank.json",
 },
 
 {		"LogName": "LocalizedText String Edit - Year-Round Heart Dialogue",
@@ -86,16 +86,6 @@
 			"Sun.8": "{{i18n: Sun.8}}",
 			"Sun.9": "{{i18n: Sun.9}}",
 			"Sun.10": "{{i18n: Sun.10}}",
-
-			"TH2Yes": "{{i18n: TH2Yes}}",
-			"TH2Busy": "{{i18n: TH2Busy}}",
-			"TH2No": "{{i18n: TH2No}}",
-			"TH2None": "{{i18n: TH2None}}",
-			"SW43P": "{{i18n: SW43P}}",
-			"SW43T": "{{i18n: SW43T}}",
-			"SW43None": "{{i18n: SW43None}}",
-
-
 		},
 },
 
@@ -143,7 +133,6 @@
 		"Action": "EditData",
 		"Target": "Strings/{{ModId}}",
 		"Entries": {
-			"NewIntro": "{{i18n: NewIntro}}",
 			"DumpsterDiveComment": "{{i18n: DumpsterDiveComment}}",
 			
 			"GreenRain2": "{{i18n: GreenRain2.{{Random:1,2,3}}}}",

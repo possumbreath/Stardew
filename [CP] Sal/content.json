@@ -1,21 +1,20 @@
 ﻿{ 
 "Format": "2.9.0",
 
-"ConfigSchema": {},
+//"ConfigSchema": {},
 
 "Changes": [
 
-{	"Action": "Include",
-	"FromFile": "assets/core.json"
-	},
+{	"LogName": "Include Data Files",
+	"Action": "Include",
+	"FromFile": "data/core.json, data/dialogue.json, data/events.json, data/schedules.json, data/strings.json"
+},
 
-{	"Action": "Include",
-	"FromFile": "assets/strings.json"
-	},
-
-{	"Action": "Include",
-	"FromFile": "assets/dialogue.json"
-	},
+{	"Logname": "Load NPC Artwork",
+	"Action": "Load",
+	"Target": "Portraits/{{ModId}}_Sal, Characters/{{ModId}}_Sal",
+	"FromFile": "Assets/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+}
 
 ],
 

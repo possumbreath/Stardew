@@ -1,9 +1,9 @@
 {
-	"Name": "Sal",
+	"Name": "One Man's Trash",
 	"Author": "possumbreath",
 	"Version": "1.0", 
 	"Description": "Adds the NPC Sal to East Scarp.",
-	"UniqueID": "possumbreath.Sal", 
+	"UniqueID": "possumbreath.OneMansTrash", 
 	"MinimumApiVersion": "2.0", 
 	"UpdateKeys": [], 
 	"ContentPackFor": {

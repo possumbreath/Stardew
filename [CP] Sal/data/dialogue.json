@@ -1,0 +1,62 @@
+﻿{  "Changes":  [ 	 
+
+{	"LogName": "Load Blank Characters/Dialgue",
+	"Action": "Load",
+	"Target": "Characters/Dialogue/{{ModId}}_Sal",
+	"FromFile": "data/blank.json",
+},
+
+{	"LogName": "Weekly Dialogue Edits w/ Seasonals",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/{{ModId}}_Sal",
+	"Entries": {
+
+		//Weekly Dialogue
+
+		"{{TodaysDate}}": "[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:1}}]",
+		"{{TodaysDate}}2": "[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:1,2}}]",
+		"{{TodaysDate}}4": "[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:3,4}}]",
+		"{{TodaysDate}}6": "[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:5,6}}]]",
+		"{{TodaysDate}}8": "[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:7,8}}]",
+		"{{TodaysDate}}10": "[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:8,9,10}}]",
+
+		//Seasonals for when I have those finished
+		//"{{TodaysDate}}": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:1}}],[LocalizedText Strings/{{ModId}}:Weekly.0.{{Random:1,2,3,4}}]}}",
+		//"{{TodaysDate}}2": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:1,2}}],[LocalizedText Strings/{{ModId}}:Weekly.2.{{Random:1,2,3,4}}]}}",
+		//"{{TodaysDate}}4": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:3,4}}],[LocalizedText Strings/{{ModId}}:Weekly.4.{{Random:1,2,3,4}}]}}",
+		//"{{TodaysDate}}6": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:5,6}}],[LocalizedText Strings/{{ModId}}:Weekly.6.{{Random:1,2,3,4}}]}}",
+		//"{{TodaysDate}}8": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:7,8}}],[LocalizedText Strings/{{ModId}}:Weekly.8.{{Random:1,2,3,4}}]}}",
+		//"{{TodaysDate}}10": "{{Random:[LocalizedText Strings/{{ModId}}:{{TodaysDate}}.{{Random:8,9,10}}],[LocalizedText Strings/{{ModId}}:Weekly.10.{{Random:1,2,3,4}}]}}",
+
+		//Question keys
+	},
+},
+	
+{	"LogName": "Static Main Dialogue Edits",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/{{ModId}}_Sal",
+	"Entries": {
+		
+		//General
+		
+		"GreenRain_2": "[LocalizedText Strings/{{ModId}}:GreenRain.2]",
+		"DumpsterDiveComment": "[LocalizedText Strings/{{ModId}}:DumpsterDiveComment]",
+		
+		"AcceptBirthdayGift_Positive": "[LocalizedText Strings/{{ModId}}:AcceptBirthdayGift_Positive]",
+		"AcceptBirthdayGift_Negative": "[LocalizedText Strings/{{ModId}}:AcceptBirthdayGift_Negative]",
+		
+		//Events & Memories
+	
+		//Date and/or Season Specific Dialogue
+	},
+},
+
+{	"LogName": "Rainy Day Dialogue Edits",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/rainy",
+	"Entries": {
+		"{{ModId}}_Sal": "[LocalizedText Strings/{{ModId}}:Rainy]",
+	},
+},
+
+]}
