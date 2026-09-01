@@ -160,7 +160,7 @@
 			"Gift.Wine": "{{i18n: Gift.Wine.{{Random:1,2,3}}}}",
 			"Gift.Coffee": "{{i18n: Gift.Coffee.{{Random:1,2,3}}}}",
 			"Gift.TonicRemedy": "{{i18n: Gift.TonicRemedy}}",
-			"Gift.Radioctive": "{{i18n: Gift.Radioactive}}",
+			"Gift.Radioactive": "{{i18n: Gift.Radioactive}}",
 
 			"Resort": "{{i18n: Resort}}",
 			

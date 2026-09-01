@@ -5,8 +5,8 @@
 		"Entries": {
 			"{{ModId}}_Sal": {
 				"DisplayName": "Sal", //put into i18n/strings later
-				"BirthSeason": "Spring",
-				"Birthday": "9",
+				"BirthSeason": "Summer",
+				"Birthday": "15",
 				"HomeRegion": "Town",
 				"Gender": "Undefined",
 				"Age": "Adult",
