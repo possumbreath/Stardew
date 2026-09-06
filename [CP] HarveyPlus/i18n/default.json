@@ -69,7 +69,7 @@
 	"Res.Entering.1": "Sunscreen? Check...#$b#Sun hat? Check...",
 
 	"Res.Leaving.1": "If you get burnt, I recommend aloe vera to help with the pain.",
-	"Res.Leaving.2": "Aside from a seagull trying to steal my sunhat, I had a great time!$h"
+	"Res.Leaving.2": "Aside from a seagull trying to steal my sunhat, I had a great time!$h",
   	
 	"Res.Shore.1": "I combed the whole beach for glass. We wouldn't want anyone to get a cut on their foot!",
   	
@@ -151,8 +151,8 @@
 	"2Hearts.14": "... Well, Evelyn's always trying to get me outside more anyway. I guess I could make the effort.",
 	"2Hearts.15": "Thanks for your suggestion, @. I appreciate it.$h#$b#Even if you still really shouldn't be here.",
 	"2Hearts.16": "Thank you for your input, @. Now, I really do insist that you leave.",
-	"2Hearts.After": "George said he's going to try going out at least once a week when the weather's nice.#$b#It's a great start!$h",
-	"2Hearts.After.George": "Hmph. You're lucky you're still young.#$e#You don't have to worry about this kind of thing.",
+	"2Hearts.After": "It's a common misconception that old age means poor health...#$b#Often what it really means is more complicated health needs and less ability to access care.$s#$b#I try my best to bridge that gap.",
+	"2Hearts.After.George": "Hmph. You're lucky you're still young. You don't have to worry about this kind of thing.#$b#Still, every now and again... and if the weather is nice... we'll see.",
 	"2Hearts.After.Evelyn": "I don't know what you said to him, but thank you for talking to George.#$b#I think he'll like gardening with me more than he wants to admit.",
 	
 	//4 Heart Event
@@ -180,7 +180,7 @@
 	"4Hearts.16": "You tell Harvey about your past life in Zuzu City. He seems genuinely engaged.",
 	"4Hearts.161": "In return he tells you about the time he spent there while in medical school.",
 	"4Hearts.162": "You get the sense that you both may have moved to Stardew Valley in pursuit of a quieter life...",
-	"4Hearts.17": "... So really, the early morning chemistry class is what got me hooked on coffee.#$b#I don't think I would have passed it otherwise!$h",
+	"4Hearts.17": "... So there you have it. The early morning chemistry class is what got me hooked on coffee.#$b#I don't think I would have passed it otherwise!$h",
 	"4Hearts.18": "This has been nice, @. Thank you for keeping me company.#$b#I do need to get going, though. I have some reports to review.",
 	"4Hearts.19": "I'm here most rainy nights, so maybe I'll see you again sometime.",
 	"4Hearts.20": "... Yes, @?",
@@ -227,17 +227,17 @@
 	"8Hearts.14": "You know... as a kid, I always dreamed of being a pilot.",
 	"8Hearts.15": "...But with my bad eyesight and a petrifying fear of heights, that dream was never going to become a reality.",
 	"8Hearts.152": "Then I wanted to be a pianist, but the idea of being watched by an audience made me sick, so I gave up on that dream as well.",
-	"8Hearts.153": "Being a doctor was never a dream that I had, exactly.",
+	"8Hearts.153": "Being a doctor was never a dream that I had, exactly, but I knew that I was happiest when I was helping other people and so that's where I landed.",
 	"8Hearts.154": "I didn't think I would make it through medical school. If I couldn't handle a piano recital, how was I going to handle a cadaver lab?",
 	"8Hearts.155": "It turns out that when I'm helping someone else, all the other things that frighten me stop feeling relevant. I forget to feel scared, because the patient matters more.",
 	"8Hearts.16": "Oh. I'm sorry. That was maybe more information than you needed.$s",
 	"8Hearts.161": "#No, it's okay. I'm glad that you feel like you can talk to me.#Do you think that's why it's hard for you to stop working? It's how you handle your anxieties?",
 	"8Hearts.161.talk": "It's funny. You're one of the few people I've ever been comfortable enough to tell the whole story.",
 	"8Hearts.161.anxiety": "It could be. Not the healthiest way to handle that, probably.",
-	"8Hearts.162": "The point is that it took me what feels like a very long time to find my place in the world, and I've always felt behind because of it.#$b#And then you showed up out of nowhere and restarted your life from almost nothing, like it was easy!$h#$b#You helped me realize those early years weren't wasted time that I need to make up for, they were just part of the path it took to get to where I am now.",
+	"8Hearts.162": "The point is that it took me a long time to find my place in the world and I've always felt behind because of it, like I'll run out of time before... I don't know. Before I finally feel like I've done enough, whatever that means.#$b#And then you showed up out of nowhere and restarted your life from almost nothing, like it was easy!$h#$b#Like you had all the time in the world...$#b#You helped me realize those early years weren't wasted time that I need to make up for, they were just part of the path it took to get to where I am now.",
 	"8Hearts.17": "And anyway, if I was a pilot or a pianist then I wouldn't be a doctor...#$b#And I wouldn't have moved here to Pelican Town...#$b#And I wouldn't have become friends with you.",
 		"R.8Hearts.17": "And anyway, if I was a pilot or a pianist then I wouldn't be a doctor...#$b#And I wouldn't have moved here to Pelican Town...#$b#And I wouldn't have fallen in love with you.$l",
-	"8Hearts.18": "I'm happy listening to the radio chatter from here. We get a lot of civilian air traffic; Stardew Valley is great for scenic flyovers.#$b#Hey, let me show you my model airplanes.#$b#I have a Blackbird, the same kind that just flew by!$h",
+	"8Hearts.18": "I'm happy listening to my record collection and the local radio chatter. We get a lot of civilian air traffic; Stardew Valley is great for scenic flyovers.#$b#I actually have quite the collection of model airplanes; it turns out that a steady surgeon's hand is also good for detailed craftwork.#$b#I even have a Blackbird, the same kind that just flew by! Over here, see?$h",
 	"8Hearts.19": "For the first time since you met him, Harvey genuinely doesn't seem worried about anything.",
 	"8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...or any of the rest of it.#$b#You're just incredibly easy to talk to.",
 		"R.8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...or any of the rest of it.#$b#It's nice having someone to share it with, finally.$l",
@@ -915,6 +915,6 @@
 	"Rainy.3": "I suppose it's nice to have a day off from watering your crops.#$b#Everyone needs a break now and then.$h",
 	"Rainy.4": "I hate going outside on days like this.#$b#My glasses get all fogged up and then I'm as blind with them on as I am without.",
 	"Rainy.5": "Ugh. I stepped in a puddle earlier and my socks are still soaked.$s",
-	"Rainy.6": "Wearing wet clothing can't actually make you sick, but I'd still recommend changing when you get home.#$b#Basic comfort is also important!",
+	"Rainy.6": "Wearing wet clothing can't actually make you sick, but I'd still recommend changing when you get home.#$b#Basic comfort is also important!"
 	
 }

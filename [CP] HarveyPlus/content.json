@@ -4,16 +4,16 @@
 "ConfigSchema": {
 	"Marriage Schedule": {
 		"AllowValues": "Modded, Vanilla",
-		"Default": "Modded",
+		"Default": "Modded"
 	},
 	"Mod Death Dialogue": {
 		"AllowValues": "true, false",
-		"Default": true,
+		"Default": true
 	},
 	"Death Type": {
 		"AllowValues": "No Penalty, Mines Penalty, Hospital Penalty",
-		"Default": "No Penalty",
-	},
+		"Default": "No Penalty"
+	}
 },
 
 "Changes": [
@@ -40,7 +40,7 @@
 
 {	"Action": "Include",
 	"FromFile": "assets/tastes.json"
-	},
+	}
 	
 ],
 
@@ -49,71 +49,98 @@
 //Day of Week token
 
 	{	"Name": "TodaysDate",
-		"Value": "Mon",
+		"Value": "Mon"
 	},
 
 	{	"Name": "TodaysDate",
 		"Value": "Mon",
 		"When": {
-			"DayOfWeek": "Monday",
-		},
+			"DayOfWeek": "Monday"
+		}
 	},
 
 	{	"Name": "TodaysDate",
 		"Value": "Tue",
 		"When": {
-			"DayOfWeek": "Tuesday",
-		},
+			"DayOfWeek": "Tuesday"
+		}
 	},
 
 	{	"Name": "TodaysDate",
 		"Value": "Wed",
 		"When": {
-			"DayOfWeek": "Wednesday",
-		},
+			"DayOfWeek": "Wednesday"
+		}
 	},
 
 	{	"Name": "TodaysDate",
 		"Value": "Thu",
 		"When": {
-			"DayOfWeek": "Thursday",
-		},
+			"DayOfWeek": "Thursday"
+		}
 	},
 
 	{	"Name": "TodaysDate",
 		"Value": "Fri",
 		"When": {
-			"DayOfWeek": "Friday",
-		},
+			"DayOfWeek": "Friday"
+		}
 	},
 
 	{	"Name": "TodaysDate",
 		"Value": "Sat",
 		"When": {
-			"DayOfWeek": "Saturday",
-		},
+			"DayOfWeek": "Saturday"
+		}
 	},
 
 	{	"Name": "TodaysDate",
 		"Value": "Sun",
 		"When": {
-			"DayOfWeek": "Sunday",
-		},
+			"DayOfWeek": "Sunday"
+		}
 	},
 
 //Dating Token
 
 	{	"Name": "Romantic",
-		"Value": "Platonic",
+		"Value": "Platonic"
 	},
 
 	{	"Name": "Romantic",
 		"Value": "Romantic",
 		"When": {
-			"Relationship:Harvey": "Dating,Engaged",
-		},
+			"Relationship:Harvey": "Dating,Engaged"
+		}
 	},
 
-],
+//4 Hearts Drink Token
+
+	{	"Name": "4HeartsDrink",
+		"Value": ""
+	},
+
+	{	"Name": "4HeartsDrink",
+		"Value": "346",
+		"When": {
+			"HasDialogueAnswer": "4HeartsBeer"
+		}
+	},
+
+	{	"Name": "4HeartsDrink",
+		"Value": "395",
+		"When": {
+			"HasDialogueAnswer": "4HeartsCoffee"
+		}
+	},
+
+	{	"Name": "4HeartsDrink",
+		"Value": "167",
+		"When": {
+			"HasDialogueAnswer": "4HeartsCola"
+		}
+	}
+
+]
 
 }
