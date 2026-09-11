@@ -586,6 +586,17 @@
 		},
 },
 
+{		"LogName": "LocalizedText String Edit - 10 Hearts Event with TDIT",
+		"Action": "EditData",
+		"Target": "Strings/{{ModId}}",
+		"When": {
+			"HasMod": "DolphINaF.ExtraPortraits"
+		},
+		"Entries": {
+			"10Hearts.4": "{{i18n: P.10Hearts.4}}",
+			"10Hearts.5": "{{i18n: P.10Hearts.5}}",
+		}
+},
 
 {		"LogName": "LocalizedText String Edit - 12 Hearts Event (Previously 14)",
 		"Action": "EditData",
@@ -666,7 +677,6 @@
 			"FlowerDance_Accept": "{{i18n: FlowerDanceSpouse.{{Random:1,2,3}}}}",
 			"WinterStar_ReceiveGift": "{{i18n: R.WinterStar_ReceiveGift}}",
 
-			"8Hearts.17": "{{i18n: R.8Hearts.17}}",
 			"8Hearts.After1": "{{i18n: R.8Hearts.After1}}"
 		},
 },

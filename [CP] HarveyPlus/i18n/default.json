@@ -224,34 +224,29 @@
 	"8Hearts.11": "In fact, we can probably see ${him^her^them}$ passing by overhead right now!",
 	"8Hearts.12": "Quick, come look!",
 	"8Hearts.13": "There!",
-	"8Hearts.14": "You know... as a kid, I always dreamed of being a pilot.",
-	"8Hearts.15": "...But with my bad eyesight and a petrifying fear of heights, that dream was never going to become a reality.",
-	"8Hearts.152": "Then I wanted to be a pianist, but the idea of being watched by an audience made me sick, so I gave up on that dream as well.",
-	"8Hearts.153": "Being a doctor was never a dream that I had, exactly, but I knew that I was happiest when I was helping other people and so that's where I landed.",
-	"8Hearts.154": "I didn't think I would make it through medical school. If I couldn't handle a piano recital, how was I going to handle a cadaver lab?",
-	"8Hearts.155": "It turns out that when I'm helping someone else, all the other things that frighten me stop feeling relevant. I forget to feel scared, because the patient matters more.",
+	"8Hearts.14": "You know... as a kid, it was my dream to become a pilot.",
+	"8Hearts.15": "...But with my bad eyesight and a petrifying fear of heights, that dream was never going to become a reality.$s#$b#Then I wanted to be a jazz pianist. A more attainable dream, I thought.#$b#...But I couldn't stand the idea of being watched by an audience. At my first recital I threw up before I even got on stage.#$b#I never played the piano again.$s#$b#Being a doctor was never a dream that I had. But felt like I had to choose something, and I knew that I wanted to help people, so that's where I landed.#$b#I didn't think I would make it through medical school. If I couldn't handle a piano recital, how was I going to handle a cadaver lab?#$b#It turns out that when I'm focused on helping someone else, all of the other things that frighten me stop feeling relevant. All that matters is taking care of the patient.",
 	"8Hearts.16": "Oh. I'm sorry. That was maybe more information than you needed.$s",
 	"8Hearts.161": "#No, it's okay. I'm glad that you feel like you can talk to me.#Do you think that's why it's hard for you to stop working? It's how you handle your anxieties?",
-	"8Hearts.161.talk": "It's funny. You're one of the few people I've ever been comfortable enough to tell the whole story.",
+	"8Hearts.161.talk": "Ha... yeah. You're one of the few people I've ever told the whole story. Nobody wants to know that being a doctor wasn't their doctor's first choice.",
 	"8Hearts.161.anxiety": "It could be. Not the healthiest way to handle that, probably.",
-	"8Hearts.162": "The point is that it took me a long time to find my place in the world and I've always felt behind because of it, like I'll run out of time before... I don't know. Before I finally feel like I've done enough, whatever that means.#$b#And then you showed up out of nowhere and restarted your life from almost nothing, like it was easy!$h#$b#Like you had all the time in the world...$#b#You helped me realize those early years weren't wasted time that I need to make up for, they were just part of the path it took to get to where I am now.",
-	"8Hearts.17": "And anyway, if I was a pilot or a pianist then I wouldn't be a doctor...#$b#And I wouldn't have moved here to Pelican Town...#$b#And I wouldn't have become friends with you.",
-		"R.8Hearts.17": "And anyway, if I was a pilot or a pianist then I wouldn't be a doctor...#$b#And I wouldn't have moved here to Pelican Town...#$b#And I wouldn't have fallen in love with you.$l",
-	"8Hearts.18": "I'm happy listening to my record collection and the local radio chatter. We get a lot of civilian air traffic; Stardew Valley is great for scenic flyovers.#$b#I actually have quite the collection of model airplanes; it turns out that a steady surgeon's hand is also good for detailed craftwork.#$b#I even have a Blackbird, the same kind that just flew by! Over here, see?$h",
+	"8Hearts.162": "The point is that it took me a long time to find my place in the world and I've always felt behind because of it, like I'll run out of time before... #$b#I don't know. Before I finally feel like I've done enough, whatever that means.#$b#And then you showed up out of nowhere and restarted your life from almost nothing, like it was easy!$h#$b#Like you had all the time in the world...#$b#You helped me realize those early years weren't wasted time that I need to make up for, they were just part of the path it took to get to where I am now.",
+	"8Hearts.17": "And it isn't like I had to completely leave my old dreams behind! Any time I want to I can listen to my record collection or the local radio chatter.$h#$b#We get a lot of civilian air traffic; Stardew Valley is great for scenic flyovers.",
+	"8Hearts.18": "I actually have quite the collection of model airplanes; it turns out that a steady surgeon's hand is also good for detailed craftwork.#$b#I even have a Blackbird, the same kind that just flew by! Over here, come look...$h",
 	"8Hearts.19": "For the first time since you met him, Harvey genuinely doesn't seem worried about anything.",
-	"8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...or any of the rest of it.#$b#You're just incredibly easy to talk to.",
-		"R.8Hearts.After1": "I've never told anyone about my interest in aviation or my model planes before...or any of the rest of it.#$b#It's nice having someone to share it with, finally.$l",
+	"8Hearts.After1": "Thinking about it, I'm content with where I am in life.#$b#If I wasn't a doctor, I probably wouldn't have moved here to Pelican Town...#$b#And I wouldn't have become friends with you.",
+		"R.8Hearts.After1": "Thinking about it, I'm content with where I am in life.#$b#If I wasn't a doctor, I probably wouldn't have moved here to Pelican Town...#$b#And I wouldn't have fallen in love with you.$l",
 	"8Hearts.After2": "Have you used that radio at all?#$b#Let me know if you hear anything interesting!$h",
 
 	//10 Heart Event
-	//Most of the event is untouched because it's already basically the best one he has. we love balloon in this house
-	//Basically all I did was minor personal taste phrasing edits, removing the superfluous fork, and changing the stuff that implies this is like a first date because sir we've been dating for two hearts
 	
 	"10Hearts.1": "There you are... just in time!",
 	"10Hearts.2": "Look, here it comes!$8",
 	"10Hearts.3": "Marcello's Balloon Rentals at your service!",
 	"10Hearts.4": "Marcello: It's all yours for two hours.",
-	"10Hearts.5": "Marcello: Now... I was told there's a saloon somewhere around here?",
+		"P.10Hearts.4": "It's all yours for two hours.",
+	"10Hearts.5": "Marcello: Now... I was told there's a saloon somewhere in town?",
+		"P.10Hearts.5": "Now... I was told there's a saloon somewhere in town?",
 	"10Hearts.6": "I saw an ad in the paper for these balloon rides and I knew I had to surprise you with one.",
 	"10Hearts.7": "#This looks fun! Let's go!#...But aren't you afraid of heights?",
 	"10Hearts.8": "Okay... you first.$l",
@@ -313,8 +308,10 @@
 	
 	"IntroMail": "Hello, Farmer @.^^Please stop by the clinic when you have a moment. I would like to discuss your medical care now that you're a part of our community.^^Welcome again, by the way!^^ - Dr. Harvey",
 	"IntroMailName": "Invitation to the Clinic",
-	"8HeartsMail": "@,^^I'm sorry that I was so frazzled yesterday. I don't get many visitors, so when you stopped by it was a surprise.^^Not a bad one! Just unexpected.^^Anyway... I was reorganizing my desk and found this. I thought you might like to have it. If you ever want to listen to the planes go by, you can tune it to frequency 140.^^- Harvey",
+	"8HeartsMail": "@,^^I'm sorry that I was so frazzled yesterday. When you have to maintain professional distance from everyone around you because they're all your patients, you end up with very few people you can really talk to... I'm a little out of practice. I appreciate you staying to listen anyway.^^I was reorganizing my desk and found this. I thought you might like to have it. If you ever want to listen to the planes go by, you can tune it to frequency 140.^^- Harvey",
 	"8HeartsMailName": "A Gift From Harvey",
+	"8DateMail": "@,^^",
+	"8DateMailName": "A Romantic Invitation",
 	
 	//Weekly Dialogue
 	//Because of how the randomization is set up, $query, $q, %revealtaste and other commands need to be in these strings directly. 
@@ -350,7 +347,7 @@
 	"Wed.5": "I've found that it's good for my health to try and stay positive.#$b#It's not always easy, but I do think you can find a silver lining on any cloud if you look hard enough.",
 	"Wed.6": "It's nice to have another friend in town.$h#$e# I always worried that I was boring Maru when it was just the two of us.",
 	"Wed.7": "You know, I had a lot of acquaintances during my time in medical school...#$b#I don't know if I made any real lasting friends.$s",
-	"Wed.8": "It's funny. In an emergency situation I almost forget to be afraid: all that matters is taking care of the patient.#$e$It usually only catches up to me afterwards.$s#$b#That's probably better than the alternative.",
+	"Wed.8": "Imagine having a patient's life completely in your hands, and failing to protect that life... that's something that will haunt you forever.$s#$e#Would.#$e#Hypothetically.",
 	"Wed.9": "You have a really healthy glow. That's good.$h",
 	"Wed.10": "Usually by the middle of the week I'd be starting to hit a slump.#$b#I think your energy is infectious!$h",
 	
@@ -377,7 +374,6 @@
 	"Fri.6": "It's kind of you to make time to talk with me, @.#$b#It always brightens my day.$h",
 	"Fri.7": "Living where I work makes some things easier... on the other hand, it makes it difficult to ever stop working.",
 	"Fri.8": "$query PLAYER_HAS_SEEN_EVENT {{ModId}}.8Hearts #I wonder how difficult it would be to pick up the piano again.#$b#Do you think it's more or less difficult than remembering how to ride a bicycle?|I feel like there's something I should be doing right now, but I have no idea what.#$b#Then again feeling like there's something I should be doing is practically my baseline.",
-	//"Fri.8": "I had a phase as a child where I was convinced I wanted to be a jazz pianist.#$b#At my first recital I threw up before I even got on stage. I never played the piano again.#$e#It was mortifying then but it's kind of funny now.$h",
 	"Fri.9": "I've been thinking about setting up a little herb garden in my window.#$b#If you have any tips for keeping plants alive, I'd love to hear them.$h",
 	"Fri.10": "@, I know I'm not technically your doctor...#$b#But if you ever need a 'confidential checkup'...#$b#No, I'm sorry, I can't get through it with a straight face.$h",
 
@@ -399,8 +395,8 @@
 	"Sun.5": "I'd strongly recommend against drinking Joja Cola.#b#I've read the ingredient list and it's... concerning.$s",
 	"Sun.6": "My colleagues in Zuzu City keep telling me I should move there if money's so tight out here.#$b#In some ways it would be easier, and I admit I've thought about it, but I couldn't leave my patients in Pelican Town. I'd feel awful for doing it.#$e#Besides, I tried city life during medical school and I can say with confidence that it's not for me. Far too fast-paced.",
 	"Sun.7": "Medical school was difficult, but I've never regretted the decision to pursue it.#$e#Being a doctor is more than a career for me; it's a purpose.",
-	"Sun.8": "Imagine having a patient's life completely in your hands, and failing to protect that life... that's something that will haunt you forever.$s#$e#Would.#$e#Hypothetically.",
-	"Sun.9": "Some people know what they want to do with their lives from a very young age. I envy that.#$e#It took me a lot of false starts to get to where I am and I've always felt a little ashamed of that.", // put this into 8hearts directly?
+	"Sun.8": "$query PLAYER_HAS_SEEN_EVENT {{ModId}}.8Hearts #I finished a new model airplane a few days ago. You're welcome to come by and take a look, if you want.|Some people know what they want to do with their lives from a very young age. I envy that.",
+	"Sun.9": "Well... another week is almost over. You know, I don't dread Mondays as much as I used to.$h",
 	"Sun.10": "Do you ever get lonely living by yourself on the farm, @?#$e#Just wondering.$l",
 
 	"Spring.Weekly.0.1": "It's officially pollen season.#$b#Living in the countryside seems like it would be a little less idyllic for a person with bad allergies.",

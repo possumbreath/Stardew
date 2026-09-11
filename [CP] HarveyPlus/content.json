@@ -114,7 +114,7 @@
 		}
 	},
 
-//10 Hearts Location Token
+//10 Hearts Tokens
 
 	{	"Name": "BalloonLocation",
 		"Value": "Railroad"
@@ -127,7 +127,16 @@
 		}
 	},
 
-//10 Hearts Viewport Token
+	{	"Name": "MarcelloPortrait",
+		"Value": "message"
+	},
+
+	{	"Name": "MarcelloPortrait",
+		"Value": "speak Marcello",
+		"When": {
+			"HasMod": "DolphINaF.ExtraPortraits"
+		}
+	},
 
 	{	"Name": "MarcelloExit",
 		"Value": "advancedMove Marcello false 0 5 14 0 0 15"
