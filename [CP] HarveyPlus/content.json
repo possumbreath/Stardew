@@ -114,33 +114,18 @@
 		}
 	},
 
-//4 Hearts Drink Token
+//10 Hearts Location Token
 
-	{	"Name": "4HeartsDrink",
-		"Value": ""
+	{	"Name": "BalloonLocation",
+		"Value": "Railroad"
 	},
 
-	{	"Name": "4HeartsDrink",
-		"Value": "346",
+	{	"Name": "BalloonLocation",
+		"Value": "Town",
 		"When": {
-			"HasDialogueAnswer": "4HeartsBeer"
+			"HasMod": "FlashShifter.SVECode"
 		}
 	},
-
-	{	"Name": "4HeartsDrink",
-		"Value": "395",
-		"When": {
-			"HasDialogueAnswer": "4HeartsCoffee"
-		}
-	},
-
-	{	"Name": "4HeartsDrink",
-		"Value": "167",
-		"When": {
-			"HasDialogueAnswer": "4HeartsCola"
-		}
-	}
-
 ]
 
 }
