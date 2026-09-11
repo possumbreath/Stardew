@@ -121,11 +121,25 @@
 	},
 
 	{	"Name": "BalloonLocation",
-		"Value": "Town",
+		"Value": "Custom_GrampletonFields_Small",
 		"When": {
 			"HasMod": "FlashShifter.SVECode"
 		}
 	},
+
+//10 Hearts Viewport Token
+
+	{	"Name": "MarcelloExit",
+		"Value": "advancedMove Marcello false 0 5 14 0 0 15"
+	},
+
+	{	"Name": "MarcelloExit",
+		"Value": "advancedMove Marcello false 0 3 -35 0",
+		"When": {
+			"HasMod": "FlashShifter.SVECode"
+		}
+	},
+
 ]
 
 }
